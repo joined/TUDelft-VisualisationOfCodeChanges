@@ -1,0 +1,69 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="//stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/vs.min.css">
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/diff2html/2.4.0/diff2html.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Visualization of Code Changes for Code Review</title>
+  </head>
+  <body>
+    <div class="main-container">
+      <p>
+        <h2><a href="/">Visualization of Code Changes for Code Review</a></h2>
+      </p>
+      <p>
+        A MSc thesis project by Lorenzo Gasparini (l.gasparini[at]student.tudelft.nl).
+      </p>
+      <p>
+        <h5>
+          Please insert the URL of the pull request which you want to perform the review on, and click the load button (or press enter):
+        </h5>
+      </p>
+      <form id="load-pr" action="">
+        <div class="input-group mb-3">
+          <input class="form-control" required id="pr-url-input" type="text" pattern="https?:\/\/(?:www\.)?github\.com\/.+?\/.+?\/pull\/\d+?" class="form-control" placeholder="https://github.com/user/repo/pull/123">
+          <datalist id="pr-url-input">
+            <option value="https://github.com/square/retrofit/pull/2789">
+            <option value="https://github.com/square/retrofit/pull/2790">
+            <option value="https://github.com/square/okhttp/pull/4144">
+            <option value="https://github.com/tobiasbaum/reviewtool/pull/61">
+          </datalist>
+          <div class="input-group-append">
+            <button class="btn btn-primary" id="load-review-btn" type="submit">Load</button>
+          </div>
+        </div>
+      </form>
+      <div class="diff-container"></div>
+    </div>
+    <div class="modal fade" id="modal-source" tabindex="-1" role="dialog" aria-hidden="true">
+      <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title">Modal title</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="//code.jquery.com/jquery-3.3.1.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+    <script src="//stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/diff2html/2.4.0/diff2html.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/diff2html/2.4.0/diff2html-ui.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/highlightjs-line-numbers.js/2.3.0/highlightjs-line-numbers.min.js"></script>
+    <script src="//unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>

@@ -1,0 +1,432 @@
+id,number,title,mergeCommit,changedFiles,changedPackages
+MDExOlB1bGxSZXF1ZXN0MzA5MTk4NA==,1,Javadocs and Comments,48632d1fb4f01b268b5d73be89c2ef8838e2849c,2,
+MDExOlB1bGxSZXF1ZXN0MzA5MjYyOQ==,3,Javadoc generation with custom doclet,c862b040898e4969686556fbc47e84f81157c7fd,4,
+MDExOlB1bGxSZXF1ZXN0MzExMTI2Ng==,4,Contrib request context servlet filters,315b635a46907dd367cb1c00a64c55eb6f3daefc,7,
+MDExOlB1bGxSZXF1ZXN0MzExMzIwMQ==,5,Maven Central and binary download information.,ea1b5a76b4b3b92c29e722e3666ab0d290dd6023,1,
+MDExOlB1bGxSZXF1ZXN0MzExMzk3MA==,6,Update Readme Files for Modules,1324e0cee894357e1c84fbb98eec3184c12b95d2,3,
+MDExOlB1bGxSZXF1ZXN0MzEzMjgzNw==,7,Add link from Javadoc to hystrix-contrib/hystrix-request-servlet,0a5a34b7a73afd56e0451958f9211f646da25c2b,1,
+MDExOlB1bGxSZXF1ZXN0MzE0NjA1Nw==,16,Change logger from info to debug for property changes,147351a3f7d6bd28aebbf6faaf9b6e3744d40535,1,
+MDExOlB1bGxSZXF1ZXN0MzE0NzI1Ng==,17,href target so it opens from javadoc frame,0430b2135527742f9ab9e5e89839b8e79ac65cb6,1,
+MDExOlB1bGxSZXF1ZXN0MzE2Mzk4OA==,18,Documenting a RuntimeException,c1122cdcb6c85ae79cc70df6351b3ee152920c27,1,
+MDExOlB1bGxSZXF1ZXN0MzE2NDE1OQ==,19,Logger error on fallback failure,114f4f97aa8b84cdfcd2f401bc36ddfd66e5f957,2,
+MDExOlB1bGxSZXF1ZXN0MzE2NzI2MA==,21,Capture exception from run() and expose getter,022fd76d1fef62364a26ed6c8b33a6ed03c93a14,1,
+MDExOlB1bGxSZXF1ZXN0MzE2NzQyOA==,23,Default Collapser scope to REQUEST if using Setter,8f547ae659c4d933ebe38339ab30c191c5a3f367,1,
+MDExOlB1bGxSZXF1ZXN0MzE4NDY4Ng==,27,Initialize HealthCounts to non-null value.,5ac40bedddcd5cd37f38c0fee913a9538af5782e,2,
+MDExOlB1bGxSZXF1ZXN0MzE5MzAxMw==,29,Thread pools lost custom names in opensource refactoring,112a102a12620bfe5a51767d574abf26812b71fc,1,
+MDExOlB1bGxSZXF1ZXN0MzE5Mzk2Ng==,30,Simplified access to HystrixCommandMetrics,18e7316b3487183c4dbd6961594e4b7074b94857,1,
+MDExOlB1bGxSZXF1ZXN0MzE5NDU2MA==,31,Executable demo,d2df2c4391c42b4d6cd1fd6e7c665cd02b7334ac,12,
+MDExOlB1bGxSZXF1ZXN0MzIyMzAwNw==,32,servo-event-stream module,7a938ee686b37e4fb406b417f5feffa1f1bd6534,7,
+MDExOlB1bGxSZXF1ZXN0MzIyMzIwMg==,33,"Remove Servo dependency from core, move to submodule",a4d0849280baa84a139fda1cb49debd19de18398,12,
+MDExOlB1bGxSZXF1ZXN0MzI0MDY0Ng==,35,Metrics event stream,ddd9dd7e7e5fa0a9cda1fcb2be2af8a9c71065e8,23,
+MDExOlB1bGxSZXF1ZXN0MzI0MTE4Mg==,36,example webapp showing how to use ...,182979eb34c313f021cebf8e7980aaa773aff35a,6,
+MDExOlB1bGxSZXF1ZXN0MzI0OTU4MA==,37,Migrate metrics stream from org.json.JSONObject to Jackson,412fcc3ef153f930845db168ff034980a4b4238f,9,
+MDExOlB1bGxSZXF1ZXN0MzI5NDg0MQ==,42,Added module to publish metrics to Yammer Metrics,876940d450fd3456862bbd51dcadafae1f49e6e7,5,
+MDExOlB1bGxSZXF1ZXN0MzMwODgxMA==,43,Fix the wrong percentile for latencyExecute_percentile_75 in the Servo publisher,d7d30c01240fd18fe82505f08e6155f2e0aa0da7,1,
+MDExOlB1bGxSZXF1ZXN0MzMyMTcxMQ==,44,Hystrix Dashboard,159522bb72d91251a335c4f8a4280ff6ad840b00,39,
+MDExOlB1bGxSZXF1ZXN0MzM0ODEwMQ==,47,Support pausing/resuming metrics poller,6c7ea4e2089f157b9838cd893a6fdcd44dbaf39b,2,
+MDExOlB1bGxSZXF1ZXN0MzM0ODE2OA==,48,Fixing non-deterministic unit test,c324573bfcf7111b03e6e16cd01461e4eda9807b,1,
+MDExOlB1bGxSZXF1ZXN0MzM2MjQ1Mw==,49,Cleaner design by injecting listener into constructor.,2af44b72fc572a6d2d17b76f7080e0bd8bacfa30,2,
+MDExOlB1bGxSZXF1ZXN0MzM3NjIzOA==,50,Make javax.servlet-api a 'provided' dependency not 'compile',b9cd29a1bf4bee6ac8c23c880db58ddfd19350d5,2,
+MDExOlB1bGxSZXF1ZXN0MzM3ODc4MA==,51,"Merging in gradle-template, specifically provided",ee5d7e8ebb3132ea32e4f9b685ddcd1a461aa255,5,
+MDExOlB1bGxSZXF1ZXN0MzM4MTQ1Nw==,52,"Fixes for NEBULA-28, NEBULA-30, NEBULA-31",e12ec52d13c3e744892839b9b4190b88be8abb39,3,
+MDExOlB1bGxSZXF1ZXN0MzQwNTAyMw==,56,Plugin bootstrapping,32471bf825027b8bb06218f6a41e3c9da64b184f,3,
+MDExOlB1bGxSZXF1ZXN0MzQ2MjgyOA==,57,Dashboard js fix,b1b397b179169bcccb255a5d6eb020417c6cd38e,2,
+MDExOlB1bGxSZXF1ZXN0MzQ2NTYzNw==,61,Request log with timeouts,33f88f6a94321f29004801fbbeabec5fff876e46,2,
+MDExOlB1bGxSZXF1ZXN0MzQ2NTk1NQ==,62,applying js fixes to threadPool ui,87ca1dba783d39951ba695e0caebc2029eb4d719,3,
+MDExOlB1bGxSZXF1ZXN0MzUwMjgxOQ==,64,"Added ""throws Exception"" to HystrixCommand run() method (Issue #63)",daeeaa69df39945561146d33a91db46111db20d8,1,
+MDExOlB1bGxSZXF1ZXN0MzUwOTcwMQ==,65,Fixed gitignore definition of build output directories,fb8430dfdf604a638699f96d8865adda4aa84db3,1,
+MDExOlB1bGxSZXF1ZXN0MzUxNzY2Nw==,66,Making provided scope transtive,464f906d090e891d98805cb295ff0c85f83541f2,1,
+MDExOlB1bGxSZXF1ZXN0MzUyNDA2Mg==,67,Unit tests,b8373e7b7e5201be6c18e7af9e3f475b39eeeb00,1,
+MDExOlB1bGxSZXF1ZXN0MzU1NzgwNg==,71,Execution hooks,e7219677502cef9565123404cf90ace3b91e75d6,11,
+MDExOlB1bGxSZXF1ZXN0MzU2MzAzOQ==,73,Make servlet-api a provided dependency,0e86dffb36a3a9c0ec6c0a65a94d5ed5ac650be9,1,
+MDExOlB1bGxSZXF1ZXN0MzU3NzAzNg==,76,New Properties (fallbacks and rolling percentile),e41a78d157f096de7b60f42725fc0ea6bcb88d20,4,
+MDExOlB1bGxSZXF1ZXN0MzU3ODA0NA==,77,Fix proxy stream flush bug,ab0b4bd756787308d4d8ff4daf30a4fc17e558e0,1,
+MDExOlB1bGxSZXF1ZXN0MzU5MDI0NQ==,79,Include more info when collapsed requests remain in queue,9617eb4d99cb774d802f409197511e514e5a6ab4,1,
+MDExOlB1bGxSZXF1ZXN0MzU5MDU4Nw==,81,IllegalStateException: Future Not Started,d8777adba06a8c1378eafb71dcc594515c58ed48,1,
+MDExOlB1bGxSZXF1ZXN0MzU5NzE1OA==,83,ThreadPool stream should include reportingHosts,97af63834922b74268f752fba2f1382f71fcb2ca,1,
+MDExOlB1bGxSZXF1ZXN0MzU5NzkwOQ==,84,Junit and eclipse,c3020a5379b78595d423385f73584c9823862b44,8,
+MDExOlB1bGxSZXF1ZXN0MzYxMzAzNw==,86,hystrix.stream holds connection open if no metrics,1a96c0990d0dbfeac43b18fbaa9371a1bced2b80,1,
+MDExOlB1bGxSZXF1ZXN0MzgyOTU0Mg==,91,handle null circuit breaker,5cc76bb50d9db774d0e1fcd753da8be5b07f0750,1,
+MDExOlB1bGxSZXF1ZXN0Mzg4OTc0Nw==,93,issue #60 Dashboard: Hover for full name (when shortened with ellipsis),a7207fe7309d76784d17cc351ed453173a47b253,2,
+MDExOlB1bGxSZXF1ZXN0Mzk0NzU4MQ==,94,Force character encoding for event stream to utf-8,ed1ea59e2eb7de448da305435dbf65f052ca1350,1,
+MDExOlB1bGxSZXF1ZXN0Mzk1MTcwMA==,95,RequestLog: Reduce Chance of Memory Leak,e3a072bbbf8a96d09eeb7af78d16c0c3d474e9b0,1,
+MDExOlB1bGxSZXF1ZXN0NDAwMTUyNA==,97,Remove 'final' modifiers to allow mocking,027222dc6c0ace4c55198a04340c2bcc4b9088cf,2,
+MDExOlB1bGxSZXF1ZXN0NDA1MTMzNA==,99,Experimental Clojure bindings for Hystrix,87d416700560c96a99e7f9145908a8e451ff53cb,7,
+MDExOlB1bGxSZXF1ZXN0NDA3MzI0NA==,103,Hystrix clj cleanup,8dd1b2200ba3b7f4e982ccfe0b7b924798e9815b,4,
+MDExOlB1bGxSZXF1ZXN0NDEzNjY1NA==,104,improve clarity of javadoc for HystrixCommand.queue(),872e9fc2435e4dff23304cf481a9c260db9e4ae8,1,
+MDExOlB1bGxSZXF1ZXN0NDE1ODY2Ng==,105,IntelliJ IDEA and Eclipse build config,3bab6455ce5ea184be1a28c7282c52fac35fd3d9,4,
+MDExOlB1bGxSZXF1ZXN0NDE1ODk2OQ==,106,HystrixThreadPool shutdown methods,98c5226046f6326bb441abf42a6e1275f31a5e72,6,
+MDExOlB1bGxSZXF1ZXN0NDE1OTgzMw==,107,Fix wiki links in README.md,4e6d42ce53c74612af86eacfa17091741afd2ef3,1,
+MDExOlB1bGxSZXF1ZXN0NDE3MDk2Nw==,108,stop using HystrixCollapser/reset-collapser,d98d099b71fe3043b286de7ff0aad01079ae7d6f,1,
+MDExOlB1bGxSZXF1ZXN0NDI0NzQ1Nw==,110,Cleanup and :init-fn escape hatch,abbad64c25d3f612276035131e6ef571dfd51eec,2,
+MDExOlB1bGxSZXF1ZXN0NDI2NjM5Ng==,111,Hystrix.reset() now shuts down the HystrixTimer,c84721326ddde96c490e5981a8579366de6d1f54,1,
+MDExOlB1bGxSZXF1ZXN0NDI4Njc0Mg==,112,More work on HystrixCollapser response not received bug,0933d90101dfba6eef103a8c3018c8b53d2f06ee,1,
+MDExOlB1bGxSZXF1ZXN0NDM0MzA0Mg==,114,HystrixCollapser Refactor for Performance and Concurrency Bug Fixes,f61f1914a5a019ac5e7334f17f112162ab93b822,2,
+MDExOlB1bGxSZXF1ZXN0NDM4MTA0Nw==,119,github.com/Netflix/Hystrix/issues/118,ae1e28dbc3b5714da2896709014d3ba2db8adf1b,1,
+MDExOlB1bGxSZXF1ZXN0NDM4NDY2NA==,120,Fix for IllegalStateException on Thread Rejection with Response Caching,96bab822e402340281847ae14aa5512b03b1bc1a,1,
+MDExOlB1bGxSZXF1ZXN0NDQwMjc5MQ==,121,Concurrent execution counter,b0145266179d41a9059452ec9dbad83de2c55c7a,2,
+MDExOlB1bGxSZXF1ZXN0NDQ3ODIzNQ==,126,Fix NPE if Hystrix.reset() called when it's already shutdown,cf31f5fa9981306314dcfe43f7fae202d8c0f825,1,
+MDExOlB1bGxSZXF1ZXN0NDU5NjU1MA==,128,Implement destroy() method for graceful shutdown of MetricsStreamServlet,041f116e61934cdd7acb886765b50da86ec135e2,1,
+MDExOlB1bGxSZXF1ZXN0NDgwMjgwNA==,130,Mechanism for Auditing Network Access Not Isolated by Hystrix,0e505e0f53136e5d5010ec6b1539be8f25ebcf5d,8,
+MDExOlB1bGxSZXF1ZXN0NDkwMDUwOQ==,133,Fix NoSuchElementException in Hystrix.endCurrentThreadExecutingCommand,c7e09e3cf765e84274dc74c0a3d2ef051ebe2430,1,
+MDExOlB1bGxSZXF1ZXN0NDkzNTk1Mw==,135,Add `with-context` macro for conviently wrapping collapsers in thier own context,f94c9294da08ebec03998b9a2daf3e566ef526f6,2,
+MDExOlB1bGxSZXF1ZXN0NDk2Mzc2OQ==,136,Fixed the mock stream,3f498a963e0a56773a9f27d19d35514698c60747,1,
+MDExOlB1bGxSZXF1ZXN0NDk5MTAwNw==,137,Limit scope of CurrentThreadExecutingCommand,ffb3a9c9ea27d44a62b851e9721165db2c2a3dc0,1,
+MDExOlB1bGxSZXF1ZXN0NTAxNTk3Ng==,138,Add intellij idea and eclipse build config,5526d6decf8867d426ab980f47bc1d00f48e369d,6,
+MDExOlB1bGxSZXF1ZXN0NTAyMTQ0MA==,139,Fixed incorrect thread pool rate calculations in dashboard,f4aff4478633b44d1de94dbdd242194b0e36f81a,1,
+MDExOlB1bGxSZXF1ZXN0NTYxMzExNQ==,141,Update clojuresque and remove test shutdown hack.,921287bb06e80747b52e9ca0a6c2cad5e16382d6,2,
+MDExOlB1bGxSZXF1ZXN0NTc3MTQ5OQ==,142,Change IDEA config to use COMPILE instead of PROVIDED,1641e7eb0faf1faf8b167f0a3a38af0ad625a0d3,9,
+MDExOlB1bGxSZXF1ZXN0Njc1NjM3Nw==,149,Allow getFallback to query failure states,0d1bc6390cfc01652f0d5464cd4f29e0e9eac1fd,1,
+MDExOlB1bGxSZXF1ZXN0Njc4MjExMQ==,151,Version 1.3 - RxJava Observable Integration,48f9f284908637ef0abc22f7a4a4e1cd96f041c8,18,
+MDExOlB1bGxSZXF1ZXN0Njg1MTQ3Ng==,152,escape meta-characters to fix dashboard,fc7c7b4397e6bd6d688039550d1b88d2660e51d8,4,
+MDExOlB1bGxSZXF1ZXN0NzA1ODM3Mg==,155,Reset Hystrix after tests have run.,5d1193a5890bffc17d9c77c9deb8638b291e26e4,1,
+MDExOlB1bGxSZXF1ZXN0NzA1ODM3NA==,156,Improve hystrix-clj docs.,e6cf60e897aa5bcc9ac6d2065a9bc5598fe73c0a,1,
+MDExOlB1bGxSZXF1ZXN0NzE5OTUwNA==,158,Expose current HystrixCommand to fns,4ec43afbf22e5a2e46d9448558e2b06db7b8a139,2,
+MDExOlB1bGxSZXF1ZXN0NzIwODcyMA==,159,Merge Gradle template,a2abe783d9add3f441c96daa2de9e3729db5964a,11,
+MDExOlB1bGxSZXF1ZXN0NzI3NDQzNQ==,162,Fix regex so it includes more than one digit,1625c08360214d26f341c6b1fa4a9b70bb6a1f9b,1,
+MDExOlB1bGxSZXF1ZXN0NzMzMzQwMA==,163,Upgrade to RxJava 0.10.0,d653527461bde6d922e1ee2756dea04921ece488,3,
+MDExOlB1bGxSZXF1ZXN0NzM0MzEzMg==,164,Support FireAndForget Collapsed Commands,344c0c8c31b9e68fa095779a3d1d2f473955b479,2,
+MDExOlB1bGxSZXF1ZXN0NzM0MzQ5Mw==,165,More specific assertion on fireAndForget error,f12a1d27d4d163772fc94d25cc9e57cff2ef0061,1,
+MDExOlB1bGxSZXF1ZXN0NzM2MjQ1Nw==,168,Another Void response type unit test for collapser,95f2559bef96b23c0f9d9d848202bf5265a95616,1,
+MDExOlB1bGxSZXF1ZXN0NzM2ODQ5OQ==,169,Add RxJava Observable example,10de03dc35fb66e223a225555a5218dd0d6f548c,1,
+MDExOlB1bGxSZXF1ZXN0NzM3NTI4OA==,170,Add rx support to hystrix-clj.,588fb416ac2d7e9d6fa07beee4e23af28af8b8fd,2,
+MDExOlB1bGxSZXF1ZXN0Nzc0MTUxMQ==,173,Fix Exception vs Throwable typo,632b16a9b1ef89a3e80be6821a3565d84c1c00b1,1,
+MDExOlB1bGxSZXF1ZXN0ODE2ODM4Mw==,177,Update Hystrix for breaking changes in RxJava 0.12,a6c4be731eb5f756a24c3c52fa6154fa264cfa44,5,
+MDExOlB1bGxSZXF1ZXN0ODI2ODUxMQ==,179,RxJava 0.13,843cc9306e7f179daa04194244edfd0fbf6223df,4,
+MDExOlB1bGxSZXF1ZXN0ODU5NjgxOQ==,181,[hystrix-contrib/hystrix-clj] Making Command keys quantified by namespaces.,d51d7e304a4149edc6b57a09b0afe424b05163fa,2,
+MDExOlB1bGxSZXF1ZXN0ODYxMzMzNw==,182,Removing unused Legend component latent. Removed from html templates/css,597a81be9c0f73a77d783686551544048f3dc1ac,4,
+MDExOlB1bGxSZXF1ZXN0ODY0MTc4Mg==,183,Bugfix to HystrixBadRequestException handling,878d581ae2a42b71f6fdd2b41df3ead1f53eec2b,1,
+MDExOlB1bGxSZXF1ZXN0ODY1MTE1MQ==,184,BugFix: queue() BadRequestException Handling on Cached Response,bfd614bbc9eb00262c27fe35a9c032f1729828b4,1,
+MDExOlB1bGxSZXF1ZXN0ODY1MTU4MQ==,185,BugFix: Observable.observeOn Scheduler Lost RequestContext,1e6da8cd6b799b17c59ec9ba6b1895b430764bd4,4,
+MDExOlB1bGxSZXF1ZXN0ODc1MzExNw==,189,BugFix: Race condition between run() and timeout,5aa288735d616149de02dbf1ab02eb5ceecf3de0,1,
+MDExOlB1bGxSZXF1ZXN0ODc1MzU3Mg==,190,BugFix: ConcurrencyStrategy.wrapCallable was not being used on callbacks,2412993d8bb6c751928af9c9d04add312bb153ae,3,
+MDExOlB1bGxSZXF1ZXN0OTYxNzI1Ng==,194,Do not overwrite user thread duration in case of timeouts,851d96b7d8166a44dad6ed9ccc3bbb2e274a90c4,1,
+MDExOlB1bGxSZXF1ZXN0MTE4MjIwMjI=,203,Made HystrixTimer initialization thread-safe,fcb927f9e4843256986ee9eee4236f73d9efc237,1,
+MDExOlB1bGxSZXF1ZXN0MTIyMzExNTg=,209,Hystrix 1.4 - Async/Non-Blocking [Preview],06cc85510cd6deaa8334801f3cd2a9bad08bae92,52,
+MDExOlB1bGxSZXF1ZXN0MTI3MzI1MjE=,211,Update Javassist version to 3.18.1-GA,5927247c30be298fb268fe42aa0167d853b1bc7b,1,
+MDExOlB1bGxSZXF1ZXN0MTMyMzAzNDE=,214,Context Wrapping,a29a8c815310a7b70084114546949d6457de98e3,5,
+MDExOlB1bGxSZXF1ZXN0MTMyNTkyMjA=,216,hystrix-javanica: initial commit,09eaea8bcfe7158cff45aaede8193cb2f41ab2c8,46,
+MDExOlB1bGxSZXF1ZXN0MTM0MDYyNjI=,218,Hystrix 1.4 - Async/Non-Blocking,650d446d0f4dfa1fbbc85609948ccf2d0ac6bdc5,53,
+MDExOlB1bGxSZXF1ZXN0MTM0MDY0OTQ=,219,Restore HystrixContext* Constructors without ConcurrencyStrategy,88e3883b2f1af8fa95c9fa2e13c2ba6dcc983a04,3,
+MDExOlB1bGxSZXF1ZXN0MTM1Mzg2NzQ=,221,RxJava 0.17.1,ad16cd03d5954c6710be96e2302ba1699ecdfb2c,1,
+MDExOlB1bGxSZXF1ZXN0MTM4NzcyMTk=,229,Added support for Request Cache and Reactive Execution,66fdcd6d02753110772ce92d7569d36b677a78c2,55,
+MDExOlB1bGxSZXF1ZXN0MTQyMDk1MTg=,238,Fix for Semaphore vs Thread Isolation Bug,04c19705299ca4e1fe4a0de65f2283c0f736f5b6,4,
+MDExOlB1bGxSZXF1ZXN0MTQ2OTU2Mjg=,242,Fix for issue 241 (Cleaner error propagation in hystrix javanica),93c6f029e573fa1e4f920b2406ba9fead0f5f44c,3,
+MDExOlB1bGxSZXF1ZXN0MTQ3MzQ4ODc=,243,Update servo to 0.6,2af7a152335843d1c9fb63a09bf31f78359a1aa1,2,
+MDExOlB1bGxSZXF1ZXN0MTUwNDI3NjY=,245,HystrixObservableCollapser,e5429cece9502466afdc7c5cb28ab55dacb141e1,6,
+MDExOlB1bGxSZXF1ZXN0MTUxOTIyNjU=,249,Tripped CircuitBreaker Wouldn't Close Under Contention,9ed374dc196c1be1c9c5b6dfeb2ed38083d38027,2,
+MDExOlB1bGxSZXF1ZXN0MTUxOTI1MjE=,250,Tripped CircuitBreaker Wouldn't Close Under Contention,c9f5c079bbf52fc147be81aa19e9d3717f449ea3,3,
+MDExOlB1bGxSZXF1ZXN0MTU1MjQ2NTM=,262,Compilation fixes,b7fbb09b7f2307489afa6210a361016414b24ec1,2,
+MDExOlB1bGxSZXF1ZXN0MTYwMjgzMjY=,264,"defer the Creation of ISE, to when an exception needs to be created",8a5689403bdbf3ea20d8a240f984b722258f81d9,2,
+MDExOlB1bGxSZXF1ZXN0MTYwODIzMjk=,265,Update README.md,31ba7b26dabd6619f72cb6b84f7f076b0c515b5a,1,
+MDExOlB1bGxSZXF1ZXN0MTc4OTA4ODM=,281,Codahale Metrics Filter configurable with Archaius,ace64940d5d3cd5ec8512202d9c67b1f6b77a361,3,
+MDExOlB1bGxSZXF1ZXN0MTgxODQ5ODk=,283,Hystrix metrics streaming module for RxNetty.,5a720a3feb8eebebca3dbe4d5c2bed9435d022fb,6,
+MDExOlB1bGxSZXF1ZXN0MTg5MDY5ODA=,288,Optimize object allocation for the string representation of executed com...,45ce8e970923558bd33977b4a5868a02c494e965,1,
+MDExOlB1bGxSZXF1ZXN0MTkxNjA2MTE=,291,String optimization for HystrixRequestLog,cd18881678c122fbc03ad5ac63dbffe6c9c98bbf,1,
+MDExOlB1bGxSZXF1ZXN0MTk0OTMxMDQ=,292,Remove surplus closing curly brackets at end of file,7658ccc2aab51e5bf17b8510142fd546164a69df,1,
+MDExOlB1bGxSZXF1ZXN0MTk1NjI5NTE=,293,Internalize internet dependencies from hystrix dashboard,4784a14b5c3a5f524b6b57bd11cb93a9959a2889,6,
+MDExOlB1bGxSZXF1ZXN0MTk1NjU4MDM=,294,Stabilize randomly failing tests,bf5b6f617d5e4a4091a7b490f3a98318d17f3691,1,
+MDExOlB1bGxSZXF1ZXN0MjAzOTkxMjc=,296,Fix Premature Unsubscribe Bug,f5c1de217ec65d84068825b9cf9de324c418900e,1,
+MDExOlB1bGxSZXF1ZXN0MjA2ODkwODE=,305,Removing deprecated RxJava usage,198f8189480d0393244a52256dba3a2745b90a53,9,
+MDExOlB1bGxSZXF1ZXN0MjEzODI5NjQ=,314,RxJava 0.20 and Remove Deprecated Usage,4451bcf2095a4f09e5dd366b79b242b5bff0bb32,14,
+MDExOlB1bGxSZXF1ZXN0MjE1Mjg5MzI=,316,Add support for execution.isolation.semaphore.timeoutInMilliseconds,868f1555d8ff5ede29feefbdf686b42ce5c8e977,1,
+MDExOlB1bGxSZXF1ZXN0MjE3NTM5MjE=,318,HystrixAsyncCommand and HystrixObservableCommand,637150748c8f2b2585d35b1aaedef268b6dbb20a,41,
+MDExOlB1bGxSZXF1ZXN0MjI5NjQ4NzI=,326,Added supports for setting threadPoolProperties through @HystrixCommand annotation,e22be6c18bdc2fd8620075a37af86ec56ccbcd4f,6,
+MDExOlB1bGxSZXF1ZXN0MjMyMDExMzY=,329,allowing configuration of threadPoolProperties through @HystrixCommand annontation,d0bef594bec1b8346adc812f6b9dd936a533b5b4,6,
+MDExOlB1bGxSZXF1ZXN0MjM4NDE5ODI=,336,Dashboard: custom authorization header ,9ed01db7b2b42d6181a7b8bd3bd3c51c304cb5d2,3,
+MDExOlB1bGxSZXF1ZXN0MjQxNDEwNDU=,339,getRollingCountThreadsExecuted() always returns 0 in master,d691e5088bcf1bc2ff37828ed7daef5659b570be,2,
+MDExOlB1bGxSZXF1ZXN0MjQ3MTI4NzQ=,344,Upgrade to Gradle 1.12,1d5acc18ff7e3b521c1fa76fa05b5db7afcf6bfc,2,
+MDExOlB1bGxSZXF1ZXN0MjUxNjkyNjE=,348,1.3.x Allow for @HystrixCommand to be used on parameterized return type,c1cfb54f05762aa68560c320ad76a6f666bde907,3,
+MDExOlB1bGxSZXF1ZXN0MjYwNDg5ODQ=,358,Fixed Clojure unit tests that failed with RxJava 1.0,c865387d70a7804ff37635f720492d22b8bcdf52,2,
+MDExOlB1bGxSZXF1ZXN0MjYwOTc2Nzk=,361,Race condition exists when constructing a HystrixThreadPool where the Th...,23fb2ba2838090d7e4539a5150b9e0c28ba74e14,6,
+MDExOlB1bGxSZXF1ZXN0MjYwOTg3MDM=,362,s/toBlockingObservable/toBlocking in hystrix-rxnetty-metrics-stream,fb96058190f9abbe71ee34ec72ebee9223aaec4b,1,
+MDExOlB1bGxSZXF1ZXN0MjYxMDEwMDI=,364,Upgrade Servo to 0.7.5,63963c9587c148954a83e6cb8f2c6447565af0f0,1,
+MDExOlB1bGxSZXF1ZXN0MjYxNjc0MTI=,366,Added support to get command start time in Nanos,2d4c9f50ef307f1b8ebd34d66378d374d674bb45,2,
+MDExOlB1bGxSZXF1ZXN0MjYxOTE4OTM=,367,Added thread pool metrics back to execution flow,9e41018828a48193479918d6c1cbd51e8c713100,2,
+MDExOlB1bGxSZXF1ZXN0MjYyMDA1MTE=,369,Add Basic Auth to Hystrix Dash (Manual Merge of #336),bd6e477eb5443147b70d32785b9e4eb36ce4e65c,3,
+MDExOlB1bGxSZXF1ZXN0MjYyNzcxOTE=,370,Add Javanica back - tests passing again,6325831fdebd8fe0380825b710675cc0dcd7e8e8,1,
+MDExOlB1bGxSZXF1ZXN0MjYyNzgwNDE=,371,"defer the Creation of ISE, to when an exception needs to be created (Manual merge of #264)",97f6a994877932b464db421182d5dbd36e78740f,2,
+MDExOlB1bGxSZXF1ZXN0MjYyODUyODc=,374,Change RequestBatch logging from ERROR to DEBUG,9e0bf8abb7fcd30304235901535d5a5b381bb326,1,
+MDExOlB1bGxSZXF1ZXN0MjY2MTc5NDY=,378,Unit tests for HystrixCommandExecutionHooks (Manual merge of #327),f345feb839118f2bb7e305460a99c769a337f634,3,
+MDExOlB1bGxSZXF1ZXN0MjY5MjU0MDE=,447,Fixed HystrixThreadPool to always return true for isQueueSpaceAvailable() when size = 0 (the SynchronousQueue case),71f39a8ed56368a6db26b658c3b412196dfd0b21,2,
+MDExOlB1bGxSZXF1ZXN0MjY5MzA1MDI=,449,Move thread completion to end of chain,6d211d37b57d662546fc03236fcdaa612736c77a,3,
+MDExOlB1bGxSZXF1ZXN0MjY5MzYxNzg=,452,Add the capability to reset HystrixPlugins and make Hystrix.reset() invoke it,8ff0541dcaa88d1803b4d391abc6c6e5d94bbbbd,2,
+MDExOlB1bGxSZXF1ZXN0MjY5Mzk4MTE=,454,Add more unit tests for HystrixRequestLog to HystrixObservableCommandTest,6e53e4441bab536521b82f2f2eeed49004724c91,1,
+MDExOlB1bGxSZXF1ZXN0MjcwMDc1OTY=,457,Fixing the resettability of HystrixMetricsPublisherFactory,da62eeb72544c73bc7f445b23ebda225eb52a85c,6,
+MDExOlB1bGxSZXF1ZXN0MjcwNTI5NTg=,465,Handle an error during construction of a MetricsPoller more gracefully,e1d4f8d1d659e3bc8bea917c787cd460dd3abefd,1,
+MDExOlB1bGxSZXF1ZXN0MjcwNzI0NDE=,466,Add more comprehensive set of unit tests for HystrixCommand and HystrixObservableCommand,c44a2302c118d6474a3d0701ea4fee33b69caec0,3,
+MDExOlB1bGxSZXF1ZXN0MjcxMjAyODc=,469,Build changes to nebula.netflixoss,da53c80b9a0075e518fc52cf356193231ddc8ab8,27,
+MDExOlB1bGxSZXF1ZXN0MjcxNjAxNjg=,489,Iss380 javanica cache,de0019f0c8b5793dd8d5073527473834b98e3d1c,32,
+MDExOlB1bGxSZXF1ZXN0MjczMjU0MzM=,507,Fixed Clojure unit tests that failed with RxJava 1.0 (Backport from master),598c8005b0320792c90dd1e5c08b026e102f8522,2,
+MDExOlB1bGxSZXF1ZXN0MjczMjU5MjI=,508,Backport of #327,ed35c6539a7ba47de80036e2b34bb9761bf52a01,2,
+MDExOlB1bGxSZXF1ZXN0Mjc1MjY5NDM=,520,Add comprehensive hook tests,86e9a2534765be36424c0b4b2181e1b02014cb51,1,
+MDExOlB1bGxSZXF1ZXN0Mjc1ODg1MzM=,524,Change calls from getExecutedCommands() to getAllExecutedCommands(),31a5ea37d90fead290ed7e870da9da8b20d7ad4d,8,
+MDExOlB1bGxSZXF1ZXN0Mjc2MzUzNjA=,526,Port of #520 to master,4e33852469f89da17d8ad24a69bc3e8f5cc50d9e,5,
+MDExOlB1bGxSZXF1ZXN0Mjc2MzY5NDE=,527,Creating a synthetic exception in the semaphore execution and short-circuited case,755552b8cb62fec1dd27397b7d6163bca7d02931,3,
+MDExOlB1bGxSZXF1ZXN0Mjc2Mzc0NTQ=,528,Creating a synthetic exception in the semaphore execution and short-circuited case,a9db29636127a73d82a38921312a8e29ee8a8fd2,1,
+MDExOlB1bGxSZXF1ZXN0Mjc2OTgzNjc=,530,Add shutdown hook for WebSphere and checkError() to detect disconnected client,60b35a79bf7a098ca69e7ce65e2eee6a5202c940,1,
+MDExOlB1bGxSZXF1ZXN0Mjc3MDczNjg=,531,Move onThreadStart execution hook after check that wrapping thread timed out,3e414705d8123f6eccdd6212e1ea98452e6c433d,1,
+MDExOlB1bGxSZXF1ZXN0Mjc3MDgwNTg=,532,Fix type in hystrix-clj,c8b0c901ec5739080658303db7fed2e42340220f,1,
+MDExOlB1bGxSZXF1ZXN0Mjc3OTM5NTg=,534,Bump RxJava to 1.0.4,823a1b3c81a67944efad6dfd949f7e778ccdf8d3,1,
+MDExOlB1bGxSZXF1ZXN0Mjc4ODUxOTc=,562,Build changes to nebula.netflixoss (Manual merge of #469),0f41f8bb429c56ace2f149ef8281fcd021055a77,27,
+MDExOlB1bGxSZXF1ZXN0Mjc5OTAzNDI=,566,Hard-coded group name when publishing CodaHale metrics fixed,8be48ff7f6b70db18f3b31fa64eafaaba2902194,1,
+MDExOlB1bGxSZXF1ZXN0Mjc5OTQ4NDc=,567,Commenting out the flaky HystrixTest and HystrixPluginsTest until someone has time to de-flake them,f4b3f2266dc5d1da929e3e24f0aeefe91975d89e,2,
+MDExOlB1bGxSZXF1ZXN0MjgwNTkyNDE=,570,Build upgrade for 1.3.x branch,686937136010d274022dccbb0f4c2bbc287f353b,25,
+MDExOlB1bGxSZXF1ZXN0MjgwODkyODQ=,572,Add bad request exception metrics,7376f7ce142a4efc7d0307eb4fab9ed1783ad8be,10,
+MDExOlB1bGxSZXF1ZXN0MjgwOTQ2OTM=,573,Fix link to CHANGELOG.md in README.md,5cd4315e94b2686657aab54193e0f5b20674b6c2,1,
+MDExOlB1bGxSZXF1ZXN0MjgxNTY5MDc=,576,Add collapser metrics,28cf9414b493fd8c3cb4b6d5ca017abdb4bf898c,20,
+MDExOlB1bGxSZXF1ZXN0MjgxNTkyMjM=,577,Upgrade to Java7,e095d097ae8f579f322e16d71ccd08db9fae2e78,53,
+MDExOlB1bGxSZXF1ZXN0MjgxNjkwODg=,579,Remove synchronous timeout,114313d23aca65609842df515544db358c3d8c1d,2,
+MDExOlB1bGxSZXF1ZXN0MjgxNjk0NzY=,580,Add unit test that demonstrates non-blocking timeout for HystrixCommand.queue(),0c52d6fa1a7fd8b406fdfcbd7993596c4a49aa39,1,
+MDExOlB1bGxSZXF1ZXN0MjgxNzA4MTY=,582,Add nonblocking HystrixCommandTest.queue() unit tests back,e5c6767595307812059a95bf808ff81b3697704e,1,
+MDExOlB1bGxSZXF1ZXN0Mjg0NTQ0MjU=,596,Fixed HystrixContextScheduler to conform with RxJava Worker contract,81fceaa3d4e30619050bbbf00d5c94845a1cfe2e,3,
+MDExOlB1bGxSZXF1ZXN0Mjg1MTAyMjY=,599,Added metrics to HystrixObservableCollapser,d6f74117643a4f97649531d1635eac479b6c8591,2,
+MDExOlB1bGxSZXF1ZXN0Mjg2MTc4ODI=,604,Added 2 new HystrixEventTypes: EMIT and FALLBACK_EMIT,8e4a2d9055508cf08a1b8f2ba5b128b2f34553fe,6,
+MDExOlB1bGxSZXF1ZXN0Mjg2NTczNTg=,607,Upgrade RxJava from 1.0.4 -> 1.0.5,d81ed909c89257040755d520f691a927d5df9606,1,
+MDExOlB1bGxSZXF1ZXN0Mjg2OTEzMDM=,608,Both sync and async exceptions for hystrix observable cmd,018e9858bf64e066360adc3120c3dedd95a852f5,2,
+MDExOlB1bGxSZXF1ZXN0Mjg3Njg4NjE=,641,Fix flakiness of testSemaphorePermitsInUse,a044c61d9e0e8ca1321cd844e4723b4c1bcf1c0b,2,
+MDExOlB1bGxSZXF1ZXN0Mjg3Nzc0OTE=,642,Deflaked HystrixObservableCommandTest.testRejectedViaSemaphoreIsolation,65c292d9562c3024a4f3f7d1b5a590c39673c5f7,1,
+MDExOlB1bGxSZXF1ZXN0Mjg3NzgwODg=,643,Stress-test HystrixObservableCollapser,68831c3520eab6c763632810e5d94d67d8472176,2,
+MDExOlB1bGxSZXF1ZXN0Mjg4MzQxNDU=,644,Added RequestCollapser metrics to Yammer Metrics Publisher,e809b1d764edefad8aedcb606e536b42ccd94b01,1,
+MDExOlB1bGxSZXF1ZXN0Mjg4NDIwMjg=,645,Remove incorrect reference to async timeout,f9956cd47ec1b43d9c351ffdbc15a1dc70184868,1,
+MDExOlB1bGxSZXF1ZXN0Mjg5ODM4ODE=,664,Favor timeout property that is not thread-specific. (execution.timeoutInMilliseconds),b9295edefcdd01a522096281568d1c8fb8af8f01,13,
+MDExOlB1bGxSZXF1ZXN0Mjg5ODQzMjc=,665,Added comment to HystrixConcurrencyStrategy about non-idempotency of strategy application,bc7f0557f7f2d64c4c227a05b0d47b4212d4dfe7,1,
+MDExOlB1bGxSZXF1ZXN0MjkwOTUzNTM=,670,Unit tests demonstrating problems with thread interruptions,8e764815f2c7a31675d1858d7caefe4266110355,2,
+MDExOlB1bGxSZXF1ZXN0MjkxMzg4Nzc=,672,Thread interrupt only on timeout,550fbd08b21618870196a9d4c136ec6178d2d68b,6,
+MDExOlB1bGxSZXF1ZXN0MjkyMjE0MjY=,675,Revert timeout property name change,c554c4156418dbe4b25481f0301f5d12679e61b6,20,
+MDExOlB1bGxSZXF1ZXN0MjkyMzE2MjU=,676,Add test to confirm that bad requests do not affect circuit breaker's computed error percentage,65be43ab21be34a3fb5b0f988e1d922cea8e0a2b,1,
+MDExOlB1bGxSZXF1ZXN0MjkzMDIzMDM=,678,Fix current concurrent execution count,af7085fcdbce94f56b941e09f48b2d4661cfc049,4,
+MDExOlB1bGxSZXF1ZXN0MjkzMDg3NTk=,679,Update CHANGELOG.md for 1.4.0-RC7,e048241d195a5e288d09a383cc686066f6ab45f3,1,
+MDExOlB1bGxSZXF1ZXN0MjkzMTA4NDc=,680,Add command rejection metrics to HystrixThreadPoolMetrics,5a39a3c56f8ec8f855740e95bb0861bbb9be1d28,10,
+MDExOlB1bGxSZXF1ZXN0MjkzMTU2ODc=,681,Add execution hook for cache hit,bc350a1f5d445357864de98786ac75867a415ffe,5,
+MDExOlB1bGxSZXF1ZXN0Mjk0OTk5OTE=,683,Changes to hook API to make it more Observable-friendly,fb29e8833a672ab018f6030245a2294eff3c94c6,13,
+MDExOlB1bGxSZXF1ZXN0Mjk1NTkzNDk=,686,Partial progress on refactoring HystrixCommandTest to use FlexibleTestHystrixCommand,2ab6a5ff4d92b817f51b1c208cf464bfcd8dbb02,4,
+MDExOlB1bGxSZXF1ZXN0Mjk1OTI4MTI=,687,Added unit test for fallback rejection,3038c41544ba04fa8dbdfc6af6980a35da136241,4,
+MDExOlB1bGxSZXF1ZXN0Mjk1OTM3ODI=,688,Added metrics for EMIT and FALLBACK_EMIT,ce6ce101085782ee467c586a14ff4b0dc4a459a5,8,
+MDExOlB1bGxSZXF1ZXN0Mjk2NjE5NDM=,690,Reinstate and deprecate exception threading utility,d0f1b1440719ab6ebddf87e23538d07101731ef3,2,
+MDExOlB1bGxSZXF1ZXN0Mjk3MjAzMDg=,691,Added a test with higher semaphore counts to detect raciness,9babc068f443ee79187cd06b707544a366176dd0,2,
+MDExOlB1bGxSZXF1ZXN0Mjk4MDA1MjM=,693,"This fixes #692. If ratePerSecond is NaN, set errorThenVolume to -1",dd5ea4513a79bb5603e0d2ee47f41da6910f37d2,1,
+MDExOlB1bGxSZXF1ZXN0Mjk4NTA1ODk=,696,Upgrade to RxJava 1.0.7,d146f45aaacaa71852e0b1842655afc3a8ff7494,1,
+MDExOlB1bGxSZXF1ZXN0Mjk4NjIxMDA=,697,Missing execution event for FALLBACK_REJECTION,fa8a3c8d0c7673014650aed564cb9e5dfbfcf0ce,2,
+MDExOlB1bGxSZXF1ZXN0MzAzNDY5Mzg=,701,Fix Javadoc warnings,6f8a129413c12808e8d19d2fed9666e0db7b1338,24,
+MDExOlB1bGxSZXF1ZXN0MzE5MjEwMjQ=,723,fixed AopUtils#getDeclaredMethod to look for method also in superclasses,136448e9b69845f273de71267d72f71d413aa38e,2,
+MDExOlB1bGxSZXF1ZXN0MzE5MzcyODg=,724,Check if the request log is enabled before requiring the context is initialized.,297ecbd2bb8fc87265d93cbc4bbeb858a4dfec3f,2,
+MDExOlB1bGxSZXF1ZXN0MzE5NjEwNDk=,727,Up the time before failure in HystrixCommandTest.testFallbackRejectionOccursWithLatentFallback,21286d0be4bbddbb4071db6cf25d5f8f894f75b6,1,
+MDExOlB1bGxSZXF1ZXN0MzIwODQwODc=,731,Revert back to JDK6,59f2982a26f509ccc80d809df961a8c8299aee35,54,
+MDExOlB1bGxSZXF1ZXN0MzIxNDA0NDE=,732,Comment out flaky fallback rejection test,e2ea6e9ef10367c10b91b168957f4becad643aa6,1,
+MDExOlB1bGxSZXF1ZXN0MzI0NDk3MjE=,738,Filter out thread pools from metrics stream that have had no commands executed on them,8903efe21ab96c18d4849491dfa78a0a9cb4e7c4,1,
+MDExOlB1bGxSZXF1ZXN0MzI2MTA1Mzg=,739,Treat some java.lang.Errors as unrecoverable and immediately propagate,e8183b34a59cf05902117cd44aef09988846d829,5,
+MDExOlB1bGxSZXF1ZXN0MzI2OTUyNjY=,741,Properly check for all unrecoverable types of errors,b9a97792b0f8a4a4a99f68f4b4d858ce0844a4fa,1,
+MDExOlB1bGxSZXF1ZXN0MzI3MDY3ODY=,742,Add ability to disable timeout per-command and wire it in,6cb960a115456559ed19ffb54a0fb276cf0319ea,4,
+MDExOlB1bGxSZXF1ZXN0MzI3MDk3MDk=,743,Update timeout javadoc,0fd1590d65befe91301b5064ab09d9f42a0ee2e7,1,
+MDExOlB1bGxSZXF1ZXN0MzI5MDAzODE=,748,Fix return value of HystrixCircuitBreakerImpl.isOpen when we lose the race to open a circuit,1372f203bfee1940abd25af66afd949328541f70,1,
+MDExOlB1bGxSZXF1ZXN0MzMwOTIzMTk=,750,Added a first pass at jmh tests for hystrix-core,f12552a3c93d798b77dc4bbf0874590715d23496,3,
+MDExOlB1bGxSZXF1ZXN0MzMyMDc5NzY=,754,Only fire onFallbackStart/onFallbackError execution hooks if there is a user-supplied fallback,8e91a323cbdb51f4b6b75fe43e5c78d898b2651e,6,
+MDExOlB1bGxSZXF1ZXN0MzM0NTk5NjY=,757,Updated the RxNetty based version of HystrixMetricsStreamHandler,7b94c470fc14eb53990acf813711541f14b49fe5,2,
+MDExOlB1bGxSZXF1ZXN0MzM0ODY5NjE=,760,set threads to daemon as per #759,98b63018b77d5c22c838db65a0ea2e2e7b6d2334,2,
+MDExOlB1bGxSZXF1ZXN0MzM1OTE1Mjk=,763,Upgraded Jackson from 1.x to 2.5.2 and split out HystrixMetricsPoller unit test,c1dac9db56692c07b3acf29cf6d5538f11769fa5,3,
+MDExOlB1bGxSZXF1ZXN0MzM1OTU1NjY=,764,Upgrade RxJava to 1.0.9,dea3e3dca72faacab998453e5056e6701a9a2933,1,
+MDExOlB1bGxSZXF1ZXN0MzM5NzgzNzI=,767,Add multithreaded jmh benchmarks,02fb873cd2e07c61e18f22c18d9181a16e159eb6,2,
+MDExOlB1bGxSZXF1ZXN0MzM5ODQxMDY=,769,Add threadpool to hystrix-metrics-event-stream for each command,1cef1b85e7321511bc439640d528fc02f7eccbac,6,
+MDExOlB1bGxSZXF1ZXN0MzQwMDc4MjA=,770,Circuit forced open by properties queried properly,66c0b64ec254daeb2b0cd4c6df074a455df46ab1,2,
+MDExOlB1bGxSZXF1ZXN0MzQzMTI3NDE=,773,Moved new threadPool metric to end of JSON for metrics stream,0c207c440abb7bb2cc612065ea211e4b171efd64,1,
+MDExOlB1bGxSZXF1ZXN0MzQzMzE1MzA=,774,Added HystrixCounters to hold global metrics on Hystrix behavior,e930517cd367a7508ace56a540200fa8ff0711b0,4,
+MDExOlB1bGxSZXF1ZXN0MzQzMzE5MDU=,775,Add HystrixCounters methods to return number of commands/threadpools/groups,511208149c45663630989a16a664b9fa136c1db4,4,
+MDExOlB1bGxSZXF1ZXN0MzQzMzMyMjg=,776,Added Bad Request count to Hystrix dashboard,1b33e649abe2a60b9ee0d0f3529bfa1e62f7db0f,4,
+MDExOlB1bGxSZXF1ZXN0MzQ0MDA2Mzk=,779,Use HdrHistogram for latency percentile calculation,7493de0f64f8947344f8b359ef0caad8dde949c3,5,
+MDExOlB1bGxSZXF1ZXN0MzQ0MTgwNjI=,780,More precise solution to #771,3df1b6d70c27e0db6a11130308db35605d9d957a,4,
+MDExOlB1bGxSZXF1ZXN0MzQ0NTk2NDg=,781,Shorten stress test of HystrixObservableCollapser from 1000 -> 100 to limit OOM problems,1cb31eaa21427eb5ced5118c78885486fd57059f,1,
+MDExOlB1bGxSZXF1ZXN0MzQ1MjE1Mjc=,783,Upgrade RxJava to 1.0.10,c0e99021bcaa9d8652389ad028eefb02f44555f7,1,
+MDExOlB1bGxSZXF1ZXN0MzQ2MDkzMTA=,785,Update metrics to the latest version,43746f3ac451ce4d3714209cb2b20f9630876392,1,
+MDExOlB1bGxSZXF1ZXN0MzQ3MTI4Mzc=,787,HystrixMetricsStreamServlet rejects requests after servlet shutdown (fixes #786),aa7ac5eb1f28e0f600cc9ba1a6bc0443193d5f0e,3,
+MDExOlB1bGxSZXF1ZXN0MzU0MzgxODk=,791,Switching HystrixRollingNumber impl from LongAdder/LongMaxUpdater to AtomicLong,c057b2ef2c883e8e8e5e84163ca91a90043ac1f5,2,
+MDExOlB1bGxSZXF1ZXN0Mzk2ODI1NDA=,830,Add validation for rollingCountBadRequests,d15505fa56a74bacf0d35dab6b4dd62e05cfad3c,1,
+MDExOlB1bGxSZXF1ZXN0NDMzMjQ4NzU=,877,Fixed #847 by adding BAD_REQUEST to the HystrixRequestLog,7471e5e767366e51c371fdaf1973b353dd4e187f,3,
+MDExOlB1bGxSZXF1ZXN0NDQ2MDA3NDM=,886,Only lookup if the request cache is enabled once per command invocation,5d4a31cc38d0816108818b8a2a032f932928841c,1,
+MDExOlB1bGxSZXF1ZXN0NDQ2MDE2NTQ=,887,"In HystrixCollapser, only check if request cache is enabled once",ab041b323dbbb3c1fe1d0d76f00f0ba4e5af3264,1,
+MDExOlB1bGxSZXF1ZXN0NDY1NzA5Mjk=,919,Fix for #918,9e5edf23448838cc4d0502b9a51b81dfc0d82c55,1,
+MDExOlB1bGxSZXF1ZXN0NDc2NDE1NTk=,928,Support collapser metrics in HystrixMetricPublisher implementations,1744c043bcde269c0837d697bf82a36e8b2489c5,3,
+MDExOlB1bGxSZXF1ZXN0NDc4MTA0NTI=,944,Fix generated pom,cf32e30bb2061635c03a940098a6586b945336d5,2,
+MDExOlB1bGxSZXF1ZXN0NDc4NzI1MzI=,945,Javanica iss 907,d8710c6e6bc29b7218bcd7639449c29e9f8beef9,45,
+MDExOlB1bGxSZXF1ZXN0NDkwOTc1OTI=,959,Enable Hystrix Dashboard to monitor multiple independent applications,22723bb7810015cb3fe5c0047ad862549f573443,9,
+MDExOlB1bGxSZXF1ZXN0NDk2NDc0MTg=,962,Javanica iss 929,843f588eb8b9e232cbf36e64ca6aebdbdb95ff66,19,
+MDExOlB1bGxSZXF1ZXN0NTA2MDU3ODI=,972,Mark servlet-api as 'provided' in generated POMs,a8da356d55467e6b184a7eac24e2441ffb3591d6,1,
+MDExOlB1bGxSZXF1ZXN0NTA3MTU5MzE=,977,Iss 948,9eaf2cf49d078c02c6abd98324a3298ef4021190,44,
+MDExOlB1bGxSZXF1ZXN0NTEzODYyODg=,990,Made commands run concurrently in HystrixCommandTimeoutConcurrencyTesting,17e0d036fd00b77b6922c63c6805abb9bfb71e59,2,
+MDExOlB1bGxSZXF1ZXN0NTUwMDMwMDI=,1034,Remove SHORT-CIRCUITs from Health check calculation,8cbc35398b3f5413932cf7714007925d58278da8,1,
+MDExOlB1bGxSZXF1ZXN0NTcxNzI5NTQ=,1069,Differentiate HystrixCommandKey passed into some unit tests in HystrixCommandTest,ff77510e1576d90b3f09d2ef31fcb90c32c68ef5,1,
+MDExOlB1bGxSZXF1ZXN0NTc5MjI1MTA=,1081,Removed reference to wrapped HystrixBadRequestException in javanica docs,5a0c152140ddeffb92ffe5e2d35cc89ee7594438,1,
+MDExOlB1bGxSZXF1ZXN0NjA0MzQyODY=,1102,Delegate HystrixRequestCache check through concurrency strategy,429e04371e33cff10d0f050ed6e758efb651beb7,1,
+MDExOlB1bGxSZXF1ZXN0NjExMzg2MjU=,1111,Made HystrixRequestContext Closeable,b66efa7e182a8ed949066af419afa8a284ef59e0,2,
+MDExOlB1bGxSZXF1ZXN0NjE5MjI4MTk=,1121,"Making the HystrixTimeoutException instance per-command, not static",3d6c4bb783454ea96982fa26c104e83eb41166ba,1,
+MDExOlB1bGxSZXF1ZXN0NjI1OTkzNTQ=,1141,Increased the time spent in commands to ensure commands get rejected as expected,981329a8da0791cc0d2ca6fd867719fc9ac97f0c,1,
+MDExOlB1bGxSZXF1ZXN0NjI1OTk2MDg=,1142,Increasing time spent in commands in HealthCountsStreamTest ,ca4fe33b9434b8c04c00da4f38972511e0c2596f,1,
+MDExOlB1bGxSZXF1ZXN0NjMwMDIzNTk=,1147,Proposal: HystrixRequestContext junit rule,bd2a6ee5f8d4e63adbe707c2adbcfceb66b6355a,4,1.0
+MDExOlB1bGxSZXF1ZXN0NjM4MTAyMTQ=,1157,HystrixMetricsPoller as a daemon thread,a8242537ab693031933064410f1f9c56ad2fa765,1,1.0
+MDExOlB1bGxSZXF1ZXN0NjQxODA4OTA=,1160,"Remove release badge, as it doesn't track the actual highest release",2a6804860aa4f6b936a1ce411cabccc9629e8884,1,0.0
+MDExOlB1bGxSZXF1ZXN0NjUwMTQ1NjE=,1167,"Use getExecutionException to handle timeout, short-circuit, etc... ex…",ae71d96dd3b99e99f55d556360309bf4874aac4c,5,1.0
+MDExOlB1bGxSZXF1ZXN0NjUxNDI4Njc=,1169,"Use getExecutionException to handle timeout, short-circuit, etc... exceptions",69b768268052b6d85233705514aa08cd39608f47,5,1.0
+MDExOlB1bGxSZXF1ZXN0NjU2NzkyODg=,1170,Cleanup stream tests,316b7ea0db70f1c485d622528bbd5bc208eeae63,11,1.0
+MDExOlB1bGxSZXF1ZXN0NjU3MTY3MDA=,1171,Do all calculation of histogram values upfront.,559341311ba47315efeee2bd9c562ca37aa7a10a,2,2.0
+MDExOlB1bGxSZXF1ZXN0NjU4NjMxNDg=,1172,Upgrade to Java8,cb8016a2647c555d16bf9abc489ec974211b7be6,149,32.0
+MDExOlB1bGxSZXF1ZXN0NjYwNTEzMTg=,1175,Add AutoCloseable interface to HystrixRequestContext,d8723d3ba287491d8425a6516f290601690b052d,1,1.0
+MDExOlB1bGxSZXF1ZXN0NjYwNjkzNDA=,1176,Failing test case when two requests with the same request argument are collapsed,8f96fde5f446deec83e646253afe5dc6a0c46239,1,1.0
+MDExOlB1bGxSZXF1ZXN0NjY1NTczMzU=,1180,Cleanup execution hook,00cf49fe1e762ef330b47a7860ea8e50f0b11ad5,9,2.0
+MDExOlB1bGxSZXF1ZXN0NjY2OTc3MzM=,1181,Deprecate getter and setter for unused collapsingEnabled property in Collapser Setter.,94a88af77f0cb71e51d1cba46ceff0c1a61b4866,1,1.0
+MDExOlB1bGxSZXF1ZXN0NjcwNjYwODY=,1183,HystrixRequestContext junit rule,18e7750a3beef45513d7a4e6bffc9eef7c4c4f9f,4,1.0
+MDExOlB1bGxSZXF1ZXN0NjcxMDk4NTU=,1184,migrating all hystrix-javanica tests to hystrix-junit,f59728aa85551387608618a336bec0896790799a,11,10.0
+MDExOlB1bGxSZXF1ZXN0NjcyMjIzODc=,1186,migrating all hystrix-javanica tests to hystrix-junit,91ece7261c703d8691ba5c12ca4deed2759ae2df,12,10.0
+MDExOlB1bGxSZXF1ZXN0NjcyMjM0MjU=,1187,Removing unused methods for collapsingEnabled on HystrixCollapserProperties,b4cff7ee67f19fd9399040b6788f6b1c3dffa8e5,1,1.0
+MDExOlB1bGxSZXF1ZXN0NjcyMzMyNDg=,1188,Upgrade Servo to 0.12.4,1028cdbe43895bd79e02c398e1f6630e50a6137b,1,0.0
+MDExOlB1bGxSZXF1ZXN0NjcyNDI0NjI=,1190,"Modify Servo tag ""type"" -> ""class"" and ""instance"" -> ""id""",20082f1f84e2dd1c6ad886c20c3b98d3fac0a200,1,1.0
+MDExOlB1bGxSZXF1ZXN0Njc2NDYyMTY=,1193,more tests using HystrixRequestContext rule,61ddeae86ba95a381813cedabc95da96bd0b034f,7,1.0
+MDExOlB1bGxSZXF1ZXN0Njc2NDcyNzE=,1194,improved tests readbility a bit,8938a959fa055a8686e67212f0f0d300beb0c746,1,1.0
+MDExOlB1bGxSZXF1ZXN0Njg4NzQ0MDU=,1197,New Feature -- Eureka Integration to Hystrix Dashbaord,8e6830cf0ca746efcd4868d3415934b0779da477,6,1.0
+MDExOlB1bGxSZXF1ZXN0Njg5NjI5MTU=,1198,Add test cases for unsubscribe of Hystrix commands before terminal events,dafbded9beb309bd959270d1523be6febaf77bfa,4,1.0
+MDExOlB1bGxSZXF1ZXN0Njk3NTIwNDg=,1204,Support unsubscription of HystrixCommands,ee47e400998aca0c8d3c7578c65dde8b33339dd4,18,5.0
+MDExOlB1bGxSZXF1ZXN0NzAwNjk0MTE=,1206,Added subscribeOn to HystrixObservableCommand in JMH test to make it async,9f64774dbf9b0181bfe0cf901e7a2d59477dedc6,2,2.0
+MDExOlB1bGxSZXF1ZXN0NzAyNjEzMDk=,1207,Different fix for concurrency count command metric,b63fdf63b54e42a7ce974b8b3ef963df75242b0e,2,1.0
+MDExOlB1bGxSZXF1ZXN0NzA1NzMxMDM=,1208,Wired up unsubscription for HystrixCollapsers and HystrixObservableCollapsers,e5474956a16ef95e42496cede3bcee820b4d0827,14,2.0
+MDExOlB1bGxSZXF1ZXN0NzA3NDE3ODU=,1209,Fixed thread-state cleanup to happen on unsubscribe or terminate,7d3afbf11b30611433eb5f3bb1274643a1cae09e,4,2.0
+MDExOlB1bGxSZXF1ZXN0NzA5NjE2NjQ=,1210,"no need to fetch the method's parameter annotations, if there aren't any",bf56d9036e77f2425f62096bd906dabb76f11099,1,1.0
+MDExOlB1bGxSZXF1ZXN0NzA5OTU5OTM=,1211,ReactiveSocket metrics stream,b0ce3b3b97dd85244173296cdd5640ee1fff0be5,17,4.0
+MDExOlB1bGxSZXF1ZXN0NzExMzc0NDM=,1212,fix logging contexts,bca8d8932fb037ae1e6335addc5e87dd10a61c8b,4,3.0
+MDExOlB1bGxSZXF1ZXN0NzExNDI3NDU=,1213,use parameterized logging,07a20d137ba337bc5db7c5e5d1213b44544fafff,16,11.0
+MDExOlB1bGxSZXF1ZXN0NzEyNTkwODQ=,1215,Fix Servo percentile calculation,b379d291f24137bfc2c3873624e9b92f5c730bf7,2,1.0
+MDExOlB1bGxSZXF1ZXN0NzEzMTkxODA=,1217,remove dead code around fetching execution collapse info,f5fe3500280cd04c33818aa483057749a7c879e6,1,1.0
+MDExOlB1bGxSZXF1ZXN0NzE0MzY3NDI=,1218,Fixing unsubscription races by modeling explicit FSMs for command and thread execution state,5d27548e5b9b7c770f689771b89767f06f8a870a,4,1.0
+MDExOlB1bGxSZXF1ZXN0NzE0ODM0MzI=,1219,"avoid map lookups, in loops",4e470d6ad68154f9e22ef522df3358af5ee6e8f9,1,1.0
+MDExOlB1bGxSZXF1ZXN0NzE2MTQ1NTU=,1221,"improve usages of ""its"" and ""it's""",41804d2fbc30ae1c5b430ff77c4cc7a0c028752c,4,3.0
+MDExOlB1bGxSZXF1ZXN0NzE2MTczMDc=,1222,Perform Travis builds with Java8,2c5cb5e397f17c7061f5d6d6305450f530ce51ad,1,0.0
+MDExOlB1bGxSZXF1ZXN0NzE2MTk5OTQ=,1223,Upgrade RxJava from 1.1.1 to 1.1.5,8414a4ec75241dbed362448a4706d865c3e2d597,1,0.0
+MDExOlB1bGxSZXF1ZXN0NzE2MzMxNDY=,1224,remove dead field defaultNameCache,d85daae3bbd8ea9d35e490522e33b9330892e6f2,1,1.0
+MDExOlB1bGxSZXF1ZXN0NzE3ODExMzM=,1225,remove dead allocation of unused thunk,e5136eb82ec91927192849debb10989034739bf2,1,1.0
+MDExOlB1bGxSZXF1ZXN0NzIxMDQzNTQ=,1229,remove dead Setter class,278d7bba2304ec70baca8243796497548c1c539d,1,1.0
+MDExOlB1bGxSZXF1ZXN0NzI0NTcwMjM=,1231,"make inner classes static where possible, and remove outer class refe…",6fc37dcf64ff59cd7d5d3d2b8a59edf31829026f,4,2.0
+MDExOlB1bGxSZXF1ZXN0NzI1ODM1ODY=,1232,"compare enums with ==, avoid chances of NPE",ff552f95562afbe7cc13e35a0f7d098f951bf870,3,3.0
+MDExOlB1bGxSZXF1ZXN0NzI3OTE2NTk=,1235,Add demo that composes async command executions,b6ae642ed2528e53560e0ff480773b19866ced10,1,1.0
+MDExOlB1bGxSZXF1ZXN0NzM0NDQyNTQ=,1236,ReactiveSocket metrics client/server,d3cd11c1252cdd300e401e556d4620209c682d60,34,8.0
+MDExOlB1bGxSZXF1ZXN0NzM0Njg2NjQ=,1238,minor local variable 'caching' fixups,eb7c24ab2cca909e14c9b57e2fc8d61b1b5b2b4c,3,3.0
+MDExOlB1bGxSZXF1ZXN0NzM2NTAyMTc=,1243,Deflake unit tests,31cf0fecda4d1d48af1606b4ce74c751ff13b879,12,3.0
+MDExOlB1bGxSZXF1ZXN0NzM2Njc2NzY=,1244,fix handling of invalid weavingMode property,25da66431f27dfd654e8a04523615688661ca1b6,1,1.0
+MDExOlB1bGxSZXF1ZXN0NzM3Nzc1ODA=,1246,Move HystrixDashboardStream to hystrix-core,92d86597a10314f31e2d825a0421d3ca91bd6313,4,3.0
+MDExOlB1bGxSZXF1ZXN0NzQwMzQ3Mzk=,1247,Set the thread pool size only when the configuration is changed.,c86931bf3d04b252f1e44344e31fbda9c922de11,1,1.0
+MDExOlB1bGxSZXF1ZXN0NzQyODUzMDg=,1250,Larger metric buckets in unit tests to allow for slower CI processing,7c9e48b1295d72e4479d802d243e261c3ceedafa,5,2.0
+MDExOlB1bGxSZXF1ZXN0NzQ2MDQyMTQ=,1253,Fix issue #1251,db18a5c2e489b07b9e773f2874b4f1559cd5abeb,1,0.0
+MDExOlB1bGxSZXF1ZXN0NzQ2ODM2MjU=,1254,Allow multiple consumers of sample data to only trigger work once,2747e9105c92b7b2fd4368145e1fb28c6ee9cbac,12,4.0
+MDExOlB1bGxSZXF1ZXN0NzQ4NjE1MzA=,1255,Introduce intermediate data streams module,a3dc47c08ba43417bb1c8eaee99c348a45082cf2,41,11.0
+MDExOlB1bGxSZXF1ZXN0NzUyNDI3MDQ=,1258,iss1177: change getMethod to recursively search in parent types,cf16c01fc202b107d5b318b5ad25fc7e26592160,3,3.0
+MDExOlB1bGxSZXF1ZXN0NzUyNTM1NDY=,1259,iss993: added DefaultProperties annotation [ready for review],f918595cf2fed44c9e1706abe4b55d73d80f31e9,19,11.0
+MDExOlB1bGxSZXF1ZXN0NzU1NjY2Nzg=,1261,add toString()s to help debug custom HystrixPropertiesStrategys,3bfe0539d85d1baf449dffc7d79197a890924c81,3,1.0
+MDExOlB1bGxSZXF1ZXN0NzU4MDc4Njc=,1265,Interrupt execution thread on HystrixCommand#queue()#cancel(true),da55d45f1f465837cebdb5bdd3369bc40104c2ee,4,1.0
+MDExOlB1bGxSZXF1ZXN0NzY1MjE3NDI=,1269,Rework hystrix-data-stream module to just include serialization logic,f162e277e0a1ca7dfd6a8c5afa0fc0e7eeda6803,24,4.0
+MDExOlB1bGxSZXF1ZXN0NzY1NDA4NzA=,1270,Fix deprecations,2bea399a7f10efb877207be3d582d3098ea4314f,3,2.0
+MDExOlB1bGxSZXF1ZXN0NzY3MDc2ODc=,1271,Fix race condition in HystrixThreadPoolKey.asKey method,e27686bdca6aeefd855dbdca8933c783d576286e,6,2.0
+MDExOlB1bGxSZXF1ZXN0NzY4MjQyODA=,1273,Corrected ignoreExceptions for Observable returning methods.,e336976b41a00db2ea9cda0f49b3c4b356c39480,5,5.0
+MDExOlB1bGxSZXF1ZXN0NzY4NjQ5NTk=,1274,Make AbstractCommand.toObservable lazy.  ,c45c2085a4ce5c55fe2bb5b22f7ec544b2b80781,5,2.0
+MDExOlB1bGxSZXF1ZXN0NzY5NDk3NTI=,1275,Lengthened wait period in shortCircuited HealthCounts unit test,eb2a7a24c9775835280de720400d3be99b2828e5,1,1.0
+MDExOlB1bGxSZXF1ZXN0NzY5OTc1NjA=,1276,Moved all work performed in HystrixObservableCollapser.toObservable inside an Observable.defer to make it lazy,c756903e8d14e9f949cefeebfd9706d04879923c,1,1.0
+MDExOlB1bGxSZXF1ZXN0NzY5OTgzNjQ=,1277,Made HystrixCollapser.toObservable lazy by wrapping all work in an Observable.defer,8ad9b88d1baf8daaa224ebc7474029d54316175f,1,1.0
+MDExOlB1bGxSZXF1ZXN0NzczMzU3ODA=,1278,Prevent duplicate arguments from getting into a single collapser RequestBatch,c9b10061174c862777ae75ec359d2f7b6f8ae2a7,7,3.0
+MDExOlB1bGxSZXF1ZXN0NzkzMzY0OTU=,1294,Make sure thread-pools actually shutdown,da1198c580cbb95ec19fc87ef7be9ce4bce7d52e,1,1.0
+MDExOlB1bGxSZXF1ZXN0NzkzNTc5MzU=,1295,fix typo,993ca86dd2aebe0e373b6fe0369058c2fdb01e18,1,0.0
+MDExOlB1bGxSZXF1ZXN0Nzk2NDgwMjc=,1297,Spell correction.,aec05b3bbc14b4aa86ff084350195acdd9292515,1,0.0
+MDExOlB1bGxSZXF1ZXN0Nzk3NzY2MjI=,1299,Using longer execution times for unsubscribe unit tests,ca41fbb77f5a3e6f4937e75f865f96147c60a2c7,1,1.0
+MDExOlB1bGxSZXF1ZXN0Nzk4MjcyNzU=,1300,Scalar command terminates in on next,c873b7b7f3aac81c7a08ed405d36987bed371dda,8,1.0
+MDExOlB1bGxSZXF1ZXN0Nzk5NTYyMTM=,1302,Evaluate pr 1265,fc491c33cba7b8682a236e8121f7532852b14e30,4,1.0
+MDExOlB1bGxSZXF1ZXN0Nzk5NTc3MjY=,1303,Update RxNetty version which depends on netty 4.1.3.Final,079fd7c35bdd3e422e53381a9e7f42802a5c3e0f,1,0.0
+MDExOlB1bGxSZXF1ZXN0Nzk5NzgyMzQ=,1304,Make sure that metrics streams are multicast ,0e2214125a1c665fed50f4e9aae08f3902c2fc5d,5,1.0
+MDExOlB1bGxSZXF1ZXN0Nzk5OTc0Mjg=,1305,Update Gradle wrapper to 2.14,78526d77e4a6122fc7c3e0d5af1fb9b2babcefa6,1,0.0
+MDExOlB1bGxSZXF1ZXN0Nzk5OTc4Mjg=,1306,Update clojure,29ae64156f3ad46e95dccaa5f60edfa1a3a99cee,2,0.0
+MDExOlB1bGxSZXF1ZXN0Nzk5OTc5Njk=,1307,Update RxJava from 1.1.5 to 1.1.8,402f1acf60cbff2c6eac5c9c17c63a7f849ecb44,1,0.0
+MDExOlB1bGxSZXF1ZXN0Nzk5OTgxODQ=,1308,Update jmh from 1.11.2 -> 1.13,f27c62c4edf37f29db4cbbca5a77d3c8cbf25364,1,0.0
+MDExOlB1bGxSZXF1ZXN0Nzk5OTgzMzU=,1309,Update HdrHistogram from 2.1.7 to 2.1.9,951c66f2bd65a7666763ac980947ee6b5553896c,1,0.0
+MDExOlB1bGxSZXF1ZXN0Nzk5OTg1NzQ=,1310,Update nebula.netflixoss Gradle plugin from 3.2.3 to 3.3.0,50c44e91a7682d3951332c0fbfdc2029052d5ed7,1,0.0
+MDExOlB1bGxSZXF1ZXN0ODEwOTY4OTk=,1320,Javanica: basic Observable Collapser support,fe83e4957ca83b3a651016246f1c04408fe00ac5,8,3.0
+MDExOlB1bGxSZXF1ZXN0ODE4Nzk1OTI=,1323,Remove all ReactiveSocket modules - this should allow a build by JDK6/7,68ecc5a03ae09470fc95426263789897c5601748,13,3.0
+MDExOlB1bGxSZXF1ZXN0ODMwMDU4OTg=,1336,Hystrix Dashboard Eureka integration improvements,d838f4d1ba65ce55755ab1c73f74c980f04572bf,2,0.0
+MDExOlB1bGxSZXF1ZXN0ODM1MzU5NTM=,1340,Made the user-defined fallback calculation more general,12ad3e049f1bfa520cc39dd8a28806955fa0147d,3,1.0
+MDExOlB1bGxSZXF1ZXN0ODM1NTE4NTY=,1341,iss1328: fix,b4d129e8cab3d2282d0bfd24836e45a28f9d43f4,5,3.0
+MDExOlB1bGxSZXF1ZXN0ODU2NDkwMTM=,1351,Remove object-pooling from CachedValuesHistogram,8738d1c2a5a9abe839011fa5f500617aafb5781b,1,1.0
+MDExOlB1bGxSZXF1ZXN0ODU4ODc3NDg=,1353,Upgrade to RxJava 1.2.0,a0e233aeb3cbe2b218d24c82618c63cf7d38483b,1,0.0
+MDExOlB1bGxSZXF1ZXN0ODYwNjM3MDQ=,1356,Update PlatformSpecific to only detect App Engine Standard Environment,f16c08f5ba6e9a55535e4d67fd3663cf832d4d1e,4,3.0
+MDExOlB1bGxSZXF1ZXN0ODY0MzcxMDg=,1360,jmh test is more accurate when measuring the first command construction,d31ec7d8e871bf35b473127d6112bc0cd31f0f99,1,1.0
+MDExOlB1bGxSZXF1ZXN0ODY4MjgzMTI=,1363,Filter out all thread pool objects from thread pool metric streams which have not executed a command,cdd4dc03b2c6b694362bb54cf001a6c8815b20ff,2,1.0
+MDExOlB1bGxSZXF1ZXN0ODY4Mjg1Njc=,1364,Fix backwards incompatibility for appengine,9433411079378848ac822251fe7a5d877fa81386,3,1.0
+MDExOlB1bGxSZXF1ZXN0ODY4NjQxNzU=,1365,Upgrade to Gradle 3.1 / Nebula 3.4.0,02b8be7475acdb2913a1fee93bb753add753658f,16,0.0
+MDExOlB1bGxSZXF1ZXN0ODcwNTY5NzE=,1368,Upgrade jmh to 1.14.1,4ec663e4fb63c4df5e77743b2031f389bf885f0c,1,0.0
+MDExOlB1bGxSZXF1ZXN0ODc5OTQ3NzY=,1371,Add threadPool maximumSize configuration,ae725f55829136157944bb8ed2996607cf1a030d,10,4.0
+MDExOlB1bGxSZXF1ZXN0ODgyNjQwNjI=,1375,Remove cancelled work from the threadpool queue,66f13473559bd0b8610cf4509dc8e885cc1fa236,2,2.0
+MDExOlB1bGxSZXF1ZXN0ODg1MjE0ODI=,1376,Remove outdated comments regarding thread keep alive.,ad5e3f4e19a9df34a4ee369f8c0637144467017b,2,1.0
+MDExOlB1bGxSZXF1ZXN0ODkwNjcxODA=,1380,Add jmh test when circuit opened,7c42aa3ace76739fccd39704042fd147af5fc633,1,1.0
+MDExOlB1bGxSZXF1ZXN0ODkzODkwNTc=,1382,Bump JMH to the latest version(1.15),3fef4d73cb2f3ec0ae380c463561b1cf2dbd4873,1,0.0
+MDExOlB1bGxSZXF1ZXN0ODk1MjgwMjM=,1385,Bump JMH gradle plugin to the latest version(0.3.1),c175837403336e25662e041fdbe2679e58c8f54f,1,0.0
+MDExOlB1bGxSZXF1ZXN0ODk5MzMzODk=,1389,iss1344: send fallback exception to client instead of primary command,141e182bd90b14cc0c0423ad52620b44bf112378,6,4.0
+MDExOlB1bGxSZXF1ZXN0OTAwNTA4OTE=,1393,"iss:1387: Performance improvement in EnvUtils. Read ""weavingMode"" system property only one time.",487ee3af98da443220dfe0e4f6f00c9b89429d98,1,1.0
+MDExOlB1bGxSZXF1ZXN0OTAwOTYxNTY=,1396,"If command is unsubscribed before any work starts, just return Observable.never()",4e08f1ac2a576990ccad532615889344e2e35652,3,1.0
+MDExOlB1bGxSZXF1ZXN0OTAxNzQ0ODM=,1397,Add option to raise HystrixRuntimeException,a735c80839992d2e98d50ffa5419aeb96f7d5c72,7,5.0
+MDExOlB1bGxSZXF1ZXN0OTAzMDAxMjU=,1399,Add property to control maximum thread pool size,8b5a07575432480dd0b40488202d6c7ba5c33714,8,5.0
+MDExOlB1bGxSZXF1ZXN0OTEwOTY2OTM=,1405,Fix comment in HystrixThreadPoolProperties,1bf896b5756928f761ffee18e920ddc1c05acd2a,1,1.0
+MDExOlB1bGxSZXF1ZXN0OTExMDE4NDU=,1406,Added unit test that demonstrates calling .retry() on an Observable produced by Hystrix does not result in deadlock,e7d23a3f8baff18b267739f0cc44a52d305e4d64,1,1.0
+MDExOlB1bGxSZXF1ZXN0OTExMjc5NDU=,1407,Clear the percentile snapshot whenever all buckets get cleared,b0f5152f22156570424ed3787906f443ad30031d,1,1.0
+MDExOlB1bGxSZXF1ZXN0OTE1Mjc2ODY=,1408,Fix typo in collapser options keyword name (from shared-fn to shard-fn),7b3d2ceb62f6635dd8b793f3e65507aae194d51d,1,0.0
+MDExOlB1bGxSZXF1ZXN0OTE4MzgwNTc=,1411,Removed bad import that snuck in,e701c5422c969699b60ee10fe18c9b2d2b2bc063,1,1.0
+MDExOlB1bGxSZXF1ZXN0OTIyMDczMzE=,1412,Javanica/Support raiseHystrixExceptions for Observables,03dac0c334d7c6aaca394b7d0e50fff1f876de04,3,2.0
+MDExOlB1bGxSZXF1ZXN0OTI1MDUxNzA=,1414,Allow exceptions without HystrixRuntimeException wrapper,0dd3cf55b1e4d608f2588029eb6fc3e05ca3c2b2,10,3.0
+MDExOlB1bGxSZXF1ZXN0OTI3NDkyMDQ=,1415,Fix a little spell mistake in comments.,b7b955b629c2be19f628321094c2008b3974b277,1,1.0
+MDExOlB1bGxSZXF1ZXN0OTMyMzc5NjM=,1419,"When user has not opted in to letting core/maximum threadpools diverge, ensure dynamic updates to coreSize apply to both",1f6e9d4172a65b7faf06425afbb627ae603247e8,1,1.0
+MDExOlB1bGxSZXF1ZXN0OTQwNzQ5OTg=,1423,Write to error log actual dynamicMaxPoolSize from properties if maxPo…,3f7ad9686528e45f8fe23eed14b459c8180b91d1,1,1.0
+MDExOlB1bGxSZXF1ZXN0OTY4MjA0MzE=,1435,Properly handle default values for allowMaximumSizeToDivergeFromCoreSize,0c8f7332bb0f271337559aba0eec8dbef4608434,3,2.0
+MDExOlB1bGxSZXF1ZXN0OTgwNTA2NjY=,1441,Use Gretty for running hystrix-examples-webapp,9263593cc82e54dbf559c9bde7dcded7c8187b76,2,0.0
+MDExOlB1bGxSZXF1ZXN0OTgwNTEyNzU=,1442,Fix #1430 by detecting case when client connect/disconnects before me…,11ca011d9c5b86425eaddeae4bb9a3c5db81ef9b,1,1.0
+MDExOlB1bGxSZXF1ZXN0OTgwNTQ2Mjk=,1443,Hystrix dashboard switch jetty to gretty,03d2836d10e0df0d74053d64d0a3343e766e9517,2,0.0
+MDExOlB1bGxSZXF1ZXN0OTgwNTU3ODU=,1444,Optimize server thread exit,b43069b52538540c98fdbd7099ab590a5f0a69cc,1,1.0
+MDExOlB1bGxSZXF1ZXN0OTgxOTg5NzM=,1445,Early unsubscribe hook test,e08676e0e9c6bc7b6b0a2f29f1627c4e5bbb89cb,4,2.0
+MDExOlB1bGxSZXF1ZXN0OTg2NTg4NjA=,1447,Allow dynamic update to allow maximum size diverge from core size,08cefa2922da6db96fa41174b464747edad8a332,4,3.0
+MDExOlB1bGxSZXF1ZXN0OTg4MjI3OTM=,1448,Remove dependency of hystrix-serialization on jackson-cbor by depreca…,148e8f101bb41d54a2f8717c5c5ea95505613b6c,6,1.0
+MDExOlB1bGxSZXF1ZXN0OTg4NDU4MDY=,1449,Single method which ensures core less than equal to maximum,3c6b1b03c535bf6b8b2d574d0eb62193cea617a6,9,7.0
+MDExOlB1bGxSZXF1ZXN0MTAwMTIzNDg4,1453,Add Javanica test for NotWrapped checked exception,fb428cb165ecd7df9df6fea97d265865d0c16b4d,1,1.0
+MDExOlB1bGxSZXF1ZXN0MTAzOTM0NTY1,1469,Remove possible NPE,7fdda15fa7d1e00bc3bb1e90dcc849dcee52dad4,1,1.0
+MDExOlB1bGxSZXF1ZXN0MTA1NTgzNTYw,1475,Just added example usage,c674545b76029afe3b069ff9b9c42b0a00490613,1,0.0
+MDExOlB1bGxSZXF1ZXN0MTA3MDg2NjA2,1481,iss1458: added sanity checker for the method that detects point cut t…,8b2de49a16a545561eb4d7343112e72cf74c9aa7,2,2.0
+MDExOlB1bGxSZXF1ZXN0MTA3MTE4ODEx,1482,iss1446: Ready for review,de12cf27ef66e8b94caefd5fd24d1fe301728d5c,9,5.0
+MDExOlB1bGxSZXF1ZXN0MTA4Mjk5Njg3,1488,Minor spelling fixes.,998c4a422dabb199e1900cc3cbf8f9583fad2145,2,1.0
+MDExOlB1bGxSZXF1ZXN0MTA4NDk2Mjc0,1489,Added exporting of rollingMaxConcurrentExecutionCount value.,4cf7e88d116d6d1505312070990b0ef65f2a1986,1,1.0
+MDExOlB1bGxSZXF1ZXN0MTEwNjEyNjA0,1495,hystrix-metrics-event-stream implementation using JAX-RS,710a537ec7d820fb19c88accc96577ccf64a29a2,16,2.0
+MDExOlB1bGxSZXF1ZXN0MTEwOTA4NzIw,1498,Upgrade servo to 0.10.1,2b7eb64deb0116e975d68757484c8e49d248121a,1,0.0
+MDExOlB1bGxSZXF1ZXN0MTExNDEzNjUz,1502,delete unuseful code in HystrixConcurrencyStrategy,c1d4bb6c70788e6443797312691960ae883845a4,1,1.0
+MDExOlB1bGxSZXF1ZXN0MTExNDYwNTkz,1503,Fixes #1478 : allow cleaner error propagation,caf04bd93621ef7799df37da3160396b50867d39,3,1.0
+MDExOlB1bGxSZXF1ZXN0MTExNzIzMTU5,1507,README: fix typo,600f2cc8a13e233e7fdd1bc3c2e57faff913be3d,1,0.0
+MDExOlB1bGxSZXF1ZXN0MTEyMTM5MDM1,1512,Updating codahale metrics-core to 3.2.2,50295902fe6e47c1245a7548a0146f00a17cd02a,1,0.0
+MDExOlB1bGxSZXF1ZXN0MTEyMTM5Mjcx,1513,Fixing https://github.com/Netflix/Hystrix/issues/1508,562d01f26150d68a12b0e7030c28bbe3e6bf84c4,3,2.0
+MDExOlB1bGxSZXF1ZXN0MTEyMTg1OTEx,1515,Fix typo in HystrixCommand.java,3eef024579a74c7d196906f43d2370585b00fc68,1,1.0
+MDExOlB1bGxSZXF1ZXN0MTEzODIxNjAy,1524,iss1403: Support @HystrixCommand for rx.Single and rx.Completable sim…,dd1087a6bd36ed77aa63b4642d8cb349a47979b7,7,5.0
+MDExOlB1bGxSZXF1ZXN0MTE0NDgzNzYz,1527,Update build.gradle,00bed20c31e99c65656d8c321e3b6a39f061af6d,1,0.0
+MDExOlB1bGxSZXF1ZXN0MTE0NDg4NTgx,1529,Remove commons-collection from project,45e9b7b8863f27fbb7c173b8bcbc369273b603a8,2,1.0
+MDExOlB1bGxSZXF1ZXN0MTE0NjkxNzE2,1531,assert the circuitBreakerForceClosed property,db8ab7598049c411fe41044cd0cd6249241e18f0,1,0.0
+MDExOlB1bGxSZXF1ZXN0MTE0ODgzOTQz,1532,Move HealthCountsStream subscribe outside synchronized block,5d65553dd238e478918ad861ee744e26bb880659,1,1.0
+MDExOlB1bGxSZXF1ZXN0MTE1NTM1NDI1,1535,Move markCommandExecution after markEvent SUCCESS.,a50fde2e7b2cce280236cd7488c0bb14ab981df7,1,1.0
+MDExOlB1bGxSZXF1ZXN0MTE1OTIyNTM0,1539,Fixed a potential bug in metrics-event-stream-jaxrs,df912b27e15e1dbfa2c5fcaea4552a498d603532,6,1.0
+MDExOlB1bGxSZXF1ZXN0MTE3NDUzNjYx,1547,Support multiple circuit status for Hystrix Dashboard,cf3f7e4e6387d510ea42786d823887a7716b3232,1,0.0
+MDExOlB1bGxSZXF1ZXN0MTE3ODMzMDc5,1551,Fixed incorrect color of circuit status in dashboard,b07bf5fb75f9b0c837cae64a220033f4b7acc517,1,0.0
+MDExOlB1bGxSZXF1ZXN0MTE4Mzg5MTky,1556,bugfix/Fixing typo in fallback error message,d3e099121127dc9a2748c5d581794cd9e3867b6a,1,1.0
+MDExOlB1bGxSZXF1ZXN0MTE4NjU5MjM3,1561,Add exception-handling to interactions with servlet writers,1722d692fd30de6c1f210ca26090ab4ea1012220,1,1.0
+MDExOlB1bGxSZXF1ZXN0MTE5MzU3Nzk0,1567,Handle not wrapped exceptions same way as all other,fdfb8f970cc42bf29ac8a7438bf40734911e45d5,4,2.0
+MDExOlB1bGxSZXF1ZXN0MTE5MzcyNjc2,1568,Made circuit-opening happen in background,f0d54824d58be213e0cba30f5ffb58b107f60988,4,1.0
+MDExOlB1bGxSZXF1ZXN0MTE5NDQ5NzI5,1570,Only create the HystrixContextRunnable for running the timeout fallback...,fefdc37d4ad607e25055ea4157a6fe6bb31a38dc,2,2.0
+MDExOlB1bGxSZXF1ZXN0MTE5NTY4NjYz,1572,1565: Set maximumSize using @HystrixCommand annotation,2ad0baa6083f2aae3a21d10e723693a9966a90c6,2,2.0
+MDExOlB1bGxSZXF1ZXN0MTE5NTcwMzcy,1573,iss1545: don't get cause from HystrixBadRequestException if command t…,bfa5ba07d429cba736200bfa7e2e51e96fbe4c83,2,2.0
+MDExOlB1bGxSZXF1ZXN0MTE5Nzc0ODQ1,1574,Demonstrate using a Completable in HystrixObservableCommand.construct(),251e5d984df75482aba62e5fb5b04677f60f944c,1,1.0
+MDExOlB1bGxSZXF1ZXN0MTE5ODAwNDIz,1576,Fix to permyriad calculation,f2b61c77073bf9c9196bd176be416fcc7e841104,1,1.0
+MDExOlB1bGxSZXF1ZXN0MTIwODg5MTk5,1584,Added Javanica support for setting allowMaximumSizeToDivergeFromCoreSize in an annotation,338aadca7ece5a8bda30ae20791693404d2840cc,2,2.0
+MDExOlB1bGxSZXF1ZXN0MTIwODkxNTA4,1585,Fix incorrect return value in CodaHale metrics publisher of threadpool config,42629040ac1e424d5c360904ff5c374f9afcea20,1,1.0
+MDExOlB1bGxSZXF1ZXN0MTIwOTEwMjIw,1586,Get CodaHale metrics working by starting up the stream consumers,a7b66cad1874d5d0dc21d8e490e89f83e078a9f4,2,1.0
+MDExOlB1bGxSZXF1ZXN0MTIxMDkzNTIz,1587,throw IllegalStateException if request cache is not available when clearing,ea14be2464de0ce59e05ee740308eb1fc0187738,1,1.0
+MDExOlB1bGxSZXF1ZXN0MTIyODM2MjU4,1595,Possibility to add custom root node for command and thread pool metrics,027578a26dccba4d3acb653b69ffb4e148abb006,4,1.0
+MDExOlB1bGxSZXF1ZXN0MTI0NDY2NDE1,1605,Issue 1603,fa9c54dcd9e8b9a7c3459938afbaa2796554dbf0,2,1.0
+MDExOlB1bGxSZXF1ZXN0MTI0NTY1Mjky,1606,Escape user entered input to avoid HTML injection. This fixes #1456,1460419e1800710d3845d0f92cf66760815496d4,1,0.0
+MDExOlB1bGxSZXF1ZXN0MTI2MzgwNDEx,1615,Updated Gradle to version 4.0,569d68cc70037f55f5f279259d0b3038e5aea65d,4,0.0
+MDExOlB1bGxSZXF1ZXN0MTI2OTAwNTI0,1616,iss1600: Wrong hystrix event type for fallback missing,5e470b5c2b12e00c6bd83be1053c572c1e3c12eb,2,2.0
+MDExOlB1bGxSZXF1ZXN0MTI5MjMzMzg5,1621,Fixed bug where an unsubscription of a command in half-open state leaves circuit  permanently open,a8203446b90333f005c88cacf91a5dc8faf07c1c,3,1.0
+MDExOlB1bGxSZXF1ZXN0MTQwNDI5MTc3,1676,Add fallbackDisabled metric,1f64fced24289ea435f1e2d5a47a068bf7b79729,5,3.0
+MDExOlB1bGxSZXF1ZXN0MTYyMTk3OTU2,1749,deprecated and move hystrix-dashboard to Netflix-skunkworks,68251383aa6ca0842ab5597fcf2f26c5a5b77aba,45,3.0

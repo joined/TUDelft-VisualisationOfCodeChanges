@@ -1,0 +1,407 @@
+id,number,title,mergeCommit,changedFiles,changedPackages
+MDExOlB1bGxSZXF1ZXN0MzE3NTMyOA==,2,Pull request: Load default plugins dynamically,89574c7d7280021b212f343fc5ea2d91f0f435d1,1,
+MDExOlB1bGxSZXF1ZXN0MzE3NTQwNQ==,3,Pull Request: Remove class mockable test from ClassImposterizer,baae7ca32e89ff2dc0e1f76a6ae12f99b65a7b14,9,
+MDExOlB1bGxSZXF1ZXN0MzU1MTI3OQ==,5,Mock serialization/deserialization across classloader/JVM,ab36535b5870e45eaa93d22382cbd6de85c9bc82,34,
+MDExOlB1bGxSZXF1ZXN0Mzc0NzIyMA==,6,Improved MockitoTestNGListener by making it reset argument captors before each test,f20c1daab43f40526960f6c292cb91768e1ff346,2,
+MDExOlB1bGxSZXF1ZXN0MzkxODU1MQ==,7,Refactoring: Remove unused import,36ed8326125c8a348ebdd7c9f34813054a98b78a,1,
+MDExOlB1bGxSZXF1ZXN0NzI4NjkxNA==,14,"Deprecated timeout().never(), in line with timeout().atMost()",52f086c5857b3554f964aab338859dcd0dc968a3,5,
+MDExOlB1bGxSZXF1ZXN0NzI5MzE2OA==,15,Verification with timout measures time more more accurately,d83c8812bcc8d002f8e4bf6344fe8d7da5e0a25c,4,
+MDExOlB1bGxSZXF1ZXN0OTQ4MzYwMQ==,18,Enabled continuous integration with Travis CI and coverage tracking with coveralls,8a48852a31868189d6a45c3c01d29a2c4dfa2009,8,
+MDExOlB1bGxSZXF1ZXN0OTQ4NTY2MA==,19,Refactoring: Fixes env var to TERM for readability purpose on travis log when building with gradle,a243af07bc966c3930f9104e0c7b3f49191476b2,1,
+MDExOlB1bGxSZXF1ZXN0OTgyMzk1NQ==,23,Refactoring: Fixed some typos in README.md,df584f0da80a14f3876a57c0a073cdac9f85fd1e,1,
+MDExOlB1bGxSZXF1ZXN0MTA0OTYyMzE=,25,Refactoring: Gradle 1.9,e2c618f5075109e1101c6e595d6fb53fc9fd4129,5,
+MDExOlB1bGxSZXF1ZXN0MTEwMzU5ODc=,28,Removed .java files from main mockito jar artifacts,9dafee2e9bc35af24d70c0b284bd19e68eb7867b,3,
+MDExOlB1bGxSZXF1ZXN0MTMyMzQyMDI=,39,Allow calling real implementation of jdk8 extension methods,a871b1bc10e5408675228e64ada27edc918a2f16,8,
+MDExOlB1bGxSZXF1ZXN0MTQ0MjMwMDQ=,47,Issue484 fix,e28752b779055717dec1e5c114c09d27e62f5c38,2,
+MDExOlB1bGxSZXF1ZXN0MTQ4MjE3NTc=,50,Refactoring: Updates .travis fil to gradle 1.11,7b2aef5ceab2dc9454b7155c52e19503b63c64e3,1,
+MDExOlB1bGxSZXF1ZXN0MTQ4MjQwMzA=,51,Proposal to add packaging to mockito-testng with gradle,27b57618696d72dd5f89bce5599d6b83c4cf9d29,3,
+MDExOlB1bGxSZXF1ZXN0MTUxMzAxNTI=,53,Refactoring: Updated Travis CI configuration file to use the Gradle wrapper,21c59ab183eb0f1af181599168310b69b0e3f661,4,
+MDExOlB1bGxSZXF1ZXN0MTU2NzgzMzA=,56,Fixed wrong javadoc for AdditionalAnswers,f568a79551dbc93ef053dd986a3ccc501f21e2ea,1,
+MDExOlB1bGxSZXF1ZXN0MTY4NjcxMTc=,58,Added useful links to README.md,aa0fec177371c143de3d24c8c4e7ea458bb6bdcc,1,
+MDExOlB1bGxSZXF1ZXN0MTgzMjc0MTg=,62,Coveralls coverage tracking tool allows Mockito source code preview,692146855bf88079626a2bfb1f26084a066793c0,2,
+MDExOlB1bGxSZXF1ZXN0MTg5NDIzMDM=,65,Refactoring: Cleanup ignores and fix 1.5 compatibility,fbf68703983972fb3415b787b3e5b2a5a6925930,5,
+MDExOlB1bGxSZXF1ZXN0MjI1MzM5NzE=,103,Fixes issue #99 : RETURNS_DEEP_STUBS automatically tries to create serializable mocks,7baf03510cbea8bdce9cb1edffe31899aea4b2dc,2,
+MDExOlB1bGxSZXF1ZXN0MjU0NzYyNjI=,131,Improve documentation: remove typos in the readme file,82f74c843a63819305c37d6632269ddc5b920601,1,
+MDExOlB1bGxSZXF1ZXN0MjYxMzAzMjI=,142,Fix #128 : Deep stubbing with generic responses in the call chain is not working,528c115bd55cce53d6cfa29d07d2376989b40851,2,
+MDExOlB1bGxSZXF1ZXN0MjYzOTg4NzI=,144,enum Answers implements now Answer<Object>,247d8eed88951a5e19091d7b809e01e902fc2ad7,4,
+MDExOlB1bGxSZXF1ZXN0Mjc5OTMzMTM=,163,GitHubIssues fetcher is now aware of GitHub pagination,666cbed880a0b32225ce7a79b964bc08e9003341,4,
+MDExOlB1bGxSZXF1ZXN0Mjc5OTg1MDc=,165,Fix typos in CONTRIBUTING.md.,673193d56fc9cf60fda2a6998b8ae7b1ebc572ee,1,
+MDExOlB1bGxSZXF1ZXN0MjkzNDQyOTQ=,171,Replace CGLIB by Bytebuddy,a7185076bd5a713cabc4d9e487944d1213afbc74,50,
+MDExOlB1bGxSZXF1ZXN0MzE2NzQzNDM=,184,Fixes typo,560240de677fc45942b08c223f88910d85f89c9c,1,
+MDExOlB1bGxSZXF1ZXN0MzU4NjU4ODM=,211,ArgumentCaptor no longer working for varargs,30e16ddddae1710ad096356f5a421fe22596c4de,6,
+MDExOlB1bGxSZXF1ZXN0MzcwODIwOTE=,223,[#206] Fix issue related to windows path,d18bf920864021dc7b80dd521330921d97beddfc,1,
+MDExOlB1bGxSZXF1ZXN0NDMxMjIzNDU=,287,Implement VerificationCollector which can collect multiple verifications.,08b0daeea01e17a63b0c817ff3139ab918aec710,4,
+MDExOlB1bGxSZXF1ZXN0NDU0ODQ1MDU=,293,Remove validateSerializable(),a7eb0dcc6086dd040593dcf7d0680059748e3245,5,
+MDExOlB1bGxSZXF1ZXN0NDkxMDE3NjQ=,309,Tweaks to the main Mockito javadocs to aid readability,81357b4a423fa3ec475f303a3620784aabe1cec1,1,
+MDExOlB1bGxSZXF1ZXN0NTcxMjUyMjU=,344,Show correct location of unwanted interaction with mock when using MockitoJUnitRule,5169ee08b51408e677eb91fe47e62874b026f0b8,2,
+MDExOlB1bGxSZXF1ZXN0NjIyODk2MjQ=,371,speedup travis build a bit by downloading gradle-bin instead of gradl…,43bfa632dbe3bd50a786bda0ace706b3b9fe5d70,1,0.0
+MDExOlB1bGxSZXF1ZXN0NjI2MDE0MDE=,373,Fixes #365 Simplify the InvocationOnMock-API to get a casted argument,f2ec9da14192fa98f534dd8e01d4921fcc5c8c14,11,9.0
+MDExOlB1bGxSZXF1ZXN0NjMzMjc3NzU=,376,Fix typo in example in javadoc.,1a6cf39232bb50bbca6f4a39d77cbe60b16dc0bf,1,1.0
+MDExOlB1bGxSZXF1ZXN0NjMzMjg0MDA=,377,Remove duplication.,19ee92fb5ba7dbbc0f98e1e281be50f76522cef7,1,1.0
+MDExOlB1bGxSZXF1ZXN0NjQxMjAyMDk=,380,"Fixes the issue #379 by removing previously verified invocations, some tests were added to verify that works",31c7876f0693a1335c8e41b340e8580aa9a510ae,4,1.0
+MDExOlB1bGxSZXF1ZXN0NjQyNDY1OTc=,381,Fixes #312.  Added documentation in OngoingStubbing.thenThrow().,1e1e4a79cc251256d60f0e1d2dc6852e31ea6fcd,1,1.0
+MDExOlB1bGxSZXF1ZXN0NjUwMzIwMDU=,382,correct package declaration of VerificationWithDescriptionTest,93e8f027a6f3f3d36327aeef79c61945615b05b3,1,2.0
+MDExOlB1bGxSZXF1ZXN0NjU4OTA1MjU=,386,Remove deprecated code,66a7205945d201e01aa6043d5cfe1aa0ae08e622,15,11.0
+MDExOlB1bGxSZXF1ZXN0NjU4OTI2Nzg=,388,Fixed OSGi metadata generation,27a375a94026430e7a799c53813be7721700426f,1,0.0
+MDExOlB1bGxSZXF1ZXN0NjU5MDkxMTM=,389,Lazily verify without calling collector.verify(),ee4c012bbda510f5d733fcc8355c8bc94130189b,10,7.0
+MDExOlB1bGxSZXF1ZXN0Njc2NDY5NDk=,404,Fixes #374 Removed deprecated classes and methods,dff5510cb3e97dae414e58ba85825ad01b273c72,47,24.0
+MDExOlB1bGxSZXF1ZXN0NzAzMzk2MTM=,412,Fixed #407 Vararg method call on mock object fails,3da645d2d38e6be82bdcd2ee2bb7abf08deb74d9,3,2.0
+MDExOlB1bGxSZXF1ZXN0NzA0MjI5NDk=,413,Fixed method name to verifyNoMoreInteractions,5b78104b2dc45788fecc3426625dedcce216a0f5,3,2.0
+MDExOlB1bGxSZXF1ZXN0NzA5ODIyMzg=,419,BDDMockito: rename willNothing to willDoNothing,6eb50c2909eb10299437c659f2cc63c0a63b5f3e,1,1.0
+MDExOlB1bGxSZXF1ZXN0NzIxMTM3NzE=,424,Inorder timeouts,f2c5d3a02d211ba96e99f3c93133adac1df60f64,6,5.0
+MDExOlB1bGxSZXF1ZXN0NzM0NjgzNjc=,427,Refactored class Reporter to a static utillity,c138d2ca7b7e685a63062b403629cc11a88c7d37,63,26.0
+MDExOlB1bGxSZXF1ZXN0NzM1Mzg2MzY=,429,Added default answer for java.util.stream.Stream,79df116269dbd66ede2754531dd283898f8d02b1,3,2.0
+MDExOlB1bGxSZXF1ZXN0NzM4MDIxNTk=,431,Fixes #426 Dropped class HandyReturnValues,97c5a4f5e6e87a4b20d9a4fb4e09f9b89f113f3a,17,7.0
+MDExOlB1bGxSZXF1ZXN0NzM5MDc1OTk=,432,Fixes #426 Refactored InvocationMarker to a static utility class,3c4edc6b49ce4a30dcaf00a78cf014c245f2eefa,10,3.0
+MDExOlB1bGxSZXF1ZXN0NzQwMDA5MDc=,434,Very tiny typo.,d0baeb43aaf7532c78acaf16a9baa6e16c7e0d93,1,1.0
+MDExOlB1bGxSZXF1ZXN0NzQzNDAwMTU=,436,Clean up issues reported by IntelliJ,65ca49519a12d086e97eb24306127cb03d97ad40,75,37.0
+MDExOlB1bGxSZXF1ZXN0NzQzNjAyMzA=,441,delete ignored cglib related tests,713710f98e8e9b5acf938223fe5c7514c2aa7398,2,2.0
+MDExOlB1bGxSZXF1ZXN0NzQzNjEyMjU=,442,enable some ignored tests of BridgeMethodsHitAgainTest and DetectingF…,d6480148b28defa299b25230abe7f463f850350a,2,2.0
+MDExOlB1bGxSZXF1ZXN0NzQzNjE3ODI=,443,downgrade assertj-core version to 1.7.1 because this version is java …,7f3a64a1702ae9fce811e138cfa796c2a8c13583,1,0.0
+MDExOlB1bGxSZXF1ZXN0NzQzNjE4NzE=,444,Add PARAMETER ElementType to @Mock,e75b07853f855e2ae990a87a2cd50b971eed7cff,1,1.0
+MDExOlB1bGxSZXF1ZXN0NzQzNjUxODk=,446,Make tests which test for timeouts with Thread#sleep more lenient.,d3d4fb3c46925c21c4d0c8de3836e283cb7351eb,2,1.0
+MDExOlB1bGxSZXF1ZXN0NzQzNjU3NDg=,447,update objenesis version to 2.4,16269d57aaba369ce74e7219d7623f6c277aacda,1,0.0
+MDExOlB1bGxSZXF1ZXN0NzQzNzM4Nzk=,451,Refactored Timeout and After concurrent test,4e108fcb470f2683a2fd1607c952e96edb099c7b,3,2.0
+MDExOlB1bGxSZXF1ZXN0NzQzNzQ2NDU=,452,javadoc: improve grammar of some sentences,2979c4f7825162fa568bdb15d199ac4f11a6d03c,1,1.0
+MDExOlB1bGxSZXF1ZXN0NzQ1NjkzMjE=,454,Modified JavaDoc for ArgumentMatcher,9af742d476dbfc746e2cb09698af3524c96b49ec,1,1.0
+MDExOlB1bGxSZXF1ZXN0NzQ4NTQ0MDQ=,455,activate VerificationWithTimeoutTest#shouldAllowTimeoutVerificationIn…,44d50b516fb60da18cc4009d34050d97a719223f,1,1.0
+MDExOlB1bGxSZXF1ZXN0NzQ4NjExMTc=,456,fix some rawtype warnings,6a2a59a7278f979850115cb1a48242029a9cc2d2,6,6.0
+MDExOlB1bGxSZXF1ZXN0NzQ5OTkwODg=,458,remove dead code in ClassCacheVersusClassReloadingTest,3fe0fd7b6c5d8ce41dc4040d3ab3039f8369385c,1,1.0
+MDExOlB1bGxSZXF1ZXN0NzUwMDM0MDY=,459,fix some rawtype warnings in tests,a9fbccfc1b8d1127e319c82175223e737a246baa,9,7.0
+MDExOlB1bGxSZXF1ZXN0NzUwMTEzNTk=,460,delete disabled test for removed objenesis missing reporting feature,247a92aefebd241feec3d96e4b16dc2824df19f5,1,1.0
+MDExOlB1bGxSZXF1ZXN0NzUwMjk2MTc=,462,refactored InvocationsFinder to static utility class,ff033dcd307609bc223d3c4e27d622a9fa4029f2,15,3.0
+MDExOlB1bGxSZXF1ZXN0NzUwNDYyODg=,464,fix some rawtype warnings in tests,afdafecf4d88529658b7428271240e8f405c9019,13,6.0
+MDExOlB1bGxSZXF1ZXN0NzUxMzQ4MTM=,467,fix some rawtype warnings in tests,8bab53a9b64acc958b498aa9c4c3a2a2b515882f,7,5.0
+MDExOlB1bGxSZXF1ZXN0NzUyMzE5NDM=,468,add missing since javadoc tags for recently added methods and classes…,987a88ba91976945a220919bc9c9551ea29412c1,3,3.0
+MDExOlB1bGxSZXF1ZXN0NzUyMzI0NDE=,469,fix some rawtype warnings in tests,327b791ddd2cb25051824c9d962bf3783843ed62,13,7.0
+MDExOlB1bGxSZXF1ZXN0NzUyNDMwMjc=,470,Refactored mock cache to be non-blocking.,3e0f3169014903cb78a979d08340d9c21129e1c8,3,1.0
+MDExOlB1bGxSZXF1ZXN0NzUyNDMxNTE=,471,Reference correct types for multiple parent class loader if user class and Mockito are loaded by different loaders (e.g. OSGi),e689e9d810b2211aa191bdadfb42ec8baf11b444,1,1.0
+MDExOlB1bGxSZXF1ZXN0NzU4NDE3ODE=,475,Typo fix,94913acbd2347cb9f3027d5a0f314b881fd1ab29,1,1.0
+MDExOlB1bGxSZXF1ZXN0NzYwODQ1NzM=,476,refactored ThreadSafeMockingProgress to a singleton,eddd5042107aded6a81c74141f77345a71ca754a,16,9.0
+MDExOlB1bGxSZXF1ZXN0NzYwOTg2NjQ=,479,fix grammar of sentence in Mockito javadoc,ab6cf7fef02ec6e51ae2cd37c686252735abf6a6,1,1.0
+MDExOlB1bGxSZXF1ZXN0NzY0MTQyMjQ=,481,Exclude mockito internal packages from the Javadoc,b0393eafeeb81b6c75e40a82b81672543777ca9a,4,1.0
+MDExOlB1bGxSZXF1ZXN0NzY1OTg2MDg=,483,Update version scheme to publish release candidate,80ab0db765138a57b105c7a64676ebc38cb94f35,4,1.0
+MDExOlB1bGxSZXF1ZXN0NzY2NjkyMTU=,486,Cleanup: removed dead/unnecessary classes,5dd0f71ae37f75f3abc9b3d9ba7ad5cb4b79f38a,7,3.0
+MDExOlB1bGxSZXF1ZXN0NzY4NTcyNzM=,490,Atleast to static,c127ec83dd335dffa323a065f6d2da5f910b5ff4,11,2.0
+MDExOlB1bGxSZXF1ZXN0NzY4ODI5ODg=,491,Deprecate whitebox and corresponding verboserunner and junitfailureha…,3779f666dff4ab1c96bd66bd19122e9cdc3f6f94,4,3.0
+MDExOlB1bGxSZXF1ZXN0NzY4ODMwMzI=,492,"Revert ""Remove deprecated method""",758cfacab43ee1c601e7b8273b34a980e2203108,1,1.0
+MDExOlB1bGxSZXF1ZXN0NzY4ODQ1MTY=,493,Code cov on releases,272b32bb11a41d757c535675b9bfda0fa6ffd90b,3,0.0
+MDExOlB1bGxSZXF1ZXN0NzY5NTQ0OTc=,495,Moves Reporter friendly exception factory to internal package,ebedc83868a69005745b623241559b113c6de288,41,21.0
+MDExOlB1bGxSZXF1ZXN0NzY5NjAxOTQ=,496,Renames Matchers to ArgumentMatchers to avoid name clash with Hamcrest Matchers class,64117fd2743b7971cd7905a968fd2ea332df17de,3,1.0
+MDExOlB1bGxSZXF1ZXN0Nzc3MzUyMTQ=,498,remove unused imports,032d311248b618282b0bfca8765aa8597c6d23dc,8,6.0
+MDExOlB1bGxSZXF1ZXN0Nzg1NjExNDQ=,499,Fixes #401 - makes the JUnit runner detect unused stubs,657f4a5f49a693efd7847c3df21dc96682fd68a3,31,1.0
+MDExOlB1bGxSZXF1ZXN0Nzg2MDA0MTQ=,501,refactored TestMethodsFinder to a static utility class (#426),a33ceac71cb44dbb5afc91ec34ba9dc545e3b675,3,2.0
+MDExOlB1bGxSZXF1ZXN0Nzg2MDA3MjE=,502,refactored ArgumentsComparator to a static utility class (#426),58a9d2933acfbfd74f2001d8d035ecf55f1ad390,3,1.0
+MDExOlB1bGxSZXF1ZXN0Nzg2MDA5MzY=,503,refactored NonGreedyNumberOfInvocationsInOrderChecker to a static uti…,13b6f1c8e7e5bf5876aac9464a12006bd37139f4,2,2.0
+MDExOlB1bGxSZXF1ZXN0Nzg2MDI0NzU=,504,fixed some rawtype warnings,94c3b4ade7347ee4047fcc4c8552d0e8365efa90,11,7.0
+MDExOlB1bGxSZXF1ZXN0Nzg2MDM1NjQ=,507,Improved exception message - fixes issue 506,8fc9b5da2156cc8c038f2e2431459127b0901e1f,5,4.0
+MDExOlB1bGxSZXF1ZXN0NzkyMzk4MjA=,510,Fixes #194 tweaks any matchers,68c7812d29e39d0c459ffd21498018d7801561e8,31,17.0
+MDExOlB1bGxSZXF1ZXN0NzkyNTQxNDA=,511,Fix some warnings,f6f60e5b2683e0f7abcfb5f48ac6f55705fa73d0,51,23.0
+MDExOlB1bGxSZXF1ZXN0Nzk0MTUzMzY=,512,fix some raw type warnings in tests,b1a7090c2647bc02d3aff4c8b5788fd7b57133da,6,5.0
+MDExOlB1bGxSZXF1ZXN0Nzk0MjgyODI=,513,"replace TestBase#assertContainsIgnoringCase(String sub, String string…",50d90fcc9dc00dfe5f7ef6042a84227a36e24371,3,2.0
+MDExOlB1bGxSZXF1ZXN0Nzk0MzI0NjA=,514,refactored MockUtil to a static utility class (#426),3fe3b62d2bc5ac60bb85c4bed8870f51109d167c,29,19.0
+MDExOlB1bGxSZXF1ZXN0Nzk0MzM0NzY=,515,refactored AllInvocationsFinder and VerifiableInvocationsFinder to st…,19457ccfe4b9e6d021dd0d068cc4ec3d32145f4f,7,4.0
+MDExOlB1bGxSZXF1ZXN0Nzk0MzUwODY=,516,"replace TestBase#assertNotContains(String sub, String string) with As…",0410a870d21eb2aa8f6bc737a564e4a5a954b89b,5,4.0
+MDExOlB1bGxSZXF1ZXN0Nzk0Njc3ODk=,517,Make ciBuild depends also on subprojects state,2b5c057dcd8f620f22611b1bfe6e6c00ed728ccf,5,2.0
+MDExOlB1bGxSZXF1ZXN0Nzk0NjkyOTU=,518,Verify build on Travis also with Java 7 and 8,ed8671681e0bdea429b676c4f5be0b4847c3983c,2,0.0
+MDExOlB1bGxSZXF1ZXN0Nzk0Njk0NzU=,519,"replace TestBase#assertContains(String sub, String string) with Asser…",7465e7fcef951cadab36c08a4a164e60e68a5568,43,19.0
+MDExOlB1bGxSZXF1ZXN0Nzk0Nzk1OTE=,523,made some timeouts in VerificationAfterDelayTest and VerificationWith…,f1ba1fc93d306454353e6abd5a46dfe6e464c69b,2,1.0
+MDExOlB1bGxSZXF1ZXN0Nzk0ODY2MTI=,525,Add regression test for #508,66f4c8d95704b7c8ee5465e6a1f069f8c4bf2fa9,1,1.0
+MDExOlB1bGxSZXF1ZXN0Nzk3MzA3Njk=,528,Missing generics info on collection matchers,4283198a7ecccfbcf7f4d3ab480635b5edb2d556,2,2.0
+MDExOlB1bGxSZXF1ZXN0ODAyNjM2OTc=,532,Fix typo in Javadocs,21d71ca75040252e536865b5cb23c26e7e4e2972,1,1.0
+MDExOlB1bGxSZXF1ZXN0ODAzNTEwNTI=,535,refactored SuperTypesLastSorter to a static utility class,590aeff04d434f95ebd5ca46bf3539f77de51c38,4,4.0
+MDExOlB1bGxSZXF1ZXN0ODA0MTk2MjI=,536,Move release skipping logic to Gradle,dc1fb1b4c2043f4801200c01e277b6c4043c7424,2,0.0
+MDExOlB1bGxSZXF1ZXN0ODA2OTgxMDY=,540,inlined ArrayUtils.isEmpty() in ArgumentsProcessor,cf8c51ebb382964e69dd56f1c61088e4989646fb,2,2.0
+MDExOlB1bGxSZXF1ZXN0ODA3Nzg0NjE=,547,refactored ObjectMethodsGuru to a static utility class,af3f87a6bd2d104ad9ad1fb2969dfddf5437e036,7,4.0
+MDExOlB1bGxSZXF1ZXN0ODEwNjM3ODU=,549,Fully register a class ancestry for GenericMetadataSupport,27bcbbb03709b23d0efaa300dab6cd5b9d345a83,3,2.0
+MDExOlB1bGxSZXF1ZXN0ODExODA4NDY=,550,Fixed #538 changed error message in case initialization for mock injection fails.,fea4074f8d4a7b1f7b8e89d4819bef25b1b6228f,5,5.0
+MDExOlB1bGxSZXF1ZXN0ODEyMjIxMDY=,553,Uses the hosts addon in order to avoid the buffer overflow affecting …,49ef19a792247f2fa2b7febccb4838cedf76d61e,1,0.0
+MDExOlB1bGxSZXF1ZXN0ODEyNTEwMzQ=,555,JUnit rules report unused stubs - fixes #384,c3b4b9600f5434a67a3c083dc800763c7e7c5dbf,52,21.0
+MDExOlB1bGxSZXF1ZXN0ODEzMjEyMjQ=,556,Move Mockito internal classes to internal package,669a05c1dcc6423ae15d5cf04f40720e3a8f0765,7,5.0
+MDExOlB1bGxSZXF1ZXN0ODEzMjg0Mjk=,557,Replace or remove code.google.com links in documentation,a8c9b1c9a40a3702979b6feace16e1acd6349281,4,1.0
+MDExOlB1bGxSZXF1ZXN0ODE0MjI3ODU=,558,Update documentation links in travis config comments,2322a69d27eceab835382f9769e2aeb587180099,1,0.0
+MDExOlB1bGxSZXF1ZXN0ODE0NDcxMTk=,560,Fixes #554 : Checks.checkNotNull now throws IAE instead of NPE,38610245f27225fb7ce1b50dd355bd7b0ac86792,2,2.0
+MDExOlB1bGxSZXF1ZXN0ODE2MDUzMDA=,566,Make travis use OracleJDK7 instead of OpenJDK7,e38764fa0c5fb0373b8a82120b12a2b635e363a9,1,0.0
+MDExOlB1bGxSZXF1ZXN0ODIwNTM5MzI=,568,Ensured that MockitoJUnitRunner is thread safe wrt unused stubs detection,932fbf8de05194575555210236fe4931ab21103d,22,12.0
+MDExOlB1bGxSZXF1ZXN0ODIwNTgzMDE=,569,Improved the public API of MockingDetails,18d421778e1952f8e8f291201207702ac590edc9,4,2.0
+MDExOlB1bGxSZXF1ZXN0ODIwNjYzNjA=,571,Pretty print primitive and wrappers types in Maps,78214f71330b74fc436fe2f932647df39dbf03a0,6,3.0
+MDExOlB1bGxSZXF1ZXN0ODIwNzk4MzU=,572,"replace TestBase#assertContainsType(final Collection<?> list, final C…",92d71605142dda602d7f6032c187d223695f29d8,2,2.0
+MDExOlB1bGxSZXF1ZXN0ODIwODAwOTg=,573,replace TestBase#assertNotEquals with AssertJ #isNotEqualTo,e88200828a70efba36daf144850555973b6a77e5,2,2.0
+MDExOlB1bGxSZXF1ZXN0ODIwODA0OTQ=,574,fix some rawtype warnings,9af621596f39ffd367ae9b976e340730baa4c1ff,2,1.0
+MDExOlB1bGxSZXF1ZXN0ODIwODEwMjU=,576,Bumped Gradle and enabled Build Scans,64be0917781a12f42eeea44f199d7340b5693f73,8,1.0
+MDExOlB1bGxSZXF1ZXN0ODIxMTAyMjA=,578,made some timeouts in VerificationAfterDelayTest and VerificationWith…,d01911eb9040d21ba6763dfb90c5210bb480e1b9,2,1.0
+MDExOlB1bGxSZXF1ZXN0ODIxMTE2MzI=,579,fix some rawtype warnings,0e7d0ffbe2eb1e8a563b1db333b1b4e729b0b20a,11,8.0
+MDExOlB1bGxSZXF1ZXN0ODI0MDE5MzI=,587,make VerificationWithTimeoutTest#shouldAllowMixingOnlyWithTimeout mor…,434579ef4b68311fc58bae28d6dfcae52a26350a,1,1.0
+MDExOlB1bGxSZXF1ZXN0ODI0MDkxMTI=,588,Update version explanation with bad beta versions,229790dc71e8ef2257c4a74cc7b13d6e6c3dd01f,1,0.0
+MDExOlB1bGxSZXF1ZXN0ODI0MTA3OTc=,589,Reintroduces javadoc stylesheet,8ee3284cf86e8fecd810f564557cd05131c16b62,2,0.0
+MDExOlB1bGxSZXF1ZXN0ODI1MDY4OTA=,590,removed package org.mockito.internal.listeners,e16798aa06b6575ab525d6babe7cf939129af8b3,5,3.0
+MDExOlB1bGxSZXF1ZXN0ODI1MDc5MTI=,591,refactored ArgumentMatchingTool to a static utillity class,7fddf86a045387b675c84f31fe1dac287ce690fa,3,2.0
+MDExOlB1bGxSZXF1ZXN0ODI1MzczODQ=,592,stylesheet-tweaks-for-openjdk6,b0b2873f003ffcebe288e3a1c3867657f67d6245,16,8.0
+MDExOlB1bGxSZXF1ZXN0ODI2NTE1MzI=,597,Removed TODO and dead code,8adcac947b6656431046c88770c4d04f965d8c09,2,2.0
+MDExOlB1bGxSZXF1ZXN0ODI3NTMxODM=,599,Improved release notes generation,6da1e65a4ea014b1594efc90ab0841b254efee2a,8,1.0
+MDExOlB1bGxSZXF1ZXN0ODI5NDA2OTA=,600,suppressed compiler warning and unchecked collections cast,ff43fde23061fcf7e6b11d0094b30aebd587e7dd,2,1.0
+MDExOlB1bGxSZXF1ZXN0ODI5ODg4MDM=,602,Generate service-worker after generating JavaDoc for offline access,74ddc9933cf922c4153da21fae6c9afa083944ce,5,0.0
+MDExOlB1bGxSZXF1ZXN0ODI5ODk5MTY=,604,Release notes group improvements by labels,b669b4fa790171149b8383cc8f9c55cec32de934,13,3.0
+MDExOlB1bGxSZXF1ZXN0ODI5OTQwMDI=,605,"Fixes #595, going toward 2.1.0 instead of 2.0.0",a86113b621173e68bb9e1024735118469474a880,1,0.0
+MDExOlB1bGxSZXF1ZXN0ODMzNDc5MDM=,615,Fixes #497 : RETURNS_DEEP_STUBS may try to mock final classes,aef4dad12079a919d3813a5c690c7608032d5740,2,2.0
+MDExOlB1bGxSZXF1ZXN0ODM0OTM4NzE=,617,Moves arity interfaces of java8 helper answers to public API,10a40da7713f2f4d950fbb70d39c761f94b9e662,15,4.0
+MDExOlB1bGxSZXF1ZXN0ODM2ODIzMDA=,619,Fixes #548 from now on verification happens always call in other thre…,be04f4a8c70068e13f0a084ed6221eb77b407bd5,3,1.0
+MDExOlB1bGxSZXF1ZXN0ODM4MzQwMTE=,622,Allow build script to release any release parent branch,09304b59c6c6d7923db89e7a98fc3fc507a630e9,1,0.0
+MDExOlB1bGxSZXF1ZXN0ODQwNjE4NjU=,623,Updated the javadocs,9dac0061e9eee061a1aa5aa9161a027fd8f958af,28,14.0
+MDExOlB1bGxSZXF1ZXN0ODQxMjc4NjE=,626,Ensured javadocs are correct,732a3208cc853b6c1ccd96a2a309903c85bd2059,1,1.0
+MDExOlB1bGxSZXF1ZXN0ODQ0MDk3NTU=,627,Release procedure for branches and some javadoc,15cf2312df360f11282f3dec7915d4648e4ffb21,4,1.0
+MDExOlB1bGxSZXF1ZXN0ODQ1OTU4MzI=,628,Fixed javadoc documentation in the main class,bffa8f2c1dd9e9399e5268f8b7b4604e163c6e6f,1,1.0
+MDExOlB1bGxSZXF1ZXN0ODQ3MTUwNDI=,630,Fixes #629 - width of some headers in javadoc,6003d4ec9625735acfd38782dd984f3817febc25,1,0.0
+MDExOlB1bGxSZXF1ZXN0ODQ4NTk3NTQ=,634,Update Byte Buddy to 1.4.22,62c4305125390c360f955a8d57c3da114ee96320,1,0.0
+MDExOlB1bGxSZXF1ZXN0ODQ5MzY3NzU=,635,Unified logic of argument matching and capturing,120d2204f8ebe68b5c3d6c3e587df40777a5a3a5,10,3.0
+MDExOlB1bGxSZXF1ZXN0ODU2NzMxNDA=,637,Upgrade to Gradle 3.0,5928a703e913b6f17ad927c97fcc1e900d6f44ca,6,0.0
+MDExOlB1bGxSZXF1ZXN0ODU2NzY4OTc=,639,Update Travis configuration to also build on oraclejdk9,c2a670cf8c8c22c7fb54e7ffcce0fdc5e7264410,10,4.0
+MDExOlB1bGxSZXF1ZXN0ODU2Nzc1Mzk=,641,Update generated pom.xml with more project information,88329aa20973fdc71cb2816139f165148587e0ac,2,0.0
+MDExOlB1bGxSZXF1ZXN0ODYyOTY5MjE=,646,Fixes #640 Warns user to upgrade if Java 8 version is to low,a4aa848a9b59ce46a6abb5f6e4ad551afa063648,4,2.0
+MDExOlB1bGxSZXF1ZXN0ODYzMTkwODE=,647,A small fix on Mockito javadocs. Adding some styling and an anchor to section 12.,90d38c5fd97d5c4d1f5085e1b93a28415341612b,1,1.0
+MDExOlB1bGxSZXF1ZXN0ODY1OTcxNjg=,648,Added InlineByteBuddyMockMaker which uses the instrumentation API for redefining classes and inlining the mocking logic.,259cb7654672b0f65711a772ed325fa65720569a,47,16.0
+MDExOlB1bGxSZXF1ZXN0ODY2MTkzMDY=,651,Update AssertJ to 3.5.2,329a8f46ad685b6bfb315f649232b1d8ec5b8cc8,1,0.0
+MDExOlB1bGxSZXF1ZXN0ODY5NDIzMDk=,654,Renamed FailureDetecter to Failure Detector.,83d76ea7fcea66be81bf70802a44c08cb4f6cca2,2,1.0
+MDExOlB1bGxSZXF1ZXN0ODY5NjI2MDA=,656,Fixing the typo in JUnitDetecter class name,dbab2de80d29fa30cc2d641bed78190444b0fb77,3,1.0
+MDExOlB1bGxSZXF1ZXN0ODczMjg2OTY=,660,Adds a code style section to CONTRIBUTING document,f3179a22f8de1d5e6c98a5d7616f99023388d599,1,0.0
+MDExOlB1bGxSZXF1ZXN0ODc0MzUzODQ=,662,Upgrade to Gradle 3.1,2fac43f833e585ebbaa0148de28b1db3f6098c0a,5,0.0
+MDExOlB1bGxSZXF1ZXN0ODc3MzY3NzY=,670,Artifacts are now published to 'mockito' org in Bintray,ebd78aa5a602691636f014fe823847492bb949e0,2,0.0
+MDExOlB1bGxSZXF1ZXN0ODc4Nzg3OTA=,671,changed stackoverflow link to mockito questions,3f7b127bef65e49652b5900af4df3fa2ad972fda,1,0.0
+MDExOlB1bGxSZXF1ZXN0ODc4OTYzNTc=,672,Update Byte buddy to latest version,8d03d0ede9988d90d3d3f024599943f20b62168d,1,0.0
+MDExOlB1bGxSZXF1ZXN0ODc5NjIwNjM=,673,Removed duplicate test,adc1427d1616b647e1451360d01f9965619f5082,1,1.0
+MDExOlB1bGxSZXF1ZXN0ODgwMjkwMjE=,674,Fix typo in README,de820d337c6a2fa3b806e5301cc21a2d5299123a,1,0.0
+MDExOlB1bGxSZXF1ZXN0ODgwNzgyNjQ=,675,Move older releases to separate section,d85b43fdf5b9872c8e8765fbb6e38bac4ff6e51e,1,0.0
+MDExOlB1bGxSZXF1ZXN0ODg1ODQxNTI=,683,Updated release process so that Mockito can continuously deliver high quality features,d57139ff701adcde45991376116455dbdfb5f397,5,1.0
+MDExOlB1bGxSZXF1ZXN0ODkxMzI3OTI=,690,Enabled automated sync to central repository,c3ad0078d1e3428b551b373665945c879bcf6337,1,0.0
+MDExOlB1bGxSZXF1ZXN0ODkxMzQwMDY=,691,New API: Mockito.mockingDetails(mock).getStubbings(),19cc5095ba9d80b48cd576271a7756e4dc5de558,17,9.0
+MDExOlB1bGxSZXF1ZXN0ODkzOTAwODg=,693,Improved the format of arguments in verification failures when describing short and byte values,ce8634d9210321c64443422e8de77acddb8964a8,3,2.0
+MDExOlB1bGxSZXF1ZXN0ODk1NTgxNDM=,698,New API: MockingDetails.printInvocations() for debugging mock behavior,af0763cc028fb27967a6b9c90a6e3622a24a556c,14,6.0
+MDExOlB1bGxSZXF1ZXN0OTAyNzY1MzA=,704,DelayedExecution uses now a more precise approach to call a mock async.,4e852820cc599b57e99fa95c4c0bcd38d3a0ab9b,3,1.0
+MDExOlB1bGxSZXF1ZXN0OTAzNzQ2MDc=,705,Fixes exception typo,1b3de84705c5eed0db0d44901702a10f73b55d96,1,1.0
+MDExOlB1bGxSZXF1ZXN0OTA1NTA4ODE=,709,Simplified release process by hosting javadoc on javadoc.io,3cb96bf0904b4b30713eb7fe733371f7f80bce5e,2,1.0
+MDExOlB1bGxSZXF1ZXN0OTA1ODYzMzA=,711,"Fixes #707, adds throwable to arity answers, also improved javadoc",5d74ab11bc7358b195429e275c9fe8f29fb55ffe,10,1.0
+MDExOlB1bGxSZXF1ZXN0OTEzNzQ4ODk=,719,Verification listeners,b9f1511567fa96cfba89528883f70d24c90d18e7,8,6.0
+MDExOlB1bGxSZXF1ZXN0OTE0OTc3OTU=,723,Release automation tidy up,abc2a3f90cc64de69e4a5091ae6e474e64f53bd3,6,1.0
+MDExOlB1bGxSZXF1ZXN0OTE1MjQ3MzM=,724,Added new release workflow for release automation,ff951328c1bfb2ed05752ac07836db508654688b,21,3.0
+MDExOlB1bGxSZXF1ZXN0OTIxOTM2MjU=,734,New nullable(Class<T>) matcher for convenient matching of nullable arguments,43a2bfcbfebcb68b94d8ff2a6922b032b758e2d8,2,2.0
+MDExOlB1bGxSZXF1ZXN0OTIyNjgyOTQ=,735,Exposed existing verification API so that it no longer leaks internal API,2106e4b51fedc1324a9b5c16d2907c56913aba22,26,8.0
+MDExOlB1bGxSZXF1ZXN0OTI2MzM5MjU=,745,Removes deprecated way of documenting package by package-info.java,f0fdf8f7daea88faeaf845fb8e2f2eae805190ac,89,49.0
+MDExOlB1bGxSZXF1ZXN0OTI2NzY1MDk=,746,Add missing copyright headers,c8f07c70a2e2be4714b4fc6a1a7f6e8b473b3bac,102,33.0
+MDExOlB1bGxSZXF1ZXN0OTI3ODc5MTA=,747,Allow fluent usage of Mockito.framework() listeners methods,03420644b2b52ef84195175be6e85acd360af17a,2,2.0
+MDExOlB1bGxSZXF1ZXN0OTI3OTQzMzg=,748,Regroup Junit classes in junit packages,312d7e327f77cfc447a3a03ee1fbfd74eaa7384c,45,19.0
+MDExOlB1bGxSZXF1ZXN0OTM0Mjg5NDk=,751,Pushed release automation code into separate GitHub repository,2025a1830ff356124c808bffb9306582a5d40c6f,92,13.0
+MDExOlB1bGxSZXF1ZXN0OTM1MDg3OTI=,754,Improved documentation regarding unused stubbing detection,0d24b6391fe99d1af7cf176b1c09f295cda964d0,3,3.0
+MDExOlB1bGxSZXF1ZXN0OTQwNjg1ODA=,759,Updated the verification documentation to correctly use argThat with Java8 lambdas,ff8b3a86317a429d7d30ad9c1eb830e9ee484d03,1,1.0
+MDExOlB1bGxSZXF1ZXN0OTQxNjQ3NzA=,763,Fixes #762 Removes ReturnsEmptyValue javadoc references,235fd4d850a2fe25a2c871bfacf35d7672708e3c,9,5.0
+MDExOlB1bGxSZXF1ZXN0OTQ1MzAyMDI=,771,Fixes #731 Implements retry rule for flaky tests,ae3bf511d3cf932072999b76962fa1927bb7b8ce,3,2.0
+MDExOlB1bGxSZXF1ZXN0OTQ5MTQ0MDI=,772,Fix typo in README.md,b904694ca3dd8ffe7879885d8197fb59f88c9bb3,1,0.0
+MDExOlB1bGxSZXF1ZXN0OTUxMzc3NjE=,774,Added subproject for supporting class loading on Android.,e4673b53d25c15bddedbc6d76c8f910340e9fe64,11,3.0
+MDExOlB1bGxSZXF1ZXN0OTUzMDMxMjU=,775,Removed private isMockitoMock(..) in MockUtil,64d2ba9655c2abbf6cfbdc2b8ef8cfab33be0b4a,1,1.0
+MDExOlB1bGxSZXF1ZXN0OTUzMDUzNTc=,776,InvocationMatcher internal improvements,f9f26e6a59083d56c9fb0b8c3457040868690a63,1,1.0
+MDExOlB1bGxSZXF1ZXN0OTUzMDgzMTc=,777,Replaced ObjectBox with AtomicReference,c8830164dde53dba6e6e54a3ee699a92d906f024,2,2.0
+MDExOlB1bGxSZXF1ZXN0OTUzMTI0MDc=,778,ValuePrinter small improvements,1d09b3e628f0f12dab269d4bff167c9c19b40ea9,1,1.0
+MDExOlB1bGxSZXF1ZXN0OTUzMTM3NDA=,779,Removed argument from MockingProgress.stubbingCompleted(..),36d35f3daf7cb6eeb947ea93075cb57dc6cc5879,3,2.0
+MDExOlB1bGxSZXF1ZXN0OTUzMzA0NzU=,780,Fixes #765: Set files encoding to UTF-8,2e0533f3ed48ea838cf38a7dbeaaf4bcc11317b8,1,0.0
+MDExOlB1bGxSZXF1ZXN0OTUzMzYxOTY=,782,Introduce default answers for primitive Optionals/Streams,db40b8c2fb5436c47da33c753bf3c6482de8460f,3,2.0
+MDExOlB1bGxSZXF1ZXN0OTUzNzY2Nzg=,783,Simplify `ReturnsEmptyValuesTest`,d0efa8c901af187fbaa7f6e4cc52c5c3e7aece15,1,1.0
+MDExOlB1bGxSZXF1ZXN0OTU0MDY3OTQ=,785,Backport 'release/2.x' changes to master (20161127),6eaa2d0bab532196468d364d84cc1e9f44f77dea,350,83.0
+MDExOlB1bGxSZXF1ZXN0OTU0MDc0NjU=,786,Add showing stacktrace in Travis build,9d43e40cd6fa8ec831e0a905afd8525484703911,1,0.0
+MDExOlB1bGxSZXF1ZXN0OTU1MjcyMjA=,791,Test improvements,75d7316fe9c80b7973597ba890c843b71c7a7a7e,2,2.0
+MDExOlB1bGxSZXF1ZXN0OTYwMzI3MTU=,795,Deep stubs no longer cause unnecessary stubbing exception with JUnit runner,d52d8f4d6c543a8666991f4aec41098434e27639,3,3.0
+MDExOlB1bGxSZXF1ZXN0OTY5MTQ2MDQ=,803,Adds a warning for IBM J9 VMs if mock generation fails,fbd953522cc2db80c08faaabcf09055599a9b465,4,2.0
+MDExOlB1bGxSZXF1ZXN0OTczMDgyNDQ=,805,Never throw mockito exceptions from a plugin type's constructor,66d0a356f9536143717f98ad1a119dce2a961f2f,2,2.0
+MDExOlB1bGxSZXF1ZXN0OTc0Mjc0NDM=,807,New opt-in stubbing strictness implemented in JUnit rules,aa91de287148a52654b9169acff33b596bb4bd89,36,15.0
+MDExOlB1bGxSZXF1ZXN0OTc0NDM1ODQ=,808,JUnit runner reports argument stubbing mismatches,064a3f24db34c2541c4b286a7295028690112bda,19,7.0
+MDExOlB1bGxSZXF1ZXN0OTc0NDgwNjU=,809,Automated publication of mockito submodule like mockito-android,0db8f0476d6dfee44c164349a69a45f7767577b3,18,0.0
+MDExOlB1bGxSZXF1ZXN0OTc1OTYxMTM=,811,Enable annotation engine as plugin,ca5291c05a7f4a194fec23a3ffa107734e289042,18,8.0
+MDExOlB1bGxSZXF1ZXN0OTc2MzM5ODk=,813,[#798] Upgrade Jacoco to stable 0.7.8,5ee677b834032c69edc430464d27b1e58916e364,1,0.0
+MDExOlB1bGxSZXF1ZXN0OTc5NjMwNzk=,819,Fixes bug were previously verified invocations could not capture argu…,5b892f525b2eb8f9efeb1d1529181e5e6c70eded,3,2.0
+MDExOlB1bGxSZXF1ZXN0OTgwMDQwNTQ=,821,Fixes #820 ReturnsArgAt to handle returning vararg as arrays,40ab88b61d0a37c55d3f0bc39e07bb5c9efb8a49,5,3.0
+MDExOlB1bGxSZXF1ZXN0OTgwNjMyMDk=,823,Only resolve instrumented method after validating that an instance is…,8c5f1bdbc081f1f476dffad1082a6fc482239e98,3,1.0
+MDExOlB1bGxSZXF1ZXN0OTgxNTQwNDk=,826,Introduce validable answers for early validation of stubbing,126308910d3a88db5ba701a55cb5178201105cdc,22,6.0
+MDExOlB1bGxSZXF1ZXN0OTgyMDEyNjg=,827,Test for verification listeners test can introduces bogus erro in other test cases.,2105afc9792643c362f46a64d92a15e9642e6e8e,1,1.0
+MDExOlB1bGxSZXF1ZXN0OTgzMTM5MDc=,829,Update to build scan plugin 1.3,b5b087e1ca7868e0c0e187ae955526884b8ff136,1,0.0
+MDExOlB1bGxSZXF1ZXN0OTgzNjQzMjE=,830,Improves exception message in case a matcher is used for a primitive parameter,baa4e81cf7a1640c1b6644c556c73d5d3bf025fd,4,4.0
+MDExOlB1bGxSZXF1ZXN0OTgzODgyMTM=,831,Test clean up according to discussions for RememberingListeners,a75b5a11dfd904d424659cb029c0434598e9ff4d,2,1.0
+MDExOlB1bGxSZXF1ZXN0OTg0NTUwMzU=,832,Fixed problem with publication,c024870e6df8a748a3f1ce5008a315fa490e28da,3,0.0
+MDExOlB1bGxSZXF1ZXN0OTg0NzYyMzI=,834,Release automation fixes,1e782e7357f2ae8394adecbfb5c0a0144d7ac01e,3,0.0
+MDExOlB1bGxSZXF1ZXN0OTg0OTk5MTI=,835,Publication fixes - workaround for Bintray plugin/Gradle bug,e6624295944d10d72908be61440d8ded247331f0,3,0.0
+MDExOlB1bGxSZXF1ZXN0OTg1ODExNTI=,836,Main jar automatically publishes to central,78212d8fdc8791efe7f4ca4f48d89a6718fdd1ea,1,0.0
+MDExOlB1bGxSZXF1ZXN0OTg2ODY1Njc=,837,Disabled maven central sync,3a4402c0db5e559e057d145289471f2b4b3cb551,1,0.0
+MDExOlB1bGxSZXF1ZXN0OTkxMDcxOTM=,839,Fixes #838 : Adds a matches(Pattern),1193d14587bfa2344ce07e2e16adbc5ba32c4be4,4,3.0
+MDExOlB1bGxSZXF1ZXN0OTkyMDYyODQ=,842,Added missing Javadoc and few other tidy-ups,3248b5b79768545a7fbb164cf4eb74a75347e078,17,8.0
+MDExOlB1bGxSZXF1ZXN0OTkyOTA3ODA=,843,JUnit rule strictness can be tweaked per test method,b7e5838a50ab6fbf2c6ba62f0888b7c03ecd368f,14,8.0
+MDExOlB1bGxSZXF1ZXN0OTkzMTIwMjk=,844,Automatically publish main jar to central,18320605e0f1b161581263864c97848f41b1a9f6,1,0.0
+MDExOlB1bGxSZXF1ZXN0OTkzNzYwMTU=,847,Rename compiled MockMethodDispatcher class so that it works with Robolectric,228e3a5b171a782cc5dcf022d123064c23ef2d31,7,3.0
+MDExOlB1bGxSZXF1ZXN0OTk0MDkxODQ=,850,Stopped publishing java source inside main jar,7580787a02fd913a8aae76f8120abd7848ad493f,2,0.0
+MDExOlB1bGxSZXF1ZXN0OTk0NDk5NTU=,852,Update Byte Buddy to support recent Java 9 builds,7800ab9a397d239857f108d48431f4861d314dea,2,0.0
+MDExOlB1bGxSZXF1ZXN0OTk1MjA0MDI=,854,Mockito JUnit Runner supports strict stubbing,ca7a6745bfb757d481e844d2936ea46e70d40fb7,12,10.0
+MDExOlB1bGxSZXF1ZXN0OTk3ODk1NTQ=,858,Safeguard for MockitoListener API,ee91c6b16cf3721669078f0af82156c646f6ca1d,9,8.0
+MDExOlB1bGxSZXF1ZXN0OTk4MDU0NTI=,861,Backport 'release/2.x' changes to master (20161231) + fix for #860,770c1c5eaa311ca4c0a78e924ab69319be523384,159,47.0
+MDExOlB1bGxSZXF1ZXN0OTk4NTg5MjA=,864,Updated to Byte Buddy 1.6.0,2cc2631bc0a1e5efba338511392a28763d67c947,10,2.0
+MDExOlB1bGxSZXF1ZXN0OTk5MDQwODk=,865,New strict stubbing API - MockitoSession,3818e07ec099f3157d16f3df16923e1216d4b817,28,15.0
+MDExOlB1bGxSZXF1ZXN0MTAwMTIxODIy,867,"Fixes #866 should not throw NPE, when custom Exception fillInStackTrace returns null",f86a598594e4c732a13193fc95a00b5775099631,2,2.0
+MDExOlB1bGxSZXF1ZXN0MTAwMTI4MDE2,868,"Fixes #860, jacaco synthetic fields are not anymore final in 0.7.8",64c2f61274a59eb3d86f1f122d71a80d9a1231be,2,1.0
+MDExOlB1bGxSZXF1ZXN0MTAwNDY2NTE5,870,Remove redundant defaultAnswer(RETURNS_DEFAULTS),011e340b63436c00d8fe1b8c563d9c0141cc6b11,1,1.0
+MDExOlB1bGxSZXF1ZXN0MTAwNTY5OTQ4,872,Prepare Android library for publication and bump version to 2.6.0,c64a71568399626dbd46ec2d570464c29a0af557,3,1.0
+MDExOlB1bGxSZXF1ZXN0MTAwOTgzNDU2,875,Update Byte Buddy and enable injecting loading strategy for Android,95721181c711795878b9d1d51b885021b6c321e9,3,1.0
+MDExOlB1bGxSZXF1ZXN0MTAxMzM1Njcx,880,Fixes #879: ArgumentMatchers javadoc grammar improvement,fd2a49b33d878d5080c70dfe876bc5da2fed7cf1,1,1.0
+MDExOlB1bGxSZXF1ZXN0MTAxMzgyNTM5,881,Fixed #879: ArgumentMatchers grammar fix,7f1c60d354f06da4eb8f05e22fe200945bfe2fe0,1,1.0
+MDExOlB1bGxSZXF1ZXN0MTAxNTU1Nzg0,884,Fixes #882: Upgrade to Objenesis 2.5,695eb9bf2cd8c76cdcdb91bf68b9292894249d44,2,0.0
+MDExOlB1bGxSZXF1ZXN0MTAxNTkwNDY4,885,Spy annotation reports better error message if instance creation is impossible,fdb18b26e94964e4d51019d24ceb901d246906df,4,4.0
+MDExOlB1bGxSZXF1ZXN0MTAxNjA1NTQ5,886,Fixed build for external contributors,307cffd4201395ab304c3842bc74dc11336243ae,1,0.0
+MDExOlB1bGxSZXF1ZXN0MTAxNjA5MzY2,887,Fixes #882: Upgrade to Objenesis 2.5,b6e844d69b0cbec90fc5714513b09be7c0676a4e,2,0.0
+MDExOlB1bGxSZXF1ZXN0MTAyMzA1OTQ4,891,Update to Byte Buddy 1.6.4: Fixes bridge method resolution for generic types,ad95f31595ae8978774c9d731dc23a3f1b40beb1,3,1.0
+MDExOlB1bGxSZXF1ZXN0MTAyNDcxMjM3,893,Add detection for Android environments and give warnings if used incorrectly. Corrected documentation.,da4e42837f101d1dc6761a6ec6b080ce4e1e310e,3,3.0
+MDExOlB1bGxSZXF1ZXN0MTAyNDg2NTAw,896,Clarify documentation for consecutive stubbing,46aab5420904b731c4351c6fcd250f647a8f90ba,1,1.0
+MDExOlB1bGxSZXF1ZXN0MTAyNTgzMTIy,897,CleansEmpty value returns empty arrays,783d1fa37e3a7d483ed56907262424631a3442d9,6,3.0
+MDExOlB1bGxSZXF1ZXN0MTAyNjc0MDcw,902,Fix TypeCache dead lock,ec71d3bc93648c6cf4a9575a968b6801a294312d,3,1.0
+MDExOlB1bGxSZXF1ZXN0MTAyNzMwNTYy,905,Fixes #814 : A elements were missing the name attribute,d8f529ee4b254c57edc1a97d0505ac57da7c7225,1,1.0
+MDExOlB1bGxSZXF1ZXN0MTAzMjk3MjA3,907,Unified all number of invocations checker in NumberOfInvocationsChecker,8f9d6ff2fd674bce3ee3aaba2a282d816eed2e60,7,2.0
+MDExOlB1bGxSZXF1ZXN0MTAzMzAyMzgw,908,Simplified the creation of ArgumentsAreDifferent-Exceptions.,806699853a2b6af9306d8e9984568c3d206289aa,6,2.0
+MDExOlB1bGxSZXF1ZXN0MTAzNDU0NzM1,909,Upgrade Gradle Wrapper to 3.3,cdc0028f4d681126a9ab0b2feecb392495a3b526,3,0.0
+MDExOlB1bGxSZXF1ZXN0MTAzNjQ0Nzc2,912,Small improvements,98de08d05d2ed0b047bc7b5451e93ffa29bc9131,2,2.0
+MDExOlB1bGxSZXF1ZXN0MTAzNjQ1NzY5,914,Refactored RemoveFirstLine to a static utility class.,ec61a3b6c645b273d238b5e6e6b0cd621f31fb64,18,10.0
+MDExOlB1bGxSZXF1ZXN0MTAzNjUxMjIx,916,Improved release automation documentation,59a544060fbddd9fec8d430cc54fce442d16654e,1,0.0
+MDExOlB1bGxSZXF1ZXN0MTAzODkzMDcw,920,Added subproject for configuration-free inline mock making.,087e12614be2d9d8c897fdb38860680dd60120a3,4,1.0
+MDExOlB1bGxSZXF1ZXN0MTA0NDAwMjQ3,923,SmartPrinterTest toStirng() calls,475e8da7477d2830c154c0f9f08d5e111af1c1a0,1,1.0
+MDExOlB1bGxSZXF1ZXN0MTA0NTMzOTk5,924,Deleted dead code,fcb257b611e7e5884a32cdaf3d42efd1e92fa8c7,1,0.0
+MDExOlB1bGxSZXF1ZXN0MTA0NTUyMDAy,926,Remove string concatination inside an append call,4d1aca0d304d28ce27ec578ddbc60f7482f3b4c1,1,1.0
+MDExOlB1bGxSZXF1ZXN0MTA0NjU1NzM4,928,Fix whitespace issues throughout the code,fb5738f071ad516f628e78b4790684f19bba4ee3,375,80.0
+MDExOlB1bGxSZXF1ZXN0MTA0NjgzMTcx,931,Fixes #929: Move the resources directory to src/main,9b42765150f193c952a856fa77d9b617648160f0,4,1.0
+MDExOlB1bGxSZXF1ZXN0MTA0NzE2NjI3,932,Checkstyle conf. to enforce whitespace rules,441540c9c6cca8b58e822d39eda3d1dcefe309be,8,2.0
+MDExOlB1bGxSZXF1ZXN0MTA0NzkwNzc5,933,Support for return type 'Void' in DoesNothingAnswer,275586ecf3a00da078b6fb7e9cc4508231cc4301,9,5.0
+MDExOlB1bGxSZXF1ZXN0MTA0ODA5MDU5,934,Fix JavaDoc generation on recent JDK 8 builds,64ab2f7f52c2cc8f0a3381df5fecbc8d30b5d765,1,0.0
+MDExOlB1bGxSZXF1ZXN0MTA0ODExMTQ3,935,New feature - enable mocking using constructor arguments,6a82c030756a30932406d6b807e7ca34f20631e3,11,6.0
+MDExOlB1bGxSZXF1ZXN0MTA1MTc4Njkw,938,Fix build error for mockito-android,cc18d069da85ea501995431a39fea2d3769d8a0b,9,
+MDExOlB1bGxSZXF1ZXN0MTA1ODA3NDc0,942,Allow spying on interfaces so that it is convenient to work with Java 8 default methods,bba71f645680a33d0d21fef49aa916399c0bc9b9,5,4.0
+MDExOlB1bGxSZXF1ZXN0MTA2NjA2MzM0,953,Fix Javadocs on MockitoRule.java to correct an error on its usage.,c81d80100f713c87dde74126e0352eb530931b99,1,1.0
+MDExOlB1bGxSZXF1ZXN0MTA2NjM4MTgx,954,Remove Gradle 5 depracation warning,ce6b94066da0b2d133ece284ce534004f30cee04,1,0.0
+MDExOlB1bGxSZXF1ZXN0MTA2NjM5Nzcx,955,Display release warning only when needed,a3dba9369723a3d864bdfb39022e6ed10383fba5,1,0.0
+MDExOlB1bGxSZXF1ZXN0MTA2OTExMzMw,959,Fix broken build,fe505941cd781c90979b5e2655f1c596858af926,2,2.0
+MDExOlB1bGxSZXF1ZXN0MTA3OTY0Nzkz,966,Add editor config to automatically adhere to code style guide,b413bbeee9f6dc4b61bee8fb394c0c376dc48075,2,0.0
+MDExOlB1bGxSZXF1ZXN0MTA4MDEyMTYz,968,Enabled local testing of release tools,912fbe6b00eac34dd410a0f022efa360f421f490,3,0.0
+MDExOlB1bGxSZXF1ZXN0MTA4NjM1Nzg0,972,Verifies #688: Acceptance test to prevent future regression,a9e1e7f1ebad912e6ce8a5ae6b6d8ac3bc9c8e29,1,1.0
+MDExOlB1bGxSZXF1ZXN0MTA5MTcxNDQ2,975,Corrected a comment in exceptions package-info,b3d570bab6240ba4ef33f4f456c62fa24090eaa4,1,1.0
+MDExOlB1bGxSZXF1ZXN0MTA5MzYyNjIx,979,Fixes #974: Fix to get correct stubbing location with inline mocking,ccd5e85a0c60e7f3ae10ac86db1e5110966e9d41,5,3.0
+MDExOlB1bGxSZXF1ZXN0MTA5NDQzNjU0,980,Fixes #976: Resolve ambiguous constructors,9888504f277d525b3c3c262e234a74a5a8fc637f,2,2.0
+MDExOlB1bGxSZXF1ZXN0MTA5NzMzNTM0,983,Break cyclical compile time dependency on hideRecursiveCall,723d341ed8fc5decb7c358e557c76852ff219441,3,1.0
+MDExOlB1bGxSZXF1ZXN0MTEwMDk0Nzcx,985,Fixes #981: Update Javadoc about the 'mockito-inline' artifact,d9a1e515f7d7ec1fd291292b3203995eafcf01a5,1,1.0
+MDExOlB1bGxSZXF1ZXN0MTEwNTU2NTgz,986,Made CaturingMatcher threadsafe,12c18af1333b8573a22327754cf1b3ae56d91bdc,2,1.0
+MDExOlB1bGxSZXF1ZXN0MTExNjIxMzgy,994,fix the broken link on 1357 line in Mockito.java,4315da8cc7d4f7d60f9cf8d5ef0c7550ef0580cd,1,1.0
+MDExOlB1bGxSZXF1ZXN0MTExNzI2ODA0,995,verifyZeroInteractions guarantees zero interactions instead of just delegating to verifyNoMoreInteractions,17db34508543150a70573fba3ca04bc4ba37a821,20,11.0
+MDExOlB1bGxSZXF1ZXN0MTExNzI5MjM2,996,Add explicit mention for code style check,0fe2644767b4526e4db961b511f9c59c34158e6c,1,0.0
+MDExOlB1bGxSZXF1ZXN0MTEyMDgyMTky,999,master branch: Fix JavaDoc generation on recent JDK 8 builds (#934),d6e9dc35dcc5630e92de681edc03d13eb8fa6e21,1,0.0
+MDExOlB1bGxSZXF1ZXN0MTEyMTU0NDQ4,1001,Fix release notes badge,7567f77e43610efdba06664248d1b572c0c9a677,1,0.0
+MDExOlB1bGxSZXF1ZXN0MTEyNTU0MzI5,1007,Fix test failing with Java 9-ea+146+,3b3909f318268cdcedcd7609555fac3ce5e1d3cf,1,1.0
+MDExOlB1bGxSZXF1ZXN0MTEyNTU2NTE5,1008,Sample usage of soft assertions,62a1d8828e7afb0f06dc6f4d135b54824d5eccf8,2,1.0
+MDExOlB1bGxSZXF1ZXN0MTEyNTc4OTAx,1009,Clean up unused imports,aa18f994b05999496f1396f62573b5c7b2dd0a16,34,23.0
+MDExOlB1bGxSZXF1ZXN0MTEzMjMxNDgy,1010,Bumped version to fix CI build,2dd5d43ad3662ebf0ccfa4ba159c68c864f8b62c,1,0.0
+MDExOlB1bGxSZXF1ZXN0MTEzNDY5Mjgz,1011,Tidy-up in build automation,47a63013a79ae5014f8afcc181b46a5e5b03888d,4,0.0
+MDExOlB1bGxSZXF1ZXN0MTEzNTAxNzY3,1012,Do not suppress instrumentation exceptions,950e44078a893604299569cfa13b38730dcb1dee,1,1.0
+MDExOlB1bGxSZXF1ZXN0MTEzNjc4NjY2,1016,Fixes #991: Backport MockitoV1CompatibilityMatcher from 2.x to aid in…,b78feec9d3d50e2a01746ead4e3d6f34e6ee7636,4,1.0
+MDExOlB1bGxSZXF1ZXN0MTEzODYwNDY4,1018,Enabled continuous delivery via robust mockito-release-tools project,7fdcd5e45c5b65d8288a2261b65ed6d349d1c225,14,0.0
+MDExOlB1bGxSZXF1ZXN0MTE0MzIyMDg2,1021,Change release build to JDK 7 with binary compatibility for Java 6,314832df6c07cb3d18e6b6f08b0b5f444bf2c8ff,3,0.0
+MDExOlB1bGxSZXF1ZXN0MTE0MzQ3NjM3,1022,MatchersTest numeric literals,5f3bfa100e7dcc26d291905fc2c2bf58630e3025,1,1.0
+MDExOlB1bGxSZXF1ZXN0MTE0ODI4OTQz,1023,Fix broken link in Mockito javadoc,9f82f1671e57c706a9d7d785e6533aa78592c247,1,1.0
+MDExOlB1bGxSZXF1ZXN0MTE0OTI5MDE0,1025,SmartPrinterTest toString() calls,6438ed18e7a618060414b3a31e6fc73c8d374088,1,1.0
+MDExOlB1bGxSZXF1ZXN0MTE1MzE1NDYy,1027,Fix some issues reported by SonarQube,5dd1682aeb52368cc3015f01ad65e77025e6d973,6,5.0
+MDExOlB1bGxSZXF1ZXN0MTE1NDY1Njgx,1030,Fixed notable version,672633fab2ee2d954845da62bcc2ff7ee86a18b6,1,0.0
+MDExOlB1bGxSZXF1ZXN0MTE1NTIzOTY0,1032,Support for Kotlin suspending functions,e3dd381b65b6696b16f77f801bbfe5f25ce38239,10,4.0
+MDExOlB1bGxSZXF1ZXN0MTE1NzA1Mjc3,1034,Fixed typo in configuration,1d6847a284c02e7553fb26c2e6cd96f58d0349b2,1,0.0
+MDExOlB1bGxSZXF1ZXN0MTE1ODAzMTcz,1035,Fix NullPointerException in JUnit test runner when test fails early in initialization,589a7fc7421e28866fe03464d0a33bb13de8bb68,2,1.0
+MDExOlB1bGxSZXF1ZXN0MTE1ODQyNjgx,1036,Remove duplicated code,712b409dcf859dc0dd16508d07dcfe53877cdeca,3,2.0
+MDExOlB1bGxSZXF1ZXN0MTE1ODk1NTc2,1038,Fixed glitches with notable releases,7df8cc1179b46857171c1c85f8488f213588da2b,4,0.0
+MDExOlB1bGxSZXF1ZXN0MTE1OTUwNDEy,1039,"Automated publishing in Bintray, documentation",4e4d689b1087c7c42795a99d26ded4247c8af8f1,1,0.0
+MDExOlB1bGxSZXF1ZXN0MTE2MDYwMzQ4,1040,Fix javadoc issues,70143b79fb848a0a347d11d4893a2c899857fad8,5,5.0
+MDExOlB1bGxSZXF1ZXN0MTE2MTU0OTI4,1041,Backport fixes of release/2.x to master,296b760baabced083852e65ef920c5a20cc3177e,356,81.0
+MDExOlB1bGxSZXF1ZXN0MTE2NTc1NDAz,1045,Fixes #1044: change example for alignment of throws declaration,866cb493448f2622e1deeed85cad0bcc8a29819e,1,0.0
+MDExOlB1bGxSZXF1ZXN0MTE3MTU2MDM4,1048,New notable version 2.7.22 and bumped release tools version,3656fce6673a49fcd8c486e4ae81448a6b5435ab,4,0.0
+MDExOlB1bGxSZXF1ZXN0MTE4MDczMTc2,1052,Fixed problems with releases,b83aeadbe64218d438f32b25d9480c9d989e69ab,2,0.0
+MDExOlB1bGxSZXF1ZXN0MTE4MjY0MjAx,1055,Bumped version of release tools,f2be43d7d52ddde0a3997060cd079d413085ebee,2,0.0
+MDExOlB1bGxSZXF1ZXN0MTE4Mjk2NDE2,1057,Ensured the release actually happens automatically,ca3ddd814329bd212fd098085ebafc72532e211c,1,0.0
+MDExOlB1bGxSZXF1ZXN0MTE4MzE3NTE0,1058,Test code refactoring - updated assertj test dependency from 1.x to 2.6.0,a1e7c0bf1611d00d8283406a29bd914212abda05,2,1.0
+MDExOlB1bGxSZXF1ZXN0MTE4MzIyMTMy,1060,Fixed  typos across the codebase,aeed5fe3b06912c35a4fd70fa61b45e1feedc9a1,18,12.0
+MDExOlB1bGxSZXF1ZXN0MTE4MzI5MzI4,1061,Enabled automatic releasing without using skip-release keyword yet,e22e348fb3e2d5d01210db5f58829687f053bb87,2,0.0
+MDExOlB1bGxSZXF1ZXN0MTE4MzM1MzY5,1062,Bumped version of tools,e34fe9279057dbc11f05fa70a3422475e12c8914,1,0.0
+MDExOlB1bGxSZXF1ZXN0MTE5MDA1NjUx,1069,Bumped release tools to 0.8.4 - concise release notes,12eb326963186be2b2be90ad5566bb938fed0413,2,0.0
+MDExOlB1bGxSZXF1ZXN0MTE5MjkxOTU3,1073,README.md release FAQ newlines,077f56ef0f23b1500c042988b8c039f24e46c3e1,1,0.0
+MDExOlB1bGxSZXF1ZXN0MTE5MzUxNzE0,1075,Streamline assertj and junit4 usage in gradle files and update assertj (v2.7.0),3ca1d0a24c4f0c5869ed861558972cdfe6ac5e8d,7,1.0
+MDExOlB1bGxSZXF1ZXN0MTE5ODYzNjMw,1076,Fixed validation in returnArgumentAt(int) in case of type erasure on the parameter,761de40d05b4eddae8328ab1d7e5bdacd882a3be,4,2.0
+MDExOlB1bGxSZXF1ZXN0MTIwMjg5OTQ4,1079,Fixed #1065. Add information about doNothing() method to CannotStubVo…,bc413290c4274e56a6123cd012b945146d8649bd,1,1.0
+MDExOlB1bGxSZXF1ZXN0MTIwNDU5MTg5,1080,More concise release notes and codecov issue fix,a8021c644f97c8302037fac30e0f81d034907a4f,4,0.0
+MDExOlB1bGxSZXF1ZXN0MTIwNTExODE3,1084,Bumped version of tools to pick up release automation fixes,b53a69e57e902395d13a883c89fd197b025f849b,1,0.0
+MDExOlB1bGxSZXF1ZXN0MTIxODY1MzU5,1090,Fixes #1083: Interfaces only declare toString implicitly and should t…,391c2e32393368dd08105e7622bbe24f9c8800ee,2,1.0
+MDExOlB1bGxSZXF1ZXN0MTIyNTkwMDk4,1091,Fixes #1088 : Updating documentation of verify feature to correct a s…,bbceeb3d8d57c30ff47231e26310802ab7fb4a2c,1,1.0
+MDExOlB1bGxSZXF1ZXN0MTIyNjcxMTgy,1092,Fix link to Mockito JUnit rule heading,faa327ff665432096f41094b00f85394f3dbd447,1,1.0
+MDExOlB1bGxSZXF1ZXN0MTIyNzQ2MjE2,1093,Updated build for latest release tools,2cc2150626811c726156ef5b7eab392762391ff9,6,0.0
+MDExOlB1bGxSZXF1ZXN0MTIyNzQ3MDgz,1094,update assertj (v2.8.0),8226b1d63f25ed69cf98575f7f10046bab2215c6,1,0.0
+MDExOlB1bGxSZXF1ZXN0MTIyNzQ4NTc4,1095,Fixed bug with git push for tag during the release,94ee85a0aae8b2c9417a55e7bd237b7ea356a4f2,1,0.0
+MDExOlB1bGxSZXF1ZXN0MTIyNzUxNjU1,1096,InOrderImpl constructor signature,5d35a0e8e915029a8c4809f7e7956207c6898e84,1,1.0
+MDExOlB1bGxSZXF1ZXN0MTIyNzg4OTMz,1098,Moved some more dependencies to dependencies.gradle,d808d3630b0bbd09996d8ec756fae1e46505dd93,4,0.0
+MDExOlB1bGxSZXF1ZXN0MTIyNzg5MDI2,1099,update gradle to v3.5,b873637bc99ce116f172cad3f31a85f70b9eb9a8,5,0.0
+MDExOlB1bGxSZXF1ZXN0MTIyNzk4NDAz,1100,"Fixed broken link in Javadoc, improved console message",73479bb146c9d1150855fe4e6f88afccde8bf4bb,2,1.0
+MDExOlB1bGxSZXF1ZXN0MTIyOTIxMTcx,1103,Fixed contributor links and bintray badge in release notes,9425fcf1b8d64c972666838719d5df65b1046cbe,1,0.0
+MDExOlB1bGxSZXF1ZXN0MTIzMjQzNjQz,1104,Renamed configuration extension 'releasing' into 'shipkit',6e66ddd7977e5f4ffbbfcd409d531eb9b0e32f5f,5,0.0
+MDExOlB1bGxSZXF1ZXN0MTIzOTEzNzIz,1109,Fixed Travis configuration for matrix build,f4a00def6ebd825454939e47602776725d0faa6a,1,0.0
+MDExOlB1bGxSZXF1ZXN0MTI0NTY4NDA4,1115,update to shipkit v0.8.72,a5eab365fd2067770edf96548ab55893dc8e83ed,3,0.0
+MDExOlB1bGxSZXF1ZXN0MTI0OTgzNDE1,1118,ArgsMismatchFinder#getStubbingArgMismatches generics,93d5bd942652239b2242f1d7e3e652a4ef515454,2,1.0
+MDExOlB1bGxSZXF1ZXN0MTI0OTg0OTk3,1119,Made it possible to delay the return of a mock or spy.  (#1117),4ad5fdc14ca4b979155d10dcea0182c82380aefa,4,3.0
+MDExOlB1bGxSZXF1ZXN0MTI0OTk5NzAz,1120,"Updated release documentation, removed dead file",44f5f23c1a5bced5fa65ea24dda6cf3f99c0c454,2,0.0
+MDExOlB1bGxSZXF1ZXN0MTI1MDYwNjcy,1121,Improve and develop APIs required for framework integrators,8c2dfa66d51f9adf3e1e150e7caee501195c38a8,62,22.0
+MDExOlB1bGxSZXF1ZXN0MTI1MjQyNjIx,1122,Made it possible to delay the return of a mock or spy (#1117),04961ae3cc8093916f563d7edc223224d757a4a1,4,3.0
+MDExOlB1bGxSZXF1ZXN0MTI1Mzg0NDI5,1125,"Fix typo: Remove repeated ""a""",0ac384093b1390b4762948a4d25353e36471c60e,1,1.0
+MDExOlB1bGxSZXF1ZXN0MTI1NjYxMTgx,1128,Improve detection on non-mockable types - byte buddy 1.6.14->1.7.0,417b0e1567117650098d1dbeec0fbe6070d57751,2,1.0
+MDExOlB1bGxSZXF1ZXN0MTI1ODM2Mzky,1129,Fixed issue with releases to Maven Central,c295a53539316b8549663caa86463a90fe984e27,1,0.0
+MDExOlB1bGxSZXF1ZXN0MTI2MTQ3Nzc4,1132,make use of shipkit v0.8.92,e417cb7f60fef1f7fbcd580ec6b635578cc020c2,1,0.0
+MDExOlB1bGxSZXF1ZXN0MTI2MTc3MDAy,1133,Simplified and documented .travis.yml file,8e28181399803991846ef6692ad4456be3300f8e,1,0.0
+MDExOlB1bGxSZXF1ZXN0MTI3MzIyNDkw,1136,Fixes #1135: Properly resolve visibility bridges.,fa66960eeb74473822fe9081246f360964da6023,2,1.0
+MDExOlB1bGxSZXF1ZXN0MTI3MzI0NjIw,1137,Don't use raw rypes in UnusedStubbingsTest,7077e276a9c32ecae07250e5f74691e07e238329,1,1.0
+MDExOlB1bGxSZXF1ZXN0MTI4NTIyMjY0,1139,org.shipkit.publications-comparator plugin applied,84c21c352023ad6000d77283efc38fc18455ed4a,2,0.0
+MDExOlB1bGxSZXF1ZXN0MTI4OTUwMDc4,1141,"Bumped shipkit, simplified Travis file, removed unnecessary code",f38f28039f8f561420d0420da9df27c52baaffeb,6,0.0
+MDExOlB1bGxSZXF1ZXN0MTI5MjUwMDAx,1145,Bumped shipkit to fix unnecessary releasing problem,6d6361fc72c16c947ef5f2f587fd9269a9d47f23,1,0.0
+MDExOlB1bGxSZXF1ZXN0MTI5NDIzNjAw,1146,Enable stubOnly() on @Mock annotation,38450b1a98af7f0866b4aa2e3fd0dc8d024caa96,3,3.0
+MDExOlB1bGxSZXF1ZXN0MTI5NTQwNDgz,1147,[#1147] Provide version in release commit message,885defd508cb2d61f00e611ebe2927d328d31e73,2,0.0
+MDExOlB1bGxSZXF1ZXN0MTM0MDQwNjM5,1157,Add tests to verify and show that @Spy can be used to allow stubbing/verification of List parameters using varargs.,c970abe88afe183611e13f213687ed9bb5e14e2b,1,1.0
+MDExOlB1bGxSZXF1ZXN0MTM0MjY2NjI3,1158,Adds support for Java 9 in inline mock maker by Byte Buddy update.,63a9bd31b39d5d1fde3fc99d28d730bd3e7ada2f,3,1.0
+MDExOlB1bGxSZXF1ZXN0MTM0Nzg0MjUw,1161,Remove duplicated word in Javadoc,c6261273d71236f395dd170a493fb387d92f7422,1,1.0
+MDExOlB1bGxSZXF1ZXN0MTM1NDU3NzY1,1162,Fix for #1155 thenThrow(Class) ,f1ceb5097298872aef63725e758a80293417c5c1,5,3.0
+MDExOlB1bGxSZXF1ZXN0MTM1ODM4MDkx,1165,Introduce test for mock-maker-inline with Kotlin suspend functions,42822e15aa377ab1984ff0e0d528574a16ecd6e6,2,0.0
+MDExOlB1bGxSZXF1ZXN0MTM2NTY5OTcx,1169,"Updated to latest Shipkit, tidied up configuration",9adc501906cc649af603a4ba51cdbfd33f6e306f,3,0.0
+MDExOlB1bGxSZXF1ZXN0MTM2NjM1MjM4,1170,"Update objenesis version 2.5 -> 2.6 (Java9, bugfixes)",df76e9e365f5555c3a05ef3c562fecadc8f5b9d1,1,0.0
+MDExOlB1bGxSZXF1ZXN0MTM2NjY4MTM0,1171,Bumped minor version so signify new Objenesis version,6590078018f039f54e730d1a3b528a0a3f1d8854,1,0.0
+MDExOlB1bGxSZXF1ZXN0MTM3MDIwMTg5,1172,Updated README.md wrt maven central release,7c6635bc0157b5338d2df55d96efa747da1b94bf,2,1.0
+MDExOlB1bGxSZXF1ZXN0MTM4NTIxNzA2,1181,#1179: Fix performance regression caused by use of method graph compiler.,1c61f1a91a7d5d8367b3dbddb6270afdd96c8f6a,1,1.0
+MDExOlB1bGxSZXF1ZXN0MTM5MjEyMDQ1,1184,Removed JDK7 build from CI to fix Travis regression with Jdk7,500b5770523c93fcc7860821a798f08361779b9c,1,0.0
+MDExOlB1bGxSZXF1ZXN0MTM5Mzk3MjE4,1186,Compare method of graph to defined form of method.,9848cec9ebb28791bca565200cdacf337730a015,2,1.0
+MDExOlB1bGxSZXF1ZXN0MTQ0MDU0OTc5,1192,Added new public API for spring-boot use case,8c79461d7dd3e91216a38103466ff15fdd01a731,20,12.0
+MDExOlB1bGxSZXF1ZXN0MTQ0NzE1NDg2,1195,Fixes #1189: Add stable module name,5a5c409f561c853c04974c1542fe2f65c999c263,1,0.0
+MDExOlB1bGxSZXF1ZXN0MTQ1MjE3MzY0,1199,Fixes 977: Javadoc on verifyZeroInteractions,8134a2b71051d7b3ea29f12293052e812bccd5ed,1,1.0
+MDExOlB1bGxSZXF1ZXN0MTQ1MzEwNzUz,1201,Fix javadoc in PluginLoader#withAlias' javadoc,0a5dfff1b93a4235c1d4e0b83378e86caa323773,1,1.0
+MDExOlB1bGxSZXF1ZXN0MTQ1MzI3NTMz,1202,[#1202] Java 9 CI build for Mockito 2.x,14c6171e7ffebf2d38a444584eae87837deb95cd,7,1.0
+MDExOlB1bGxSZXF1ZXN0MTQ1MzQyMTI4,1203,"Fixed documentation issue, added unit tests",c59e316cd99252fe11461431db52069818d2a085,2,2.0
+MDExOlB1bGxSZXF1ZXN0MTQ2NjM2NzUx,1208,Updated my GitHub user name,0f1af18eab2578656ad02dcf5e8beaf7054f5f0b,2,0.0
+MDExOlB1bGxSZXF1ZXN0MTQ2NjY1MTM0,1209,Clean up JUnit imports,d25b75c124917e57217fa2d21d5dc2724dfa50e2,161,50.0
+MDExOlB1bGxSZXF1ZXN0MTQ3NjM1Njk0,1213,Standardize JUnit imports,839110244266a0321913f16f7ae7e16eed475b7a,7,5.0
+MDExOlB1bGxSZXF1ZXN0MTQ3NzgzMDA1,1214,Fixes #1211: Improve @deprecated JavaDoc,f4c448ecedccad939421b2f495315ae9f6955ef3,2,1.0
+MDExOlB1bGxSZXF1ZXN0MTQ3OTM0NTMw,1216,Adresses #1206: allow opting out from annotation copying within mocks.,5291d06b1b0f03267fb9b5b5f78f7f49a65f5da4,12,5.0
+MDExOlB1bGxSZXF1ZXN0MTQ3OTM2ODc2,1217,Fixes #1183: Make override check more forgiving to accomondate Kotlin compile patterns.,53976e932bdcee1ce0a9d85f00aa47bd5ba928d2,2,1.0
+MDExOlB1bGxSZXF1ZXN0MTQ3OTk1NDA5,1218,Updated Byte Buddy and ASM dependencies. Fixes #1215.,a44761d52016fa2f77acdeb545fd31c1ce297d49,1,0.0
+MDExOlB1bGxSZXF1ZXN0MTQ3OTk2OTcx,1219,Add regression test for issue #1174,c2d8f023f9f6c30cd75644e0b366cbd8214208b0,1,1.0
+MDExOlB1bGxSZXF1ZXN0MTQ3OTk4NzA5,1220,Backport fixes from release/2.x to master,79a090d2fd9183302e5f87fe79add8c736001a2c,199,58.0
+MDExOlB1bGxSZXF1ZXN0MTQ5MTg4Njg3,1227,Update license plugin and add missing license headers,fefc64a8c8c9d0a54a3d800eee9d8313d36d98bb,18,12.0
+MDExOlB1bGxSZXF1ZXN0MTQ5MTkxNjI2,1228,Add @CheckReturnValue to stubbing/verification methods,08c13b2a00a2d8c00d9bb62d40cc4e454aa3d7cb,2,1.0
+MDExOlB1bGxSZXF1ZXN0MTQ5MjAwNDg5,1229,Enable jacoco coverage on subprojects,b8c2811276a3cf8f1eb8b81c5f785369046c3d77,3,0.0
+MDExOlB1bGxSZXF1ZXN0MTQ5MzI4NTI5,1231,InvocationsPrinter string concatination,74825cd4566ceb94fc39ef99d5dcbe230b3c4ff6,1,1.0
+MDExOlB1bGxSZXF1ZXN0MTUwMjYxMDQw,1238,Backport fixes release/2.x to master,682ea1fd5dff0925b051f1f3aeb5ffb1a1111e0a,89,27.0
+MDExOlB1bGxSZXF1ZXN0MTUwNTE0OTU1,1242,Enable Checkstyle for checking license headers,ae314e5b41f947dc83d5b1e5ee268d289b61e837,40,11.0
+MDExOlB1bGxSZXF1ZXN0MTUwNTM2OTEw,1244,Remove service-worker from Javadoc generation,81d90ae0ec1da86e7bdee16f9ee66b6fc0e02f22,5,0.0
+MDExOlB1bGxSZXF1ZXN0MTUwNjgzMTQy,1247,Remove several container classes and inline code,ebddc4191a15fd604f7fc327ad0dd252c8764f15,7,5.0
+MDExOlB1bGxSZXF1ZXN0MTUwOTc0MDgz,1250,Fixes #1243: Support for new version number 10.,9cf900f606a261ebec8d7041312fe8847bd77f4b,1,0.0
+MDExOlB1bGxSZXF1ZXN0MTUyMzUyNjQy,1257,Fixes #1254 and #1256: improved check for self-invocation.,dad7ca814ea76937b1c9af35f02ad97ba5f9b3c5,4,3.0
+MDExOlB1bGxSZXF1ZXN0MTUzNDU0MDc5,1263,Update Kotlin to latest version,2efa9c79b63e94bdadf97efe77ed4a6f62f62cf5,2,0.0
+MDExOlB1bGxSZXF1ZXN0MTUzNzM0Njk0,1265,Update shipkit and configure assertReleaseNeeded task,442277f4647ebf24930132b080b9971d3eef9e63,3,0.0
+MDExOlB1bGxSZXF1ZXN0MTU0Nzc0ODg4,1268,Fixes #1262: update doc for Answers.CALLS_REAL_METHODS,102f9fd687dd9df7bfc42b0144dd04bc78c73815,1,1.0
+MDExOlB1bGxSZXF1ZXN0MTYwMjIyODA2,1280,Update STRICT_STUBS documentation for verifyNoMoreInteractions,5caabead07bc8f796a243d81d1988925179449cf,1,1.0
+MDExOlB1bGxSZXF1ZXN0MTYwNzYxNTY4,1281,fix VerificationWithTimout javadoc comment,e51a0515ac8440572cf1af80f7aa620d51e8075e,1,1.0
+MDExOlB1bGxSZXF1ZXN0MTYxMTY4NjE5,1282,"Extra test case, javadoc update",7be349463dc0dfe14e3c629e08d7e0e8bf9bea20,5,5.0

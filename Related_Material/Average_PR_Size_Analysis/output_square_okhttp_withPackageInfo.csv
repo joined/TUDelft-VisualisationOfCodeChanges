@@ -1,0 +1,1059 @@
+id,number,title,mergeCommit,changedFiles,changedPackages
+MDExOlB1bGxSZXF1ZXN0MTg2MzIxMA==,1,Initial import.,f56cbd22368ad4b5d6652f29647d63fc2ea08f40,63,
+MDExOlB1bGxSZXF1ZXN0MTg2MzM3OQ==,2,Give the in-progress code a SNAPSHOT version number.,37de950ccc0342a2e776b23207d1f0a41c4e1173,1,
+MDExOlB1bGxSZXF1ZXN0MTg2MzcwOA==,3,Enforce javac version 1.7 or better.,7f84db4a4679b71a0f8b2bc500570a3d9d90c851,1,
+MDExOlB1bGxSZXF1ZXN0MTg2NDg0Mw==,4,Don't connect to external hosts in unit tests.,57cb8a8813d97242617497afd30e7711a599a51a,1,
+MDExOlB1bGxSZXF1ZXN0MTg2NDkxNg==,5,Don't sign artifacts in the default configuration.,a08e68150d8f3552c6bc1a3fa4feb475a34d4b27,1,
+MDExOlB1bGxSZXF1ZXN0MTg2ODcwMA==,6,Use Square's regular groupId for okhttp.,9c9ae224e1b17d62e64b644d8f923c59135864af,1,
+MDExOlB1bGxSZXF1ZXN0MTg2ODkyNw==,7,Remove duplicate plugin definitions.,10dc1c1f8bf602286539bd1f4358be6bec64f103,1,
+MDExOlB1bGxSZXF1ZXN0MTg4MTk4Ng==,8,Don't use jarjar to strip unused classes.,cb63e3b86c015ca2e06bd0ea5c72d82e2efe73b7,1,
+MDExOlB1bGxSZXF1ZXN0MTkxNDM0MQ==,9,General project clean-up and tweaks.,67c6551470f412cf37b3344f89b38211ad4fc01b,30,
+MDExOlB1bGxSZXF1ZXN0MTk0NzE5NQ==,10,Use bouncy castle to generate certs for TLS.,f45cb10b82aa9127bb14996ad75c77cb910cb42f,3,
+MDExOlB1bGxSZXF1ZXN0MTk0ODM1Mg==,11,Uncomment more HTTPS tests.,67f3df36b64276a66c2e63891bcfa2351cabc975,5,
+MDExOlB1bGxSZXF1ZXN0MTk1MTcxOQ==,12,Support Froyo.,c5b71332197188acccabdd151ad64f8e66b598dd,17,
+MDExOlB1bGxSZXF1ZXN0MTk2MDg3Mw==,13,Fill out known issues in the OkHttp README.,9e2874637c930aa17e3e2b885036720e0900b2c1,3,
+MDExOlB1bGxSZXF1ZXN0MjAxOTE3Mg==,14,Add a missing copyright header for Libcore.,4c1b39b7fdda5083d76cebb3a707d3460510d95e,1,
+MDExOlB1bGxSZXF1ZXN0MjA2ODkzMw==,16,Fail gracefully on a 401 response code with no WWW-Authenticate header.,1096674780a087ec99d254d7e4661503eeeb85cb,2,
+MDExOlB1bGxSZXF1ZXN0MjM5MTU0Mg==,20,Merge: HttpEngine should not attempt to cache proxy CONNECT responses,c464819c97debe7f78bab2228c1d760a88f38cb5,2,
+MDExOlB1bGxSZXF1ZXN0MjM5MTYzMQ==,21,Merge: Improve HttpResponseCache performance.,87c0475b8581a98f5dd677cdf290a3549d11adf5,1,
+MDExOlB1bGxSZXF1ZXN0MjM5MTc0MQ==,22,Merge: TLS + SNI + proxy => bug,c1d2039ea2a5eaf6b69c99f63f6cb1f9f12bf459,2,
+MDExOlB1bGxSZXF1ZXN0MjM5MTk3NQ==,23,Merge: Tolerate cache files being removed from underneath DiskLruCache,ca06e71538432be2779a738b53f6860677477b72,3,
+MDExOlB1bGxSZXF1ZXN0MjM5MjE4Ng==,24,Merge: Fix HttpURLConnection CloseGuard warning due to lack of close on ...,0417d1de1a95399ca37bf5c033c64469943f28dc,2,
+MDExOlB1bGxSZXF1ZXN0MjM5MjUwMQ==,25,"Merge: HttpResponseCache should return 504, not 502.",aa1f539162755147c74beec9b160b0adfa66479e,2,
+MDExOlB1bGxSZXF1ZXN0MjM5MjkxMQ==,26,"Merge: Performance improvements: DiskLruCache, HttpResponseCache.",19dd3d4c534b21a05932d34ae99f3170fffd1bc9,4,
+MDExOlB1bGxSZXF1ZXN0MjM5MzAzMQ==,27,Disable SSL compression,cfaab5253d56893ae244504fc2d73f5fa103ffee,1,
+MDExOlB1bGxSZXF1ZXN0MjM5NDIxOA==,28,Fix checkstyle errors.,1fba5d9248de55062e9671c5398baef7509a9f8b,2,
+MDExOlB1bGxSZXF1ZXN0MjQwNDkzNg==,29,Fix TLS requiresTunnel which was being computed incorrectly.,d600c3f7506882b063a3ae5ad513b324b3354592,6,
+MDExOlB1bGxSZXF1ZXN0MjQwNTU3MQ==,30,Fix a bug in tunnel construction and 'Connection: close' headers.,8e2d479306a8ab2e7054c3c7d6d778ee79c392ac,2,
+MDExOlB1bGxSZXF1ZXN0MjQwNzg5Ng==,31,Fix Authenticator callbacks to include full information.,1608590380284c952eae12f43c400f9d1922b6c7,2,
+MDExOlB1bGxSZXF1ZXN0MjQxODY0MA==,33,Handle incoming SETTINGS frames in SPDY.,c4fe0cc84a7a06b8b63f060b23a30ecaf6e3eed3,6,
+MDExOlB1bGxSZXF1ZXN0MjQzOTA4OQ==,34,Fix a bug where String.substring() parameters were flipped.,f740fa986ee023405aa65798931037d78e004ecf,2,
+MDExOlB1bGxSZXF1ZXN0MjQzOTA5NA==,35,Implement TYPE_PING.,bee97794d09d0deca0e0fe352565457e3a2951f2,6,
+MDExOlB1bGxSZXF1ZXN0MjQ0NTM0Mw==,36,We don't need no stinkin braces.,141e1d2a6573b3800b9a61b14e3dfcf33de6f2c1,1,
+MDExOlB1bGxSZXF1ZXN0MjQ0NzI3Nw==,37,Be more careful about synchronization.,0be8f011ca907a1494cde0aa4569dd2f0667071d,3,
+MDExOlB1bGxSZXF1ZXN0MjQ0OTg4Nw==,38,Address some todos around stream failures and peer errors.,197397458640b6dc1c1510539d1cfd61d0062919,4,
+MDExOlB1bGxSZXF1ZXN0MjQ1ODk3NQ==,39,Abandon foolish consistency with SpdyReader for sending frames.,2f3bbf673593cc84cdd9af898b69458ff3e6d9f2,7,
+MDExOlB1bGxSZXF1ZXN0MjQ2MTEzMg==,40,Missed my period.,ccbd6996dc1584e59845b08906c5f8065e398e63,1,
+MDExOlB1bGxSZXF1ZXN0MjQ3MzA1NQ==,42,Support reply with fin for no response body.,cd86079b4cce5e281debb1ce4d18c0bef400a7f3,5,
+MDExOlB1bGxSZXF1ZXN0MjQ4NTEwOQ==,43,Be strict and careful when parsing the response status line.,6764bbc5aaaffe0633981c301ba2790669bdf3cd,8,
+MDExOlB1bGxSZXF1ZXN0MjQ5MzExNA==,44,Support noop frames. Make ping sending a blocking (synchronous) call.,eca502c4f95dab19c7947e2dd2ae1917a5b3f8fb,4,
+MDExOlB1bGxSZXF1ZXN0MjQ5NTY2Ng==,45,Use callbacks rather than fields to handle incoming frames.,74993430a1e4a69247199db85229baf4d6fc8b24,4,
+MDExOlB1bGxSZXF1ZXN0MjUyMjUzNg==,46,Tests and code for various SPDY close scenarios.,8a825777e0a4fafaf8c0f457ecb1ca5862e408c5,4,
+MDExOlB1bGxSZXF1ZXN0Mjc2NjY2MQ==,47,Fix a severe bug where multiple TLS tunnels were attempted.,41cafe67db383688a77662c15b380011ffca77cd,2,
+MDExOlB1bGxSZXF1ZXN0Mjc3NDM4Mw==,48,Fix connection recycling for TLS+gzip+chunked.,dc836ca006e4358df9f5cb34667ae8cc3c2842c9,4,
+MDExOlB1bGxSZXF1ZXN0Mjg5MzEwOA==,49,Make HttpConnection.connect return full working connections.,ddd1500ba7f6d22a4887762beed6e2a5f0086230,12,
+MDExOlB1bGxSZXF1ZXN0MjkyMDk3Mg==,52,Fix some bugs from exercising HttpConnection + SPDY.,bc565d6750331d64935577925aacbece8567d09d,3,
+MDExOlB1bGxSZXF1ZXN0Mjk1NjI0NQ==,53,New route selector to support multiple routes.,d676196982b42bcbf421991866fa2563d6e6191d,10,
+MDExOlB1bGxSZXF1ZXN0Mjk1OTM0MQ==,54,Don't drop out of connect if the first request fails.,f76ba8d0e9f63745f2bf5db41df925f9a220edcd,2,
+MDExOlB1bGxSZXF1ZXN0Mjk3MTMxMw==,55,Don't explode if DNS fails or if the address is malformed.,34cdece96c90547f98250464a05370a862fb31ac,2,
+MDExOlB1bGxSZXF1ZXN0Mjk4MDA5Mw==,56,New API to break platform-specific dependencies.,3b5e87cce2e4029eb4662eb4610fe21fcdea1a80,6,
+MDExOlB1bGxSZXF1ZXN0MzIxMjg3Nw==,58,Fix checkstyle issues.,d029f2222a38a0d877e6ed30d1cdef3f6301f4cf,2,
+MDExOlB1bGxSZXF1ZXN0MzI3MzgzOQ==,59,Improve connection reuse.,66e27c743bde31fa943394733a407a39a343b5f1,3,
+MDExOlB1bGxSZXF1ZXN0MzQwMzQ4Mw==,60,Prepare to use OkHttp to back HttpURLConnection in AOSP,798d82dbec7fbcf45ffa8b8b674ce4bd7bd2bd7c,77,
+MDExOlB1bGxSZXF1ZXN0MzQ2MTgzMQ==,61,Move system-wide statics to the OkHttpClient class.,23f72ec1d7611034317ee7efb8a709c6fb4a24df,10,
+MDExOlB1bGxSZXF1ZXN0MzQ2NTQ1Mw==,62,Clean up commented out URLConnection tests.,58aa6bd231842204bd85cae569b034017a276f3b,2,
+MDExOlB1bGxSZXF1ZXN0MzQ2OTM0NQ==,63,Move the SSL socket factory and hostname verifier to the client.,368dd590a17a3eef8b6c7cced39cf913a42fea1f,2,
+MDExOlB1bGxSZXF1ZXN0MzQ2OTQ1NQ==,64,Restore tests for response caching + TLS.,a379fffa518e9ceb20e9e0d6dfe01f5f3de5c06f,4,
+MDExOlB1bGxSZXF1ZXN0MzQ3MDAxOA==,65,Prepare to promote HttpConnection + Pool to public API.,fac7594e45221d4c2a5185ba07cc68a5ecbbf761,7,
+MDExOlB1bGxSZXF1ZXN0MzQ3MjQ1Mw==,66,"Promote Connection, ConnectionPool and Address APIs.",c8c231309a1af3e176b91e721f75a37bafeddbde,16,
+MDExOlB1bGxSZXF1ZXN0MzQ4NDY0NA==,67,Clean up utility code for submission to AOSP.,381b3c7bcbb1d903a5941eaf40b5ac43f984648c,25,
+MDExOlB1bGxSZXF1ZXN0MzUwNjg2MQ==,69,Unsuppress tests and upgrade to JUnit 4.,de5b3ac703cf4040d966508e0fb06411d2f1ccc9,18,
+MDExOlB1bGxSZXF1ZXN0MzUwNzIwMw==,70,Fix synchronization todos in SpdyStream.,0028e0e75fd6f0474f0f4f3355e11d46e082955e,4,
+MDExOlB1bGxSZXF1ZXN0MzUwODEzMg==,71,Improve SPDY error handling and concurrency.,2d698fe1c398c395259663e7a940cae549fdbeb3,5,
+MDExOlB1bGxSZXF1ZXN0MzUxMTE4Mg==,72,"Implement GOAWAY, for clean shutdowns of SPDY connections.",5956645d686b958395f293e0ef507830ced67ac1,9,
+MDExOlB1bGxSZXF1ZXN0MzUxNTQxMA==,73,Discard streams once they're no longer open.,72c5a9a57c2e81f35bd438ecdcced6b8ce40d82b,3,
+MDExOlB1bGxSZXF1ZXN0MzUxNTU1MQ==,74,Implement SpdyConnection.close().,6f9ccd42f895f8d625667090891782c856227a29,6,
+MDExOlB1bGxSZXF1ZXN0MzUxNTc5Mg==,75,Make timeouts work for SPDY.,434e2c7f5249e8573a1a9f9895a030df1083da2c,5,
+MDExOlB1bGxSZXF1ZXN0MzUxNjU5OA==,76,Use TLS + NPN in SpdyServer.,d36d50d64a0b6b5ec7c41a09d19dcf804cb618c9,1,
+MDExOlB1bGxSZXF1ZXN0MzUxNzc2Ng==,77,Support the HEADERS frame.,ef7586475f3da036beb18c3a1dc21038660a8a0e,6,
+MDExOlB1bGxSZXF1ZXN0MzUxNzg0OA==,78,Flatten internal packages and utility classes.,acd4cd65da4c985e092f35b9c3776af511adb12b,49,
+MDExOlB1bGxSZXF1ZXN0MzUzODQyNA==,79,Turn  makeTlsTolerant into two methods.,4ce7919cd298617a76ddde8f3725e42f2b15f230,3,
+MDExOlB1bGxSZXF1ZXN0MzU2MzU3OQ==,80,Upgrade from spdy/2 to spdy/3.,e45561822096267268c1fb14ab328cd6e4fa080e,14,
+MDExOlB1bGxSZXF1ZXN0Mzc0Mjc0Mw==,84,Implement flow control for the incoming stream.,780466a82ba5bb86389f2819b50de83b6ce537a5,6,
+MDExOlB1bGxSZXF1ZXN0Mzc0NTcyMw==,85,Implement flow control for the outgoing stream.,c25c296aade67d739f5bff19c6449a144e2a319d,6,
+MDExOlB1bGxSZXF1ZXN0Mzc1MTkwMg==,86,Be more careful around IOExceptions.,59992d0291eab328173bcbd2757a541d36eea1b8,8,
+MDExOlB1bGxSZXF1ZXN0Mzc4MjM3Ng==,87,Introduce MockSpdyServer.,a3ddc2c9997bdcc1c0604598b0efbeb646d59c7f,5,
+MDExOlB1bGxSZXF1ZXN0Mzc4ODg1NQ==,88,Improve SPDY+HTTP integration.,fc24b7dfb6fc28ad7579f0ac56e094f1f1280264,17,
+MDExOlB1bGxSZXF1ZXN0MzgwMzcwMA==,89,Fix cookies for SPDY transport.,6488ceb955788f83b39717356ab4c630f927a290,5,
+MDExOlB1bGxSZXF1ZXN0MzkyMTE3Mw==,91,Retry if a request fails after a redirect.,5e6432c2e21f50cbf04be80127380407940942c9,2,
+MDExOlB1bGxSZXF1ZXN0MzkyMTIwNw==,92,Mark a racy test with @Ignore.,1bce6a64e19782d47f6cd204612a238755560308,1,
+MDExOlB1bGxSZXF1ZXN0MzkyMTQ4MA==,93,Follow up to 20 redirects.,99922772fe3b726d5d7cb3b2d831b07cbd9561db,2,
+MDExOlB1bGxSZXF1ZXN0MzkzNDE4OA==,94,Improvements to connection pool,ee13f91352f8e661941e4d3b9214a6210e67aa3a,7,
+MDExOlB1bGxSZXF1ZXN0MzkzNzA3Nw==,96,Mechanically change OkHttp to Square's Java style.,8a5731cecf0865d7a6168199edef521d16444a00,56,
+MDExOlB1bGxSZXF1ZXN0MzkzODEzNg==,98,Update checkstyle.xml and fix problems,e86fe8a7fea20442f1bd39f864fcf7f2fb425e3e,7,
+MDExOlB1bGxSZXF1ZXN0Mzk0Nzk2OA==,99,"Merge: Strip content length in requests with ""transparent"" gzip handling",d6364a20b660ae3a5a1715f9645a9aaaffb19f48,3,
+MDExOlB1bGxSZXF1ZXN0Mzk0OTA1Mg==,100,Increase the stream drain timeout from 30ms to 100ms.,f6aca66309804fdb1b3a8cec4c2e48c834f59dfb,2,
+MDExOlB1bGxSZXF1ZXN0Mzk0OTIwOQ==,101,Switch to Square style for comments.,76aa883be0cd1430e0f35273fca76c4d5b50c7dc,14,
+MDExOlB1bGxSZXF1ZXN0Mzk1MzM4Mw==,102,increased version to 1.0,c07921282cb089cb581399ad265e5a582a55c3c5,1,
+MDExOlB1bGxSZXF1ZXN0Mzk2MDMzMw==,103,Don't make the 'proxy' field do double-duty.,b2b891d366e63602465f0ff31d24f4cd909d3db5,3,
+MDExOlB1bGxSZXF1ZXN0Mzk5NzUyOQ==,107,Handle http status message without leading space when the message is emp...,93da535e02e6320dad4f313bf618381226143fe3,2,
+MDExOlB1bGxSZXF1ZXN0NDE0NzI0Ng==,117,Use LinkedList.listIterator instead of LinkedList.descendingIterator() f...,cd68193249246b45e69614eb96ff515f861e91ea,1,
+MDExOlB1bGxSZXF1ZXN0NDE1MTM5Ng==,118,Share thread executors in SpdyConnections,98e97fbf869648b17a48194a7e44553b9bbe0064,5,
+MDExOlB1bGxSZXF1ZXN0NDE4MzY2Mw==,119,Fix checkstyle errors,4458b47baf82e7547afaa96422f25ce53a961ef2,1,
+MDExOlB1bGxSZXF1ZXN0NDE4Nzc2Ng==,120,Optionally follow redirects from HTTPS to HTTP and vice versa.,605002ab8090ea7a113a3985f8d15fb8e8f60a92,5,
+MDExOlB1bGxSZXF1ZXN0NDIzMzQ4MQ==,121,Fix a null pointer exception in SpdyTransport#makeReusable,a907139e3ef1ae3021a7dd7197d7a7a3149c109f,1,
+MDExOlB1bGxSZXF1ZXN0NDI0ODU1OA==,122,Add new synthetic header for determining response source.,39334a26e86ba2d9adbe52d2dc0dd74c5fd8c3bd,3,
+MDExOlB1bGxSZXF1ZXN0NDI0ODYxMQ==,123,Ensure we test the correct connection instance.,8655a76174e756a59a81676a7646ea53af141bac,1,
+MDExOlB1bGxSZXF1ZXN0NDM0MzUwMg==,124,Add evictAll method to connection pool.,86b2f5a3f8916519dcc2ce14c021deab50eeae75,2,
+MDExOlB1bGxSZXF1ZXN0NDM1NTQ4Ng==,125,Add support for following HTTP 307 temporary redirects.,12ab70c3e89fc004d0365ed205beaa2b8b869173,2,
+MDExOlB1bGxSZXF1ZXN0NDM2Mjc5MA==,126,Fix froyo bug: no more descendingIterator,3adee2fe98f1b30691d111f009dd77d7c6facb8e,1,
+MDExOlB1bGxSZXF1ZXN0NDU3NDA3Mw==,127,Guard against invalid name value block headers.,842b248165b318354ba05ea9c58c03f7bffd10cb,1,
+MDExOlB1bGxSZXF1ZXN0NDgwODk5Nw==,129,Move library into a module. Introduce sample module with simple GitHub c...,45041b84841173035564052483e78554be81e6a8,62,
+MDExOlB1bGxSZXF1ZXN0NDgxMDE4NQ==,130,Add Apache HttpClient implementation which maps to OkHttp.,0263e4c3a2a45c145ee1c99e46d9f7efcd7d9e35,3,
+MDExOlB1bGxSZXF1ZXN0NDg0NzU2Mg==,132,Provide a non-internal API to the response cache.,68f00e1c84f444009a8299db638967fd3b3fb659,10,
+MDExOlB1bGxSZXF1ZXN0NDg5ODc1OQ==,133,Tidy the public API for HttpResponseCache.,a6df275bf0590770e116ca0176f350b1bb96e1d3,9,
+MDExOlB1bGxSZXF1ZXN0NDg5OTEwNw==,134,Use the latest DiskLruCache in OkHttp.,4b9165d9b6f71e43f7519d36d06f35069b4d8e6d,2,
+MDExOlB1bGxSZXF1ZXN0NDg5OTMwNA==,135,Track DiskLruCache.flush change.,63c2317f6c3fee90e63b85e9c6d9e4e4fb9c3be1,1,
+MDExOlB1bGxSZXF1ZXN0NDkwMjUwNA==,136,Don't use APIs that Froyo doesn't have.,da8482cabadd7059c4ebd2fc2596da5f98ac5644,7,
+MDExOlB1bGxSZXF1ZXN0NTA0MDYyMg==,138,FaultRecoveringOutputStream.,5e6c5981d214bfd653c4cb76adb0447a5a80a4fb,2,
+MDExOlB1bGxSZXF1ZXN0NTA2MTQ2MA==,140,Allow empty header values,7672bf6b1d672c800e6f022c8ddd397509f55140,1,
+MDExOlB1bGxSZXF1ZXN0NTA2Njc0MA==,141,Be more strict about outgoing request headers.,745cd24a5daf9e1e5923885e65d689f18ecf6efe,3,
+MDExOlB1bGxSZXF1ZXN0NTA4ODY1MA==,142,RouteSelector tries previously failed routes last #106,6e03a92eac300ac55b0f0fb8653a5270a6399091,10,
+MDExOlB1bGxSZXF1ZXN0NTA5NTc1OQ==,143,Fixed copyrights,1fcb75ef44f882858c9d05204b3b121f4f2cd2ac,2,
+MDExOlB1bGxSZXF1ZXN0NTA5NTg1Nw==,144,Restore Apache copyright header to ConnectionPool.,dfa542b6c0eeec9c67a891ca8af24e751116ec43,1,
+MDExOlB1bGxSZXF1ZXN0NTExODk1MQ==,146,Synchronize access to idleStartTimeNs.,aa32add30311cd08a7df6aa240bcfa60942e5103,1,
+MDExOlB1bGxSZXF1ZXN0NTE2MjcxOQ==,147,Fix style,1415ae9fda41d9d07d8cc6e3804cb8b9480fd5cc,1,
+MDExOlB1bGxSZXF1ZXN0NTE3MzY5Ng==,148,Update to the latest DiskLruCache.,a64baf22d26410c25662bfcd9ee4adce164cc3a5,2,
+MDExOlB1bGxSZXF1ZXN0NTIwMzQxMA==,150,Recover from failed flushes and closes too.,190ee8fd8a1706418b69b3c25c326b3fc7b83205,2,
+MDExOlB1bGxSZXF1ZXN0NTI4MzQ0NA==,152,Use an MTU-sized buffer for socket access.,4fdc3f0e2ff555cf126582f067c4ab47cc421cdd,3,
+MDExOlB1bGxSZXF1ZXN0NTI5MTY3NQ==,153,Recover from failures while writing a POST body.,ea03097d1e95ab584b8fe6b1ac671ae0f92bb590,6,
+MDExOlB1bGxSZXF1ZXN0NTQwOTk2Nw==,155,Non-static authenticators.,4ca42e0031085a8ea5c7d172386467ddac9d5d6b,11,
+MDExOlB1bGxSZXF1ZXN0NTQxNzI1Nw==,156,Permit the caller to disable transports.,b56a22e2f5fdc9c9ebd0804efc9abf8471462a01,9,
+MDExOlB1bGxSZXF1ZXN0NTQzNTQ5Nw==,157,Don't explode if we can't find an interface for a local address.,e9842cb2e6b025743c83b32b40be460738073ecc,1,
+MDExOlB1bGxSZXF1ZXN0NTQ1NTQwNg==,158,Fix checkstyle.,e5096c52220947d859a47d8a59ec004b75f8acfb,1,
+MDExOlB1bGxSZXF1ZXN0NTUzMDA0MA==,159,Updates to readme.,b7fa4a976fa9138320911c295f9b95fe75497232,1,
+MDExOlB1bGxSZXF1ZXN0NTUzMDA1Ng==,160,Minor doc fix.,c31f3aa6022eb59157cad223dc83fa25df1a7861,1,
+MDExOlB1bGxSZXF1ZXN0NTUzMDA4OQ==,161,Give the Apache module its own readme.,c74cb75e28fba47c706f396814182510b6ed453a,1,
+MDExOlB1bGxSZXF1ZXN0NTUzMTUzMA==,162,Include a hostname verifier rather than using the system default.,d0004f2067a951295d45b7b9b6f981f67264e8f2,5,
+MDExOlB1bGxSZXF1ZXN0NTUzMzEzNQ==,165,Dependency-free examples for the OkHttp front page.,beeb48f2f655a185b8ebb2ed592cd97f843e25bd,5,
+MDExOlB1bGxSZXF1ZXN0NTUzNDY1Nw==,166,Pom version updates. Drop unused dependencies.,5fa7dac5efc52386b06abe9da7e327a5850779eb,1,
+MDExOlB1bGxSZXF1ZXN0NTUzNTYyMQ==,168,Use daemon threads in the connection pool.,ca67ac4717105e8041b70d56bdb5a16089b6165d,4,
+MDExOlB1bGxSZXF1ZXN0NTUzNjM5OQ==,169,Use the latest mockwebserver,9b7c8409b68827b6d57c89ff32755a533041ad39,1,
+MDExOlB1bGxSZXF1ZXN0NTU0MDAxNQ==,170,Consistent casing of 'SSL' in method names.,0796c533540ff839bae26f21eb4ae56fc1cda475,2,
+MDExOlB1bGxSZXF1ZXN0NTU0ODM2MA==,172,Jw/casing,07225fb9c2ee4f25e5605a2f65ec4987e3540a69,5,
+MDExOlB1bGxSZXF1ZXN0NTU1ODU3Nw==,174,Add some tests for the Apache wrapper.,3b28a3bfc0d2ee86c33f4731de541fd040d0f2b5,2,
+MDExOlB1bGxSZXF1ZXN0NTU2MTY0NQ==,176,Link to the new OkHttp website.,72f03678af718635b9c9486d7a66b7188c649377,1,
+MDExOlB1bGxSZXF1ZXN0NTU3MjAyNQ==,178,Hide internal from Javadocs,7f166a355516eadc34ba63451e1306d0dd228ce9,1,
+MDExOlB1bGxSZXF1ZXN0NTY0MTgxMw==,185,Clamp the MTU to a reasonable range.,cb471fc0954fb185b21550f2b3d3760b22af6e31,1,
+MDExOlB1bGxSZXF1ZXN0NTY0Mzc4OA==,186,Replace String.isEmpty() calls with Java 5 methods,d4147143692632e65d2ea76c8dc1122d11cbe2e6,1,
+MDExOlB1bGxSZXF1ZXN0NTY1NTM2Nw==,188,Don't explode if NetworkInterface.getByInetAddress does.,dd354adf6ff4ca1a6a036ad96b689640c8c3b2c5,1,
+MDExOlB1bGxSZXF1ZXN0NTgyMzgwMg==,192,Add an implementation of URLStreamHandlerFactory,cc2e0dd70417d923e2bb38feba3c2a5b46f69ce0,2,
+MDExOlB1bGxSZXF1ZXN0NTg1MTYyMw==,194,Use animal-sniffer to ensure only Java 1.5 is used,c9e9d45649a2e537cd4a5b60ba7f68a7dc63d940,1,
+MDExOlB1bGxSZXF1ZXN0NTkzMDExMA==,197,Correct specialized platform name to Java6.,de26790eafc01e49bbc09760dd9c13a345ec39d9,1,
+MDExOlB1bGxSZXF1ZXN0NTk1MjA2MQ==,199,Null-check request entity since it might not be present.,aa4f4484c929f3b0fea65a16695fad7c905441c5,2,
+MDExOlB1bGxSZXF1ZXN0NTk5NjI4OA==,201,Add new classname for AOSP's SSLSocket change,489956e40f66d57a2373653b71f03d27078e45f6,1,
+MDExOlB1bGxSZXF1ZXN0NjA4MzE1MQ==,204,Support querying & setting transport lists on connections.,6baecd2dc500700793b01d5d0ec5807f760eb8a8,6,
+MDExOlB1bGxSZXF1ZXN0NjI2Njc4MQ==,208,Allow access to the underlying DiskLruCache.,cc421b7fe70f5dc5fc2c8091583f69792b102ae1,1,
+MDExOlB1bGxSZXF1ZXN0NjMwMzE0Mg==,209,Ignore null header values.,61112416157f3fe3972a685e8826f6dca1cfd287,1,
+MDExOlB1bGxSZXF1ZXN0NjMyNTA4NQ==,210, Fix bad locking in SpdyConnection,5ec31ddb792a2c00882bbdb0a6dd60c549a6e6bc,1,
+MDExOlB1bGxSZXF1ZXN0NjM0MjY2OQ==,211,Make OkHostnameVerifier a constant. This fixes connection reuse.,803852d9ab5a0ac8084ab206810f6e7d15ae65de,3,
+MDExOlB1bGxSZXF1ZXN0NjM0MjY5NA==,212,Don't whitelist routes when recycling them,500d26e00789820600b0d2bb2f6eec90a1c1d91a,1,
+MDExOlB1bGxSZXF1ZXN0NjM0Mjc4OA==,213,Tweak the API for URLStreamHandlerFactory,e63afed0a488541be447c07ec0e62eb036d7800e,2,
+MDExOlB1bGxSZXF1ZXN0NjQ5MzY4MA==,217,Fix a bug in caching cross-protocol redirects.,57af28db8ae71fd6384a6f8ac3f5dee1c78f21a6,3,
+MDExOlB1bGxSZXF1ZXN0NjQ5Mzk2OA==,218,Make ConnectionPoolTest less flaky,a902367cd34018caed0c89dbcd51c36c52bbb428,1,
+MDExOlB1bGxSZXF1ZXN0NjY2MTk5Nw==,225,First step in an async HTTP API.,9aa4132295080b5380e8499b5e94b770475dfb42,10,
+MDExOlB1bGxSZXF1ZXN0NjcyMTQxNA==,231,Allow specifying default timeouts for connect and read per OkHttpClient.,22c82abec408616558352198d4ffe23702b85c95,1,
+MDExOlB1bGxSZXF1ZXN0NjcyMTc4MA==,232,Request entity tests for the Apache client shim.,af80aff05298ca3b2e56dbaf6bd8d01034a3854f,1,
+MDExOlB1bGxSZXF1ZXN0NjcyMjI1Nw==,233,Ensure cache entries are invalidated even for uncacheable POST-like requests.,871f6f9a12bccce915458f9d2e4dbd761cf67e66,5,
+MDExOlB1bGxSZXF1ZXN0NjcyMjUxNQ==,234,Change custom headers to 'OkHttp-Foo-Bar' format.,887aab98335bc29029153d6e7906e47878ed5c09,2,
+MDExOlB1bGxSZXF1ZXN0NjcyMzgwNg==,235,Cache all non-standard date format instances lazily.,d25a3fd297119e88f3827c7012f88a342d3e530d,1,
+MDExOlB1bGxSZXF1ZXN0NjczNjA4MA==,236,Add a media type class to OkHttp.,82e5a6ec6d9165eec2bd4ffbbe310cc2049f0836,2,
+MDExOlB1bGxSZXF1ZXN0Njc1MTA5MQ==,237,Add factory methods to create request bodies,de60d8f0bac6e03e84b84e97b468e237d2e8509f,4,
+MDExOlB1bGxSZXF1ZXN0Njc1NzY3MQ==,238,Support streaming request bodies longer than 2 GiB.,2ae6c84c55c053e81b5e1b393cd945cabb43b89a,5,
+MDExOlB1bGxSZXF1ZXN0Njc2ODQxMA==,239,Push state from HttpURLConnectionImpl to OkHttpClient,c14f68ccab656bba345041068d12c15f35feeac6,14,
+MDExOlB1bGxSZXF1ZXN0Njc5NzM4Mw==,241,Introduce a Policy interface between engine and connection.,439324544403e76841a524b6202efe4fc2bb902c,12,
+MDExOlB1bGxSZXF1ZXN0NjgwMDIxOA==,243,Fixed Alcatel getByInetAddress bug. ,3fcce9ebea4f93dc4379f6d1614548267be1c100,1,
+MDExOlB1bGxSZXF1ZXN0Njg2MDIyMQ==,244,Catch SecurityExceptions from socket connects.,3abd07f02ccf6bc356d87d1c46ef805043bb50c9,2,
+MDExOlB1bGxSZXF1ZXN0Njg3NTEwNQ==,245,Removed trailing whitespace in Platform.,fd2b555d79fab74fe37b7f05bb9171e714ae54a6,1,
+MDExOlB1bGxSZXF1ZXN0Njg3OTgyMg==,246,Stopped sending final empty frame on stream initiated in sender half-closed state.,09edd31432e6d04852b17b9d8d458efa09482394,1,
+MDExOlB1bGxSZXF1ZXN0Njg4MzU4OA==,247,Don't use IOException APIs not in Gingerbread,228f4c1432a9c5e94ee31941e8e3b98d3501db40,1,
+MDExOlB1bGxSZXF1ZXN0Njg4NDM4OA==,248,Added contentType/Encoding to HttpResponse's Entity.,2b61f591fde2881d1cf9398f0f7a4dee2c2723ea,2,
+MDExOlB1bGxSZXF1ZXN0Njg4NDU0Ng==,249,Removed trailing whitespace in website/index.html.,fde0c3b9f40a1651a0aa41227dc68bf6045a9d72,1,
+MDExOlB1bGxSZXF1ZXN0Njg4NDk0OQ==,250,Added check for length < 0 for transparent gzip response.,5c1d783dbc6c2c51577fd4fc0da6bc29d519d40b,1,
+MDExOlB1bGxSZXF1ZXN0NzA2MDI3Mg==,254,More aggressive heuristics on pooled connections.,a48adf04c17a02f4bd8518869d56632e60befcba,8,
+MDExOlB1bGxSZXF1ZXN0NzA2MDU0NQ==,255,Fix a bug in SPDY plus HTTP caching.,52053be291580299018fdc21f1f42e191a972e82,4,
+MDExOlB1bGxSZXF1ZXN0NzM3MDYxOA==,261,Make a home for MockWebServer in OkHttp.,58153752b4b60c077513051bc9e5ffc841eb7584,24,
+MDExOlB1bGxSZXF1ZXN0NzM3NDMyNg==,263,Import mockwebserver from code.google.com.,7d71bc876c8b5cad607c024258f3f8c5fed92aec,19,
+MDExOlB1bGxSZXF1ZXN0NzQwMDg4NQ==,266,Teach MockWebServer SPDY.,ad287139bf9325b081f4a6c98dc6297d4cae2956,12,
+MDExOlB1bGxSZXF1ZXN0NzQwMTc4Mw==,267,Use the OkHttp code style in MockWebServer,aa5813e8d839a506c7d1228fa240059263f4c171,6,
+MDExOlB1bGxSZXF1ZXN0NzUyMjgxMg==,275,Test gzipped HTTP 304 response bodies,e0fc5292c143940f8e86d17ebd0f9b515ab2c565,1,
+MDExOlB1bGxSZXF1ZXN0NzUyMzI4NQ==,276,Prepare for OkHttp 1.2.,a599139e391a6382eb7258e3afcb182132c833de,10,
+MDExOlB1bGxSZXF1ZXN0NzUyNzgzMw==,277,Support multiple variants of the SPDY protocol.,99ec6bbc5f1c8d6d7220e0060b0a83401e308255,9,
+MDExOlB1bGxSZXF1ZXN0NzU5MTE4Nw==,279,spdy 3 support length 0 header value,592823d13842e2d8080486c5600f08d133defc04,1,
+MDExOlB1bGxSZXF1ZXN0NzU5MTc5OA==,280,Push stream flags into Spdy3.,c6abc9f7c1040c531c5be0fa941167e2a7aee12e,9,
+MDExOlB1bGxSZXF1ZXN0NzYyMjk2OQ==,283,Hide more flags from SPDY APIs.,6b065f3fe976ef70ae63f774daa8c0209dfff4c6,8,
+MDExOlB1bGxSZXF1ZXN0NzY4NDAzOA==,287,Read HTTP/2.0 frames and error codes.,d8375b7bd6929509411e943449950df224fbc417,14,
+MDExOlB1bGxSZXF1ZXN0NzcxODM5OA==,289,the numberOfPairs may not be negative when numberOfPairs*2 is negative,a69a5fa1cdc1de40d10c264d99780ab88ee6984a,1,
+MDExOlB1bGxSZXF1ZXN0NzgzMjU3Mg==,295,Switch NPN from optional to provided.,9b96ff1724868b24c9dd77ee09f4185c01ab0605,1,
+MDExOlB1bGxSZXF1ZXN0NzgzOTgzNQ==,297,Drop body headers when redirected from POST to GET.,0e6cc65c5bb55e7020f6f6e8badc6882b7f309d5,3,
+MDExOlB1bGxSZXF1ZXN0Nzg1MDkyMw==,299,"Implement HPACK, HTTP header compression.",985860f1fb2c41e731e72c69a0e432f6045eee07,9,
+MDExOlB1bGxSZXF1ZXN0NzkyMzMzNQ==,301,When invalid sizes are used to initialize the ArrayList,892e78c76dc30111a2e2308ea6547de5f541880c,1,
+MDExOlB1bGxSZXF1ZXN0Nzk0MzQ5NA==,302,Continue to read old bad cache responses.,4f1ec1c24d1cb91cbca4641c91cdf1b48ec5d10f,4,
+MDExOlB1bGxSZXF1ZXN0ODAwOTYyNQ==,306,"Use one callback for SYN_STREAM, SYN_REPLY and HEADERS.",45330553d01e9bcf8acef40bfcf8dfec4f5858c7,8,
+MDExOlB1bGxSZXF1ZXN0ODAxODgyNQ==,307,Upstream changes made directly to AOSP.,398f189ef9bb8e17d5f3b71d26b298e1467d7ac8,8,
+MDExOlB1bGxSZXF1ZXN0ODAyMzk1Nw==,308,issue-265 Multiple HTTP Cookie: headers,08ee439998b1a5c8178a153177b60b420a6fcaab,1,
+MDExOlB1bGxSZXF1ZXN0ODAyNTUzNg==,309,Write some HTTP/2.0 frames,14781c3ff927be4ed520f1f7108435f5b4e528e3,6,
+MDExOlB1bGxSZXF1ZXN0ODA0NDY2MA==,312,Fix checkstyle issues in new Cookie code.,b781fa3d1d2910988d4a964db6810cb01a4a22e2,1,
+MDExOlB1bGxSZXF1ZXN0ODE1NzY4MA==,314,Static HTTPS/SPDY3/HTTP2 server example,4d34e21e70815b9fc5a0f6cbb75bbefbae3812d3,5,
+MDExOlB1bGxSZXF1ZXN0ODM0NzIxNQ==,315,Bug fixed that caused gzipped responses to be returned from cache after ...,be74321174f74dc340f37d9629d29dc0cd621cd5,2,
+MDExOlB1bGxSZXF1ZXN0ODQzNzA0MA==,316,Use 'jar-with-dependencies' classifier on website.,70bc53acb6cb2fb1f54cbf0b015a60997b7a82bf,2,
+MDExOlB1bGxSZXF1ZXN0ODUyNDUxOA==,318,returning null where a Map is expected is not nice,d372d6ffeabf2538cf67d2319822d8468dcc2d0e,1,
+MDExOlB1bGxSZXF1ZXN0ODY4NTMzMg==,320,Fix a race condition in Connection.isExpired().,c0f03009c124824577aa20f2890662ab4f073ae7,4,
+MDExOlB1bGxSZXF1ZXN0ODkxNzYwNA==,322,Fix unresolved function call on JVM < 1.7,72911c64db5381ea509ba985f54d241e2b06a126,1,
+MDExOlB1bGxSZXF1ZXN0OTAxMTg5OA==,325,Hide a 2.0 API that was left public.,df3bfd4ceae10b76e1fffaa49c99bf558e40355f,1,
+MDExOlB1bGxSZXF1ZXN0OTAyNjM3NQ==,327,Added description and download info for MockWebServer.,221025cac516d8de5ad5679fc3c6e203ff48012f,1,
+MDExOlB1bGxSZXF1ZXN0OTA0NTU5Ng==,329,Allow specifying a socket factory for connections.,72385ff2ac4385b1bc5431b607f30327e2676525,6,
+MDExOlB1bGxSZXF1ZXN0MTEzNDgxMTE=,424,Connected after everything is initialized,5b891a3c54efab0ce11021f2e82256a0e17bf473,1,
+MDExOlB1bGxSZXF1ZXN0MTEzODgyODY=,425,Test that POST bodies are retransmitted on redirect.,d06ae80ef2b84a578c0145885e82f858764847cd,1,
+MDExOlB1bGxSZXF1ZXN0MTE0MDI4NjU=,427,Small docs fixes. Remove OkHttp 2 warnings.,ec0fc684267ccd158dd2799c9c73824537bc78bc,6,
+MDExOlB1bGxSZXF1ZXN0MTE0MzUwMTg=,432,Use thread names everywhere.,3e7ee70cca515fdc1bad638e1781c290284f232d,8,
+MDExOlB1bGxSZXF1ZXN0MTE0MzcyNzk=,438,consolidate protocol constants,e5281f277d50293a17d4e456cd0346ace52d5643,28,
+MDExOlB1bGxSZXF1ZXN0MTE0ODAxMjM=,443,Recover from connectivity problems in the async API.,bbbc6edf8efd3feba37810877665ca0a9c2c474d,6,
+MDExOlB1bGxSZXF1ZXN0MTE1MTUzNDA=,445,Ship a fat jar for MockWebServer.,24e754203bfd24b1b4291eea30dab0b91b47ebb5,1,
+MDExOlB1bGxSZXF1ZXN0MTE1MTU5NzY=,446,Drop explicit and now duplicate Java 6 enforcement.,029cd307fc24d8f3f67d23c8b23657bc844eda85,1,
+MDExOlB1bGxSZXF1ZXN0MTE1NjY0OTk=,448,Don't attempt TLS modes we know will fail.,5b173946272fce9e15211a81fd7b3993a3bda560,6,
+MDExOlB1bGxSZXF1ZXN0MTE2NDk2NDk=,454,Cache SPDY responses even if the body isn't fully consumed.,352fd66d5b31e2b9d8811b2e13d20c98d56fd996,6,
+MDExOlB1bGxSZXF1ZXN0MTE2NTcxMTU=,459,Permit status lines like 'ICY 200 OK',4144a9463ebc72b6e324146925a9b5e594919be9,3,
+MDExOlB1bGxSZXF1ZXN0MTE2ODYyMDY=,467,Fix bug in ByteString.equalsAscii when param is null and ByteString not yet initialized.,3c58465dae1682607c1fa835b2ad9d47a582c201,2,
+MDExOlB1bGxSZXF1ZXN0MTE2OTIzMjM=,468,Correct and backfill tests for default http/2 push setting.,b730844227473605e0234cae14c5527f2da683f4,6,
+MDExOlB1bGxSZXF1ZXN0MTE3NDQ5NTQ=,475, Backfill test and implementation window update on http/2.,fba1650a6d646f8fd0eeb0b9a68796970fffc1a6,11,
+MDExOlB1bGxSZXF1ZXN0MTE4ODMwMDc=,482,Honor connection-level flow control for writes.,7cb87ea510ac880a960ef6d16fdb6c6506be0527,1,
+MDExOlB1bGxSZXF1ZXN0MTE4ODY0MTI=,485,OkBuffer API sketch.,a211dc33f613c1bd92cef3dc404f75ee091fe0b3,21,
+MDExOlB1bGxSZXF1ZXN0MTE4ODcxMDg=,486,Send window update after the peer sends half the limit on a stream or connection,e0e3197aa8bf168f4c389cfc5bb6d7695c1c8951,4,
+MDExOlB1bGxSZXF1ZXN0MTE5MzEyMzQ=,492,"More buffer stuff: deadlines, indexOf and read.",ebe5b327a59c044b2c9cbd42c5558e413e7a3680,5,
+MDExOlB1bGxSZXF1ZXN0MTE5Nzg3NjI=,494,"Read/write access for byte, short and int.",63795edfbcc1c1bae0ac92e4ede3c4b9e542469e,3,
+MDExOlB1bGxSZXF1ZXN0MTIwODEzMzk=,498,Allow PATCH method with HttpURLConnection interface.,e900712190fbd6312c78e31d243edced63388ef1,5,
+MDExOlB1bGxSZXF1ZXN0MTIxMDQ2NjA=,500,New benchmark targets for Apache HTTP Client and URLConnection.,5fac83b28f817c1e3c743efc6dc7616d238b0f88,5,
+MDExOlB1bGxSZXF1ZXN0MTIxMDg5NTE=,502,Tell MockWebServer which NPN protocols to use.,2ac619fb45c1bd0412faa5c3d29412b9209b3432,5,
+MDExOlB1bGxSZXF1ZXN0MTIxMDk3MTA=,504,Use Caliper for benchmarking.,ba206887a27ee1614370972ce3c0b319f7235547,8,
+MDExOlB1bGxSZXF1ZXN0MTIxMDk3OTQ=,505,Flush control frames; don't flush user frames.,baee0f3b0eefc4eff78d655322bc4f94677bcc8b,2,
+MDExOlB1bGxSZXF1ZXN0MTIxMTg5MjQ=,508,InflaterSource. Like InflaterInputStream.,1d0c6e43ac9ea05f44ea53df7de31c68a6119604,4,
+MDExOlB1bGxSZXF1ZXN0MTIyMTY3ODY=,512,FindBugs sweep.,3ecab09d0f61650567e059be26c3d3576c4bccf6,15,
+MDExOlB1bGxSZXF1ZXN0MTIyNDY2MjQ=,513,Fix for NPE when the OpenSSLSocketImpl returns null from getNpnSelectedProtocol,671a10a5ff1b56641b49fafc0e9613705c1a1283,1,
+MDExOlB1bGxSZXF1ZXN0MTIyODIzMzQ=,514,Initial implementation of an OkHttp-backed curl clone.,d1dd2d78a5fe730920818a948402e7f7b1010632,7,
+MDExOlB1bGxSZXF1ZXN0MTIzNDE2ODA=,516,Rename byteAt to getByte.,a681a4f09c782ecd88926060f1cb44cf8c18789b,3,
+MDExOlB1bGxSZXF1ZXN0MTIzNDY4ODE=,518,OkHttp no longer uses default ssl context.,7d3bba9c8b156f1105f7e7d738361606e30aff88,1,
+MDExOlB1bGxSZXF1ZXN0MTIzNTM0NzU=,519,Use OkBuffer in spdy/3 source stream.,f7e5e354e6089cc11b6a64f0cccdb6ca8f88fbe3,9,
+MDExOlB1bGxSZXF1ZXN0MTI0MjM4OTE=,522,"Add -X to okcurl, permitting HEAD requests",1a235159ec27c668292bc87f9bdcb17ad0dc7010,1,
+MDExOlB1bGxSZXF1ZXN0MTI0MzUwODI=,523,Use OkBuffer in http/2 source stream,a0fdddcc5c3d8a71fe12a145bb53af646bb990d5,13,
+MDExOlB1bGxSZXF1ZXN0MTI0NDU2NzU=,524,BufferedSource.,71ae86319cc047d732a8cf27d0d4847e6a04f5b0,8,
+MDExOlB1bGxSZXF1ZXN0MTI0NzM0MDc=,526,Use OkBuffer in SpdyStream.,d11c66e51204d20a3a88ed1c95b37044facb9a5d,13,
+MDExOlB1bGxSZXF1ZXN0MTI1NDM5NDA=,527,Add body support to OkCurl. Introduce tests.,972d44c792eaf6d6cbc00f5d88113add07a498c0,3,
+MDExOlB1bGxSZXF1ZXN0MTI1NzMzODg=,530,Split HttpTransport in two.,5184e4b9e88c8b598f8befc58ac01fb9d32f58e5,3,
+MDExOlB1bGxSZXF1ZXN0MTI1ODQzOTE=,532,Enforce the implicit state machine in HttpConnection.,37ccc1e1639c61e205ef85dd1c73bda5b25d6d3b,8,
+MDExOlB1bGxSZXF1ZXN0MTI2MjMyNzQ=,535,Give Base64 lots of love.,6e1a734a26d724bc370de1d3862a815f9b46b5a3,7,
+MDExOlB1bGxSZXF1ZXN0MTI2MzQzMTk=,536,Use OkBuffer+Source in HttpEngine.,acecc72de366ce583dd2d313a20d02effc6ccd8f,32,
+MDExOlB1bGxSZXF1ZXN0MTI2ODUwMjM=,537,Remove OkHttp-Selected-Transport header,2f8a86cdad39919aaeeddb6651761d76deda50d3,4,
+MDExOlB1bGxSZXF1ZXN0MTI2ODUwNTI=,538,DeflaterSink.,da0e12f2afa0aa4d3c4a1a4ff1d3edddbf1c6e3b,7,
+MDExOlB1bGxSZXF1ZXN0MTI2ODY0MTY=,539,"When a SPDY client, do not flow-control the server",266bae38900c4dc74a3555e4284b877abef8e478,3,
+MDExOlB1bGxSZXF1ZXN0MTI4MjAyNDA=,544,Small OkBuffer API changes.,faf990bab9fc925fb32fec4924d831ace2171390,5,
+MDExOlB1bGxSZXF1ZXN0MTI4MjAzOTc=,545,"Deadlines are per-stream, not per-operation.",297b83f4a87f0fbc550bfa781792bf7ee3c49128,25,
+MDExOlB1bGxSZXF1ZXN0MTI4MjM2Mjk=,548,Make GzipSource exhaust its input.,dbff73b4a1400b086e82e0b0e1c6f76ab5f556dd,3,
+MDExOlB1bGxSZXF1ZXN0MTI4MjQxMTQ=,549,Fix the build wrt deadline,dd25524d80dca66e48abc8a88d201adbd3b50b65,4,
+MDExOlB1bGxSZXF1ZXN0MTI4MjQ2OTc=,550,Interfaces for BufferedSource and BufferedSink.,eec6dfe642ac3045e0580aea196022633f2eb219,29,
+MDExOlB1bGxSZXF1ZXN0MTI4MjUyNjI=,551,Okio module.,167bec5d99042125b572402ea33f720770a68eca,60,
+MDExOlB1bGxSZXF1ZXN0MTI4MjYyNDc=,553,OkBuffer toString and hex.,ea10f57da7cc45f46d6d18394bd8b4bad67a5859,25,
+MDExOlB1bGxSZXF1ZXN0MTI4MzI1NzQ=,554,"More equals, hashCode and toString.",9f5d9738a7af215a90968cc5b63c89d65bddee98,5,
+MDExOlB1bGxSZXF1ZXN0MTI4MzMyODU=,555,Use BufferedSink in SPDY and HTTP/2.,bb62335a2da55300b2d555e7c2efda6f4c704db0,14,
+MDExOlB1bGxSZXF1ZXN0MTI4MzYwNTA=,557,Use Sink in HttpEngine.,22709f4da3da0a8c464b7746cc7c897d6c9e4f5e,25,
+MDExOlB1bGxSZXF1ZXN0MTI4MzcwNDY=,558,Use OkBuffer in Http20Draft09Test.,ee26242065c51a6da5a01471019860831f05c4d1,1,
+MDExOlB1bGxSZXF1ZXN0MTI4MzcwOTQ=,559,Use OkBuffer in Spdy3Test.,b223ffcd80b7dd408a3789824d93b75c6cd51929,1,
+MDExOlB1bGxSZXF1ZXN0MTI4MzcxNTY=,560,Death to ByteArrayPool.,a571540fa9c55745f495af1ba8c212848f9fae01,4,
+MDExOlB1bGxSZXF1ZXN0MTI4MzcyMDI=,561,Delete AbstractOutputStream and FaultRecoveringOutputStream.,e869e267e55783453bee3a3d022fdd1b694a7b37,3,
+MDExOlB1bGxSZXF1ZXN0MTI4Mzc3NDI=,562,Promote line reading to BufferedSource.,6914ede73dbc9e45790c9815a2b1c5b8c3c6802c,7,
+MDExOlB1bGxSZXF1ZXN0MTI4Mzc3NTE=,563,Teach MockWebServer HTTP/2 Push Promise,5dbf6518413093624093d4053660ce02a09bf6e3,7,
+MDExOlB1bGxSZXF1ZXN0MTI4Mzc5ODU=,564,Kill StrictLineReader.,fc0de65fb6608030c2297736eba1c3ba3528c68a,3,
+MDExOlB1bGxSZXF1ZXN0MTI4NDA2NDU=,565,Test for redirect leak bug.,f34bbbe4453b3ba9a52cffb16ed0273c1b8f8880,1,
+MDExOlB1bGxSZXF1ZXN0MTI4NDExNjc=,566,Add HTTP/2 PushObserver,ad50c2c28a8d1277de15594183a82aa7e526a571,5,
+MDExOlB1bGxSZXF1ZXN0MTI4ODc1OTQ=,569,Keep the handshake after connecting.,b10eb22a94ae7c76f906c3ddb2fd179c959af83a,3,
+MDExOlB1bGxSZXF1ZXN0MTI5MzUzMzc=,571,Rename OkBuffer.byteCount() to size().,599a7720cb351b4505f0e2842f1647d189326d0b,29,
+MDExOlB1bGxSZXF1ZXN0MTMwMzc2MTc=,573,Rearrange OkHttp modules.,02fe319f79576f21769f96bc841ec5dba73d37a9,58,
+MDExOlB1bGxSZXF1ZXN0MTMwNTMxMjM=,575,OkHttp 1.5: fold okio into okhttp.,308f7d2583cb12403b835164c3b905a986812edd,71,
+MDExOlB1bGxSZXF1ZXN0MTMwNjkyMjU=,576,Drop OkHttp 2 APIs for 1.5 release.,640cfa1829a61ec1958c2c9d05cb1f8c95c7c23b,61,
+MDExOlB1bGxSZXF1ZXN0MTMwODI2MzQ=,577,Recover from SSL protocol exceptions.,70e0d07d089a710bffbcc3855aff7922728fa824,1,
+MDExOlB1bGxSZXF1ZXN0MTMwODI3NTM=,579,Ignore a broken test for SPDY failure recovery.,c6c6cdb733bbfce1fe27a247c9edcd9a190c86d4,1,
+MDExOlB1bGxSZXF1ZXN0MTMwODI5OTg=,580,Use the server's date format.,45257fbda5fc0fee8ae47890df175aa1e0aade9b,3,
+MDExOlB1bGxSZXF1ZXN0MTMwODMxMjc=,581,Confirm that we use GMT formatting in setIfModifiedSince().,de1753588331d384f2963640be5f7d004b55160f,1,
+MDExOlB1bGxSZXF1ZXN0MTMwODMyNDk=,582,Don't require OkBuffer callers to cast.,0ef6e00cd088059bce0849d8aedee1bca177b435,13,
+MDExOlB1bGxSZXF1ZXN0MTMwODM0NjE=,583,Fix and test PATCH.,6420167c95ab8fb34b6e24a4bb5a10683c0589a1,5,
+MDExOlB1bGxSZXF1ZXN0MTMwODM4NjI=,584,Use a sneaky throw when RealBufferedSink.close() fails.,ce9b72274ebedb293467e4060811d48d021f4659,3,
+MDExOlB1bGxSZXF1ZXN0MTMxMDI5NjU=,588,Docs for Source and Sink.,66b5af9c668e8262115cb304b064e08aaf03d972,4,
+MDExOlB1bGxSZXF1ZXN0MTMxMDI5Nzk=,589,Use Okio in DiskLruCache.,fe4e858bbc26d1278eb63e5e9d00660623972feb,3,
+MDExOlB1bGxSZXF1ZXN0MTMxMDMwMDE=,590,Rely in external buffers in ChunkedSink.,9ad38d9beddabee207d4caa5cdf70076f5c33b5e,2,
+MDExOlB1bGxSZXF1ZXN0MTMxNjcwOTk=,593,Prefer org.junit over junit.framework for OkHttp code.,9a05d42a80051a5d35b699e43100142fe6af0275,3,
+MDExOlB1bGxSZXF1ZXN0MTMxNjk1NTE=,594,Share code between delegating HttpsURLConnections.,d678114d5522948bf60be35f5f8e44ad70629c62,3,
+MDExOlB1bGxSZXF1ZXN0MTMxNzU5Mjk=,595,Remove creation of 'fat' jar.,144ceb8f0c797a5c611e9ef3585f9ccd74374d3e,1,
+MDExOlB1bGxSZXF1ZXN0MTMxOTYyNjc=,598,incorrect processing of variable-length quantity in http/2 hpack,6f155a4a8d39ea34cdb482d1fd80630258fb7b64,2,
+MDExOlB1bGxSZXF1ZXN0MTMxOTY0MDE=,599,Address PushObserver feedback,98a9296b8abdd32e0482243c5b62d1a1a2f094f9,2,
+MDExOlB1bGxSZXF1ZXN0MTMyMTg5NzY=,600,Cherry-pick ResponseCacheAdapter.,bfa6a2eb040a871ece202c0b6a593d02a5dae7c5,7,
+MDExOlB1bGxSZXF1ZXN0MTMyMjAwNTU=,601,Restore support for ResponseCache.setDefault().,355350ce12921f568de7cd821b593a0cbff9ce35,4,
+MDExOlB1bGxSZXF1ZXN0MTMyMjA4ODk=,602,Test case for read timeout granularity,61ef571255c93edbfeece3aef6553f2627c0cc42,3,
+MDExOlB1bGxSZXF1ZXN0MTMyMjIxNTE=,603,Do not enforce order of window update frames,62507ccef3d14af300b1b83a6c45b53f9afe3377,1,
+MDExOlB1bGxSZXF1ZXN0MTMyMjQ3NTg=,604,Removing requestLine from HttpURLConnection.getRequestProperties(),22a0a0242e5f830f12acd6b5d704bdadba121195,3,
+MDExOlB1bGxSZXF1ZXN0MTMyNzA1MjI=,610,"Allow DELETE Request Body, Ensure Sane Behavior.",a5aefc2797f920f62c059a942a4a85c02c984993,3,
+MDExOlB1bGxSZXF1ZXN0MTMzMjQzNTY=,612,Strip 2.0 APIs from the 1.5 branch.,392d5e5e83bbf2d93a29ed82f39c34097ba45f4d,100,
+MDExOlB1bGxSZXF1ZXN0MTMzMjUxMzQ=,613,Use the 1.5 version in the 1.5 branch.,6ab6526e20444afae9820de3c5e223b237e2118c,11,
+MDExOlB1bGxSZXF1ZXN0MTMzMjgzMDI=,614,Fix poms for 1.5.,3f4a45492aa68e9efcf5c5df1838f1137f78f11b,2,
+MDExOlB1bGxSZXF1ZXN0MTMzMzMxOTE=,615,Build setup tweak to work around release plugin bug.,3b12c307a404b09e1d54a675da9bf2c4fe33b2b5,1,
+MDExOlB1bGxSZXF1ZXN0MTMzNDIwMjU=,617,Fix 1.5 doc and download link.,556269da1b8f983bf9f0e84f3bb4bfd859adfdc9,2,
+MDExOlB1bGxSZXF1ZXN0MTMzNDQ1MDU=,619,API tweaks to Okio.,bb74a58082818b2c0c8bc353fe92f88c6803ac74,17,
+MDExOlB1bGxSZXF1ZXN0MTMzNTI0NDA=,625,Use the peer's settings for outgoing window updates.,f338bfba1a123586004ee274cfc894f6968230e0,2,
+MDExOlB1bGxSZXF1ZXN0MTMzOTM2NDM=,628,fix #627: merge SPDY settings when clear flag set.,152bff36cd022c7db731f9b37b34268260384f8f,5,
+MDExOlB1bGxSZXF1ZXN0MTM0MDU2MTM=,630,Fix problems with DeflaterSink.,b9ddd5fa4f7f9b15468bbd930a00f19b33eb8e4a,5,
+MDExOlB1bGxSZXF1ZXN0MTM0MDU2NTA=,631,fix #627: Merge SPDY settings when clear flag set. ,e4c7570c4a4befa356f275abe608a0824f9d3da1,5,
+MDExOlB1bGxSZXF1ZXN0MTM0MDYxNzA=,632,Fix problems with connection recycling and recovery.,79be5b4da91a6746aa862dff18d9f1220559ef8b,3,
+MDExOlB1bGxSZXF1ZXN0MTM0NDg1MTE=,636,Changelog updates.,de175cc08630ab733c3a1a9805e429f8c488497d,1,
+MDExOlB1bGxSZXF1ZXN0MTM0NTEyNDk=,637,Fix a crash on conditional cache hits for new API.,af65d27efc1d412d5dc095daed6802eca1627027,4,
+MDExOlB1bGxSZXF1ZXN0MTM0NTIyMDI=,639,Don't double pool on a conditional cache hit.,061d45433bef413fe17b9ca831d00ab275a9c899,2,
+MDExOlB1bGxSZXF1ZXN0MTM0NTM3ODg=,642,Add MockSink to the 1.5 branch.,9470d2e74e8ed9c1a9c0bf41c104035f80b28493,1,
+MDExOlB1bGxSZXF1ZXN0MTM0NTQzOTY=,643,Only use one thread for MockSpdyPeer,3a658c618c5a568dd9fb8c814ee9d620f7270a8b,1,
+MDExOlB1bGxSZXF1ZXN0MTM0NTUxNjk=,645,Push Socket into HttpConnection/SpdyConnection.,da0584c8a0b020d848112b15cd0b62545fe47ea7,3,
+MDExOlB1bGxSZXF1ZXN0MTM1NjA4MDk=,649,Fix build removing obsolete okhttp-protocols dependency,89a6fa823397cb246d8b68c41ab534b921b105c1,1,
+MDExOlB1bGxSZXF1ZXN0MTM1NzExMTg=,650,Don't explode if removing an absent file fails.,2abc0dad74e27530887247122722dcdd17b41631,1,
+MDExOlB1bGxSZXF1ZXN0MTM2MTQzMzU=,652,HPACK wasn't emitting header table entries to spec.,b011d742cfd9f3ae30452da6137341db5994ca09,2,
+MDExOlB1bGxSZXF1ZXN0MTM3NDkwNDQ=,656,Restore ResponseCache.get() / ResponseCache.put() methods on HttpRespons...,80565195467582783ff999696f3e20d1c9370563,6,
+MDExOlB1bGxSZXF1ZXN0MTM4MDE5NTQ=,659,Return HttpResponseCache to previous (e.g. KitKat) behavior,ab18aae3b7477d0d77c25e388e7f17c9a3330081,5,
+MDExOlB1bGxSZXF1ZXN0MTM4MTk2NDE=,661,Remove 'jar-with-dependencies' qualifier from download link.,f14149621e2f33156632000c721d8c762cffbf46,1,
+MDExOlB1bGxSZXF1ZXN0MTM4NzgzODM=,663,Teach MockWebServer to throttle the request body.,4f01a4233c2fa169142869ef3e28186ce6bb8acf,4,
+MDExOlB1bGxSZXF1ZXN0MTQxNDQzMTY=,667,Don't do I/O if the thread is interrupted.,015ad352415282295318be7cfc76b0dd2348d8a3,2,
+MDExOlB1bGxSZXF1ZXN0MTQxNDU5ODU=,668,Fix a bug when a POST was redirected to a GET.,949b73dc973db593a22de0e47e017bdd12783482,2,
+MDExOlB1bGxSZXF1ZXN0MTQxNTcxNDk=,669,Track Connection ownership.,da3023375b2970ae5655d993279bbe515a42cd42,4,
+MDExOlB1bGxSZXF1ZXN0MTQxNTg4Mjk=,670,Drop ALPN support.,f3ee2c40d92233d9b50d8391554bfde787029686,1,
+MDExOlB1bGxSZXF1ZXN0MTQ2OTY0NzU=,684,Switch to Okio.,da82d2ab0cb0ee862ddd06ece98f4d3b8ae25773,54,
+MDExOlB1bGxSZXF1ZXN0MTQ3MDA5Mjk=,686,Permit a dangling semicolon in media type parsing.,93b51edb88d3a8d6da5bb4d569dd877ef05952d8,2,
+MDExOlB1bGxSZXF1ZXN0MTQ3MDE3NTY=,687,Add ALPN support; Configure maven to use ALPN on OpenJDK 8.,1a9bcdc38346b4d67c6edc9e9ae9a7268292b060,14,
+MDExOlB1bGxSZXF1ZXN0MTQ3Nzg4MzY=,692,Update to HTTP/2 Draft 10 and HPACK Draft 6.,090750a23b34500b84e01dd25b8a1cd0f2c9f688,20,
+MDExOlB1bGxSZXF1ZXN0MTQ4MjE5MDE=,696,Use synchronization when awaiting events.,798f9ffeb789598fff97b7b51a2e159ce5d04bba,1,
+MDExOlB1bGxSZXF1ZXN0MTQ4NDM0MTQ=,697,"Avoid use of SPDY stream ID 1, as that's typically for UPGRADE.",5a0d5fe29ae8dd8360a06b746918e3812918bad9,2,
+MDExOlB1bGxSZXF1ZXN0MTQ4NjE3NjU=,698,Migrate samples to the new API.,74139441caade6eee3488e2c818163ed2d0393ad,4,
+MDExOlB1bGxSZXF1ZXN0MTQ4ODcyMjk=,704,Make Source the main type in Response.Body.,dbd034eea23e9d3dc243c08d01024a19bef14486,11,
+MDExOlB1bGxSZXF1ZXN0MTQ4OTE1MDY=,705,Update OkApacheClient to use new API.,f9829896f0b881fc215c98d9dc7cad243df43e66,3,
+MDExOlB1bGxSZXF1ZXN0MTQ5MDMxOTc=,707,Make Buffer the body type in MockResponse.,8e4aa806dacd54b7dabe01eb93971317931af4c1,10,
+MDExOlB1bGxSZXF1ZXN0MTQ5MDU3MDc=,708,Fix the socket policy to fix a flaky test.,c31a9155bed865eb86aff9f2d213c710befb2ef0,1,
+MDExOlB1bGxSZXF1ZXN0MTQ5MDg0NzI=,710,Delete Response.Body.ready() which didn't make much sense.,128a6f07d31250e338003ae959fdc92257c12802,12,
+MDExOlB1bGxSZXF1ZXN0MTQ5MTgxMjg=,711,Move Vary headers and Last-Modified out of the public API.,dcc9e3c9856652c28eb3d5d3dd7fa53f81ffb234,5,
+MDExOlB1bGxSZXF1ZXN0MTQ5MjMyMzM=,712,Let the reader thread clean up after itself.,98791de825d1056386e55ec7d56fb23786c9bc2e,3,
+MDExOlB1bGxSZXF1ZXN0MTQ5Mjc2MDA=,713,Move awkward bulk-read method out of Headers.,724d2c7502059c258f0331de24520f14447a3ef8,3,
+MDExOlB1bGxSZXF1ZXN0MTQ5Mjg3MDk=,714,Change the signature of OkResponseCache.maybeRemove.,d7ec91c5588e922aa4d0827c6a3b0d65f59777cd,8,
+MDExOlB1bGxSZXF1ZXN0MTQ5Mjk1NDc=,715,Remove workaround for clients.google.com misconfiguration.,fcd64641013568a82da146c946cc42ed7015db02,1,
+MDExOlB1bGxSZXF1ZXN0MTQ5MzM5NTk=,716,Implement write timeouts for HTTP/1.1 streams.,d1e07b4f16cf63e75d84d6a193475955aaef256b,7,
+MDExOlB1bGxSZXF1ZXN0MTQ5MzQ4MTI=,718,Use File helpers in Okio.,21d12879989634c397b11bfb8b21b0453aad2acd,6,
+MDExOlB1bGxSZXF1ZXN0MTQ5Mzk2MTA=,719,Hide Protocol's internal byte string.,054767901c4e8e28f9fea59cee4f0d8e708af24d,12,
+MDExOlB1bGxSZXF1ZXN0MTQ5NDAwODI=,721,Fewer public APIs for Protocol identification.,5ffc4b73eca348300b725fbc4555921314640b41,8,
+MDExOlB1bGxSZXF1ZXN0MTQ5NDA2NjY=,722,Use 'Protocol' to describe framing.,ffa807e34dbcca9ca0088e58e2a58b8881ab7574,7,
+MDExOlB1bGxSZXF1ZXN0MTQ5NDExMDU=,723,Add frame logger for HTTP/2.,50a98eb0072f4059ee2ba8e6183bc7176d3ebfb9,3,
+MDExOlB1bGxSZXF1ZXN0MTQ5NDMwNTA=,724,Update Response bytes() to use Okio.,5bd2fdadac2a2159c52ab252194a389d070adb96,2,
+MDExOlB1bGxSZXF1ZXN0MTQ5NDUwNTQ=,726,Rename HTTP_11 to HTTP_1_1.,b3bbcd32b3752132887f771610b37a46a1ba26f6,13,
+MDExOlB1bGxSZXF1ZXN0MTQ5NDUyODY=,727,Document protocols and link to their specs.,3ff52c27eb934d140c360abb9c086087137a34c6,1,
+MDExOlB1bGxSZXF1ZXN0MTQ5NDU3MDQ=,728,Expose HTTP/1.0 as a potential protocol.,398a65d72c8e06d9dd0afd98a231cf1c8c07d1f8,8,
+MDExOlB1bGxSZXF1ZXN0MTQ5NDYwMjE=,729,Kill httpMinorVersion.,65709fa56719682d70af1b8fb3b485c20e0ae8d3,11,
+MDExOlB1bGxSZXF1ZXN0MTQ5NDY0MzY=,730,Scrub StatusLine from the public API.,30d105aec306bfc13bdba5b07428c752b71653a1,13,
+MDExOlB1bGxSZXF1ZXN0MTQ5NDgyNzc=,731,Use a String to identify TLS versions.,67ba2acca07790c701fba34551a49de701fa0f5f,6,
+MDExOlB1bGxSZXF1ZXN0MTQ5NTAxODA=,734,Move HttpUrlConnection implementation to its own package.,a4b432c7d120b35ec3f075fa31030ca51617e34d,17,
+MDExOlB1bGxSZXF1ZXN0MTQ5NTIwMDc=,739,Replace TunnelRequest with a regular Request.,2ada894aca51de093b91c1d43d945639cc3f2e3a,4,
+MDExOlB1bGxSZXF1ZXN0MTQ5NTI1NzM=,741,Update Okio timeouts when recycling connections.,e9a3590c1f7b28d1be1e9ade28f131b69feec417,4,
+MDExOlB1bGxSZXF1ZXN0MTQ5NTMxNjY=,742,Update NPN dependency to target jdk7u60-b13 and Oracle jdk7u55-b13.,b3e6576e7fe2886c752bf27675d8d04508a14db3,1,
+MDExOlB1bGxSZXF1ZXN0MTQ5NTM3Nzk=,743,Disconnect on OkHttpClient.cancel,c03b404bff67ac5b36ee4920a52fe57fdf6da601,8,
+MDExOlB1bGxSZXF1ZXN0MTQ5NjY5MTQ=,744,Change the authenticator API to take request and response.,c1fa79523e30f98c03d632daa8ef21ca4dcbd9f2,15,
+MDExOlB1bGxSZXF1ZXN0MTQ5ODk2NTY=,747,Add a test for corner-case behavior.,e52d2a2f2c4f0ce3968b036474d0a191f8c78443,1,
+MDExOlB1bGxSZXF1ZXN0MTQ5OTE1ODY=,748,Fix a bug where the new API wasn't honoring SSL redirects properly.,cb4bfb0081c4570c5902c9ab2b760b9d99175a03,3,
+MDExOlB1bGxSZXF1ZXN0MTQ5OTQ3MjY=,749,Deduplicate follow-up request handling.,382316bc1ba6bea319738941ad1f1300e745e295,4,
+MDExOlB1bGxSZXF1ZXN0MTUwNDkxODQ=,752,Fix HTTP post retransmit in the new API.,45aa0afb8015be5f6e5163f41418708f11fb9c0a,7,
+MDExOlB1bGxSZXF1ZXN0MTUxMDM3ODQ=,755,Add MockWebServerRule,1809639fd9d41f38098d4c55b2cae0aa36c3a86d,3,
+MDExOlB1bGxSZXF1ZXN0MTUxMDQ1MDY=,756,Simple toString on Request and Response.,5c8e8949684c39faac5b1aafc857531993133ffa,2,
+MDExOlB1bGxSZXF1ZXN0MTUxMzQ0NTc=,758,Close the source after reading regardless of result.,e34966453a9fb5f6737f8597b3b56ebb75ece2b8,2,
+MDExOlB1bGxSZXF1ZXN0MTUxNTE5ODc=,760,Move more behavior into HttpEngine.followUpRequest,d3e9ee31beaf5721a462f9a596f1d23c340a5c7c,5,
+MDExOlB1bGxSZXF1ZXN0MTUxNTM5OTQ=,761,Introduce Call for async invocations.,6f94d25859dd205202af31b3f193d1796c0840b6,9,
+MDExOlB1bGxSZXF1ZXN0MTUxNzc5NDQ=,763,Use more convenience methods from Okio 0.8.0.,2e2a58630feafd4d0ea6b59bb95e30aecfe5dfc4,16,
+MDExOlB1bGxSZXF1ZXN0MTUxNzg4MzQ=,764,Merge Job into Call. CallTest = AsyncApiTest + SyncApiTest,f8fb41baee91140687bde1026211aa3a4c32269d,14,
+MDExOlB1bGxSZXF1ZXN0MTUxOTIxMTA=,765,Throw CancellationException when blocking call canceled as opposed to returning null,666b68fd01ca3d8541e33fc627094d3ea5bbfa5e,2,
+MDExOlB1bGxSZXF1ZXN0MTUxOTM5ODM=,766,Use IOE for canceled streams,242209118eca4874b1c0648ec34ac842f7ab2ae6,3,
+MDExOlB1bGxSZXF1ZXN0MTUyMDM1MzU=,769,"Support common http verbs including zero length POST, DELETE.",048e794bd1976c37438f560e67b936a5bdd6949d,8,
+MDExOlB1bGxSZXF1ZXN0MTUyMTI1NTU=,777,"When we want a port, take it.",78278447e1b4e15cb766b4caa4ed176bed257611,2,
+MDExOlB1bGxSZXF1ZXN0MTUyMTMxNDg=,779,Don't suggest NPN will be used when it might be ALPN,40f25b1a38c56334537291e9ef1fda1856e445a5,10,
+MDExOlB1bGxSZXF1ZXN0MTUyMTMyMTc=,780,Rename execute to enqueue for async calls.,49229ac534620266da28ceac312273c6c1f15a16,4,
+MDExOlB1bGxSZXF1ZXN0MTUyMTkyMTA=,783,Use Okio for timeouts in SPDY.,c7a7ab3274ead391dcd4c4f306bef8d6cb688883,5,
+MDExOlB1bGxSZXF1ZXN0MTUyNjk2MTM=,784,Change HttpResponseCache to not implement java.net.ResponseCache.,533bb2efd5475ab2c8549445a126dd4a1f408583,14,
+MDExOlB1bGxSZXF1ZXN0MTUyNzEwMTc=,785,Rename HttpResponseCache to Cache.,7b09eeeb1130f3d0c76291464e5f294e9c618d6f,12,
+MDExOlB1bGxSZXF1ZXN0MTUzNDEyMzQ=,786,New approach to hiding implementation details.,d297c485f21184a2a2c2b62d911150795b974512,5,
+MDExOlB1bGxSZXF1ZXN0MTUzNzQwNzY=,788,Hide more APIs with Internal.access.,01c23eab916337e7dd2e1a6b03e4504306d213ae,12,
+MDExOlB1bGxSZXF1ZXN0MTUzNzUyOTU=,790,Hide ConnectionPool.recycle and share.,da6c9830f8fe10a9bea8bc41ca2202c49c35db49,8,
+MDExOlB1bGxSZXF1ZXN0MTU0NjUyMzM=,792,Update to http/2 draft 12,9a10f953cc8ff922d7eeeebc4b6dc96c68327c00,22,
+MDExOlB1bGxSZXF1ZXN0MTU0Njg2MTQ=,794,Hide route database.,ef5b03db8132180c0aea55558f432ebc69574dd8,6,
+MDExOlB1bGxSZXF1ZXN0MTU0NzE5Mzc=,798,Don't honor the default java.net.ResponseCache.,950e79ce9fd6acdefb0b3f891cdead8ebe2adaed,3,
+MDExOlB1bGxSZXF1ZXN0MTU0Nzk5NTY=,801,Ensure Push Promise callbacks are processed in order.,50aeb9c4449e24f42dcb4d84ba23545fcf48ae65,2,
+MDExOlB1bGxSZXF1ZXN0MTU0ODA0NTM=,802,Reorder test to ensure call is canceled before its body is returned,a44e8637a2de11ea735c56d918f8a2dd39c51f93,1,
+MDExOlB1bGxSZXF1ZXN0MTU1MjE1OTc=,804,Track redirectedBy in HttpEngine.,a729ddf1f3e663859104d024e7bc62eedc3d41a1,5,
+MDExOlB1bGxSZXF1ZXN0MTU1MjQwOTM=,806,Added missing setting for compressed data frames.,1ff6de570a2dd4deb2ec43a60c703b22588bd4ff,4,
+MDExOlB1bGxSZXF1ZXN0MTU1MjQ4Mzk=,807,Fix NPE on proxySelector.select,d4c9c12ec75b81a06d13f0056f2c412cd9a0b61a,1,
+MDExOlB1bGxSZXF1ZXN0MTU1MjUyMDk=,808,Add more context to SpdyConnectionTest.receiveGoAwayHttp2 so that next flake is easier to identify,4959bbbe9eb0427ffe78a77048ba1431b26dc834,1,
+MDExOlB1bGxSZXF1ZXN0MTU1NDM5OTQ=,809,Fix a couple masks and remove duplication in http2 test,ccaa5258511d271acd28a7de522cf568415a848f,2,
+MDExOlB1bGxSZXF1ZXN0MTU2MDY4Mjg=,811,Don't coerce HTTP/2 response headers to lowercase.,61bbdcaeb67f0ecfab451e4694a4f6b6b4e00ebe,4,
+MDExOlB1bGxSZXF1ZXN0MTU2NTg0OTc=,812,Remove FIXME from Huffman as it is good enough.,2ad47a06edd4d4d5b2308b7690f0c0afbadbb3b7,1,
+MDExOlB1bGxSZXF1ZXN0MTU3MzMwNjQ=,817,Rename Request.Body to RequestBody and Response.Body to ResponseBody.,c89b18404d820b7e435b79720010ed954f8226b2,18,
+MDExOlB1bGxSZXF1ZXN0MTU3MzQyNzM=,818,Rename Response.Callback to Callback.,0ea68d726719c3018af102cefc2509f787ef98ad,11,
+MDExOlB1bGxSZXF1ZXN0MTU3MzQ0MDI=,819,Rename OkAuthenticator to Authenticator.,d358073bd2b015e847c9f8b3462d989dbd48c9d2,7,
+MDExOlB1bGxSZXF1ZXN0MTU3NTYwNzk=,824,Fixed typo in HTTP_2 JavaDoc.,4ce3d72f0491daea62eab338228d54ad8e7798dc,1,
+MDExOlB1bGxSZXF1ZXN0MTU4MDM3NzM=,826,Don't rely on a fully-populated InetAddress for tests to pass.,6e214336146c2947482fe3a05b9ebc8c6bdcf197,2,
+MDExOlB1bGxSZXF1ZXN0MTYwMjI5OTk=,834,First steps at making URLConnection a shim.,096012249332d27f7352ebb01bb8965dfda68b59,21,
+MDExOlB1bGxSZXF1ZXN0MTYwMjQ5MDI=,835,Move code to the urlconnection module.,d6fdad9bcda9f585416eedf75b8e7f68f263a1d1,18,
+MDExOlB1bGxSZXF1ZXN0MTYwMzQ2NDE=,836,"Network, cache and user response types.",9f76d0f1df549420843ff617702042ec9ee0da5d,5,
+MDExOlB1bGxSZXF1ZXN0MTYwNTIyNTE=,838,Expose Vary headers in the cache request.,69fa62c8d37bb191d2f05bd45268ad5e3b0c99bc,2,
+MDExOlB1bGxSZXF1ZXN0MTYwNTQ1MTU=,839,Test differences between user and network responses for gzip.,46068f37c86e9488c6b84ab94223d470e504e74b,2,
+MDExOlB1bGxSZXF1ZXN0MTYwNTg1NzM=,840,Drop ResponseSource.,3c2b3718ae54ac23ef5204e016535a02581cc72b,14,
+MDExOlB1bGxSZXF1ZXN0MTYwNzM5MTY=,843,Remove Failure wrapper type.,be569f3ae901d30eb784fa5cd1f4bc1626978aca,7,
+MDExOlB1bGxSZXF1ZXN0MTYwNzgwOTg=,844,Remove unknown clause from response code javadoc.,dc0146a98f509b5534ad502f8e951ae62c09b144,1,
+MDExOlB1bGxSZXF1ZXN0MTYwODA5MzY=,845,Do not deploy tests artifact.,1acc851e86248677c9efebdf596d16c23ce32692,1,
+MDExOlB1bGxSZXF1ZXN0MTYwODYzMDE=,846,Don't NPE after a redirect.,c44355bc70bb1f5a4bae9f96045b4eb396b60a79,2,
+MDExOlB1bGxSZXF1ZXN0MTYxNDUxODM=,849,Drop getHeaders() which is redundant with headers().,884004d92ac7501004e4ee69b1e1ac68b8023d7f,3,
+MDExOlB1bGxSZXF1ZXN0MTYxNjAzMzQ=,851,OkHttp/2 changelog.,a5d204ea6ee5922d4ddf79e2fd01d85519224135,1,
+MDExOlB1bGxSZXF1ZXN0MTYxNzM3OTM=,854,Correct accidental rename of reflected method.,294bbd0ab73d4bb628bb09cc718d1a580ac8f47d,1,
+MDExOlB1bGxSZXF1ZXN0MTYxOTAzNDA=,858,"In HttpURLConnection, pay attention when fixedContentLength is set to zero",9aa7971917e27624f0e08c83e7d758d3b44cb1b4,1,
+MDExOlB1bGxSZXF1ZXN0MTYyMTU2MzI=,859,Offer the okhttp-urlconnection module in the 1.x branch.,1da669a3c71ef8a17f37576f12dfe9c46e1b5857,13,
+MDExOlB1bGxSZXF1ZXN0MTYyNzEzNzc=,860,Offer a bridge to the 2.x cache API.,b74a322958852bf342820b4d526cd6fc5a7203cd,6,
+MDExOlB1bGxSZXF1ZXN0MTYyNzIwMTI=,861,More deprecations to inform 1.x upgrades.,64dfa19345947bceeba8e252ddc31f8e63aab6f5,8,
+MDExOlB1bGxSZXF1ZXN0MTYzMDMwNTU=,862,Don't use the property bootclasspath; that collides with the javadoc plugin,2f96aaba17bf63ff0d5b6db5edccb57d474dfe10,1,
+MDExOlB1bGxSZXF1ZXN0MTYzMDYxMjM=,863,Build Javadoc for OkUrlFactory and OkApacheClient.,a9ad5e4a256841de6ae16408367cd700135f94ba,3,
+MDExOlB1bGxSZXF1ZXN0MTYzNTI5ODg=,867,First couple recipes.,2c7dd5e6df399ff738a58f06a8b3fd093b9583f8,1,
+MDExOlB1bGxSZXF1ZXN0MTYzNzE2MDg=,868,Don't lose uncaught exceptions.,7cee6cd65b01ce000c593cd242b86d21cd683e52,2,
+MDExOlB1bGxSZXF1ZXN0MTY0MDg3Nzg=,872,Recipes for Gson and Caching.,8abf6ef26706eed537a295942b2db3375dbb173f,2,
+MDExOlB1bGxSZXF1ZXN0MTY0MTEyNTU=,874,Expose backwards-compatible response source header.,23909c9db91e46f89c3ee8e3d1354974221a553b,4,
+MDExOlB1bGxSZXF1ZXN0MTY1MDMzNTc=,877,Restore Java 7-specific override annotation.,17fd27786fe6a607bbf01cd07de30cea93c3c34d,1,
+MDExOlB1bGxSZXF1ZXN0MTY1MTY1NzE=,878,Response.isSuccessful().,86e7c058b9771b84ba36af0c1bb3d0db74478ea0,3,
+MDExOlB1bGxSZXF1ZXN0MTY1NjIxMTA=,884,Add missing copyright headers.,34ce5f5bc0502a9d299b56ab1377e19f204c501b,3,
+MDExOlB1bGxSZXF1ZXN0MTY1NjY4NDI=,886,Some POST samples.,6a41e4da9dc16eb52e411c01bc0c82b6eea22d74,1,
+MDExOlB1bGxSZXF1ZXN0MTY1NzEzODI=,887,Write continuation frames when hpacked data is larger than 16383 bytes.,49af7592479a92094f0139c67eacdefc4f756cf3,2,
+MDExOlB1bGxSZXF1ZXN0MTY1NzU3ODU=,888,Give each recipe its own file.,520ae94de014ff1f92b1d2ec40a9e87e1621ef2e,8,
+MDExOlB1bGxSZXF1ZXN0MTY1NzU5ODA=,889,Cancel recipe.,aa94f728a16c07abc2ee94e4d9c4551099642741,1,
+MDExOlB1bGxSZXF1ZXN0MTY2OTMxMjk=,892,Recipe to clone OkHttpRequest for per-request config changes.,2b8d4dbc769356741224af9f92aad0e0aac25cb8,1,
+MDExOlB1bGxSZXF1ZXN0MTY2OTMyOTQ=,893,Recipe for configuring timeouts.,112d518727bd612c8ed8c73e60f084a215c90a6a,1,
+MDExOlB1bGxSZXF1ZXN0MTY4MDc2MjM=,897,Fix a regression in connection cleanup.,57bd7eac9115189c199c9f529ea2318ebdb63dbf,1,
+MDExOlB1bGxSZXF1ZXN0MTY4NjQ1MzU=,901,Add a Headers recipe.,75defc03acd13e5277943f20ba1d868177511fa0,2,
+MDExOlB1bGxSZXF1ZXN0MTY4NzE2NTA=,904,Eat mimecraft.,f4b2835f2bb0d3273e90c54d408afb5b28e93b70,4,
+MDExOlB1bGxSZXF1ZXN0MTY5MDA2Nzc=,906,Allow optional content-type for RequestBody.create with file param,72bdbfc8d26f20f76b7ce5f4a1289e3947ecdde8,1,
+MDExOlB1bGxSZXF1ZXN0MTY5MTkzODU=,909,Don't skip client stream 1 on SPDY/3.1.,5d1c4bf56e06d1888103981915dd0c07b65aa6df,3,
+MDExOlB1bGxSZXF1ZXN0MTY5MTk4MjA=,910,Always configure NPN.,93fa189c42fb26ddc62bac690c2c07d1fbfdf8e7,1,
+MDExOlB1bGxSZXF1ZXN0MTY5MjIxNjQ=,911,Revert builder-esque return types from OkHttpClient.,7a6d8a36837a38c16e932fa54199d42aed328eb6,2,
+MDExOlB1bGxSZXF1ZXN0MTY5NzI5MzA=,913,Keep the response body alive after the callback.,5ba06e009e7eb085aa1fe2856b3b7e9434335729,3,
+MDExOlB1bGxSZXF1ZXN0MTY5NzYxNzY=,914,New API: Headers.of().,95725ffc23d902437fee048edef91896bbd8fb70,3,
+MDExOlB1bGxSZXF1ZXN0MTY5NzY3MDU=,915,Don't include a weird user-agent in the new API.,7a6707d88b228f2d5a76cae10c07bb791e189a0e,4,
+MDExOlB1bGxSZXF1ZXN0MTY5NzY3NDQ=,916,Multipart POST example using imgur's API.,94c9a9749dc8eb79891d4eccad684c53192b277d,1,
+MDExOlB1bGxSZXF1ZXN0MTY5NzkzMzc=,918,Test bogus scheme.,9405e7b3f27c5ec88431deef1beaf057c72589e6,1,
+MDExOlB1bGxSZXF1ZXN0MTcwMzExNzI=,920,Initial web socket API.,4953ef9520a6a3822b32c956027f592a204f60bf,3,
+MDExOlB1bGxSZXF1ZXN0MTcwMzQ1NjA=,922,Examples for authenticating and posting a form,75a59aa8e55d4a77836d48ae9028b68bb22be4b9,2,
+MDExOlB1bGxSZXF1ZXN0MTcwMzY0OTE=,923,Use IOException in Callback failure method.,c676928d5320c07068d458a1666e905e9fa88f58,6,
+MDExOlB1bGxSZXF1ZXN0MTcwOTgxMzQ=,927,Implement message reader.,88aed983acd50986803b37aead28a4d56f18da1f,7,
+MDExOlB1bGxSZXF1ZXN0MTcyMDIxMzY=,932,Implement message writer.,471f02d54377f203cb98b9d3d3535746595bbfa4,4,
+MDExOlB1bGxSZXF1ZXN0MTcyNTk3NDc=,935,Update the language level to Java 7.,da4a40d82f0a47bdb6122cb38d1078b6e6e08d1e,44,
+MDExOlB1bGxSZXF1ZXN0MTcyNzI1ODE=,939,Fix two problems with the window size.,8c3002f95a80df8c90360c7580eca2ae237ea7ac,4,
+MDExOlB1bGxSZXF1ZXN0MTcyNzQyMjM=,940,Use a better message for impossible requests.,a4923cdca810412f030f232a8042eda7b0ea54bc,1,
+MDExOlB1bGxSZXF1ZXN0MTcyNzc1NjI=,941,Pass causing exception through on malformed URL.,dd2ef5d54a9018cc1726cf4e14f15c5bce53b32f,1,
+MDExOlB1bGxSZXF1ZXN0MTczNDc4Njk=,948,Fix a bug where we weren't storing rewritten request headers.,ccdb751faaf6e664fc80026a0645e183b860ddab,2,
+MDExOlB1bGxSZXF1ZXN0MTc0MzI3ODM=,952,Upgrade to Bouncy Castle 1.50,25b290f2a87e72604d29bdadab614c142230a156,1,
+MDExOlB1bGxSZXF1ZXN0MTc0MzYxODc=,953,Unindent the website samples.,0a941865f35ae03b36577df09297a3bae7f2e252,1,
+MDExOlB1bGxSZXF1ZXN0MTc0NDE4Njk=,954,Implement HTTP/2 Draft 13; HPACK Draft 08.,16e1989c6ec6f220c1c0b87cbc1b317edd5e84f7,16,
+MDExOlB1bGxSZXF1ZXN0MTc0NDM1NjA=,955,Fix a bug where the cacheResponse's request method was wrong.,d01cd2ff97e473ef4b2df24124bed3e91f9d5e4f,3,
+MDExOlB1bGxSZXF1ZXN0MTc1MTI1ODE=,961,Eagerly create Entry Files for every value.,ce21afed256f4b3f0b6051d4106e02def874d403,1,
+MDExOlB1bGxSZXF1ZXN0MTc3MzU5MDc=,969,Update MultipartBuilder to support content length.,63bc285596ea984aa4d4d8dd40fa4110c0a12720,2,
+MDExOlB1bGxSZXF1ZXN0MTc3MzYwMzQ=,970,Mention correct Java version on the website.,05c8543ed7d3951718ffe310be5f6f8da4c74afb,1,
+MDExOlB1bGxSZXF1ZXN0MTc3MzYwODc=,971,Use Okio's appending sink for File.,a67dcd46142aea8d72a0f7100ccda3b7cb9332f7,1,
+MDExOlB1bGxSZXF1ZXN0MTc3Mzg0NjY=,972,Move connect to be closer to connection.,f80714ef82c0a928dc7eb884e102fcca9f64fb91,8,
+MDExOlB1bGxSZXF1ZXN0MTc3NDEwMTQ=,973,Make it possible to mock OkHttpClient and Call.,cadf8ac4923f7d065d53b71bf1af5cf36d981418,3,
+MDExOlB1bGxSZXF1ZXN0MTc3NTI4MDM=,976,Add hpack-test-case based tests,933d1814f33abd74ea42629ce05d213534622f71,12,
+MDExOlB1bGxSZXF1ZXN0MTc3NTM3MjE=,977,Hook up the web socket reader and writer together.,a0972495a460fe8658452585970b94b9ebdfea57,16,
+MDExOlB1bGxSZXF1ZXN0MTc4OTAyOTg=,981,HTTP/2 initial window size is 65535 not 65536,5c31a1cd40feb4a3de138d3d16ca4036fa616fac,2,
+MDExOlB1bGxSZXF1ZXN0MTgxNDQ2NTM=,987,Add trailing CRLF to multipart.,587e5a89b54042b330d7ffef5ee7013f96c10d51,2,
+MDExOlB1bGxSZXF1ZXN0MTgyMjQ5NjA=,989,Use urlString for Request.toString(),c32df72ac884b8872c2c80380191004d7ab7e6d9,1,
+MDExOlB1bGxSZXF1ZXN0MTg2MzcwNDA=,996,Permit GETs to have Content-Length: 0.,aab60222c4a3c46773316d27a2ab0a9f9910dcfe,1,
+MDExOlB1bGxSZXF1ZXN0MTg2Nzc0NDA=,997,Use the socket factory for direct connections as well.,75f0603fe98cafd9c1a058ed85b301b8b1828b4a,2,
+MDExOlB1bGxSZXF1ZXN0MTg3OTI0NzY=,1000,Cookies tests are flaky,b3b159d3b94404cb0d47110860324238bacfa8ce,1,
+MDExOlB1bGxSZXF1ZXN0MTg4NTQ4MTI=,1002,Allow callers to pass in a custom host resolver implementation.,deeb0bcfabf1bd7439dee0c80fc2a8f1d56ce997,5,
+MDExOlB1bGxSZXF1ZXN0MTg5Mzc0MzE=,1003,"add info about spdy version, npn and also make it pass wc3 validaton",32d8b3469a79562000fc5018c42f68b6ca7e175b,1,
+MDExOlB1bGxSZXF1ZXN0MTkwMzAxMDU=,1006,Fix transparent gzip for basic auth.,869b9cf66f22f0391630c657ebbfa042c4af40d7,7,
+MDExOlB1bGxSZXF1ZXN0MTkxNDM3Mzc=,1010,Add a regression test for transparent gzip + basic auth,cb1f9b3fefcededbb303c2d2c04d79708a639a61,1,
+MDExOlB1bGxSZXF1ZXN0MTk1NTc4MTk=,1020,Bump Okio dependency.,b0ad2c0a18f4145fd5f641e1a49c97148407f7f2,1,
+MDExOlB1bGxSZXF1ZXN0MTk4OTQ0MDg=,1023,Convert disk cache to use Okio.,392024ae9e7f75094fb5b368a09b177a05738977,10,
+MDExOlB1bGxSZXF1ZXN0MjA5NzA1NTA=,1046,Update to h2-14 and hpack-9,e100d061cdac0d2b9d5b4eb880c4fcb00ed4a257,25,
+MDExOlB1bGxSZXF1ZXN0MjEzMTk3Mjk=,1054,Allow 'http' and 'https' URLs for convenience.,3b1ac7becafab4b4c14cd4d086aacd2d6bc722e9,1,
+MDExOlB1bGxSZXF1ZXN0MjE1OTE3NTc=,1057,Move frame length constraint to where it is used.,28b3c60ec466872c3efd09367522d0bd5b367c74,8,
+MDExOlB1bGxSZXF1ZXN0MjE4OTcxMjg=,1063,Include a user-agent by default.,5e3cb0b8852d60c903826efc30f0b1d5067431b1,4,
+MDExOlB1bGxSZXF1ZXN0MjE5MDQzNDg=,1064,Unused imports.,898e1671062262f616a5a76054fcbcb0c7d0577e,2,
+MDExOlB1bGxSZXF1ZXN0MjE5MDUwOTE=,1065,OkHttpClient.cancel(tag) doesn't cancel in-flight synchronous requests.,d22e1b8a6e45b9c8ea4b1f7b24d59e30364da409,4,
+MDExOlB1bGxSZXF1ZXN0MjIyNDUyNDI=,1072,Handle response code 308 - Permanent Redirect,d6844d557b30b490a0a5bd0fbd4312a0adef889d,6,
+MDExOlB1bGxSZXF1ZXN0MjI1OTcxMDg=,1079,Clean up HostResolver.,e8af802664b32fe579de2b909254a776e28e5201,5,
+MDExOlB1bGxSZXF1ZXN0MjI1OTczNTI=,1080,Forbid setProtocols with HTTP_1_0.,56c389d8da7f434a0e100231653afcfed2a447ff,3,
+MDExOlB1bGxSZXF1ZXN0MjI1OTg1MzM=,1082,More convenient APIs for using Cache-Control in requests.,c19740a962505171098181eaa35cdddf065f6d49,4,
+MDExOlB1bGxSZXF1ZXN0MjI2MDQwNzE=,1085,Extend the keep-alive time for the SPDY push executor.,91e74265cff49c7c2e4e6d78eeb154eb4ece3906,2,
+MDExOlB1bGxSZXF1ZXN0MjI2MTEwMTA=,1086,Certificate pinning.,cfa677589ec4dfb2a97a97ab1c4adff50362b1a9,15,
+MDExOlB1bGxSZXF1ZXN0MjI2MjAzMjU=,1087,Revise how TLS connections are negotiated.,839874061e7402e66c5fbe510dd527d6e31597ce,11,
+MDExOlB1bGxSZXF1ZXN0MjI2MjQ4MTk=,1088,Fix inverted condition on Route's forwarding constructor.,8e137b5e642fac5bb77493001d37820843c2d091,1,
+MDExOlB1bGxSZXF1ZXN0MjI2NTcyNzc=,1089,Introduce ConnectionConfiguration.,ef0713977a22e512a5023db31861dc8991548a4f,11,
+MDExOlB1bGxSZXF1ZXN0MjI3MTgzNDA=,1093,Only read hpack tests for the current draft.,6e52ac4846d6251b2b7d6fe466d5bdd7571e2089,4,
+MDExOlB1bGxSZXF1ZXN0MjI4MzI3MTU=,1095,Change Headers.Builder to be final.,e743ad7a03b9e2cb7d7cbdc85340908b61bfc27d,1,
+MDExOlB1bGxSZXF1ZXN0MjMzNDA0MTk=,1102,Fix a bug where the response cache could be corrupted.,9c4dce6c1f1373fa9ae12718648db6a947e7c9a5,11,
+MDExOlB1bGxSZXF1ZXN0MjMzNDQ2MDM=,1103,Log uncaught IOExceptions instead of rethrowing them.,fc075bc55ad83a5c18b0b5f5ddaa627685d6ff32,4,
+MDExOlB1bGxSZXF1ZXN0MjMzNDY2NjE=,1104,"Add an accessor, Call.isCanceled().",bcb8487511c6e823569acd2a34b9232c5e7f3f61,1,
+MDExOlB1bGxSZXF1ZXN0MjMzNTI1MDE=,1107,Use one logger for all logging.,616e769984a5853cecf0a9e33ab6b1dc642c7cee,5,
+MDExOlB1bGxSZXF1ZXN0MjM3MjAyNjA=,1112,Fix request cache-control to match spec.,97beb7f6348a7d9e8d0aa9333ec876de1e1e39e4,4,
+MDExOlB1bGxSZXF1ZXN0MjM3MjA3MDU=,1113,Change the cache to have non-shared semantics.,7029f425b87d6585cd2d095064b843a24610db08,4,
+MDExOlB1bGxSZXF1ZXN0MjM3MzIyMjM=,1115,Attempt to improve MockWebServer reliability.,5d9442f77f298bf7547fcba4200ab64084aa7eb2,4,
+MDExOlB1bGxSZXF1ZXN0MjM3MzI5MDI=,1116,Don't close the SPDY peer too early.,1c316ade64ea2716e5c0f564400eb3932bdc3432,2,
+MDExOlB1bGxSZXF1ZXN0MjM3MzM4Nzk=,1117,Don't skip the callback if a call is canceled.,492859db453e17dd1c41f37c52ef664ff0e04639,4,
+MDExOlB1bGxSZXF1ZXN0MjM4MDczMzc=,1121,Be consistent about host names in RouteSelector.,f03a0d335a05b9ace7b5beaea4249af19ba95c91,1,
+MDExOlB1bGxSZXF1ZXN0MjM4MTEwODg=,1123,Import DiskLruCache tests.,827418cfbf497d902286e76506ff2bec17284c0b,2,
+MDExOlB1bGxSZXF1ZXN0MjM4MzczNDY=,1124,Implement DiskLruCache.evictAll and expose it in Cache.,9bb969c6ce5e5bcf21060a6bca6663d8bfce2457,4,
+MDExOlB1bGxSZXF1ZXN0MjM4NzgyMDU=,1127,Adjust new 2.1 APIs.,9e0706ca8ddadb438636c30da6e0cafb500259b4,2,
+MDExOlB1bGxSZXF1ZXN0MjM4ODA4NDk=,1128,Rename ConnectionConfiguration to ConnectionSpec.,320fb6eab3e223648790dc65566f956aeec2f472,11,
+MDExOlB1bGxSZXF1ZXN0MjM4ODczMDI=,1129,Websockets!,56ff028deaf5b44210c225587599641c1d3dd4d0,19,
+MDExOlB1bGxSZXF1ZXN0MjQxODc2ODE=,1143,Request body buffering is not transport-specific.,ffced0eb17e348d9636cecbdda60f2dc5db4dc70,16,
+MDExOlB1bGxSZXF1ZXN0MjQxOTk1ODI=,1145,Accept other messages when testing canceled requests.,bcadf052b894be458ba51ffdbd5c8bdeb3fb93ca,2,
+MDExOlB1bGxSZXF1ZXN0MjQyNzA5NzM=,1147,Cherry pick fixes for OkHttp 2.1.0.,2ed2c01a0c6c3bfc48f7440664181534693a16e9,23,
+MDExOlB1bGxSZXF1ZXN0MjQ1MzkyMzE=,1154,Bump to 2.1.0 in README,42bfae91fe632e50257424b0a7d12322fa564a8f,1,
+MDExOlB1bGxSZXF1ZXN0MjQ3MjY1NzQ=,1160,Use new central artifact redirect link.,969dadedf96f4cfdc826278aedb95fd3e76c15a8,3,
+MDExOlB1bGxSZXF1ZXN0MjQ5MTY4MzQ=,1162,Update to HTTP/2 Draft 15.,33642311b2260e4c2b4cf0a64f6c82a66396547a,11,
+MDExOlB1bGxSZXF1ZXN0MjUwODY2NDA=,1168,Avoid hardcoding the custom header prefix,40ed452b692c555536fa29809a1049f95d48b5c3,1,
+MDExOlB1bGxSZXF1ZXN0MjUxMDIyMTE=,1170,Prevent MockSpdyPeer interfering with Android tests,5685de6e7b0d00fadd6a21b1a8327a3caa665396,1,
+MDExOlB1bGxSZXF1ZXN0MjUxOTg3NTU=,1171,Modify bad CONNECT handling,5f741c0aa78e9f10ce57c40a2e0cf1adedb252d5,2,
+MDExOlB1bGxSZXF1ZXN0MjUyNDA1Mjg=,1177,Remove unused local which was always null.,9807f2e3448d29012d4037f6fa050dc4a066379f,1,
+MDExOlB1bGxSZXF1ZXN0MjUyNTYxODY=,1178,Fix for a socket leak in OkHttp on Android,95f0aad2046ac220ba066e20560f07fd23891024,2,
+MDExOlB1bGxSZXF1ZXN0MjU1MjEyNDU=,1187,"Strict, modern HostnameVerifier.",f283677d9bec506835f99511a759c18b278c0b2f,2,
+MDExOlB1bGxSZXF1ZXN0MjU2NTE5NzY=,1193,Initial implementation of interceptors.,07b7e3648b8a34bcc301f3f5dba0a295551aa0cc,5,
+MDExOlB1bGxSZXF1ZXN0MjU2ODc5ODQ=,1194,mockwebserver: bind specifically to a loopback interface,69d6f4244fddc8b8dda1fc4ebcd885761c74463b,2,
+MDExOlB1bGxSZXF1ZXN0MjU4MzQ0NDU=,1196,Change COMPATIBLE_TLS to be TLSv1.0 and not SSLv3,41a344c111d7d64ceaa001f74402d480683f4788,1,
+MDExOlB1bGxSZXF1ZXN0MjU5NjY2MTg=,1197,Apply fix for devices with large socket buffers,7b2ae6f7ddd0f35a5707c77dd9543b2571808c26,1,
+MDExOlB1bGxSZXF1ZXN0MjYwNzI1Mzg=,1201,Remove NPN support from OkHttp,29170bfa4c9910ec3e38b1bcecf723be5c1e8147,12,
+MDExOlB1bGxSZXF1ZXN0MjYxMTU4MTE=,1205,Update to Okio 1.1.0.,7cb076134aa7b25bbd244753cbe108301d29977a,4,
+MDExOlB1bGxSZXF1ZXN0MjY0MTMxMDY=,1214,Auto-deploy snapshots from Travis CI to Sonatype.,87dc825a78c5d405899b7bb73b3e1e9b8c2c5f2a,4,
+MDExOlB1bGxSZXF1ZXN0MjY0MjY3NTE=,1217,Update MWS test style to match project.,0603922ee33f25b9020c42d5eadb45935bceae03,1,
+MDExOlB1bGxSZXF1ZXN0MjY0MzA2NDI=,1218,Move cache writing out of the transport.,657c503469f93b81bb5882d9a76eaf103479f48b,11,
+MDExOlB1bGxSZXF1ZXN0MjY0Mzg0NTg=,1219,Use ResponseBody to model the response body everywhere.,fe1de2d01a8af4cc68180c6292b582f56ee28303,8,
+MDExOlB1bGxSZXF1ZXN0MjY0NjM3MzQ=,1220,Network interceptors.,d36e14979bd14b8a3614bb084146f5a14756c744,6,
+MDExOlB1bGxSZXF1ZXN0MjY0OTEwMTg=,1222,Just some small tweaks.,e821c1a2f79cb24ede89ce0eb3cb271b8c9f92b2,1,
+MDExOlB1bGxSZXF1ZXN0MjY0OTU5MDM=,1223,More interceptor tests.,623d953bbf31733fc67203f3997b1ea82f4217a3,2,
+MDExOlB1bGxSZXF1ZXN0MjY0OTg4NDU=,1224,Use native Okio copy for retrying.,330e7b26b4df7ca824c348c922be31b9bb20622a,1,
+MDExOlB1bGxSZXF1ZXN0MjY1NDI2MzY=,1226,Two interceptor samples.,7f50a0ffd0089ec9c4f8ad1f7dc0dd4a205d52be,3,
+MDExOlB1bGxSZXF1ZXN0MjY1NjM5MTI=,1227,Two more interceptor examples.,c0bb769a436866b83adb3951f24474331c8c9746,2,
+MDExOlB1bGxSZXF1ZXN0MjY1Njc0NTI=,1228,Version header is always present.,e43457e97cff1bd42eb948adbc6bf9128e972763,1,
+MDExOlB1bGxSZXF1ZXN0MjY1Njc0NjA=,1229,Normalize caching size in loop-local variable.,3c59d1c2bcf8f603bf96a30ddb5574379ed575d3,14,
+MDExOlB1bGxSZXF1ZXN0MjY1Njc4Nzk=,1230,Use Okio's readFully(byte[]) instead of custom implementation.,180966efba6e1c35ff70abe3c3fff8579543c101,2,
+MDExOlB1bGxSZXF1ZXN0MjY1Njc5NjI=,1231,"Move method to test module, its only place of use.",8b7c9959d3fbfe94ff2673a037307b201cb0e88b,8,
+MDExOlB1bGxSZXF1ZXN0MjY1Njk0MjU=,1233,Use a name more appropriate for both SPDY and HTTP/2 connections.,d12bd08c9fc369cbf8ef07a9f46ed4b9c0433f1c,2,
+MDExOlB1bGxSZXF1ZXN0MjY1NzA1OTI=,1234,Remove some needless allocations.,6fd717ff0c2752bbe09b07fcdb400359449de1aa,5,
+MDExOlB1bGxSZXF1ZXN0MjY1ODgyNjA=,1235,Don't NPE if disconnecting before connecting.,9304bd6a13de2826cda35927f57886bd3d8f4395,2,
+MDExOlB1bGxSZXF1ZXN0MjY1OTAyMjY=,1236,Source-incompatible: RequestBody.contentLength() throws IOException,b9fb7bbe7a1eb4fcc4ad7581550c8e5a654739b6,6,
+MDExOlB1bGxSZXF1ZXN0MjY1OTE1MzM=,1238,Nfuller fix pool leak,85575f010eca306f5248667320a9d2c9843a065c,2,
+MDExOlB1bGxSZXF1ZXN0MjY2MDg2MDE=,1243,Nfuller change alpn npn support,c5f3866bb7fe154dc81ba2328fc2b47623117414,12,
+MDExOlB1bGxSZXF1ZXN0MjY2MTY2NDk=,1244,Always call ALPN.remove() after handshake.,8516d4ba4627bf0220fb98f0d0de158ea8d4aa90,3,
+MDExOlB1bGxSZXF1ZXN0MjY2MTY2NjU=,1245,Use MockWebServerRule in more tests.,5b9fcde115c3f75a3ae5847755c10345697aea01,6,
+MDExOlB1bGxSZXF1ZXN0MjY2MTczMTY=,1246,Update ALPN.,3904d4fe0a56b4c6ced599b4250342fedc6f2eb8,1,
+MDExOlB1bGxSZXF1ZXN0MjY2MTkyMjQ=,1247,Fix pooling with proxy selectors.,1b34c5655d5f4dea9fbbce24fa7da5f17d1497ae,5,
+MDExOlB1bGxSZXF1ZXN0MjY2MjA0NTY=,1248,Support SOCKS proxies.,82879a7bdb29e9629b2c15facef11511982c9323,4,
+MDExOlB1bGxSZXF1ZXN0MjY2MzA1OTc=,1249,Respect the max idle connections limit.,002b91fd51ea79c2c9f631ea0ecd3459f1b63b9b,3,
+MDExOlB1bGxSZXF1ZXN0MjY2NTQ0ODA=,1250,New API for iterating DiskLruCache contents.,e872c50e49e4a0d35bcfcd6fe0c05e057b7748d9,2,
+MDExOlB1bGxSZXF1ZXN0MjY2NTc1NTM=,1251,Don't reuse ephemeral port numbers.,68d699d005d8cd6aca1eaaef45ec15c1afff7126,1,
+MDExOlB1bGxSZXF1ZXN0MjY2NjQ3NjA=,1252,New APIs to iterate the response cache.,d121c051295a05f0c3966125d46e078a1d19ce37,4,
+MDExOlB1bGxSZXF1ZXN0MjY2NjYwOTE=,1254,Cache 302s and 308s with the right response headers.,16fc42c3b1b936f41f5cd368ad984b9e61a3eaa4,3,
+MDExOlB1bGxSZXF1ZXN0MjY2ODc1MzQ=,1256,Limit 20 authorization attempts.,425bfcd0510287082ae19a1719c5f085563a39f0,5,
+MDExOlB1bGxSZXF1ZXN0MjY2ODk3MzU=,1257,Don't recover from timeouts.,33f10f7788b2172bbd01895c6fb99f6ba278e936,4,
+MDExOlB1bGxSZXF1ZXN0MjY3MDk2OTQ=,1259,New API to disable retry for an OkHttpClient.,68619ab876595cb1baa14e9b31e6301814cf8a2f,3,
+MDExOlB1bGxSZXF1ZXN0MjY3MTUxNDk=,1260,Add a web socket call concept for connecting.,244ace0699bc3e2975a99d9d7a370627264bd3d6,20,
+MDExOlB1bGxSZXF1ZXN0MjY3MTYyODA=,1262,Remove unused method.,47743156edd684467fb3af4ffd766e8796de05a9,1,
+MDExOlB1bGxSZXF1ZXN0MjY3MjY1OTY=,1263,Update CHANGELOG.md,0bb02819b9266601c0f6f5d4c493ce110d0332e2,1,
+MDExOlB1bGxSZXF1ZXN0MjY3MzE3MzI=,1264,Skip buffer allocation when not needed.,ca2a4e0332af6b1902c2605987e4ebbe7c77f817,1,
+MDExOlB1bGxSZXF1ZXN0MjY3NTE2MTE=,1267,Promote adding headers by line to public API.,5693fbdd4526c93f795772bf965ac8a3767e1c48,6,
+MDExOlB1bGxSZXF1ZXN0MjY3NjY0ODE=,1268,Always include OkHttp in thread names.,8bb580d261638cf9d7d5962037739a3c1237e165,4,
+MDExOlB1bGxSZXF1ZXN0MjY3Njk5OTc=,1269,Correct comment.,b675a8a5a49e48bfe65cfa3c7c2ba086648ff53f,1,
+MDExOlB1bGxSZXF1ZXN0MjY3NzE0Njk=,1270,Update MockWebServer to use Headers.,5efd256ac1a674fc523d1094d2a90f0ec60447c7,10,
+MDExOlB1bGxSZXF1ZXN0MjY3NzIzMjM=,1271,Use TlsVersion enum for recorded requests.,087ea473f2f3778c5ed3bf68dc8860dc2faca12d,4,
+MDExOlB1bGxSZXF1ZXN0MjY3NzI4Mjk=,1272,Use a Buffer for body contents.,cbae5968dc316558ac0625b0142f1db9bfed456c,8,
+MDExOlB1bGxSZXF1ZXN0MjY3NzMyNzQ=,1273,Make TlsVersion and CipherSuite parsing methods public.,94c571701bf3116a752517438f67716bcc0e6271,5,
+MDExOlB1bGxSZXF1ZXN0MjY3NzQ1NzU=,1274,"Test Expect: 100-continue with OkHttp, not HttpURLConnection.",1f20851ab9b79c73872a4e55d2d15850fb9041fb,2,
+MDExOlB1bGxSZXF1ZXN0MjY3NzYyODM=,1275,Skip allocating a wrapper list for copying.,4c8e741983bb434232f705acf6ae598a60499e2b,1,
+MDExOlB1bGxSZXF1ZXN0MjY3ODEwMDE=,1279,Make readMessage public for future MWS usage.,c54ef4cd166e3ff15a4a8d0aa9c9568fbfc4b0ce,1,
+MDExOlB1bGxSZXF1ZXN0MjY3ODE4Mjc=,1280,Teach MockWebServer to speak WebSockets.,890b5e894c016e23142bb3d6b12fbf5d7f4b977a,9,
+MDExOlB1bGxSZXF1ZXN0MjY3OTM3MjU=,1282,Use Sources and Sinks for all IO.,80c8c5da7264a16cb9cabdcfea902a848a100b61,4,
+MDExOlB1bGxSZXF1ZXN0MjY3OTQwMDc=,1283,Make cache-control remember its header value.,5fe734c632ea1cce68b845fb3e641edbcd346622,2,
+MDExOlB1bGxSZXF1ZXN0MjY4MDI1OTY=,1285,Remove ALPN jars from dependencies block.,5bd9900e64a6da396759cea692eb00ad9c6b7210,1,
+MDExOlB1bGxSZXF1ZXN0MjY4MDc0MDY=,1288,Correctly link to OkHttp and Okio javadoc.,1388d868970398be21acc40af243138cf1d412c3,1,
+MDExOlB1bGxSZXF1ZXN0MjY4MDgzODc=,1289,Clean up time-based APIs for throttle and delay.,c44102e06f50d2099fd7974ac043d2c404e76291,4,
+MDExOlB1bGxSZXF1ZXN0MjY4NzIwMzc=,1297,Use 'Headers' in recorded response.,ca1158adac0f4ecbc82ffad3f4bf6b6221885626,12,
+MDExOlB1bGxSZXF1ZXN0MjY4NzI1NTU=,1298,Remove old SSL protocol method.,f6505180919959c4ea8f9f8dd4512c57601c739f,3,
+MDExOlB1bGxSZXF1ZXN0MjcxMDcwNDI=,1307,Source-incompatible: ResponseBody methods throw IOException,56de69e960b1b3d8b28a968e813c112d552fcf36,3,
+MDExOlB1bGxSZXF1ZXN0MjcxNjE0Njg=,1310,Lazily initialize the cache.,65be77a99583395f44e6c0adbbb10666e2219d47,3,
+MDExOlB1bGxSZXF1ZXN0MjcxOTM0NzU=,1313,Fix isClosed() when a cache has not been initialized,d7abb2f38cbb413985b753429e8f6204683f76b0,2,
+MDExOlB1bGxSZXF1ZXN0MjcyMzI3NDk=,1315,Move stringy test methods to test class.,b4405a536f383e52cec3e55c795615bf1b8a4f1b,2,
+MDExOlB1bGxSZXF1ZXN0MjcyMzU3NTg=,1316,Empty sinks must still honor the contract by consuming the bytes.,d7ec9e21684105205902f4587f8c2be23570a57d,1,
+MDExOlB1bGxSZXF1ZXN0MjcyNzIxNDk=,1321,Fix the user agent test so it works with a different user agent string,52482168446a123086c8fcc0f7f1c0273d890ebb,1,
+MDExOlB1bGxSZXF1ZXN0MjczMTUxMjU=,1323,Hurry up connection pool shutdown.,8d04a058689e41c74967d7d7b339626f720a693a,1,
+MDExOlB1bGxSZXF1ZXN0Mjc0MTkyNjM=,1326,Fix for MockWebServer on Android,bf4dacde2594b015519340cebc10665979227530,1,
+MDExOlB1bGxSZXF1ZXN0Mjc0NzQ4MTc=,1332,Update http default cache codes,6ea1374a21358e2de21a8cb028a791425bf08dfa,3,
+MDExOlB1bGxSZXF1ZXN0Mjc3Nzg4ODc=,1341,Trivial optimization for comparing ConnectionSpecs,e05390f8c6d1a6715a1f87948312113dc091af52,1,
+MDExOlB1bGxSZXF1ZXN0Mjc5NDA2MzE=,1348,Reduce flakiness and document reasons for flakiness,851c29d7c69a3b62dccfe6db21c06c8027f6222c,3,
+MDExOlB1bGxSZXF1ZXN0MjgzNjM4NzM=,1353,Fix a major bug where threads weren't being created.,50c073c7fa2d1a5718927b19c51370431f6d3178,2,
+MDExOlB1bGxSZXF1ZXN0MjgzODMyNTE=,1355,Send at most one condition.,73bf32e4326f2a5ce9a38d4f4345f4ccab3e3cc6,4,
+MDExOlB1bGxSZXF1ZXN0Mjg0MjIxODA=,1357,Do not allow timeouts less than 1ms.,fd360482126fcd1f52832d9ea8c2a19c044085fb,2,
+MDExOlB1bGxSZXF1ZXN0Mjg5ODAzMzY=,1383,"Throw SSLPeerUnverifiedException when host verification fails, instead of IOException",b0e0be8488c164f61283121b99260817696beab1,1,
+MDExOlB1bGxSZXF1ZXN0MjkwODEyMzQ=,1388,Move TLS retries / fallback into Connection.,b614dad6a9f366ea36a5409fae1e014480a67a4d,22,
+MDExOlB1bGxSZXF1ZXN0MjkxMjYyNDc=,1391,Add Gradle download info to project Pages,8e0a906efab9d7cffef186c94a254b101352cca9,1,
+MDExOlB1bGxSZXF1ZXN0MjkxNTA3NDE=,1393,A way to catch that cleartext HTTP request was attempted.,81e109cfa6d0387dab1c097888ac7b6eac3b5765,2,
+MDExOlB1bGxSZXF1ZXN0MjkxNjUxMDQ=,1394,Fix for SslContextBuilder/MockWebServer disagreeing about localhost,5a4aa590b1b0d48aeb42066bb6b7b9b644d82ebb,1,
+MDExOlB1bGxSZXF1ZXN0Mjk3Nzg2OTY=,1448,Use Okio's new APIs for number parsing and formatting.,3b52cb61bd763a33872d71312d5b84872728c669,7,
+MDExOlB1bGxSZXF1ZXN0Mjk3ODM0MjQ=,1449,Compute the content length of multipart bodies.,ed21dd71211ddab9ccb5e7c482faa3e54da85908,2,
+MDExOlB1bGxSZXF1ZXN0Mjk3ODU0NDY=,1450,Fail properly when a port is out of range.,df7a89cf770ba85c0aba1160dcdac6e0284552f5,2,
+MDExOlB1bGxSZXF1ZXN0Mjk5Mjk3MDE=,1456,Test that DELETE can have a body.,ae1da7c7d2a0dfe68f275c2da3121ade3273f78d,1,
+MDExOlB1bGxSZXF1ZXN0MzA0MDg1MzU=,1465,Payload length continuations are unsigned values.,187820d775d90971e42b7b104f9586387056df58,5,
+MDExOlB1bGxSZXF1ZXN0MzA2MTQ4ODA=,1469,null out Request.Builder.url when setting urlString,b11f2f8c4c9a6ea4910b10db69402af63eaa78a4,2,
+MDExOlB1bGxSZXF1ZXN0MzA3MDg2NDU=,1472,Don't crash on shutdown() before start().,0c686e94c01ea86f80789f10828ce5a36dfd9021,2,
+MDExOlB1bGxSZXF1ZXN0MzA3MTQ0NzE=,1473,Normalize web socket exception messages to match.,f5c69090a05bb3b268d79121981fd503af3246e7,4,
+MDExOlB1bGxSZXF1ZXN0MzA3Mjk0MTc=,1475,Drop some RC4 cipher suites.,c96eb865eea9d52f5ade2f62aa9d1d817c8dd453,1,
+MDExOlB1bGxSZXF1ZXN0MzA5MTMwMzA=,1487,Provide context on unexpected EOFs.,1002a33dc3451e1648fd903308c4e195f1bf952c,1,
+MDExOlB1bGxSZXF1ZXN0MzA5NTI5NTg=,1488,Updates to http/2 final,d26a4cdd681070f18630d14bcade2bdc842ba316,18,
+MDExOlB1bGxSZXF1ZXN0MzA5NTk4OTc=,1489,Move WebSocket to the public API in a sibling module.,7e919c155163e73e0abd161269c072962b5859f0,22,
+MDExOlB1bGxSZXF1ZXN0MzExODg1MTk=,1495,New file system abstraction.,10784c2698b6f4b2ba14b2209f2aba6bb06b3367,6,
+MDExOlB1bGxSZXF1ZXN0MzExOTE1MDU=,1497,Don't get corrupted when journal writing fails.,133e0af57513a47d72f35504fed6cf14c90c0ddb,4,
+MDExOlB1bGxSZXF1ZXN0MzEyMDM5MDc=,1501,Add a test for interceptors throwing unchecked exceptions.,36fd34d1b733a26d3101f7466729462150722f57,1,
+MDExOlB1bGxSZXF1ZXN0MzEyMDQ0MjM=,1503,Fix a flaky test by waiting until the Okio watchdog is caught up.,60a910f85dcc8330d7526059bab1d99c9f8c5d12,1,
+MDExOlB1bGxSZXF1ZXN0MzEyMDkzMTg=,1507,Use Okio when reading cached certificates.,927f2279d5815b33e155b9c0014a8948e49093db,1,
+MDExOlB1bGxSZXF1ZXN0MzEyMTI3NTM=,1508,Fix some crawler bugs.,5edea761d4fbf5da428708222fc50610f3afd4d9,1,
+MDExOlB1bGxSZXF1ZXN0MzMyMTE3ODQ=,1553,Expose running and queued call counts for monitoring,72d7853c6a56154b7bab4531b6fe5237c3d29957,1,
+MDExOlB1bGxSZXF1ZXN0MzMzOTI0MzY=,1559,Never convert null into an empty request body.,945da7a06156f584bd9034f866facc7b5aeba0f7,5,
+MDExOlB1bGxSZXF1ZXN0MzM2MTIzNzg=,1570,Don't get stuck waiting on the connection window.,e4ed43207eb74ec7d041fb0db2c97953f8d80626,3,
+MDExOlB1bGxSZXF1ZXN0MzM2MjU2Njk=,1571,Update reader state on the reader thread.,5185c357f386222e0c94feb94861f7caab6e45cf,2,
+MDExOlB1bGxSZXF1ZXN0MzM2OTMwMjk=,1575,"Do not rebuffer socket streams for web sockets, other fixes.",2bfbf2945c4a53d2fb0a467436f1af578acee24d,9,
+MDExOlB1bGxSZXF1ZXN0MzM4MjM3ODM=,1578,HttpUrl initial API.,4be3569f238ec3a448c605ce73c069820f4b83ad,1,
+MDExOlB1bGxSZXF1ZXN0MzQ2MTEyNTA=,1601,HttpURL parsing.,d95dad278080b8efa4c25a80dab3e76f05995891,5,
+MDExOlB1bGxSZXF1ZXN0MzQ2MTU2NzY=,1602,Implement percent encoding.,4ec0fe352c4a3cce697d4f9ef47a79cea45de559,3,
+MDExOlB1bGxSZXF1ZXN0MzUwNjk4MDU=,1619,Compose URLs from parts.,5150402d785575666709e9bf6834b5c66539a6a6,2,
+MDExOlB1bGxSZXF1ZXN0MzUwODM0Mjk=,1621,Use lists to model paths and queries.,2033d9d94f9a23c561f61382b4f96fe13e252ed6,2,
+MDExOlB1bGxSZXF1ZXN0MzUwOTg4MjU=,1624,"Compare and contrast with java.net.URL, java.net.URI.",c3a361bc30f45d745a3a43eaba5a824b2773a203,3,
+MDExOlB1bGxSZXF1ZXN0MzUwOTg4NDM=,1625,Implement query parameter management.,633c011a831c6e87e76d62949ac926f0db725bef,3,
+MDExOlB1bGxSZXF1ZXN0MzUxMDk5OTY=,1626,Enhance Javadocs on OkHttpClient.setSocketFactory,0baf5776f45800592865e0608153747903eed940,1,
+MDExOlB1bGxSZXF1ZXN0MzUxODY0NDI=,1629,Rename username to encodedUsername and decodeUsername to username,b693c2cbb04e9cf06c708b160c47b08c22be5ad7,4,
+MDExOlB1bGxSZXF1ZXN0MzUyMjE3MTU=,1630,Always encode space as %20.,e7124d9755d20bd2457f7920d5a520770fb3c250,3,
+MDExOlB1bGxSZXF1ZXN0MzUyMjQwMTY=,1631,Use HttpUrl in Request.,15981204b52364f00f5159e138daed912e7bf5b2,7,
+MDExOlB1bGxSZXF1ZXN0MzUyODQ2MzY=,1633,Encode whitespace as a component.,b6581b3d0057776e09b548e92006184753a59bbe,3,
+MDExOlB1bGxSZXF1ZXN0MzUyOTIyNDk=,1634,Javadoc HttpUrl encoding.,f73784232004da63b336c81989137b3b1e9044aa,1,
+MDExOlB1bGxSZXF1ZXN0MzU0NjMyNjI=,1648,"Store the decoded components in HttpURL, and encoded in HttpUrl.Builder.",cf07a80c12c870a6a146d6c754699394f3b2e4be,2,
+MDExOlB1bGxSZXF1ZXN0MzU0NzU0MTQ=,1649,APIs to set and remove path segments.,c2f6fbee72fe66ec1efb84e30c39b20eeddc1153,2,
+MDExOlB1bGxSZXF1ZXN0MzU0ODEwNDU=,1650,New FormEncodingBuilder.addEncoded() API.,0991bf134977a8e0de5f376d1df9ed4f376149e2,3,
+MDExOlB1bGxSZXF1ZXN0MzU1NzE5NTM=,1654,Don't share timeouts between pooled connections.,247ecb9a45fccb5c7a1a8215369c3f6fa37cd7cc,2,
+MDExOlB1bGxSZXF1ZXN0MzU1OTM4MDk=,1658,Fix a race closing MockSpdyPeer.,2c64dc05e2447707b9bb4bb6cb878e5004a71467,1,
+MDExOlB1bGxSZXF1ZXN0MzU2ODQ5NDQ=,1662,Fix flaky test Spdy3ConnectionTest.receiveGoAway().,ab1859c8b800d9a9e69589f105ac8862c4006c10,1,
+MDExOlB1bGxSZXF1ZXN0MzU2ODY1ODI=,1663,Accept ws: URLs in Request.Builder.,0aaa9ca5b0f1fedf1a1a40b6aa42dce613085640,8,
+MDExOlB1bGxSZXF1ZXN0MzU4OTk4Njc=,1668,Add optional Response to WS failure callback.,5fcc38abc86ea6825f9be7324ac1e8797d1f9630,8,
+MDExOlB1bGxSZXF1ZXN0MzU5OTg1NTI=,1669,Call onOpen on the reader thread and force writing on another thread.,a387903d1b59042215588326e4066b4d3265e334,6,
+MDExOlB1bGxSZXF1ZXN0MzgxODAzODY=,1715,Add HttpUrl methods to MWS and update non-HUC usages.,c25f4c749c085d9088334d1fac246fbe9c6166b0,17,
+MDExOlB1bGxSZXF1ZXN0MzgxODA1ODI=,1716,Add socket policy to disconnect mid-response.,aa7330169e9f0bfd8d21ef09d4649d7d89c7812a,3,
+MDExOlB1bGxSZXF1ZXN0MzgxODU5NjY=,1718,More tests on truncated response bodies.,e028db3b9f175864a50b3115673973611d7de746,2,
+MDExOlB1bGxSZXF1ZXN0MzgxOTE1MjI=,1720,Set default timeouts to ten seconds.,eff66213590f3c55a1902f5f6a7e8eecfd060b6a,2,
+MDExOlB1bGxSZXF1ZXN0Mzg3MDE5Nzg=,1731,Fix small typos in the ChangeLog,07cf92bff6bf4e04fead1489853202da22f731f0,1,
+MDExOlB1bGxSZXF1ZXN0NDA0NzMyNTE=,1758,Only disconnect response transfers with disconnect policy.,b45ed778fc1c753811c1fa0da730a78c2415512d,1,
+MDExOlB1bGxSZXF1ZXN0NDA3OTA0MzA=,1765,Fold MockWebServerRule into MockWebServer.,e478eecd3a411efeb35bff817a30696c2054fc77,16,
+MDExOlB1bGxSZXF1ZXN0NDE0MDk4NTQ=,1782,Make call canceling more reliable.,1102e601eb6f0aa5202666b2b5fc316df0bd656a,4,
+MDExOlB1bGxSZXF1ZXN0NDE0MzQ2MDg=,1785,Be strict on invalid characters in request headers.,98d58b4003547afbdb34073b6d9ce85d2cccb756,5,
+MDExOlB1bGxSZXF1ZXN0NDE0MzU0NTk=,1786,Make sure the default user agent is ASCII.,1ec73ab19fd190ec8b41e20e3377a2e54a3cbfef,3,
+MDExOlB1bGxSZXF1ZXN0NDMyNDQzMTU=,1817,Recover from Android 4.2.2 EBADF crashes.,3b138e799f5ad4c09107d0e1658938247ddb092a,2,
+MDExOlB1bGxSZXF1ZXN0NDMzNTM5NTQ=,1819,Require Okio 1.6.0.,cee963e5ecd51fcfa441099f02cb1a25a4b72a8a,1,
+MDExOlB1bGxSZXF1ZXN0NDQwMTgxNDA=,1835,Test code refactoring,a0e311a82be51637a9c3c8d216138559299a87a5,8,
+MDExOlB1bGxSZXF1ZXN0NDYwNTk0NTE=,1874,Add logging interceptor for simple request and response logging.,b572c31f932709ee6627c3e31a1105748e41aed8,7,
+MDExOlB1bGxSZXF1ZXN0NDYwODk5Mjg=,1875,Represent WebSocket payload using RequestBody and ResponseBody.,d6a0dd8c71e7c3608ce12030263d757f49013be2,12,
+MDExOlB1bGxSZXF1ZXN0NDYwOTM5NjE=,1876,Introduce intermediate storage for frame contents.,0135a970a09e2441c995889bae43d40ccef321b1,7,
+MDExOlB1bGxSZXF1ZXN0NDYwOTU4NzM=,1877,Honor (and thus fail on) reserved close codes defined in the spec.,53f49f4ea184e4223e48f77dedccfd3f7bc20c8e,2,
+MDExOlB1bGxSZXF1ZXN0NDYwOTcyMTM=,1878,Add Autobahn infrastructure for future automated testing.,b67807882f505233a9448eee6561774674c1152f,6,
+MDExOlB1bGxSZXF1ZXN0NDYxMDg3NjQ=,1880,Shutdown reply executors when web socket closes.,6cd9cb62e99f8f88ada0fc4d665911e517f11108,4,
+MDExOlB1bGxSZXF1ZXN0NDYxMDkyMDQ=,1881,Remove unused field.,920577b8377321cbab35904b213700cf2fc863b2,1,
+MDExOlB1bGxSZXF1ZXN0NDYyNzYzMDM=,1885,use URI constructor for encoding,a2468f562575f99d7d5be8cb8453efaaf8608a6a,3,
+MDExOlB1bGxSZXF1ZXN0NDcxMDg5NTU=,1908,Add a strict mode of sorts to InMemoryFileSystem to detect handle leaks.,10499ae742b435186ff2bfcb0c3295d81b896c6c,6,
+MDExOlB1bGxSZXF1ZXN0NDgxMzA1NDQ=,1936,Remove the need for an explicit Content-Length header to log response body.,3fcb0441a02da53b0209a2a6c308a40d5cb2cde8,2,
+MDExOlB1bGxSZXF1ZXN0NDg3OTk0NzM=,1944,Update links to Javadoc.,930d43b793bdf9811ea82f1eb8946f3a89459e2c,2,
+MDExOlB1bGxSZXF1ZXN0NDkzNzYwNTY=,1959,Encode enough to make URI happy.,1217b6c5dbc336eb8a93f955647582aeea7a183e,4,
+MDExOlB1bGxSZXF1ZXN0NDkzNzc4Mjg=,1960,Add policy for disconnecting request body halfway.,29f62c2414b949b1180590cf50e948618fc36ea1,3,
+MDExOlB1bGxSZXF1ZXN0NDk1MDk0NjI=,1963,Make ConnectionSpec more uniform.,9e5bceaadea086229c9f8ca6ac1f2fef33c21ff3,4,
+MDExOlB1bGxSZXF1ZXN0NDk2Mzk3MDk=,1967,Make the DNS service pluggable.,a5108a33f1f2379be6e3c7adbf08d895f0099075,15,
+MDExOlB1bGxSZXF1ZXN0NDk3ODEzMTk=,1970,Don't percent-encode non-ASCII characters in fragments,5270dc6a5e522dc55e42a69a014c8880e43b414c,5,
+MDExOlB1bGxSZXF1ZXN0NTAwNDUyNDI=,1980,New failing test for HTTP/2 connection interference.,ac8943eca98558bfd0acb603bccb9c8bb2343a37,1,
+MDExOlB1bGxSZXF1ZXN0NTAwNjgyNjQ=,1982,Connection allocations model.,c3c131a839cdf707934b5b63346b7af6afb41282,3,
+MDExOlB1bGxSZXF1ZXN0NTA3MTc2OTc=,1995,Permit space to be encoded as + or %20.,1424ba319a6b7bcac53a15732a49159529570e1c,3,
+MDExOlB1bGxSZXF1ZXN0NTA3MTkzNDQ=,1996,Break apart close states. Try to send close on IOE.,212e23abe9667964ae6ff9430bbef8f827e4abe0,3,
+MDExOlB1bGxSZXF1ZXN0NTEwMjU3MzY=,2008,Stop returning HTTP/1.0 from Connection.getProtocol().,86152a0c10678b4e2a43c2ce26ad637c893d08a5,9,
+MDExOlB1bGxSZXF1ZXN0NTExNzc1NDE=,2013,Fix flakiness in CallTest.cancelTagImmediatelyAfterEnqueue(),57b80751209e0748077b1dd76c2cec10cffa4899,1,
+MDExOlB1bGxSZXF1ZXN0NTE0NTMyNzA=,2020,Fix HTTP/2 bug where we were using SPDY/3 style header concatenation.,e8dd6c439e1299ec04096ee58398065c2ffd30f7,4,
+MDExOlB1bGxSZXF1ZXN0NTE3MjQxMjc=,2033,Support 204 and 205 'No Content' replies when application interceptor.,d16920269e512a0ba56af6a202b03b2008bfdbed,2,
+MDExOlB1bGxSZXF1ZXN0NTE3NDcwODM=,2037,Remove synthetic protocol header from native API.,5aa436a5017d6ca585acc09ec514872309e2c8b0,7,
+MDExOlB1bGxSZXF1ZXN0NTE3NDgyMDQ=,2039,Log the full URL.,2791996b696f7ecbd93cbba64cd6dcb9d81d3d03,2,
+MDExOlB1bGxSZXF1ZXN0NTIwMzM4OTI=,2045,First draft of the new new stream allocations model.,d2ebc2eab5182bd35453675dbedac2eaf554cd38,24,
+MDExOlB1bGxSZXF1ZXN0NTIzNDIyMjA=,2055,Honor the max concurrent streams setting.,234158d4bc4731eb9e0d12c8fab2e1a338e2aa14,9,
+MDExOlB1bGxSZXF1ZXN0NTI2MzAxOTE=,2062,Don't log gzipped data. It isn't human readable.,bcf380f397de3e04517cda4fd4f28f27753436ca,2,
+MDExOlB1bGxSZXF1ZXN0NTI3NjAyOTc=,2065,Turn IncomingStreamHandler into FramedConnection.Listener.,737538db7f07ede6a5ad7564268fa9354e72296c,5,
+MDExOlB1bGxSZXF1ZXN0NTI5MzUwOTQ=,2072,Prune connections when the max idle limit is exceeded.,6e80ce589004e2d45cc0019d4b9ad6a54153afae,5,
+MDExOlB1bGxSZXF1ZXN0NTMyMTY2NjM=,2080,Fix some stream leaks.,c04713cd673b8dcf8004e0065b1dc1b0f1a8fe35,7,
+MDExOlB1bGxSZXF1ZXN0NTM1MDA4MzM=,2087,Hide overly-visible APIs in ConnectionPool.,a961186d8c65d697f679fee19b1ec5cfc509961b,5,
+MDExOlB1bGxSZXF1ZXN0NTM1MTg3NDY=,2089,Make HttpUrl the blessed URL method of Request.,0e61e3c2f8a32e93212a27f2cfe12bfff01674ec,20,
+MDExOlB1bGxSZXF1ZXN0NTM1MTg5MzE=,2090,Add missing 'this' returns from setters.,48fcba032117343d396152bb844eb4f6e6592188,1,
+MDExOlB1bGxSZXF1ZXN0NTM1MTkwMTk=,2091,"Remove some older, deprecated APIs.",6de225192594ac26cd0abb29db326dc409570e30,2,
+MDExOlB1bGxSZXF1ZXN0NTM1MTkwMjI=,2092,Remove deprecated MWS method. Use url() instead.,f57c8b69f324c20f6167afe1a862f66106ecd461,1,
+MDExOlB1bGxSZXF1ZXN0NTM1MjA3ODE=,2094,Use the cipher suite enum rather than the string.,4bc2254868e49ccdb86a89d730593b22432c2fb8,7,
+MDExOlB1bGxSZXF1ZXN0NTM1MjE0OTI=,2095,Fix some breaks calling obsolete APIs.,951306e655d273416ecefe888462fe11f34711c6,18,
+MDExOlB1bGxSZXF1ZXN0NTM2NTE5MjU=,2102,Deprecate OkUrlFactory.,bec21d5954f124c824f2859b8897603cb4813f32,1,
+MDExOlB1bGxSZXF1ZXN0NTM2NjA1MDE=,2105,Remove IOException from source() and streams.,85a2ad4aee091205e117fa338e72eb53a6627348,6,
+MDExOlB1bGxSZXF1ZXN0NTM2NjI1MTg=,2109,Drop 'get' prefix on Challenge value type.,63785abd21078848aab68598516987b40d0fc5ae,2,
+MDExOlB1bGxSZXF1ZXN0NTM2NjI5MDU=,2111,Drop 'get' prefixed on Route value type.,6b301ccaa2b6b7245caaba363a14dc25a9e23455,10,
+MDExOlB1bGxSZXF1ZXN0NTM2NjU4NzQ=,2113,Change benchmark to use OkHttp's native API.,b7c34e73a5b0458b0dc9aa457411c60380b74e2a,1,
+MDExOlB1bGxSZXF1ZXN0NTM4MDIzNjA=,2118,Rename com.squareup.okhttp to okhttp3,b436ca27c350b1d5998def204ef59f4898d5fe52,252,
+MDExOlB1bGxSZXF1ZXN0NTM5MTg0NTI=,2124,Change groupid to com.squareup.okhttp3.,7fd35f328782baa81c6dc88ec09b4d58c952aa04,19,
+MDExOlB1bGxSZXF1ZXN0NTM5Nzk3NzE=,2126,One authenticate method on the authenticator interface.,7c95adc5eea717fc12f7f8f9d43e94acb099f05f,11,
+MDExOlB1bGxSZXF1ZXN0NTQyMDI5NTE=,2137,Attempt an alternate route when a connect times out.,ded2204ec17260eec43455b44f7ce0bf68071e4d,12,
+MDExOlB1bGxSZXF1ZXN0NTQzMjQwODU=,2139,Add TlsVersion to the Handshake.,53143ae8d076b904522ba189adb1a165bc722103,6,
+MDExOlB1bGxSZXF1ZXN0NTQ1MTc0NTc=,2149,Sort imports and wrap documentation at 100 columns.,8c3452faf054f6e60b5027847614f0d96a0dfcc9,182,
+MDExOlB1bGxSZXF1ZXN0NTQ1MTgwOTU=,2150,Sort more imports and wrap documentation at 100 columns.,e7319f5851a9cccadf9f60c931e2cb8d8aa65ccb,41,
+MDExOlB1bGxSZXF1ZXN0NTQ1NjM4NjM=,2155,New CookieJar interface.,396e2a9eb58d3348ccb2d05d8345476a4c408897,17,
+MDExOlB1bGxSZXF1ZXN0NTQ2MDYzMTQ=,2159,Better docs for ResponseBody.,118e46abbe6d749fbee2d11010b11561da732da0,2,
+MDExOlB1bGxSZXF1ZXN0NTQ2MjQ5ODA=,2162,First step in parsing Set-Cookie headers.,f90136435997eb5a78ca6706736ba836cb91f437,5,
+MDExOlB1bGxSZXF1ZXN0NTQ2MzE1NzM=,2164,Add newBuilder overload for resolving directly to a builder.,2ead8e83b6f187a4d51257f336aa681399783c62,2,
+MDExOlB1bGxSZXF1ZXN0NTQ2NzAwMTI=,2167,Finish implementing RFC 6265 cookies.,34de9b150072c3a65c2cd40f03ef5cff0825621a,6,
+MDExOlB1bGxSZXF1ZXN0NTQ2NzI1Njg=,2168,Change the default authenticator to be no authenticator.,22b038967dd040d17df6c3db289ed46a7c443577,8,
+MDExOlB1bGxSZXF1ZXN0NTQ3NjEwNjc=,2173,"Give cookies a builder. Constrain dates to <= Dec 31, 9999.",3ec74a93b5d93c98efd91da84d7dd540a1049474,4,
+MDExOlB1bGxSZXF1ZXN0NTQ3NjQ4OTE=,2174,Drop the global static shared connection pool.,f6971c1718eca742059075328f655ab507ebaa52,11,
+MDExOlB1bGxSZXF1ZXN0NTQ4NTMyNzY=,2177,Refactor towards an OkHttpClient.Builder.,afcd7005dfec38b1609285497c8f4bc86de30f7e,63,
+MDExOlB1bGxSZXF1ZXN0NTQ4OTY3NjU=,2184,No more canceling by tag.,8cd61ad20c0d1784d7167e19d43e0ee07e9cfe0c,5,
+MDExOlB1bGxSZXF1ZXN0NTQ5MDI0MjA=,2187,Fix some get prefixes on Cache and ConnectionPool.,4728e046f05050b6d0b7759c054081c5b975b88f,11,
+MDExOlB1bGxSZXF1ZXN0NTUyOTMwNjk=,2207,Test that JavaNetCookieJar can handle multiple cookies.,8a67a3d1a9759fccf53216432bf6e46819cd7c31,1,
+MDExOlB1bGxSZXF1ZXN0NTU1OTYwMTc=,2224,Change default mock reason.,ded7e44d39a7d910a16132db7e68b7c5adae9bd1,3,
+MDExOlB1bGxSZXF1ZXN0NTU2NTYyNDI=,2226,Don't leak file handles when a conditional GET throws.,96b74799cc3dc2fd2e883bbf2d13704759ec3fb9,2,
+MDExOlB1bGxSZXF1ZXN0NTU5NjA3NDA=,2235,Parse the CookieHandler request cookies in JavaNetCookieJar.,392e88773e0e9006dfc79368bd56015472926ec6,2,
+MDExOlB1bGxSZXF1ZXN0NTYyNDU3MjQ=,2251,Use listeners to observe allocation limit changes.,8f61458a0d5ea4bfd82a6b34e91d15b3bcaf2cd5,2,
+MDExOlB1bGxSZXF1ZXN0NTYyNjI3MzM=,2255,Handle UnsupportedCharsetException in HttpLoggingInterceptor,5723c90ef5052b2b5dbbf303a57f6dae0af69a9b,2,
+MDExOlB1bGxSZXF1ZXN0NTY5OTA3Nzg=,2276,Create request/response API tests to match some URLConnectionTest tests.,9ccc10c17b7372e0ca358a8b5b27d2a45abc4be2,14,
+MDExOlB1bGxSZXF1ZXN0NTc3NDIzNzU=,2302,Handle 408 responses by retrying the request,69adc72d89aca85c237934d5fcb5ccd786531304,6,
+MDExOlB1bGxSZXF1ZXN0NTg0NjE4NDc=,2317,Defer known-length payload writes when within a segment of completion.,b92f5ca36b67121f025cd4e8626df4396d02d489,3,
+MDExOlB1bGxSZXF1ZXN0NTg1Mjc0ODA=,2320,Backport CertificatePinner root certificate support to the 2.x branch,2ac6d89f49f2ce56e0ce3f6d61bf1395b1ab945c,9,
+MDExOlB1bGxSZXF1ZXN0NTg1NDk3NjA=,2324,Don't build a trust root index on Android.,1db9a46aace5f713506ddcc9796a4bdc8c89227e,8,
+MDExOlB1bGxSZXF1ZXN0NTg1NjcyOTU=,2326,Backport CertificatePinner fixes to the 2.x branch,8faefc84b654ab69a5bd182fee030079075f09f6,8,
+MDExOlB1bGxSZXF1ZXN0NTk0NTA0Nzk=,2345,Remove untrue Callback statement from doc,50b2b6ae64f2f4e82d2dfaeab1ffb0ba11d609f0,1,
+MDExOlB1bGxSZXF1ZXN0NjAwNzA0NTM=,2353,Always build full chains with CertificateChainCleaner.,e2ba6863faf18e15ce8c8a1a68a0c9b714228769,4,
+MDExOlB1bGxSZXF1ZXN0NjAwOTg2NzA=,2356,Implement support for SHA-256 pins.,378656a5f55e6ac1920ca8ccd9d8f315c712d31c,4,
+MDExOlB1bGxSZXF1ZXN0NjAxMjE5MzU=,2358,Make IPv6 request lines consistent with Firefox and Chrome.,caed5f88b36625c51bb2166a4fd7cbb32c960bc4,8,
+MDExOlB1bGxSZXF1ZXN0NjE4MTQ1NTM=,2388,Gracefully recover from a failure to rebuild the DiskLruCache journal.,98aae99a014b259e9bae25ff6c09704751a248ae,3,
+MDExOlB1bGxSZXF1ZXN0NjIwMjgzNTk=,2391,PROPFIND redirects should maintain request body,35283b8950b9d6796608fc339a3e617aaed1d4ab,3,2.0
+MDExOlB1bGxSZXF1ZXN0NjM0NzgzNDQ=,2417,Fix a regression in authenticating HTTP proxies.,2f55874c195a11643514daece71efad726eecf6c,3,
+MDExOlB1bGxSZXF1ZXN0NjM1MDc5MDA=,2421,Recover more gracefully when an editor is detached.,989c27a6d880d66501cfcbd438ce9c84ace24ee7,2,
+MDExOlB1bGxSZXF1ZXN0NjM4MjU2MzY=,2428,Failing test for 'Connection: close' with HTTPS proxy auth challenges.,9a10ca3b7bd7455a393b62372a94e160122bc873,1,1.0
+MDExOlB1bGxSZXF1ZXN0NjM4NDQxNDI=,2430,Remove unused javaNetUri field from Request,bb0d8f249f3c4b45072ef835c45088d639597bc0,1,1.0
+MDExOlB1bGxSZXF1ZXN0NjQxNjUyMzg=,2438,Make CertificateChainCleaner an abstract class.,338ad7f826f3cd85e7bda50a1effa44392212e2e,8,3.0
+MDExOlB1bGxSZXF1ZXN0NjQzNTg2ODQ=,2445,Use X509TrustManagerExtensions on Android 17+.,e5b7409664a8ead09b5b5e4f861ff4f1a99cc0de,4,2.0
+MDExOlB1bGxSZXF1ZXN0NjQzOTAxNDU=,2446,Accept user-provided trust managers in OkHttpClient.Builder,f25858cd15b9b6918e7eb416f47c2e5b9b59de01,4,2.0
+MDExOlB1bGxSZXF1ZXN0NjQ4MjcyMzk=,2454,Add javadoc for Response.body(),837dc04dbef627e734e369e29ccdce7a6178537d,1,1.0
+MDExOlB1bGxSZXF1ZXN0NjU2NjQ1NTQ=,2467,Accommodate tunneling proxies that close the connection after an auth challenge.,e712faa1941bcd2adddff645118dc038200b182f,2,2.0
+MDExOlB1bGxSZXF1ZXN0NjU5MDE4ODE=,2471,fix NPE with okcurl insecure mode,2c9fbb1bc8296c6efe16d80bb04d8d1010007e61,1,1.0
+MDExOlB1bGxSZXF1ZXN0NjU5MTU3NzI=,2473,Don't start the reader thread until after the connection preface.,c9ad163e92fe252f23b743d694f68967a29eae7c,6,3.0
+MDExOlB1bGxSZXF1ZXN0NjYyNTc4Mzc=,2479,Further constrain when we recover from failed routes.,bd22589ee3645da310db2e1032b0ce3784c3476b,5,3.0
+MDExOlB1bGxSZXF1ZXN0NjcxMDI5MzE=,2493,Fix CertificatePinner javadoc to use a Builder,b26ad3e01ef2a7200f44bc309f6df852003e6992,1,1.0
+MDExOlB1bGxSZXF1ZXN0NjcxMzE4OTM=,2494,Java 9 support for ALPN without alpn-boot,081c74433cd07e1929e36ad6bcdcd55a4e918ffe,1,1.0
+MDExOlB1bGxSZXF1ZXN0NjcyODQwNzI=,2495,document support for SNI in OpenJDK,bd76ea26e477dc13e17f3e5f93635b74d8465019,1,1.0
+MDExOlB1bGxSZXF1ZXN0NjcyOTMzOTk=,2496,retain logger instance to actually log things,ba541103701cfd2c0ace6610f887d737eb43a8c9,1,1.0
+MDExOlB1bGxSZXF1ZXN0NjczNDg5MjI=,2499,Redact the full url in AsyncCall thread name.,14cb6e3e67af574d79e831e4bb8155066a7502e9,1,1.0
+MDExOlB1bGxSZXF1ZXN0Njc0ODIyMTI=,2502,Use Moshi in OkHttp.,a44b5ecfff37b5bb6ceee84d625eb45ebb43fb5b,14,6.0
+MDExOlB1bGxSZXF1ZXN0Njc2MTAxNDU=,2507,build with new alpn-boot and jdk 8 in travis,209c6c5589d7b0a0f10b4ce78ac6be0740a5cea8,2,0.0
+MDExOlB1bGxSZXF1ZXN0NjgwODE1MjQ=,2520,split out platform and test them based on active profile,4505c1b856d737dbb1bff9570d6abff220b6ff4e,8,1.0
+MDExOlB1bGxSZXF1ZXN0NjgyNzE3MzA=,2523,Setting default String locale to Locale.US,adc97d55376f83bd8d89ed8eac0185821b235ccc,18,8.0
+MDExOlB1bGxSZXF1ZXN0Njg0OTEyMjM=,2528,updates junit version to v4.12,312ebb36c668030acaf99866ff5e6834b96fd381,1,0.0
+MDExOlB1bGxSZXF1ZXN0Njg1MjIwNzQ=,2529,Upgrade to Okio 1.8.0.,be605dd6470324afe345763dfab609bde0cde7c1,6,3.0
+MDExOlB1bGxSZXF1ZXN0NjkyNTQ3MzE=,2538,Pin fewer certificates in our sample.,80ab4a3761cecd9da0a623d62585195f32ed05ff,1,1.0
+MDExOlB1bGxSZXF1ZXN0NjkyNTU0MTM=,2539,Unblock waiting dispatchers on MockWebServer shutdown.,7067047312258c11fe06f3aea6cd7f62b367b0f7,4,1.0
+MDExOlB1bGxSZXF1ZXN0NjkyNTcxMTI=,2540,Make logging more consistent throughout OkHttp.,3dc5ab23537c3dc7e132b529a08cc5d61f287c39,13,5.0
+MDExOlB1bGxSZXF1ZXN0NjkyNzY5Mjc=,2544,Promote sent and received timestamps to fields on Response.,276ef646cde0eb8a60d2746f2d5fabdd2a9a8f08,12,4.0
+MDExOlB1bGxSZXF1ZXN0Njk3NjI0Mjc=,2552,Add a simple version dynamic table of HPACK to the writer client.,6960fbd65c37db62059a7138977e5fc2640298b0,2,1.0
+MDExOlB1bGxSZXF1ZXN0Njk5Mjk5Mjg=,2555,Don't crash when a stream hasn't been closed.,03d4edcc2e845b0df86bf6f67ee80b5a3092edfc,2,1.0
+MDExOlB1bGxSZXF1ZXN0NzAwOTk1NzQ=,2559,Another approach to handling strange interceptor bodies.,0693302fca5bc23654bec3a12ef3878992f9c7cb,2,1.0
+MDExOlB1bGxSZXF1ZXN0NzA5NTY3MjA=,2571,Recover from REFUSED_STREAM errors in HTTP/2.,acbd4e4d130f8ddc27eefc9e73e28991d88b6c85,9,4.0
+MDExOlB1bGxSZXF1ZXN0NzA5NjI0OTI=,2572,Better documentation and examples on closing response bodies.,3f7a3344a4c85aa3bbb879dabac5ee625ab987f3,27,3.0
+MDExOlB1bGxSZXF1ZXN0NzA5NzgyMzQ=,2574,Flush streams if the window size is zero.,ed943ce136f385d672868d5039f9aba6b00962f2,2,1.0
+MDExOlB1bGxSZXF1ZXN0NzE3MDY1OTI=,2583,Retain response body when web socket returns non-101 response code.,639b2791598be4de03a277527c8a86d4c2da1236,4,2.0
+MDExOlB1bGxSZXF1ZXN0NzE4MDM3MTE=,2586,Fix HttpLoggingInterceptor to be cool with newlines.,8ddc587523ebd94499098f2c4615ab2001068a2f,2,1.0
+MDExOlB1bGxSZXF1ZXN0NzE4MDU1MDI=,2587,Don't crash reading non-ASCII characters from the server or the cache.,80a799c0c0e9baa4c0878c51c648c5be16f0b864,4,3.0
+MDExOlB1bGxSZXF1ZXN0NzE5ODU4NDY=,2594,Remove methods from FramedConnection that are unused,63ae84d0e647e43d381406a847061d46dcc30448,1,1.0
+MDExOlB1bGxSZXF1ZXN0NzE5OTg2NzE=,2595,Fix changelog: Sent -> Received,c8c073cfd1acaa1b66fbfc44671ed1dd95ed75c2,1,0.0
+MDExOlB1bGxSZXF1ZXN0NzIyMDgxNTM=,2596,Add alpn version support for all Java 8 versions,25491a9066ae41d49f541061d54366c3ee5a606b,1,0.0
+MDExOlB1bGxSZXF1ZXN0NzI0MDY3NzA=,2601,Add support for an idle callback to Dispatcher.,5f40b814ea77a457f55bbe4a9c1c077b790c0916,2,1.0
+MDExOlB1bGxSZXF1ZXN0NzI0NDI2MjI=,2602,Remove unused method.,77c0ad62e57010c274e047f2fb7ccfd591e5d896,1,1.0
+MDExOlB1bGxSZXF1ZXN0NzM0NDE1MzY=,2614,Let CipherSuites have arbitrary names.,8fa796e175e7d855feb15d368cbfd645223a0af0,3,1.0
+MDExOlB1bGxSZXF1ZXN0NzM0NDMwOTE=,2615,Fix typo,a464a63aca1e591ceffffff1808c9461035532ca,1,1.0
+MDExOlB1bGxSZXF1ZXN0NzM0OTcxNDU=,2617,Changed CertificatePinner to ignore case when matching pins.,0f48597312848ba0abd2d9e89b99509fe27181d0,2,1.0
+MDExOlB1bGxSZXF1ZXN0NzQzNTI2Mzg=,2638,A Pipe.,e444deddd9683fc2fd586c889d9352c35089504d,3,1.0
+MDExOlB1bGxSZXF1ZXN0NzQzNzM4MDE=,2639,Reimplement HttpURLConnection on the native OkHttp API.,5b0f6d9be5d730dca04138fafd330b76de4f2678,15,4.0
+MDExOlB1bGxSZXF1ZXN0NzQ2NDcxMTM=,2642,Let SocksProxy use the same definition of localhost as MockWebServer.,b1aae0c3618c71d5d8fda0a32f7d962fd04d1f1c,1,1.0
+MDExOlB1bGxSZXF1ZXN0NzQ2NDg1NTc=,2643,Reduce memory requirements for MockWebServerTest.disconnectHalfway().,19c08a00fad097e67d2f6d0ed3c1f4a3671c8743,1,1.0
+MDExOlB1bGxSZXF1ZXN0NzQ2NzgxNTA=,2645,First pass of deleting code only needed by the old HttpURLConnection.,b45c7c868824efc42bd88b1ecd97d7a2536c2485,9,4.0
+MDExOlB1bGxSZXF1ZXN0NzQ3MTg5OTY=,2647,Don't retry streamed HTTP request bodies.,89dc6d0c3d6a48eaa4eda2a635a0735f9e134fa8,5,4.0
+MDExOlB1bGxSZXF1ZXN0NzQ3MjMwODE=,2648,Begin to fold together parts of RealCall and HttpEngine.,6133a9361b80a3a4a1add53d620ec0c21df04500,8,5.0
+MDExOlB1bGxSZXF1ZXN0NzUyMDg0MTI=,2656,Small formatting fixes.,3f282e8bf0b8af519cbf35833fdcf69d824661fc,3,2.0
+MDExOlB1bGxSZXF1ZXN0NzUyMTAyODI=,2657,Collapse interceptors into a single chain.,668721f7dacf2f2d0d7c1a681b57d3157eb275d1,6,2.0
+MDExOlB1bGxSZXF1ZXN0NzUyMTI0MTM=,2658,Rename HttpURLConnectionImpl to OkHttpURLConnection.,af79615e8a7d91c60916b7edb9b3b673bbb9b4bd,10,3.0
+MDExOlB1bGxSZXF1ZXN0NzUyMTQ3MDc=,2659,Fix OkHttpURLConnection to not swallow unexpected exceptions.,a73da4dfb0edf2ab141a997e73329d89bfdca151,2,2.0
+MDExOlB1bGxSZXF1ZXN0NzUyMTY4MjE=,2660,Move core interceptors into top level classes.,3e161686a8f60264eba00d8fa5426da4b87b7f10,7,2.0
+MDExOlB1bGxSZXF1ZXN0NzUyMTczNzg=,2661,Fix tests to share a common Dispatcher.,5c7bbf6f9e4251a252a29ba09538d31174771127,3,1.0
+MDExOlB1bGxSZXF1ZXN0NzUyMzA0OTk=,2664,Split HttpEngine into 3 interceptors.,81b3a99aea8571942e5fb18b5c189c4596087076,18,6.0
+MDExOlB1bGxSZXF1ZXN0NzUyNTE1ODA=,2665,"Add connection, cache, and platform subpackages.",988142cfe555547bc1df4370babe12c6be86cf3e,63,13.0
+MDExOlB1bGxSZXF1ZXN0NzUyNTQyMDQ=,2666,Run IntelliJ's analysis on OkHttp.,8d51e740d77c6c80b9074162f8f0f6bd43bd37d3,25,10.0
+MDExOlB1bGxSZXF1ZXN0NzU0MDI1NjI=,2673,Do not allow remote peer to arbitrarily size the HPACK decoder dynamic table.,b33714770e52c2b4a1dedf3837c18b35ac1a411d,2,1.0
+MDExOlB1bGxSZXF1ZXN0NzYwMDk3NDg=,2684,Permit non-ASCII ETag headers.,35e29d9edb15fd9a405294a0d7c8e759b1931a70,3,3.0
+MDExOlB1bGxSZXF1ZXN0NzYwNjU5MTk=,2685,Upgrade to Okio 1.9 and use its pipe.,ae1ef1604d73d447222e958041f0cd9ebe85ba3b,6,2.0
+MDExOlB1bGxSZXF1ZXN0NzYwNzA1NTA=,2686,Always pass a host to NetworkSecurityPolicy.isCleartextTrafficPermitted,738f7fa4def3bc9da39c8b815fe0905a6e6505fa,5,3.0
+MDExOlB1bGxSZXF1ZXN0NzYwNzEyNTE=,2688,Java9 tests,88e245e6de90393d21c28a037fb61d02d5653c19,6,4.0
+MDExOlB1bGxSZXF1ZXN0NzYwNzc1NDg=,2689,Removed ability to change the HPACK decoder header table size setting.,f98ff257ceb949b404ec5d6cb1fece0e22e53264,2,1.0
+MDExOlB1bGxSZXF1ZXN0NzYwOTM4ODI=,2690,Update cipher suites to track Chrome 51 and Firefox 47.,a3bcaa3b6e30409094319dfbf5010dfd2322778a,2,1.0
+MDExOlB1bGxSZXF1ZXN0NzYxMDg2NTQ=,2692,Don't share the OkHttpClient's Dispatcher in HttpURLConnection.,3d22fe118923141704e96bf318f4ca30d1cb616b,2,2.0
+MDExOlB1bGxSZXF1ZXN0NzYyNTY0OTk=,2695,Fix logging-interceptor Javadoc typo,2f7c3e404c4f8efb935bb2ed1d141796546e285e,1,1.0
+MDExOlB1bGxSZXF1ZXN0NzYzNjE3MTA=,2697,More docs for HttpUrl.,a8bed0fd1751fe185fe56656d8f4f15e17d47905,2,2.0
+MDExOlB1bGxSZXF1ZXN0NzY0MjYwMDM=,2702,Use TreeMap in Headers.toMultimap(),f491389d146014ac892417db15d495bcbc459728,2,1.0
+MDExOlB1bGxSZXF1ZXN0NzY1Mjk4MzM=,2703,Add support for dynamic table size changes to HPACK Encoder.,e9245a26d82cd9af6630ebe6ddf107d978cbad7f,8,1.0
+MDExOlB1bGxSZXF1ZXN0NzY3MzAzMTI=,2708,Update Javadoc example for HttpUrl.encodedPath(),09f409c21db13a42ad57b84389dcafd80d93f374,1,1.0
+MDExOlB1bGxSZXF1ZXN0NzY4MzQ4MTU=,2710,Document OkHttpClient best practices.,04fd74fe0c1b9ccb11129b4eecd1be8db68541a2,1,1.0
+MDExOlB1bGxSZXF1ZXN0NzY4NDQ4NzE=,2711,Don't waste bandwidth crawling non-HTML resources.,58c3e2c6de5b14ea4ee4754393b1fcd74f3dfe2c,1,1.0
+MDExOlB1bGxSZXF1ZXN0NzY4NDg1Njc=,2712,Drop support for SPDY/3.,33660bf58babd09521d19ef0ed1b09c15a5e27bb,46,8.0
+MDExOlB1bGxSZXF1ZXN0NzY4NDg1OTE=,2713,Allow to clone calls,d600f7738b3478d022e4e396618f8b4b333e3eab,3,1.0
+MDExOlB1bGxSZXF1ZXN0NzY4NTgzOTk=,2714,Rename FramedConnection to Http2Connection.,566964ae2e4567cdceb3abf52d097d64929d4a43,49,12.0
+MDExOlB1bGxSZXF1ZXN0NzY4NzQ1ODc=,2715,Fix a major bug in our HPACK encoder.,fed6f2253ca241d21839e7a26c0f2779249a946c,4,3.0
+MDExOlB1bGxSZXF1ZXN0NzY4NzYxMDc=,2716,Fix a major bug in our HPACK encoder.,9c67901c1617b19b6bfec52f069f87c18bd87e80,7,4.0
+MDExOlB1bGxSZXF1ZXN0NzY4OTE2MjU=,2717,Be lenient if a character set is 'single-quoted'.,8510d646bdb97321dcc7206d8e42b8179810396d,2,1.0
+MDExOlB1bGxSZXF1ZXN0NzcwNTI4NTA=,2721,Fix a test to not require a fallback IP address.,60b577fecc32a7ee2eb252a69163e6f145e54c83,1,1.0
+MDExOlB1bGxSZXF1ZXN0NzcyMjQ4NzQ=,2722,Inject a leading . for better matching under JavaNetCookieJar,f91f97795b6fc3ccfec3d2ec4ea46abe733012df,3,1.0
+MDExOlB1bGxSZXF1ZXN0Nzc1NTYzMzM=,2727,Huffman encode string literals to save bytes in HPACK encoder.,ced243ebdca8d0df7467820df1c9edf77ea388f6,5,1.0
+MDExOlB1bGxSZXF1ZXN0Nzg0ODM1Nzk=,2741,Remove some dead code pointed out by running coverage.,6014ab9752cff344a0baf57eb7626d98ca1d3401,8,5.0
+MDExOlB1bGxSZXF1ZXN0Nzg1ODc0NDc=,2744,"FileOperator, a utility for doing random access I/O with Okio.",84fb2c3ae19128e7e996627f82df38f3a32fc7cc,2,1.0
+MDExOlB1bGxSZXF1ZXN0Nzg2NzMyNjI=,2750,Relay. This is a single entry in the upcoming DiskLruCache2.,8504f3a00f373f6b924cc4920dc34d4fbae06054,2,1.0
+MDExOlB1bGxSZXF1ZXN0Nzg3OTcxNDU=,2751,Method redact the url in HttpUrl,915c3a41af37aa2446fc5d4a71b7cef22a919ff7,4,2.0
+MDExOlB1bGxSZXF1ZXN0NzkyNjU0ODQ=,2758,Make tests portable to platforms with different Header prefixes,5d39392ee94885ee142e8dd2e234977cfaacf9cb,3,2.0
+MDExOlB1bGxSZXF1ZXN0Nzk0NTkzNjM=,2763,Guard allocation changes by the connection pool lock.,2494ec3362c7b30ca38091de4fc5f6f9be898338,2,2.0
+MDExOlB1bGxSZXF1ZXN0Nzk1NjI1MTM=,2765,Provide capability to capture the Call stack trace on leaked connections.,59c096ddfc650e56f6030c8bbae9c7a544a725d2,11,4.0
+MDExOlB1bGxSZXF1ZXN0ODEyMjA2ODQ=,2790,Improve WebSocketEcho example,d854e6d5ad93da4da9b5d5818ee752477e501b18,1,1.0
+MDExOlB1bGxSZXF1ZXN0ODE3MDczNjk=,2800,Fix typo in CHANGELOG.md,63eef5afaff2bd1439422401e1b92162cbeeb494,1,0.0
+MDExOlB1bGxSZXF1ZXN0ODIwNzM5MDg=,2804,Clientauth example,65a113432495b94e1752e91420cd0a5852a8357b,2,1.0
+MDExOlB1bGxSZXF1ZXN0ODIxMzE5ODY=,2806,Add mvn profile for ALPN version 8.1.9.v20160720 for jdk8 102,c25fb7fe20331eb28f23f61d97a50c7bc40fa4c4,1,0.0
+MDExOlB1bGxSZXF1ZXN0ODMwMjkwOTY=,2816,Upgrade to Okio 1.10.,df0ff817c8fe772acbf2205572d84d62696bca36,2,1.0
+MDExOlB1bGxSZXF1ZXN0ODMwOTE1MDI=,2818,Fix conditional cache hits to update timestamp fields.,26d4e225f8080245a3b90384f7b44a6f6fab520e,3,2.0
+MDExOlB1bGxSZXF1ZXN0ODMyNjQyMTg=,2823,Make string() and charStream() BOM-aware.,3c9c0342cd1975b8f53b1b8864d90bc13c03dd1a,3,2.0
+MDExOlB1bGxSZXF1ZXN0ODM2MzE5NDk=,2831,WebSockets should show an empty body to interceptors.,66d028048d311cb9cb5c6644c979a4dbada3188b,6,6.0
+MDExOlB1bGxSZXF1ZXN0ODM3OTU1MzE=,2833,Be more liberal adding headers to the HPACK encoder dynamic table.,96d85c4fe528764fc887f830ed56ca13b88de821,3,1.0
+MDExOlB1bGxSZXF1ZXN0ODM5MTM3Mjc=,2835,Modify for-loop more performance sensitively,08458f1ee16170d32ee28ffd7c5cb251a1931e56,1,1.0
+MDExOlB1bGxSZXF1ZXN0ODQwMjkyNzQ=,2838,Optimize HPACK encoder header search code path to avoid unnecessary work.,1a1b6eaaac0a5c0ccbe0d24ddb9d1f306269c072,2,1.0
+MDExOlB1bGxSZXF1ZXN0ODQzNDc0MDQ=,2841,Allow HTAB in header values.,413323f10d68e7581431b289971ec780cd0485a6,3,1.0
+MDExOlB1bGxSZXF1ZXN0ODUwODE4MDU=,2852,Move WebSockets from separate artifact to main.,7135628c645892faf1a48a8cff464e0ed4ad88cb,33,7.0
+MDExOlB1bGxSZXF1ZXN0ODUwODYyNjI=,2853,Expose Part headers and body.,b2b4f4a70624b98b2940e539d64deb0575a3338d,2,1.0
+MDExOlB1bGxSZXF1ZXN0ODUwOTU0MzQ=,2855,Implement Closeable on MockWebServer.,d4de93635584b46eacc68f12745efe3b04bbca65,2,1.0
+MDExOlB1bGxSZXF1ZXN0ODU1NzI4MzI=,2858,Corrected javadoc of the Cookie persistent() method,2f23ee29d1b77dfbf0719faa444f08bb23968478,1,1.0
+MDExOlB1bGxSZXF1ZXN0ODU2OTIwOTM=,2862,"Eliminate synthetic accessor methods, an allocation in web sockets.",bb3aca1db98bfdeb4b7f6a8adce7d2e29edaae9b,7,2.0
+MDExOlB1bGxSZXF1ZXN0ODU2OTIzMDM=,2863,Remove connection read/write timeouts for web sockets.,61112b38f4b13621345c8a6479223af7ab853999,1,1.0
+MDExOlB1bGxSZXF1ZXN0ODU2OTMwNzE=,2864,Use shared empty response from cache interceptor.,5f6a7a8a17152ebe29712588a4af10a948ff1b83,1,1.0
+MDExOlB1bGxSZXF1ZXN0ODU3MTk0Mjc=,2865,Web socket API and implementation improvements.,ed0082262ad32d24221debaf2ffcb3075015b9f3,17,6.0
+MDExOlB1bGxSZXF1ZXN0ODU3MjA5NzY=,2866,Avoid unnecessary copying in ConnectionSpec,3ea7be9d9f647e610e1653c406d8d06f0fe907bc,1,1.0
+MDExOlB1bGxSZXF1ZXN0ODU4MzgyMDI=,2868,Do not disable TLSv1.3 by default,e7188216fbb7f72287f6c9a44ef7523461836b0c,2,1.0
+MDExOlB1bGxSZXF1ZXN0ODU5MDkzMzk=,2871,Use ByteString for web socket ping/pong payloads.,6391877eba81702054d68b6254c7e9247e650efa,13,3.0
+MDExOlB1bGxSZXF1ZXN0ODU5MTEzMDY=,2872,Inline single-use method in web socket writer.,765ffb3b1eeb61b8605ce0308355f67cfa8f59d8,1,1.0
+MDExOlB1bGxSZXF1ZXN0ODYwMDgyNDI=,2873,Add convenience methods to WebSocketCall for symmetry with Call.,71826717ecdbaee63cb79deb2519c73c0c742465,2,1.0
+MDExOlB1bGxSZXF1ZXN0ODYwNzY2MTE=,2875,Use web socket close codes 1005 and 1006 correctly.,59e70dad8193ad5f8cd79749fc00be7dcf0308d1,5,1.0
+MDExOlB1bGxSZXF1ZXN0ODg3NjM1NzY=,2899,Add javadoc for cache call in the builder,bb0b222f4c7330f4b506d1b9d4ba7bcb4156859a,1,1.0
+MDExOlB1bGxSZXF1ZXN0ODg5NDY1NTY=,2904,Remove inconsistent 'send' prefix from message/ping methods.,33c24e492098d4fa47fe76dc7815c85d69c36c5f,7,3.0
+MDExOlB1bGxSZXF1ZXN0ODg5NTAwNDk=,2905,Forbid writes from reader thread.,019e9431cfe84a110bfbd3037dfc554b59a8bfb7,3,2.0
+MDExOlB1bGxSZXF1ZXN0ODg5NTQzNzI=,2907,Okio 1.11.0.,199e5ff34f0a2dccb758e902be4c668ed7d20986,1,0.0
+MDExOlB1bGxSZXF1ZXN0ODk1NDE3Mjk=,2917,Use TestUtil.defaultClient in more tests.,a28fee5a2bc68fd9e5f00c6322870240739eeac4,12,4.0
+MDExOlB1bGxSZXF1ZXN0ODk5Mzc5MjI=,2927,Add tests to confirm HEAD response bodies are empty.,35e9c978209e0ab38a01a6d768daf856d09fb678,1,1.0
+MDExOlB1bGxSZXF1ZXN0OTA0NTUwNTA=,2933,Generic body for requests and responses,9b52aae962966fe07f8aa5a7582acd2ba9a998e4,67,16.0
+MDExOlB1bGxSZXF1ZXN0OTA0ODgyMjQ=,2935,A WebSockets sample that uses the Slack API.,7de5351e9aaab1ecd3f8c01b2132162916b95111,10,1.0
+MDExOlB1bGxSZXF1ZXN0OTA1MTkwNjU=,2936,Set an ALPN-boot version for Java 8 v111.,643ee3ffc939d6083b66e637df09582a818b4f41,1,0.0
+MDExOlB1bGxSZXF1ZXN0OTE3NzEyMTM=,2953,Fix a few typos,37dab0df54a487ce6dcb74133e9e033a9f37431e,4,3.0
+MDExOlB1bGxSZXF1ZXN0OTE4OTI3NjI=,2955,Make HTTP/2's DISCONNECT_AT_END more graceful.,dedeab131a15171992e2e587119d2f31a979e921,4,3.0
+MDExOlB1bGxSZXF1ZXN0OTIwMjUwNjA=,2956,Avoid generating synthetic accessor methods,7411ad94acdaea546826562ccd96ab5b78c36da4,3,1.0
+MDExOlB1bGxSZXF1ZXN0OTIyMTY4MTY=,2957,Tests for management of HTTP/2 connections that are shutdown.,10960301578bbdf504f50e79012a4daba7c5e3c1,2,2.0
+MDExOlB1bGxSZXF1ZXN0OTI0NjE1NjE=,2959,New non-blocking API for websockets.,aa095143a480518660eb4749043ccd6231ee3aa5,6,3.0
+MDExOlB1bGxSZXF1ZXN0OTM0NjEwNzI=,2972,Prefer Executor.execute() over Executor.submit().,c212d6f3ef5771805dcaae4833d00e8e1a504d64,1,1.0
+MDExOlB1bGxSZXF1ZXN0OTM0NzY1NTA=,2973,Always use LinkedHashMap. Never HashMap.,c581f5ddc6a091e36e745a44ca787d903e32df51,5,3.0
+MDExOlB1bGxSZXF1ZXN0OTM0ODYxMjE=,2974,Use Okio's hash methods.,6da4d59c2047c2d1d40625cebf87604e0d22b335,8,4.0
+MDExOlB1bGxSZXF1ZXN0OTM2ODE0MDc=,2978,Always prefer the server's returned response body.,8223e5232fd445ad79343230d85458b41fbca536,4,3.0
+MDExOlB1bGxSZXF1ZXN0OTM2ODQ4NTE=,2979,Don't fallback to no proxy after all configured proxies have failed.,35656b2f71a494214cd79609585919b2e5e51e14,4,2.0
+MDExOlB1bGxSZXF1ZXN0OTQzMDY1OTU=,2989,Migrate MockWebServer to the async web sockets API.,395ae6f9b81ebdf26f4d00aa0a4a65cb91597163,14,5.0
+MDExOlB1bGxSZXF1ZXN0OTQ0Njg2MzM=,2990,Migrate WebSocketReaderTest to the async API.,14521ebe5f85654f3955e1d14bc62a9c45f5a591,10,2.0
+MDExOlB1bGxSZXF1ZXN0OTQ0OTQwOTM=,2991,Rename NewWebSocket to WebSocket.,4df16f3a5b625e7e0adc208326cef0daa5105979,15,5.0
+MDExOlB1bGxSZXF1ZXN0OTQ1MTg2ODU=,2992,Gracefully recover from an HTTP/2 connection shutdown at start of request.,07309c1c7d9e296014268ebd155ebf7ef8679f6c,7,4.0
+MDExOlB1bGxSZXF1ZXN0OTQ2MTU1NjM=,2995,Avoid sending empty HTTP/2 data frames when there is no request body.,850d4689a32b84555fbe3446d8d272c021d7332d,1,1.0
+MDExOlB1bGxSZXF1ZXN0OTQ2NjA0NDU=,2996,Fix some Autobahn tests.,a72ed5ee7a2c2110230da81342dc99c784a7a873,7,2.0
+MDExOlB1bGxSZXF1ZXN0OTQ3MjIwOTk=,2999,Confirm that we correctly handle close frames without a code.,ccf88de917071387b34c84e80d0263c5b5b0b841,2,1.0
+MDExOlB1bGxSZXF1ZXN0OTQ3MjkwMjA=,3000,Apply timeouts within individual frames.,0766099839dcd4e2ee73f793020c8846a7b56e95,4,3.0
+MDExOlB1bGxSZXF1ZXN0OTQ3Mzk2OTE=,3001,Fix flakiness in authenticateWithChunkedStreaming().,d98cd564a6efc8f01624477462f678c730fe5d20,1,1.0
+MDExOlB1bGxSZXF1ZXN0OTUxMTU4NDM=,3005,Automatically ping the peer on a user-specified interval.,c5a26fefdef889baef6cb2e7538afe83326dd4d3,6,3.0
+MDExOlB1bGxSZXF1ZXN0OTU0MTE2NzU=,3008,Remove creation of synthetic accessor methods.,4568075b1a163bec48a8598917e6d6bcc9b2d96b,21,7.0
+MDExOlB1bGxSZXF1ZXN0OTYwMDAyOTQ=,3013,"If a graceful close doesn't work, cancel the websocket.",7087dbc1906d29a9ee837bb0cc879086467c5818,3,2.0
+MDExOlB1bGxSZXF1ZXN0OTYwMTg2NTU=,3014,More test coverage for web sockets edge cases.,802c029b82672ea90534e8da1bd42100c194aca9,8,2.0
+MDExOlB1bGxSZXF1ZXN0OTYwMjE0OTc=,3015,Change HttpURL.redact() to return a String.,6ec60b189520bd3dce7429cafb6408fe74feedc2,4,1.0
+MDExOlB1bGxSZXF1ZXN0OTYxMTQ4MzI=,3018,Fix an invalid HTML entity in the SlackApi Javadoc.,b88bf5b038d6ec1fa448921bec20e926905ee889,1,1.0
+MDExOlB1bGxSZXF1ZXN0OTY5MjU4MTE=,3025,Introduce SocketRecorder: a means to inspect all bytes written/read to a socket.,525f922ba2f6ffad83adb3a5f15cdca77ccbe9b3,2,2.0
+MDExOlB1bGxSZXF1ZXN0OTcwNDgxNTc=,3026,Confirm that OkHttp verifies IP address certificates.,0ddb9f5eb6b715dd0f31213951e040d694cd0c34,3,2.0
+MDExOlB1bGxSZXF1ZXN0OTc0MzUxODM=,3029,"Improve toString() of Route, Address, and StreamAllocation.",bffefccf7a9b075b3d2998bbfdf409ca2deadc1a,8,3.0
+MDExOlB1bGxSZXF1ZXN0OTc0Mzc5NzY=,3030,Forbid spaces in header names.,f74dc52cb18554ff8d8a8621b1e8a89c5ad22b60,3,1.0
+MDExOlB1bGxSZXF1ZXN0OTc0NDg2Njk=,3031,Don't offer to do gzip if the request is partial.,278088c077033b2914d9e033cf52c770c5a1cfac,3,2.0
+MDExOlB1bGxSZXF1ZXN0OTc0NjgyNDc=,3032,Fail the HTTP/2 connection if first frame isn't SETTINGS.,d073ffa2a1820a482ef7d241576929a736671f73,5,1.0
+MDExOlB1bGxSZXF1ZXN0OTc0NjkwMDg=,3033,Fix flakiness in RealWebSocketTest.clientAndServerCloseClosesConnection,dc5cbfd042768c86189dba01f52574a7493a62c6,2,1.0
+MDExOlB1bGxSZXF1ZXN0OTkyODU2MDc=,3057,Support 'Expect: 100-continue' as a request header.,90021dcaea583b518fa92cdac58aa757dd6be111,14,7.0
+MDExOlB1bGxSZXF1ZXN0OTkyOTMzMTc=,3058,Add examples from RFC 3986 as tests for HttpUrl.,eecf0e57dc11210962cb60991d9dcebe3dca1c77,1,1.0
+MDExOlB1bGxSZXF1ZXN0OTkzMTA4NDg=,3059,Confirm that HTTP/2 failure recovery is decent.,5c7257d8d1c07b66cb7b14832bc0d16b88abcfb5,4,3.0
+MDExOlB1bGxSZXF1ZXN0OTkzMjg1Njg=,3060,Remove creation of synthetic accessor method.,cddb441dc4a3ea033b08ef56fb647cd4cfbc33e7,1,1.0
+MDExOlB1bGxSZXF1ZXN0OTk0MTQ3ODc=,3066,Fix CertificateChainCleanerTest for Java 9,1800cf3286e4912b869b114170019c0eb3ea96c1,1,1.0
+MDExOlB1bGxSZXF1ZXN0OTk0MTQ5NTc=,3067,animal sniffer update for Java 9,da597c4b1b69cc1ccdc5831b5d517bd70b7722f6,1,0.0
+MDExOlB1bGxSZXF1ZXN0OTk0MTY0MTk=,3068,version bump for JDK 8 (112),77405870a7ad04c579a4b9811bbf682777f3c76b,1,0.0
+MDExOlB1bGxSZXF1ZXN0OTk0MjE1MTM=,3069,temporarily ignore failures with java 9,cd872fd83824512c128dcd80c04d445c8a2fc8eb,1,1.0
+MDExOlB1bGxSZXF1ZXN0OTk4ODE5MjA=,3078,Fix RealConnection to guard allocationLimit by connectionPool.,de8699b62d24e3b31205229a259be5b26b040957,4,3.0
+MDExOlB1bGxSZXF1ZXN0OTk5MDUzNTI=,3080,Release duplicated multiplexed connections.,04496ebc77199004f1c5a040db31c3f4ce642d71,6,4.0
+MDExOlB1bGxSZXF1ZXN0MTAwNTgwNTU2,3089,Make the crawler a little better.,b336a03f681dfe9f89878b0702b37a5f85173664,1,1.0
+MDExOlB1bGxSZXF1ZXN0MTAwNTg1OTgy,3091,Example on customizing cipher suites.,bdcd06f8ca578f95939018057a258cce3af4084e,2,1.0
+MDExOlB1bGxSZXF1ZXN0MTAwNTg2Mzc3,3092,Fix examples to give up if authentication fails.,87a3ec917750cb0bf743ed4133d7848133134d95,2,2.0
+MDExOlB1bGxSZXF1ZXN0MTAwNjIyNzE0,3094,Javadoc only: Update javadoc on Call to encourage closing the Response…,64e84e382efb80426cef301c9750833954c7fbbc,2,1.0
+MDExOlB1bGxSZXF1ZXN0MTAwNjIzNjk0,3095,website only: Update examples to encourage closing the Response (and …,21af010dcaec32fa7424345fd3e3e83a7e8bfbff,1,0.0
+MDExOlB1bGxSZXF1ZXN0MTAwNjMwOTQy,3096,Website only: Update first example to use try with resources,592d53b90d85045d404bf60362f10dcd0a8e4bf8,1,0.0
+MDExOlB1bGxSZXF1ZXN0MTAxMDAwMjg3,3100,Drop cookies that contain ASCII NULL and other bad characters.,0d867ab9fcc1fb197fedf40d9409e08d669caaba,4,2.0
+MDExOlB1bGxSZXF1ZXN0MTAxNjE5MzAy,3108,Permit network interceptors to rewrite the host header.,219776bd7e93cbafd134115e53c084dfd0d76ba8,3,2.0
+MDExOlB1bGxSZXF1ZXN0MTAyMDc1MDI2,3120,Added test for cache initialization failure and recovery.,71bd925cd21ed51a3fa5c10dac3f02c36af102fc,2,2.0
+MDExOlB1bGxSZXF1ZXN0MTAyNTI1NTA3,3125,Use Socket instead of Closeable for compatibility.,0ed48903b03cfdd13dda7ac42ae21a56ac30583c,4,3.0
+MDExOlB1bGxSZXF1ZXN0MTAyNTMwNTgx,3126,Add ALPN jars for JDK 1.8.0_121.,614f71fc48078377da235aae117ea40807af21c8,1,0.0
+MDExOlB1bGxSZXF1ZXN0MTAyNTgzOTU2,3127,Recover from a severe cache initialization failure.,2e036f61a2001d147e038f248b307198cc77051c,2,1.0
+MDExOlB1bGxSZXF1ZXN0MTAyOTM2OTk1,3134,Add charset support for Credentials.basic,894dbfa98ff3f8bb0afe46c1d9ddae57c08415ca,1,1.0
+MDExOlB1bGxSZXF1ZXN0MTAzNTQwNjMy,3137,HUC regression test: disconnect in the middle of connecting.,4de39f274d033e9241eb84061d848dfb610d2b67,1,1.0
+MDExOlB1bGxSZXF1ZXN0MTAzNjE2MzYz,3139,junit 5 compatibility for MockWebServer,f54130499acf0062ff655c07917e5c5f37f081cb,1,1.0
+MDExOlB1bGxSZXF1ZXN0MTAzNjIxMDky,3140,Fix a thread leak in MockWebServer's web socket tests.,e172706b56a8616cf70f8d8285d5f8701c8a36a0,4,3.0
+MDExOlB1bGxSZXF1ZXN0MTAzNjUyMzg1,3142,Fix some classnames to use Http2 instead of Framed,158692870d5a5cf1fdf42bd62a18ffa699d7e0b3,7,4.0
+MDExOlB1bGxSZXF1ZXN0MTAzNjU0MDE5,3143,Change MediaType's failure mode to not crash on charset problems.,3e126109c454394caaaa6075a5b6129dfd0b9c3a,4,2.0
+MDExOlB1bGxSZXF1ZXN0MTAzOTg2ODI4,3147,Do not fall back to COMPATIBLE_TLS (TLSv1) by default.,e95a9cc765b458a7162d1fe14904c554a10ba1ec,4,1.0
+MDExOlB1bGxSZXF1ZXN0MTA0MTMwNjQ1,3148,Port basic DistinguishedNameParserTest from AOSP,71729c39f2b62761d87bf2395127a9140ecab229,1,1.0
+MDExOlB1bGxSZXF1ZXN0MTA0MjEyMzcw,3149,Strawman class for EventListener,8ed90a06522c131aefeaf0bc96e2dda255256bb1,1,1.0
+MDExOlB1bGxSZXF1ZXN0MTA1ODEzNTI4,3159,Introduce PublicSuffixDatabase: a list of public suffixes by publicsuffix.org.,928f62a8129435b9b032cac7b9089dc397095ff9,4,1.0
+MDExOlB1bGxSZXF1ZXN0MTA2MDI2NTA4,3161,Add error-prone compiler and fix its found issues.,89621df62dda5cf73726ce2d5410c82c6f760f00,3,1.0
+MDExOlB1bGxSZXF1ZXN0MTA5MTY1NDA1,3206,Make FakeDns more capable.,e2d2ad80fffd1774561b4825203ab44209cd60bd,3,2.0
+MDExOlB1bGxSZXF1ZXN0MTA5MTc1NDY1,3207,Connection coalescing,87bf21311930d734507aaad25076c1302da828b4,9,5.0
+MDExOlB1bGxSZXF1ZXN0MTA5NDEwMzkx,3208,HTTP/2 reject DATA frame on streamId is zero,8eeebc1ec5422b69f77bef1b8869f69778766e21,2,1.0
+MDExOlB1bGxSZXF1ZXN0MTA5NTE3MDM5,3210,MockWebServer: Expose request URL as HttpUrl,b0a5a6626e48b60928e60f6a24cf92cbd66db15d,2,1.0
+MDExOlB1bGxSZXF1ZXN0MTA5NTM1Njg5,3212,Remove locale dependency in CallTest,31bc819fb5ad6c301f4450d44c4358c302f4375f,1,1.0
+MDExOlB1bGxSZXF1ZXN0MTEwMjgzODY1,3218,Handle either TLS_ or SSL_ prefixes for cipher suite names.,6c3a1607b06cf129c017aa28e6aa3baee1a66745,5,2.0
+MDExOlB1bGxSZXF1ZXN0MTExNDU5NTAx,3229,Remove some some duplicate words,d5db9542c9d25efd17b295559cf41f16a61401ac,3,2.0
+MDExOlB1bGxSZXF1ZXN0MTExNDYxOTEy,3232,Explode if the public suffix list cannot be loaded.,2fa94d3f356a7a9e33456bac4ab345ebef9ae346,1,1.0
+MDExOlB1bGxSZXF1ZXN0MTEyMTQzNTE1,3237,Add a sample where data is streamed via an Okio pipe.,e144fd2f72b89a47220acf32655407fe6ad3e17a,1,1.0
+MDExOlB1bGxSZXF1ZXN0MTEyNTg4NzA2,3241,"Change PublicSuffixDatabase to require canonical, punycode encoded domains.",613d55b37dba0252b31c736fca83c6d4d4a0d730,2,1.0
+MDExOlB1bGxSZXF1ZXN0MTEyNjA2OTU2,3242,Restrict cookies with a domain that is a public suffix.,c8d1243a3692e44f934d399905d673c72395abf6,3,2.0
+MDExOlB1bGxSZXF1ZXN0MTEzNTg1OTAy,3257,Update README.md,99db4307703d500cbf157cfd0a9ffcaa52732e4c,1,0.0
+MDExOlB1bGxSZXF1ZXN0MTEzODE5NTIz,3263,Don't reuse connections after an unsuccessful 'Expect: 100-continue',b5285cf91f89d186f27285764e6109e0c1c27210,2,2.0
+MDExOlB1bGxSZXF1ZXN0MTE0NTM4NDg4,3272,Fix canonicalization of IPv6 addresses in HttpUrl,a3c285fcce711a90de9bafc5f903368506ca5cd1,2,1.0
+MDExOlB1bGxSZXF1ZXN0MTE2MDI5NTQy,3281,Don't use a cryptographic RNG for web sockets.,417ec22305184b2ed86e91df4ad6093d99326316,1,1.0
+MDExOlB1bGxSZXF1ZXN0MTE2MDMxOTk3,3282,Invalidate the cache even if the response has no body.,214a72f81bc62a0cc8ead754cb73841d70a4687e,4,3.0
+MDExOlB1bGxSZXF1ZXN0MTE2MDMzNjI5,3283,Expose public suffix info via an API in HttpUrl.,31f04d7f142788841ad4ece1b3fc8c6ba6d9692d,2,1.0
+MDExOlB1bGxSZXF1ZXN0MTE2MDM5ODIw,3284,Fix WebSocketHttpTest.throwingOnMessageClosesImmediatelyAndFails().,82b5759d467cf3577f72c0a9a59ffb7f57106b64,3,1.0
+MDExOlB1bGxSZXF1ZXN0MTE2MDQwMjUy,3285,Hide EventListener from the public API for OkHttp 3.7.,a94f952d4fd612b649f0e1afbbcd06b7b991765b,3,1.0
+MDExOlB1bGxSZXF1ZXN0MTE2MDQ1MDQ2,3286,Upgrade to Okio 1.12.,a16897038090083158cdac85e2e7be6d9ec0ea56,2,0.0
+MDExOlB1bGxSZXF1ZXN0MTE2MDQ4OTMz,3287,Fix for HttpUrl's IPv6 tests ,5e460fd761d4e818c2f7fe3c8dc7df169cddf5fb,1,1.0
+MDExOlB1bGxSZXF1ZXN0MTE2MDc0NzE3,3288,Update JavaDoc for WebSocketListener,bf01d510f7373f26854e7ce9abaac62ecb2c41fc,1,1.0
+MDExOlB1bGxSZXF1ZXN0MTE2Mzc5NTgx,3293,Only make a single pass when removing protocols.,36a4d16b3d7b47ca83624a3bff66cde0cb5fe9f5,1,1.0
+MDExOlB1bGxSZXF1ZXN0MTE4Mjk3MTUz,3315,Configure ALPN for Java 1.8.0_131.,f4e487b801038b0348103d0cec9721cc49da2e9f,1,0.0
+MDExOlB1bGxSZXF1ZXN0MTE4Mzg0NjY5,3316,Update Call Test & Route Selector,f1edd9d15e433bca031b4b0b877a0de41486cb04,2,2.0
+MDExOlB1bGxSZXF1ZXN0MTE5Mjg0MzA0,3326,Forbid null for a handshake's TLS version.,b8c44c31b2eec2daca14f54d78d977e23b0ed12b,4,2.0
+MDExOlB1bGxSZXF1ZXN0MTE5Mjg0NTU4,3327,Forbid null schemes and realms in Challenge.,537c7bc57c98711fdd41d30752e54af941d95538,1,1.0
+MDExOlB1bGxSZXF1ZXN0MTE5MzA1ODg2,3330,Forbid null for a response's message.,254b0752e5b6e38eca67b7b8b218ed2f0c25dada,3,2.0
+MDExOlB1bGxSZXF1ZXN0MTE5MzA2NDc3,3331,Import jsr305 and use it to mark @Nullable stuff.,c70e35802e984e8b9bf3fbf1479deb37c0bdfa43,33,4.0
+MDExOlB1bGxSZXF1ZXN0MTE5MzEwODAz,3332,Upgrade to Checktyle 7.7.,e791f48af63e3ed4c9a61ffe874173c3327e8ce9,24,10.0
+MDExOlB1bGxSZXF1ZXN0MTE5NTc2NzE3,3335,Update RouteDatabase.java,63ee9b9b17fc6400f0bc6761c5ea7438838fd7f8,1,1.0
+MDExOlB1bGxSZXF1ZXN0MTIwMjE5OTUx,3346,Fix for NPE Crash due to a bug on Android 7.0 ,e14817d993c39c8a80747179bf8295b15d36372a,1,1.0
+MDExOlB1bGxSZXF1ZXN0MTIwMzMyNDg1,3350,Add immutable to Cache Control,714765d9f114d0d8f59dd0bb7373e63daf8ecfee,2,1.0
+MDExOlB1bGxSZXF1ZXN0MTIwMzkxNjIw,3351,Okio 1.13.0,9ce873ba7e3ff6a425b15cd33688640c39a106a9,1,0.0
+MDExOlB1bGxSZXF1ZXN0MTIwNDQ4MDIz,3352,Fix Javadoc builds with the jsr305 dependency.,a8bf90968db66d8307ec2f4343a0cbaa80fb5582,4,0.0
+MDExOlB1bGxSZXF1ZXN0MTIwNDUwODAw,3353,#3325: Add proper fallback to parameterless isCleartextTrafficPermitted() method on API 23,c7e0729b71b42564ad84e175705002ef55a22880,1,1.0
+MDExOlB1bGxSZXF1ZXN0MTIwNDY3NDcy,3354,README: ProGuard changes for OkHttp 3.8.0,fad89a786a6a19c78197b417f76bb0087fc95c71,1,0.0
+MDExOlB1bGxSZXF1ZXN0MTIyMDA3Mjc4,3370,Recover from a stale coalesced connection.,73fe9a4d211b13bf5727fb390b3955c7b4760830,2,2.0
+MDExOlB1bGxSZXF1ZXN0MTIyNTQwODQz,3377,Avoid index out of bounds with Http/2 settings id in the experimental range,7f053b03c522ec5d5cc2a853cf3ab146eba25257,2,1.0
+MDExOlB1bGxSZXF1ZXN0MTI0OTkyNzcy,3398,Clarify documentation on closing WebSockets and Responses.,6ab3e0c7777956f0a5095d6b8ec47a84f88daebe,2,1.0
+MDExOlB1bGxSZXF1ZXN0MTI1MDA1NTAx,3399,Match the entire pattern on certificate pinner patterns.,c5db5b1a3189f858d1dadccd8845112191cdf880,2,1.0
+MDExOlB1bGxSZXF1ZXN0MTI1ODE3Mzky,3408,Treat reading the public suffix list as uninterruptible.,19a7b15e4361c2452eb633d489bb0c1ad9fa2c3b,2,1.0
+MDExOlB1bGxSZXF1ZXN0MTI2MDM2Mjk2,3410,Make EventListener public and begin implementing Dns events.,243b348b58ce9ce8efd139830b0bd304a76ba8c2,10,3.0
+MDExOlB1bGxSZXF1ZXN0MTI2MTQzMDQw,3413,Disallow Interceptor responses with no bodies.,15f7ffcd549074754a1369824ca846ff1cbc43ab,2,2.0
+MDExOlB1bGxSZXF1ZXN0MTI2MTgzNDA3,3415,Fix code reference in Javadoc.,6eddff67672879a8468ddbb08e1b93aa3ce37c6c,1,1.0
+MDExOlB1bGxSZXF1ZXN0MTI2NTMwNzcz,3419,Added support for secure connect events.,33109cd8e1c2d1d579f0fdb7c0202555bc524444,5,3.0
+MDExOlB1bGxSZXF1ZXN0MTI2ODQzOTkw,3421,Use relative resource path for public suffix database,9bfe575960af8e7bb164642f2f513b5ccb39ff4f,4,1.0
+MDExOlB1bGxSZXF1ZXN0MTI3MjA2Nzg4,3425,Add more detail to dns/secure event docs; confirm it with test cases.,78e368ba87a7ddcc14f84124cdaaabec0aa8a698,2,1.0
+MDExOlB1bGxSZXF1ZXN0MTI3MzIwNjY4,3428,Avoid android specific code for TrustRootIndex,a5a597af9733f08b864ccb0e4ec8652143fa1b35,5,2.0
+MDExOlB1bGxSZXF1ZXN0MTI3NjgwODcz,3432,"New method, withReadTimeout(), on Interceptor.Chain",a32b1044a480aabbf4716d5c90b907c5ec46056c,10,5.0
+MDExOlB1bGxSZXF1ZXN0MTI3ODIxMDk3,3434,Add support for connect start/end events.,c7d508b79c9e201c91ec23f5eec47c18be206567,5,2.0
+MDExOlB1bGxSZXF1ZXN0MTI4Njc5OTQx,3443,Add missing test for MockResponse setHeaders,58e531da6994d7fdf7a75529feaf849113d31f5a,1,1.0
+MDExOlB1bGxSZXF1ZXN0MTI5NTI2ODIz,3449,Fix `response` parameter nullability,d4a9cf4772ae9d8991e58d934dea433798c9b8eb,3,2.0
+MDExOlB1bGxSZXF1ZXN0MTI5NTMzNDI4,3450,Added new method WriteTimeout() on Interceptor.Chain,640de61cb9a17a1c9f3851a46a7f6184acc71d15,5,3.0
+MDExOlB1bGxSZXF1ZXN0MTI5NTM4MDQ2,3451,Added new method ConnectTimeout() on Interceptor.Chain,1d8233ddb7a0dfa490a340a06433909148f21610,10,4.0
+MDExOlB1bGxSZXF1ZXN0MTMwNTkwNDQ1,3459,Include and implement connection found event.,b5314c1ec53492d1118c3e11b27658643b76e831,3,2.0
+MDExOlB1bGxSZXF1ZXN0MTMwNzU5Mzg2,3462,Consider all routes when looking for candidate coalesced connections.,85168a14c53fff360d89fe88856ac0072374f434,4,2.0
+MDExOlB1bGxSZXF1ZXN0MTMxOTMzODEw,3475,Fill out documentation for EventListener,29267ac4e8eae099064483dc4c4b246690a92009,4,2.0
+MDExOlB1bGxSZXF1ZXN0MTMxOTc4MzU0,3476,Complete EventListener,51ca7c55da6fac733eb08a613c1c614ad2e66b5f,9,5.0
+MDExOlB1bGxSZXF1ZXN0MTMyNjIwNzI3,3481,Prefer ByteString.encodeString.,d1b21e1913bd52c0d40331e3d72d0ba1b3fbb3ce,1,1.0
+MDExOlB1bGxSZXF1ZXN0MTMzMzA2OTM3,3489,JDK 8u141 & 8u144 Compatibility,685f458030b07849f7a703438651e9919e885252,1,0.0
+MDExOlB1bGxSZXF1ZXN0MTMzMzU3ODU3,3490,Check for DSP to enable ALPN.,2d5583051f993467b3fa7dc954bbf2fed3186d97,1,1.0
+MDExOlB1bGxSZXF1ZXN0MTMzNDY1NTg2,3492,Travis: Remove the duplicate addons directive,2f1e59e16792f4204dd5d03482b4bdc67554d7d6,1,0.0
+MDExOlB1bGxSZXF1ZXN0MTM0MjkzMjY2,3500,Honor retryOnConnectionFailure on a client request timeout.,0d1163dcded8f234576b478696001dbac7edf5fe,3,3.0
+MDExOlB1bGxSZXF1ZXN0MTM0MzA0Nzc1,3502,Use endOfInput() to trigger the end of the response body.,3b878299e7ab60e92669ddb9c222cbfda67ff038,2,2.0
+MDExOlB1bGxSZXF1ZXN0MTM0MzA2MDc3,3503,Don't call EventListener methods while holding locks.,54b583ed57ef1be8a56c346f3c466f3d00b37e4c,5,4.0
+MDExOlB1bGxSZXF1ZXN0MTM0MzE5MTE0,3504,Handle h2 vs http/1.1 event ordering differences,76b7d585e03b78725f8a276714b233a14cd9c217,1,1.0
+MDExOlB1bGxSZXF1ZXN0MTM0MzE5OTU5,3505,Event docs,f9de004f90d5535a2714c2f58c3bf7cad56a6f04,2,1.0
+MDExOlB1bGxSZXF1ZXN0MTM0MzI1NTA2,3506,Mark remaining @Nullable arguments in EventListener.,d26f6bf876257ecd25c10daae98a7cc51bbe2a8c,1,1.0
+MDExOlB1bGxSZXF1ZXN0MTM0MzMyMTgy,3508,Correctly report response body stream failures with HTTP/2.,ed7709dbe1599ff4e2fa0c65962528464ce54aca,3,3.0
+MDExOlB1bGxSZXF1ZXN0MTM0MzM4ODE1,3509,minor cleanup of EventListener formatting,dd757b677395268b92c9f8f38d3d28729487142a,3,1.0
+MDExOlB1bGxSZXF1ZXN0MTM0NDgwMzkz,3511,Test event listeners on request body failures,13d81f8d1b6ea1144a4a0bbbbbe03f390440f257,2,2.0
+MDExOlB1bGxSZXF1ZXN0MTM1MTgzMzg5,3518,Allow using a charset other than UTF-8 for creating urlencoded form bodies.,da4e249b7339c9d6e94535fcee63de0bada8f944,3,1.0
+MDExOlB1bGxSZXF1ZXN0MTM1NTkxMjQz,3522,Rename fetchStart/fetchEnd to callStart/callEnd.,7489193d5953bfba8c892e5aa98624e4ec73dbde,4,1.0
+MDExOlB1bGxSZXF1ZXN0MTM1Nzk3MjI5,3525,Recover from an already-allocated connection that restricts new streams.,abe5d62bcf18781c4b32418932f60e62cfea1703,2,2.0
+MDExOlB1bGxSZXF1ZXN0MTM2NjMzNjk2,3532,EventListener payload bytes and header sizes in chars,b52b3c78ebfc185fee0d281228a643a371af165c,6,4.0
+MDExOlB1bGxSZXF1ZXN0MTM3Nzg0OTY1,3540,Remove WebSocket API support for optional close code,ec00713d5c22175249a359c3ffd0fe0d2692b0df,2,2.0
+MDExOlB1bGxSZXF1ZXN0MTM3NzkwMzYw,3541,More debug for possible but unlikely assertion failures,ee7b608745fb3d83b9cad00ec96874e0db3d51de,7,3.0
+MDExOlB1bGxSZXF1ZXN0MTM3ODE0MDAw,3543,IOException instead of Throwable in EventListener API,cdc48ba8b0e4bdfccc208985bfef200220096d9d,5,2.0
+MDExOlB1bGxSZXF1ZXN0MTM3ODIxOTU2,3544,Use a static sink class,e37c7a2993745f048e5e8cea82be115a9d875351,1,1.0
+MDExOlB1bGxSZXF1ZXN0MTM3ODMzNjI0,3545,Add missing fail() to RealWebSocketTest,3aca55d22898cef23f66241618cf27356416f4b7,1,1.0
+MDExOlB1bGxSZXF1ZXN0MTM3ODQxNTgw,3547,Test Failure in MockWebServerTest,c77023cd0369c679bf217506ae21d429e6e81bdf,5,3.0
+MDExOlB1bGxSZXF1ZXN0MTM4MDEwMzUw,3550,Move all failures into connectFailed and callFailed.,1c98464839434a0fe7c7581cdae44bd3f2e6edd3,9,5.0
+MDExOlB1bGxSZXF1ZXN0MTM4Mjc2NTg5,3551,Don't call callEnd until after the responseBody is done,9b0d19f913465483d0942558eb21e37868040050,6,4.0
+MDExOlB1bGxSZXF1ZXN0MTM4MjgwNTQ5,3552,Don't fire events for Web Sockets.,c254a9a6bff57f5258f322ca277f5e3530564e09,3,2.0
+MDExOlB1bGxSZXF1ZXN0MTM4NDQ1NTk3,3555,Crash early if any interceptor is null.,57891fe021e9012adb0c2a4345a5b717c2c84ddb,3,1.0
+MDExOlB1bGxSZXF1ZXN0MTM4NDUxMjIy,3556,Omit the message from MockWebServer's HTTP/2 :status header,207f5579d3d907589bbe3641c5c25326e1571722,5,4.0
+MDExOlB1bGxSZXF1ZXN0MTM4NDUzNzQ5,3557,"New API, Chain.call() returns the in-flight call.",36bd68aa3e93affb12504cd40454e64c6812019c,3,2.0
+MDExOlB1bGxSZXF1ZXN0MTM4NDYwNTQ5,3558,Don't log a protocol when it is unknown.,16f43b6439df920e04d338bcd5651067e840c1e2,2,1.0
+MDExOlB1bGxSZXF1ZXN0MTM4NDYzNzk3,3559,Update Proguard rules on README.md,1801d0cb2c7132a97c3e9c011a8546f883dfcf12,1,0.0
+MDExOlB1bGxSZXF1ZXN0MTM4NDk4NDYz,3561,Update some comments to point at current RFCs,ee5cf502889ed896a67dac57662d19bc469bb876,5,3.0
+MDExOlB1bGxSZXF1ZXN0MTM4NTE0NTg0,3562,"Failed, second connection and call.enqueue EventListener tests",314b40d9c5ae6e922f00fda3e867658c7edfc2db,1,1.0
+MDExOlB1bGxSZXF1ZXN0MTM4NTQ0NjEw,3563,Fix MockWebServer handling of 'Expect: 100 Continue',e5f50b5bc65e71378d9a054891328815b52c1f40,3,2.0
+MDExOlB1bGxSZXF1ZXN0MTM4NTYxMDEw,3564,Fix IPv6 handling for cookies,a73c21771777ffd29e1d7ce296b252a324350284,5,3.0
+MDExOlB1bGxSZXF1ZXN0MTM4NzY5NTUx,3566,Don't report connectionAcquired until actually connected.,77471444ec81ad9452ebde7ca2b58db58a1f77d1,4,2.0
+MDExOlB1bGxSZXF1ZXN0MTM4Nzg3Mzcx,3567,Fix MockWebServer websockets to be thread safe.,6f029dd3de6903aedc680375106b459e406874c9,2,2.0
+MDExOlB1bGxSZXF1ZXN0MTM4OTI3NzYy,3570,Fix a race in WebSocketHttpTest.,a95ec06a5037f7ca84f4f596397ce6090734c59b,1,1.0
+MDExOlB1bGxSZXF1ZXN0MTM4OTI4MjY3,3571,The WebSocketWriter is single-threaded.,6663f063e6a7dfbc02985d3a86c36a675347d3ae,2,1.0
+MDExOlB1bGxSZXF1ZXN0MTM4OTY0Nzkz,3572,Improve handling of HEAD requests with a Content-Length specified.,33d31d073ee451a3848192a4737cc06ab83cbfd6,6,5.0
+MDExOlB1bGxSZXF1ZXN0MTM5MDA3MDMz,3574,Close all Response in samples,6cddc8973a88197141f4c666175205996f561c68,2,1.0
+MDExOlB1bGxSZXF1ZXN0MTM5MDYwODIy,3576,Don't summarize the request and response headers.,3646138247488c9832a7f325401fe0b12fcdbebf,6,2.0
+MDExOlB1bGxSZXF1ZXN0MTM5MDc1MTAz,3578,Add tests to demonstrate events bugs,b6aa9fe7825c56b1c3820c45f3bbb719dbc21e7f,1,1.0
+MDExOlB1bGxSZXF1ZXN0MTM5MTk4MDg5,3579,Add 'of' to Connection JavaDoc.,c323eb28147499a872fdbc0979264c9f0fd853cd,1,1.0
+MDExOlB1bGxSZXF1ZXN0MTM5MjAxMTU3,3580,Add a prerelease warning to EventListener,6fab1a323bd54d4468a903ffec66839dd7c61c5e,1,1.0
+MDExOlB1bGxSZXF1ZXN0MTM5MjA4MDE4,3581,Fix some strict Javadoc HTML rules in EventListener,1596e57ba00c282ab029551f355365971a30ea67,1,1.0
+MDExOlB1bGxSZXF1ZXN0MTQwNDkzOTI1,3602,256kB header limit,3fe86b348e3a17d0ab782cd5b4ca3c20f80e80f0,3,2.0
+MDExOlB1bGxSZXF1ZXN0MTQwNTA3MDA4,3603,Fix travis build,7e040c094576463ec6324d012cbad8768ce3d767,1,1.0
+MDExOlB1bGxSZXF1ZXN0MTQxNDM1NDU0,3611,Platform cleanup - move trust manager building internal,1d9c158a96382facc3be672f6b41dc79fb5eb48b,3,2.0
+MDExOlB1bGxSZXF1ZXN0MTQxNTI0NjY2,3613,Hardcode header limit to 256 KiB,525db987a553634e3592b18064bbedc5a7ed76c4,1,1.0
+MDExOlB1bGxSZXF1ZXN0MTQyNjkxMzY2,3624,Add workaround for https://issuetracker.google.com/issues/63649622,aed222454743ebe5724d6ad438fafed37956521e,1,1.0
+MDExOlB1bGxSZXF1ZXN0MTQ1ODI0MjI5,3647,Update ProGuard suggested config.,d9091b357bb74ba72b57953d2dfc7bcbbd099533,1,0.0
+MDExOlB1bGxSZXF1ZXN0MTUwNzA2MzQ2,3674,Ensure encodedQuery doesn't include the URL's fragment,fc930117626e88914b2b2c6a72c9841ba4b5a8a4,2,1.0
+MDExOlB1bGxSZXF1ZXN0MTUzMjcwODQ5,3691,workaround broken system dns behaviour,a792fec95f81e14fd9678807683f9fb36066648e,1,1.0
+MDExOlB1bGxSZXF1ZXN0MTUzNDIyMTQx,3692,"new JDK releases, add alpn-boot versions",a4878313c5d1b3671b0c9c050d6724b781091299,1,0.0
+MDExOlB1bGxSZXF1ZXN0MTU0MDY4MzA2,3696,Assertion error super careful,5393de3e3741edbe905681a32281f270f18e356b,2,1.0
+MDExOlB1bGxSZXF1ZXN0MTU0NDQ4NzI1,3700,304 Not Modified overrides Content-Encoding and breaks cache,78f49fb3fed19d3f3574ed42691a8f82e0f76143,2,2.0
+MDExOlB1bGxSZXF1ZXN0MTU2MDE3MDk5,3709,Missing @Nullable,17485bc41852ee9586ebe167555737825a0d1043,1,1.0
+MDExOlB1bGxSZXF1ZXN0MTU4MjAyNzM2,3721,avoid using invalid sessions,ca62d97a9b27b41965cd65bf6f870ec3b52cd170,1,1.0
+MDExOlB1bGxSZXF1ZXN0MTU4MjcyNzI0,3723,Update to new Gradle dependency configurations,c22be89f4b84a9e7d45f872b9d35786f4ee2398f,3,0.0
+MDExOlB1bGxSZXF1ZXN0MTU4Nzk3NjAx,3725,Temp Testing: WebSocket close,0ac38668a409256fe1672b56ea4bd96fbd156b14,2,1.0
+MDExOlB1bGxSZXF1ZXN0MTU5ODAyMzgz,3734,Fix typo on website/index.html,83e93199fe52e62da58d34ca970e2199ab9d8643,1,0.0
+MDExOlB1bGxSZXF1ZXN0MTYwMzcwMTQz,3744,Improve progress example,fe445e4db63319407fc8fadc214f19c1f2f9594e,1,1.0
+MDExOlB1bGxSZXF1ZXN0MTYwMzg3ODEw,3746,QUIC constant,a16b96309cf0850d53a1ad6fd003062366bf3080,1,1.0
+MDExOlB1bGxSZXF1ZXN0MTYwMzkzNDQ2,3747,improve timeout documentation,0ac969578d0ea8703a4c9bd5e9950cd9e9594f44,1,1.0
+MDExOlB1bGxSZXF1ZXN0MTYwMzk5Mzc0,3748,Document max websocket buffer,0cf6f33c1fd1ff84970fa2400afb70a1ea176d5d,1,1.0
+MDExOlB1bGxSZXF1ZXN0MTYwNTgyOTk4,3751,Settings id is unsigned short,65e7c32c3b860f441f51f02059ac821e078e5da8,1,1.0
+MDExOlB1bGxSZXF1ZXN0MTYwNTg4OTQ1,3753,Retry-After support ,3a539370eb7735562e9e748054ef5dc6ca240bcc,2,2.0
+MDExOlB1bGxSZXF1ZXN0MTYwNjQzNzI5,3756,Define all HTTP2 error codes,901a514269886a6fc63ee051831bd9338c2063fe,1,1.0
+MDExOlB1bGxSZXF1ZXN0MTYxNDQ4MTIz,3764,OkHostnameVerifier: Don't fall back to CN verification.,cd84d79c3574de81f23802f832f2ead6ad38a735,3,1.0
+MDExOlB1bGxSZXF1ZXN0MTYyODI3Mzc4,3777,Allow request bodies for all HTTP methods except GET and HEAD,8c9c134ab1c847f2b074e5f93aeccc6d68697b6f,2,2.0
+MDExOlB1bGxSZXF1ZXN0MTYzNDEzNjQ4,3781,Rename userName parameter to username in Credentials,8e1e9078c823beb77b95776b3cc6a6a4da4d7a07,1,1.0

@@ -1,0 +1,440 @@
+id,number,title,mergeCommit,changedFiles,changedPackages
+MDExOlB1bGxSZXF1ZXN0MTM2MzYz,3,"Please Review:  PUT, DELETE, path params, fixed query params, RestAdapter breakapart",5c0c6ce5b3b45ccb0663256c6a864887ecf23a76,16,
+MDExOlB1bGxSZXF1ZXN0MTM3ODU4,4,Added a method to fsync directories.,fc4ffe7f70c00d24474585ce76a91c7f4c48050a,17,
+MDExOlB1bGxSZXF1ZXN0MTcxOTUz,5,Repackage gson into retrofit.internal.gson,84dde61eacc779f0957f15d4d20a8518fa58c700,9,
+MDExOlB1bGxSZXF1ZXN0MTcyNTY3,6,Logging unexpected errors in RestAdapter.,b59756db456f3f8a9a1939be921bb7a8372af732,1,
+MDExOlB1bGxSZXF1ZXN0MjkxNzY0,7,Allow Server extensions; improved FilesTest,ac809f4a87ca73ff5dcba7b337675f0499cbb1c1,2,
+MDExOlB1bGxSZXF1ZXN0MzA0NDU2,8,Write header before truncating QueueFile,47e51a7bcd639394a3495ae3e48d2cb7920e576c,2,
+MDExOlB1bGxSZXF1ZXN0MzI1Mjg3,9,Improve Retrofit http logging,e9a10c6334ff42ec160d2ddd7c5b13e8ca46156d,2,
+MDExOlB1bGxSZXF1ZXN0NDc4MzAw,10,Fixes failure to transmit interesting unicode characters,605bdabfd5c9b462cf38fab8d2c4adfea88c209a,1,
+MDExOlB1bGxSZXF1ZXN0NTIwODU0,11,Adding a preInvoke callback for right before http call is being made.,caefca477c7d8bad34b2729a9a0eda9c0bd04115,5,
+MDExOlB1bGxSZXF1ZXN0NTM2Njgw,12,JSON request entity support,6df1df81229f55a920737ff1ae41003830cf3793,12,
+MDExOlB1bGxSZXF1ZXN0NTg5OTYw,13,Makes the gson instance Guice injectable rather than hard coding it.,08451de786b918071ccc12afbe146efeff8bd512,13,
+MDExOlB1bGxSZXF1ZXN0NjAwOTI0,14,Adds an int statusCode parameter to clientError and serverError.,d4891d43353d8504c0704eb212dfcd546aafc260,5,
+MDExOlB1bGxSZXF1ZXN0NjA1Mzgy,15,Removing preInvoke and constructing headers on the main thread,fb2b9490b28034608a4fbf4cab838da851e7d580,6,
+MDExOlB1bGxSZXF1ZXN0Njc4NDYz,16,Update to GSON 2.1,dc6f4a065386c7d0e01100e6a6e304d52837e666,3,
+MDExOlB1bGxSZXF1ZXN0Njc4OTM1,17,Doc tweaks,22f78bebc7c638fe1bce13f6251bd68080167b6e,1,
+MDExOlB1bGxSZXF1ZXN0NzgxMzY0,18,Stops bad behavior,605ac7538bcd624ebec618dcf3dd7361e054dc82,1,
+MDExOlB1bGxSZXF1ZXN0ODAyNDkx,19,Moving header construction back to bg thread,4a775ff65be5d6fc44a59e0c0244233290ef13db,1,
+MDExOlB1bGxSZXF1ZXN0ODQ5Mjgy,20,Log the api url for failed requests,a0b75e4c3fec1657bd556c69f2287b435e94b590,1,
+MDExOlB1bGxSZXF1ZXN0MTA0NDk3OQ==,23,Serialize HTTP request params on main thread,a7f395d80c6bdbaf438735d03f45c619503838a2,1,
+MDExOlB1bGxSZXF1ZXN0MTA0Njk4Mg==,24,Serializing to json immediately in JsonTypedBytes constructor.,ffc1227c75e4dbee6db58b37077715fa8d4c1ba9,1,
+MDExOlB1bGxSZXF1ZXN0MTEzMjE1Mw==,25,Mavenize.,c4d3ab2f08c253340785da197fedbc927a13693a,101,
+MDExOlB1bGxSZXF1ZXN0MTI2Nzk3Mg==,27,Two tweaks,9139e87d7705fb3f201142250730eb439589bd16,4,
+MDExOlB1bGxSZXF1ZXN0MTM3NzY2NA==,28,Log the api url and start time for request failures and successes,bc4fc2517ed79c43fd3d845dd0a26fdadd04e411,19,
+MDExOlB1bGxSZXF1ZXN0MTM4MzIxNw==,29,Introduce checkstyle to enforce code style. Clean-up files to pass.,b06133c68f7928a6ecd2a81b0b4a1ae25032faae,19,
+MDExOlB1bGxSZXF1ZXN0MTQwMTM3Mw==,30,Stop treating 403s like 401s.,22e200fb0ab1cfb84b742d21837ece08a1c4f0a3,1,
+MDExOlB1bGxSZXF1ZXN0MTQwNjM2Mw==,31,Use built-in constants for HTTP status codes.,8309ce2bca398ba5bf580aecfd40ec2b4ebf18f9,1,
+MDExOlB1bGxSZXF1ZXN0MTQ2OTMwNw==,32,"Exposes RestAdapter#createProvider, to allow custom service wrappers.",64e79d0ca9dbc8f5d77fa1c1c55afffe4f113b7a,2,
+MDExOlB1bGxSZXF1ZXN0MTQ4ODUyMQ==,33,Introduces MainThread#executeOnMain.,efa8a55e5e7ee64925fd5f37621f251de6b2487a,4,
+MDExOlB1bGxSZXF1ZXN0MTYwNDI2Mw==,34,Upgrade to Gson 2.2,7f48e6e5b022e53f402ca9a59f159959106d8389,1,
+MDExOlB1bGxSZXF1ZXN0MTYyMTA0OQ==,35,Adding a beforeCall() to HttpProfiler.,bd245ccedf5c1ef02d2cf459c827c413fe0f838a,2,
+MDExOlB1bGxSZXF1ZXN0MTYzMDA3NA==,36,Temporarily roll back to GSON 2.1.,e66911c9307733992ed728084e0e0808ff45503a,1,
+MDExOlB1bGxSZXF1ZXN0MTY3NjMzNw==,37,"ANDROID-3631: PUTs don't have a content-type, don't NPE on them",0feff4ede9e16ef5879b1a7db11fbe63f9b43bc1,1,
+MDExOlB1bGxSZXF1ZXN0MTY3Njg1OA==,38,Make RestAdapter work with JSR-330 injectors other than Guice.,2aa4f0c0f5c23be7a5fbeda14a74f3f2890ade52,5,
+MDExOlB1bGxSZXF1ZXN0MTgzMDMwNw==,40,Support JSR-330 instead of Guice.,85f201f6de3e0e9c159eb8457fa6391b77b37f7b,6,
+MDExOlB1bGxSZXF1ZXN0MjA0MzI4NQ==,41,Adding a human-readable name to the Server interface,76f12f599aebd1f3148eddea430394f5f1229f00,1,
+MDExOlB1bGxSZXF1ZXN0MjA1OTk2Mg==,42,Update Gson to 2.2.3-SNAPSHOT.,8d7cc1f582431bc64f065341548ab32ac0159198,1,
+MDExOlB1bGxSZXF1ZXN0MjA2MTAxOQ==,43,Roll back gson change: it breaks serialization,8333a7725dc69f2aeb9c6ae4e47bbfccf976f2e2,1,
+MDExOlB1bGxSZXF1ZXN0MjA2NTUwOQ==,44,"Restore Gson 2.2.3-SNAPSHOT, which now supports serialization.",0fa393c1b2e49bbb37ab4ed18970b4f89901b745,1,
+MDExOlB1bGxSZXF1ZXN0MjA2ODEyMA==,45,Improve response time logging: show elapsed ms,43dfbf6963bcb5954d47fdaac86bb38c0c11cdbc,3,
+MDExOlB1bGxSZXF1ZXN0MjA2ODIzMA==,46,Optimization: don't create a Date object just to get current time,89ce78d5b78d1a45f265667031e171fdb573a4b6,1,
+MDExOlB1bGxSZXF1ZXN0MjA4MTc1Ng==,47,Associate log messages with the request that caused them,cec69e7b8dd11e716c7057bb99b1b4a4226d0622,2,
+MDExOlB1bGxSZXF1ZXN0MjEyMjIzOA==,48,Clean up Server class a bit.,ddc6cdb50d8c3f61666da465c11fae1d4caecb1c,1,
+MDExOlB1bGxSZXF1ZXN0MjIwNzc5NQ==,49,Pom cleanup.,02f8f8855ccc2265b08e800591783871bcc48b2b,7,
+MDExOlB1bGxSZXF1ZXN0MjIxMjQ2NA==,50,Move QueueFile to 'io' package.,531c2b7171644b3151043409ac5d848e4d3ba98d,3,
+MDExOlB1bGxSZXF1ZXN0MjIxMjg0Ng==,51,Eliminate barren 'core' module. Updates to other modules.,be7a24ca70882b1dd70b17df09b9659f153d1fcb,23,
+MDExOlB1bGxSZXF1ZXN0MjIxMzk1MA==,52,Re-enable 'android' and 'io' tests. Switch to FEST.,2e9bb1295a310258781b5e50e7b045556e1da9c3,13,
+MDExOlB1bGxSZXF1ZXN0MjIyMTY1Ng==,53,More FEST-isms.,632cc1c1a407ec138c6dc3abce72f1ace5aba4d2,4,
+MDExOlB1bGxSZXF1ZXN0MjIyMjA1NQ==,54,Eliminate 'android' module.,09518f08bebd285795618ba720048cf4dd763db7,7,
+MDExOlB1bGxSZXF1ZXN0MjIyMzczOA==,55,Bump to 0.7.0-SNAPSHOT.,c14ac9444efcd39b0478abde6aecdbd45c4859ec,26,
+MDExOlB1bGxSZXF1ZXN0MjM1NzAwMw==,56,Remove web URL and ignore SSL boolean from Server.,91a159e47e2049aa21fad58936d61248f85ad60b,2,
+MDExOlB1bGxSZXF1ZXN0MjQ0NTc5OQ==,58,Purge QueueFile.,52971d80831bec243b67e4bd166bc5c6f9ad4ea6,5,
+MDExOlB1bGxSZXF1ZXN0MjUzNzQ5OQ==,59,Allows spaces to appear in path parameters.,7c4d80f22490e800bb529f5111e8971a2f424d7d,2,
+MDExOlB1bGxSZXF1ZXN0MjU5NjMyOQ==,60,Use ServerError directly in sessionExpired and serverError.,bc52205a47f373f3783be11705497dcfc70cdaac,13,
+MDExOlB1bGxSZXF1ZXN0MjYzOTUzNw==,61,Remove erroneous javadoc.,464c1470a7ab2f9a9b768dc36c9b3b56d9692215,1,
+MDExOlB1bGxSZXF1ZXN0MjY0MDI2OA==,62,Abstract HTTP entity (de)serializaton to converters.,af6311e46f88eb924ceb5c17fc2d786ed5540275,12,
+MDExOlB1bGxSZXF1ZXN0Mjc0NzI0Nw==,67,Remove `Fetcher`.,83582ea568267e3670ee17ca9e4af2e549f23d61,3,
+MDExOlB1bGxSZXF1ZXN0Mjc0ODMzOQ==,68,Hide implementation detail UiCallback class in package scope.,7e1a561cae73747af80244e9acce491e4e92e8ad,1,
+MDExOlB1bGxSZXF1ZXN0Mjc0ODkxMQ==,69,Remove support for implicit injection.,7be23dc7013d27d6ae15d9ef28682c870d7fe025,1,
+MDExOlB1bGxSZXF1ZXN0Mjc1MDA4OA==,70,Introduce builder pattern to instantiate RestAdapter.,28cdbce8ba53d5050127606490ca32b990921957,8,
+MDExOlB1bGxSZXF1ZXN0Mjc1MDU0Mw==,71,Move sample to examples folder to accommodate future additions.,15859c15387497aaf481b26a82947d4dc8bfbbcc,5,
+MDExOlB1bGxSZXF1ZXN0Mjc1MTE5Nw==,72,Remove unused ServerException.,a40a150083c57eafd366ba826177f77604eddba3,1,
+MDExOlB1bGxSZXF1ZXN0Mjc2MTgyOQ==,73,Upgrade FEST and Apache HTTP components dependencies.,167687b3a4a56009ec6c8759a978c808ea43c195,9,
+MDExOlB1bGxSZXF1ZXN0Mjc2NzgzNg==,74,Support Synchronous Invocation,912c91213c1e05ba354da3bf456324b58d812f0d,14,
+MDExOlB1bGxSZXF1ZXN0Mjc2Nzg1MA==,75,Remove unused ByteSink classes.,96a6d45c9e04521892895be1a060dd8c60edf395,2,
+MDExOlB1bGxSZXF1ZXN0Mjc3NDM5MA==,77,Tweak RestAdapter documentation for accuracy.,a5659a36b80b52b04e0b7d3ba791e5904ca55db1,1,
+MDExOlB1bGxSZXF1ZXN0Mjc5NDk4Ng==,81,Revert HTTP client version to match Android.,b2b006294c31f73e974aec17aff7fbf58d8ce251,1,
+MDExOlB1bGxSZXF1ZXN0Mjc5Nzg1NQ==,82,Remove use of Objects helper class.,d62722e412d0864b70fd82ca5ffbc3e8669164cf,5,
+MDExOlB1bGxSZXF1ZXN0Mjc5ODAyNA==,83,Remove unused transitive dependency on commons-logging.,7581bf7a66ecf3c78675d41d065e2651f71b0904,1,
+MDExOlB1bGxSZXF1ZXN0MjgwMTU3NQ==,84,Remove the use of jarjar. Mark GSON optional.,4e8bc5ebaa16ac0e1717c83abb37b0d74c2789be,1,
+MDExOlB1bGxSZXF1ZXN0MjgwMTk5OQ==,85,Enable more checkstyle checks.,3eb39c37d75eba722514851d28f667d2bfdbb7fe,2,
+MDExOlB1bGxSZXF1ZXN0MjgwMjAyNg==,86,Add simple Twitter example using synchronous API.,76465deb51296e275170251af872382655fad7b3,3,
+MDExOlB1bGxSZXF1ZXN0MjgwNjk4OA==,87,Use constant for Content-Type header name.,6d1e4a71743eb3c4947b7163a56f746200ced6f0,1,
+MDExOlB1bGxSZXF1ZXN0MjgxMDI4MA==,88,Inline usage of Files helper class.,9c5ea0b7e778a199dde7746f03ab94fe976bb3cf,3,
+MDExOlB1bGxSZXF1ZXN0MjgxMzAwOA==,89,Reorganize project for a final push toward 1.0.,4a543eeb2e8ef7abcd355ed5aad283b8dfb08693,52,
+MDExOlB1bGxSZXF1ZXN0MjgxNTg3OQ==,90,Simplify asynchronous executor API.,345d8558ecc838e8bdb67700cfe4745b94cdb16e,6,
+MDExOlB1bGxSZXF1ZXN0MjgxNTk2MQ==,91,Hide more implementation details.,ed1e75d742dc59c1e4f7570a65c891cdf9bdac0d,2,
+MDExOlB1bGxSZXF1ZXN0MjgxNjEwNA==,92,Only exclude the last param if execution is not synchronous.,d22a4b156ecf828c2f0fb55b8972e7b3fa8397cc,2,
+MDExOlB1bGxSZXF1ZXN0MjgyNjY1Nw==,93,Restore FINE logging of HTTP response body.,a84fad8590b2b91770c314d5f22a467a2e127e24,1,
+MDExOlB1bGxSZXF1ZXN0MjgyODQwMg==,94,Properly chunk string when logging content body.,eb815054727713fcec2c5eb7e2c26b2ded13dac6,1,
+MDExOlB1bGxSZXF1ZXN0Mjg0NTkyOQ==,95,Avoid redundant call to apiUrl().,0d15bcc10049c301db6051401e81a28bcfd4ef0f,1,
+MDExOlB1bGxSZXF1ZXN0Mjg1MDYzNg==,97,Allow null callback executor.,8e42448d5c3e4691523333091fd00c844b1a6a6e,1,
+MDExOlB1bGxSZXF1ZXN0MzExMzM0Mg==,102,Throw explicit exception if asynchronous invocation is attempted without...,994af848c5ad15a994b3234222dd297058ebe75b,1,
+MDExOlB1bGxSZXF1ZXN0MzE0ODM5Ng==,104,"Provide sane defaults for `HttpClient`, `Converter`, and `Executor`s.",5e5ceb735357a8c754020c02866091e3e73769b4,4,
+MDExOlB1bGxSZXF1ZXN0MzE1MDU1NA==,106,Name the current thread with the request URL.,3eac5515bfebfafa8a8af3742705e400f85bb248,2,
+MDExOlB1bGxSZXF1ZXN0MzE2MzY0MA==,107,Don't load platform until the last minute,7cedcd3e73c2c4929ceecf8c2a4e492cf85d41ce,1,
+MDExOlB1bGxSZXF1ZXN0MzE5Njc2Nw==,108,Do not instantiate a new HttpClient on every call when using platform defaults,8870e66678a13447588f1878b193d89c46d1be5d,1,
+MDExOlB1bGxSZXF1ZXN0MzI1NzI2NQ==,110,Use proper byte length for multibyte strings,8baf40eda1fc44464346c23f51483df8487020b6,1,
+MDExOlB1bGxSZXF1ZXN0MzMwOTI1OQ==,115,Added code to not append a ? if the query string is empty.,2adc5af775727d56e6bdbd8417ddad9f1ef7fd4f,2,
+MDExOlB1bGxSZXF1ZXN0MzQwNjE5NQ==,121,Convert all files to 100-character lines. Enforce with checkstyle.,1bb6c467dbaafa4c1fa4a40b3d74b07c5b4c3d34,16,
+MDExOlB1bGxSZXF1ZXN0MzQxNjY3MQ==,125,Allow MimeType instantiation. Hide some Apache implementation details.,6b79d5c26492e97a3ca7f7ea7c55f23b38dada42,8,
+MDExOlB1bGxSZXF1ZXN0MzQyMTgxMQ==,126,Simplify callback system to generalize usage.,25071e3a33e0b471c78460e3e735cac90adb3d2d,9,
+MDExOlB1bGxSZXF1ZXN0MzQyMjUxNw==,127,Use UTF-8 everywhere.,dc4fd8cda39016cf9f38441416a4000d50753d72,5,
+MDExOlB1bGxSZXF1ZXN0MzQyMjUzOA==,128,Correct docs for new RetrofitError.,b97bd0ac8ab90e7b75e33ba02753b28f7c2bc16f,1,
+MDExOlB1bGxSZXF1ZXN0MzQyNDkxMQ==,129,Cache all reflection in a details POJO associated with each method.,9942d8e08ec1c5346863207e77d8885416edca8b,7,
+MDExOlB1bGxSZXF1ZXN0MzQ1MTQ0OQ==,132,Defer non-interface methods to normal invocation.,8e92fdaf54bc1f3293c0de59e4e85ba97c200333,2,
+MDExOlB1bGxSZXF1ZXN0MzgyNjc0NA==,136,WIP: Client Agnostic,52396c8d58336ea57af8e50edec58d7c7f937c8d,52,
+MDExOlB1bGxSZXF1ZXN0Mzg2MTA0Mw==,138,Ensure endpoint definition Class is an interface.,5f8d96b7333742ca8c2b5447b46e7236eded7849,1,
+MDExOlB1bGxSZXF1ZXN0NDEzOTM0Mw==,143,Provide access to the Response object directly and via Callback.,e4e6fd5ccd85c6adeb1d0dc1f442c7be6674fe0f,3,
+MDExOlB1bGxSZXF1ZXN0NDEzOTc3Mw==,144,Remove explicit MimeType class in favor of simple String.,237a060c41efb15eed8918cd83a1ff2e4310af97,11,
+MDExOlB1bGxSZXF1ZXN0NDE1NzM4Mw==,145,Small tweaks.,69cc6ecf8e4f41bdf23d4d68509b6117f6c05de0,2,
+MDExOlB1bGxSZXF1ZXN0NDE4MTI0NQ==,147,Switch headers to come from an interface implementation.,f2aff7917799285d82f37f4ad13c8664d2e026f4,2,
+MDExOlB1bGxSZXF1ZXN0NDIwMzc0Nw==,148,Break up TypedBytes into TypedInput and TypedOutput.,0e174af13fde573ad7c66bc891dc7339c10cc15a,28,
+MDExOlB1bGxSZXF1ZXN0NDIxMzAxMg==,149,Move packages.,5111e620bbdedf83ee4062cdd2ddc5a7606dbfba,24,
+MDExOlB1bGxSZXF1ZXN0NDIxNDgzOA==,150,Remove JSR-330 dependency in favor of our own annotations.,162e44d2f3ed7e6d5fcf572b59d01852fc4ca086,12,
+MDExOlB1bGxSZXF1ZXN0NDIyNTE2NA==,152,Use TypedOutput for Requests.,aa3c192663a4163b98a11792710e6da197e5acf6,8,
+MDExOlB1bGxSZXF1ZXN0NDIyNTUwNw==,153,Disallow query params in the URL.,5a7a00f93279291b328dac5dcb202e95daeb723c,3,
+MDExOlB1bGxSZXF1ZXN0NDI2ODg4MA==,156,Provide a mutable server implementation. Update Server API to conform.,4b52a08912cc6c029422e2d1a8b957e39856ea5f,3,
+MDExOlB1bGxSZXF1ZXN0NDI2OTc1MQ==,157,Log request headers. Update response format to match.,bf475efa085c7dbd663aebec78d7faa0cc98a9be,1,
+MDExOlB1bGxSZXF1ZXN0NDI5NDU1Mg==,158,Fix Url Escaping on GET Parameters,ab81d9058ef899ecd91f81e4d195b920c157e6ff,2,
+MDExOlB1bGxSZXF1ZXN0NDM2MTI4OQ==,159,Add UrlConnection Client.,4b6f54b7df3b5f8bd94bce9644b2f6f91e1b4e25,10,
+MDExOlB1bGxSZXF1ZXN0NDQwNTc4OQ==,160,Fix inconsistencies in javadocs.,15f7140d27ddffd9c48feb100c48c96537b05809,3,
+MDExOlB1bGxSZXF1ZXN0NDQ5ODI0MA==,164,Relax enforcement of UTF-8 and use the body charset for decoding.,258e289385c75d2f3104d487eba98731358a28ae,5,
+MDExOlB1bGxSZXF1ZXN0NDUzNzQwMQ==,165,Always return response object on success callbacks.,a44dbe5849f7d6f813a20885099567b22eccbea6,6,
+MDExOlB1bGxSZXF1ZXN0NDU3MjY5OQ==,167,Full type resolution from Gson.,e34104c9283ed6b355d2adf04a9dc8c400b99dd1,4,
+MDExOlB1bGxSZXF1ZXN0NDYyNDM2OA==,169,Making TestingUtils abstract so that JUnit ignores,ae31cb8901685e9e3c6a6e663818b2d9c3bf481c,1,
+MDExOlB1bGxSZXF1ZXN0NDYyNTcwNA==,170,Using Response in readme instead of SimpleResponse,55eade72a35ecf18ec9932a0f4b6c0cb11abe550,1,
+MDExOlB1bGxSZXF1ZXN0NDYyNzQ5NQ==,171,Only using getErrorStream() for status >= 400,e20a9c342c1b0f1767c83c4efd0d27facc2849bd,2,
+MDExOlB1bGxSZXF1ZXN0NDcwNTU2Nw==,172,Don't hide cause of RetrofitErrors,f289daf15d98b16ffc2f148045ea0fe3950a1604,2,
+MDExOlB1bGxSZXF1ZXN0NDgwODE1NQ==,174,Add ErrorHandler for customization of RetrofitError behavior,b625254ab2eef44eb9444c0cd293594a04691256,3,
+MDExOlB1bGxSZXF1ZXN0NDgwODk0Mg==,175,Update sample name to reflect behavior.,e8daa4a151da000ec0e7427257875ab7c9bed04e,3,
+MDExOlB1bGxSZXF1ZXN0NDgyNTYwMA==,176,Fix handling of 204 No Content responses,08e946d30844114742bfc8329b26b4fa6dea8dbc,1,
+MDExOlB1bGxSZXF1ZXN0NDg1MDcxOA==,177,Remove pre/post override points for ApacheClient.,354c2daa8c55c4758a321aa1830a582ae18fa89a,1,
+MDExOlB1bGxSZXF1ZXN0NTEyMjY4NQ==,179,Roll our own multi-part implementation.,0524805f8ea1bd4ca2df32c7856d8e0f54f803c5,6,
+MDExOlB1bGxSZXF1ZXN0NTEyMzUyOQ==,180,Abstract logging API.,ee8bca47f9ba7cc2c5dd83b665b8f0d642209d8d,2,
+MDExOlB1bGxSZXF1ZXN0NTE3NTU4MQ==,182,Adds in missing quotation mark in Content-Disposition header,e8130a5cbdfb5b968ea9fc9992b3171e0a5fc7c0,1,
+MDExOlB1bGxSZXF1ZXN0NTE5NzcxMg==,183,Issues with new multi-part implementation,a9182b2749b840907f9df80447794666e1c23cb9,7,
+MDExOlB1bGxSZXF1ZXN0NTQ4MTI1MQ==,187,Eagerly consume a stream when exposing to caller.,dcf78c4fedf13f809c134da6cd59207eb0b48c23,4,
+MDExOlB1bGxSZXF1ZXN0NTUyOTM5OQ==,190,Reset thread name to idle when not in use.,1c5b74c8ed760755195ca6082c6d9890296eae38,2,
+MDExOlB1bGxSZXF1ZXN0NTU1MTYzOQ==,192,Exposes the static RetrofitError construction methods,bdd70ee8e64d343339f5719cd45c812853f410a7,1,
+MDExOlB1bGxSZXF1ZXN0NTYwOTkzMQ==,195,Bump GSON to latest stable.,5a18c4a69f338e4670090a7721fb3402836a837c,1,
+MDExOlB1bGxSZXF1ZXN0NTYxMDMxNg==,196,Add OkHttp-specific client when its present on the classpath.,6d37b2e0560dbc23def9bd91457816d4ff236807,5,
+MDExOlB1bGxSZXF1ZXN0NTYxNTU2MQ==,201,Allow digits in path parameter name,bca23bc0e8e8302945f19c29fb2c2feb95e8adc5,2,
+MDExOlB1bGxSZXF1ZXN0NTY1NjA3NQ==,202,Rewrite annotations to be more descriptive.,976ff68c5e66d45e995b2c3ae7f84253e4e4e415,34,
+MDExOlB1bGxSZXF1ZXN0NTY2NjI1MA==,205,Normalize copyright headers.,137910bf561313c3aa67006f14f3e31ff7d231d2,50,
+MDExOlB1bGxSZXF1ZXN0NTY4Mjg4Nw==,207,Fix a few tiny issues in the retrofit docs.,84805824cee05af57ff5b13ccfdb641cc20bd50b,2,
+MDExOlB1bGxSZXF1ZXN0NTY4NjIxOA==,209,Escape closing curly braces for Android support.,e97e1663a580c887dddb8d83b63bc37c54b83a47,2,
+MDExOlB1bGxSZXF1ZXN0NTc5NzY1Mg==,214,Handle nulls correctly for all parameters.,35ffcfe8db18b88206e00a4e1e82c8f760f7645d,8,
+MDExOlB1bGxSZXF1ZXN0NTc5NzY3NQ==,215,Ensure static query params are being appended properly.,4840bc234f410d60bb3a48704b585ea36f978747,2,
+MDExOlB1bGxSZXF1ZXN0NTc5NzY4MQ==,216,Dependency updates.,06370003ff011ebb765e59847f895ef19004f969,1,
+MDExOlB1bGxSZXF1ZXN0NTgxNDU3MA==,218,Allow uppercase letters in path parameters.,9c287468f5ba27b9f9b0fc47cd87c47a51699131,2,
+MDExOlB1bGxSZXF1ZXN0NTkyOTE1Mw==,223,Introduce `RequestInterceptor` to replace `RequestHeaders`.,7f081c863751bd6b1f9c845d0038d959b74c8946,13,
+MDExOlB1bGxSZXF1ZXN0NTk0ODU2Mw==,229,permit use when servers or intermediaries miss Content-Type header,5a990802c8a8e38a92716f869ee78906933d9ed8,3,
+MDExOlB1bGxSZXF1ZXN0NjUxODMyNg==,246,Add default connect and read timeouts for HttpUrlConnection.,738e41c113c0429d6ae51d68d5f55c79d5988c15,4,
+MDExOlB1bGxSZXF1ZXN0NjUyNzgxMQ==,248,"Added ""encode"" property to GsonConverter",6fff7da971bac284434ec1248ca549990d90dc1c,1,
+MDExOlB1bGxSZXF1ZXN0NjUzODI5Mw==,249,Add static method headers to header list when present.,6c268b3ad1a65b4734fcaa6905a12d6443f06b39,2,
+MDExOlB1bGxSZXF1ZXN0NjU0MzA4OA==,251,Allow 'null' parts to remove from request.,25f9145e018c871b5bbcfd3cd82213e4325ff676,3,
+MDExOlB1bGxSZXF1ZXN0NjU0NjkwNg==,252,Special case String type for multi-part parts.,3449d7ed41d4e369fa9247f4668596ad788e024a,3,
+MDExOlB1bGxSZXF1ZXN0Njc5MzE1Nw==,253,Expose addQueryParam via the RequestInterceptor injection-like framework.,dd78a9ba87503adfaa5fa2e884312a35a3497c85,3,
+MDExOlB1bGxSZXF1ZXN0Njc5MzUzNg==,254,Correct javadoc to point to proper annotation.,4bacd295ff260240b2aab393c90668faaf1d101e,1,
+MDExOlB1bGxSZXF1ZXN0Njc5NDUwMw==,255,Add two levels of logging.,4f1546b005e8f458af3b952bc6d19f98cf45ddf4,3,
+MDExOlB1bGxSZXF1ZXN0NjgyMTk5Ng==,259,Create a RestAdapter in the docs intro.,1c7466739f907bf8b1fbb6b716cf7248f7d5bd02,1,
+MDExOlB1bGxSZXF1ZXN0NjgyMjkwOQ==,260,Ensure a real platform is present for Android detection.,0e10cbc83f6def3e487230c99434225d64fb8599,1,
+MDExOlB1bGxSZXF1ZXN0Njg1MjAwMg==,267,Add disableUrlEncoding to Path and Query decorators in order to support specially encoded or already encoded values.,cd8d98c9b3f36bc6ed521afbd12d4bfdde5bd27d,8,
+MDExOlB1bGxSZXF1ZXN0Njg4NTA3OQ==,269,Add headers-only logging level.,993cbc69c2bfb3959c6c04e7acef2959630a2b67,3,
+MDExOlB1bGxSZXF1ZXN0NjkxNjY3Mw==,271,Add converters module and protobuf converter.,0c3fad11162380400a95f325d507fb730e4279c1,9,
+MDExOlB1bGxSZXF1ZXN0Njk3MjkyMw==,276,Log network and unexpected exceptions if logging is enabled.,556667fbf5635e16f736ce9087e602846e15174f,1,
+MDExOlB1bGxSZXF1ZXN0NzA4Mzg1NQ==,280,Add a Jackson converter.,023fefe82d806a65b0094c4ba58bcc241aa7b351,5,
+MDExOlB1bGxSZXF1ZXN0NzM5NDUyOA==,294,fixes #282 add PATCH support,e20a05223e32b1addeb19fbb9c2d5d926bf4c31b,4,
+MDExOlB1bGxSZXF1ZXN0NzQyMDczMQ==,296,Add @Documented attribute to all annotations.,621a32ec472719facfe36a5b83e96e4aa2f64551,15,
+MDExOlB1bGxSZXF1ZXN0NzQ4OTEyMQ==,300,Prevent API interfaces from extending other interfaces.,1eb03145267a661b90dd5c06530c91effb89328e,2,
+MDExOlB1bGxSZXF1ZXN0NzQ5MTMxNw==,301,Propagate network exceptions that happen inside the converter.,4872559d48b8dfa106c00eafe45472c0f51b31c7,3,
+MDExOlB1bGxSZXF1ZXN0NzUyNDE4NA==,303,changed type to name to avoid confusion,416c89bf0b6fe61de358e2a47af45a805f50b349,1,
+MDExOlB1bGxSZXF1ZXN0NzU3NjM0OQ==,304,Always apply the request interceptor synchronously,5f3eac41c973f9ff21aa4d6b58902f4c05c136e3,2,
+MDExOlB1bGxSZXF1ZXN0NzY3NjM5NA==,307,Ensure @EncodedPath is not cast to @Path when processing method.,156dc300f00d1e6b706eec6855990a68fd49237b,2,
+MDExOlB1bGxSZXF1ZXN0NzgzNzgyMg==,311,Add a first-party converter for Wire.,35fdca5359d1f80adb43ddf3c94a7f717de96edf,6,
+MDExOlB1bGxSZXF1ZXN0Nzg2MTI2Mw==,312,Add convenience constructor for default instance.,a1957448b1fd9e2c29f92c434dcfa429074ee9fd,1,
+MDExOlB1bGxSZXF1ZXN0Nzg5MzU4NQ==,314,Pass InputStream to Wire,488af27f8507d5f6e744d2b737f528b5a57e3fe9,2,
+MDExOlB1bGxSZXF1ZXN0Nzg5ODAyOQ==,315,Fixed typo,98a680fc41f3618c89a585a8c428721ad574855b,1,
+MDExOlB1bGxSZXF1ZXN0ODAzMjU3OQ==,322,Move OkHttp connect/read timeouts to OkHttpClient.,5b44cabf0c2ab1ab1edcc6eb9f141d831d3f5733,5,
+MDExOlB1bGxSZXF1ZXN0ODE5ODE2NQ==,325,Close the InputStream before replacing the body,4016225ca436d05cd68e8e1bc596e4189e778411,3,
+MDExOlB1bGxSZXF1ZXN0ODM4ODU0Mg==,327,Log headers with toString() instead of own impl,cc99fc7747bbcb7036e7a8d0a3fa063b6a20fa3c,1,
+MDExOlB1bGxSZXF1ZXN0ODQyNTQ4OA==,328,Promote Android logging to a class which knows about chunking.,1cf966282016ff84f7d6c453c66b42f316b42e5f,3,
+MDExOlB1bGxSZXF1ZXN0OTA1ODMyMg==,337,Correct header length checking logic. Improve exception message.,a6af02f0857a268f205a0dec5d1e45209010ba69,1,
+MDExOlB1bGxSZXF1ZXN0OTc0OTI4NA==,343,Note that FULL logging buffers the entire request.,0512abab0102bcbb08255b134bbed306ae516616,1,
+MDExOlB1bGxSZXF1ZXN0OTc3ODE5OA==,347,Bump versions.,d52ace931cd7d8206a1e218509b146710434a7e6,1,
+MDExOlB1bGxSZXF1ZXN0OTc4MTcwNQ==,348,Add some static factory methods to MockHttpException.,cfbab13648f102c3f60a3f20dc76489a9d4ef035,2,
+MDExOlB1bGxSZXF1ZXN0OTgwNjEzOA==,349,Use getTypeFactory instead of defaultInstance for Jackson deserialization,d99dbedb1f9ca5d176f4d4922d7d88344be3b0a7,1,
+MDExOlB1bGxSZXF1ZXN0MTA2MjYzNDU=,364,Check for extended interfaces using getInterfaces().length instead of getSuperclass(),7a51c4e19e33b8053877de671684c90de6eb26ec,1,
+MDExOlB1bGxSZXF1ZXN0MTEwODQxMzQ=,369,Fixed exception message in RestMethodInfo,f1b0f831472dcbd9a8fbc4137c490634a8283202,1,
+MDExOlB1bGxSZXF1ZXN0MTEzNDcyNDU=,373,Add docs for synchronous ErrorHandler,e170976a9efab457a173e895edbeca3b77f8469a,1,
+MDExOlB1bGxSZXF1ZXN0MTE1MTIzOTQ=,379,Properly name ignored exception in 'catch' block.,fed69966be1ea72e9a5bb7a74a5fd98d0b5f7c36,1,
+MDExOlB1bGxSZXF1ZXN0MTE4MTg2MjI=,388,Changing Server to implement IServer interface.,54ebf79db5acaa69d6e27da56a6c00de41669ce6,6,
+MDExOlB1bGxSZXF1ZXN0MTIxMDA2OTU=,394,Introduce @QueryMap and encoded variant.,e2cb3ad2bdc1a3c5d1634c753215fa83d7de3b0e,9,
+MDExOlB1bGxSZXF1ZXN0MTI3NTg3Mjk=,412,Overhaul exception format in RestMethodInfo.,83d64a71b4debf0dffaf90985049d1a00e73c55f,2,
+MDExOlB1bGxSZXF1ZXN0MTI3NjM1NTg=,413,Update RxJava usage.,ab84ce69389a5f96f57d0567850bb130a86a8168,2,
+MDExOlB1bGxSZXF1ZXN0MTI3NzEwMTY=,416,Add missing tests for proper coverage of validation.,ff0a29cc8203d9edb2bcfcad908cd11500f4633c,2,
+MDExOlB1bGxSZXF1ZXN0MTMyNDgzNTk=,428,switch to assertj,3261bb3e7ccbcc7ad2279d852634c40bc47897ce,26,
+MDExOlB1bGxSZXF1ZXN0MTM1ODQyNTM=,439,Use ErrorHandler to coerce error responses during async invocations.,2d09c311b6238871b94e12c6272f3a3a120ae260,5,
+MDExOlB1bGxSZXF1ZXN0MTM3MjM4MDY=,441,Allow overriding 'Content-Type' header.,6bbd9d327d5a1fe5d389e7ac7b3f4e49b53f3eab,11,
+MDExOlB1bGxSZXF1ZXN0MTM5MTMwMTA=,447,MockRestAdapter should use ErrorHandler.,7a50eacdcc9d4032e2174cf59143f6526a625074,2,
+MDExOlB1bGxSZXF1ZXN0MTU2MjM3OTA=,474,Lazily construct RxSupport,d66ec8baa714cff7984bad46681c5242c4b16220,2,
+MDExOlB1bGxSZXF1ZXN0MTU4OTE3Njk=,482,Remove synchronous from ErrorHandler docs,e57b2522e3c4feef0cb44464ae23d9eca5877b35,1,
+MDExOlB1bGxSZXF1ZXN0MTYyMzUxMzE=,492,Remove deprecated functionality that has exceeded its grace period.,fc4bfc65de4c23c3652ff7539fd940f02aa90560,5,
+MDExOlB1bGxSZXF1ZXN0MTYyNDM0NDM=,493,Change mock async behavior to use the supplied Callback instance directly.,6c5dca29f8b8d1b0ae18c9ade1e57e42e94832e8,2,
+MDExOlB1bGxSZXF1ZXN0MTYyNDQ5MDE=,494,Move method init into try/catch so exceptions are properly propagated.,21ab3418f0d60cda12e313831592b2279b2466fe,1,
+MDExOlB1bGxSZXF1ZXN0MTYyNDU1MTA=,495,Update documentation for handling of @Field and @Part values.,213aaf40714e19e16f8b718afb20753f4ec6570f,3,
+MDExOlB1bGxSZXF1ZXN0MTYyNDc5MTg=,496,Specify a useful message when creating a RetrofitError.,82006a2bb53e2b4f47780184c9ed323c3f0970bf,4,
+MDExOlB1bGxSZXF1ZXN0MTY0MDUxNjQ=,505,"If OkHttp is present, require 1.6.0 or better.",86a5bfd38f7799a69989addfd35071633f2a442e,4,
+MDExOlB1bGxSZXF1ZXN0MTY1MDUwMDE=,508,Add simple documentation to each converter.,f3d826c50dac60c05b93b0b446cf366b84255e0d,5,
+MDExOlB1bGxSZXF1ZXN0MTY1NTA0NTI=,510,Clarify no body vs. an empty body in log statements.,d0c2c386c4591d140c9bca42a46cf53f08f472b9,2,
+MDExOlB1bGxSZXF1ZXN0MTY1NjQyMTc=,511,More robust implementation of 'Content-Type' overriding.,8f180541d23642f1499d0b506a19a5f029b7bd8b,10,
+MDExOlB1bGxSZXF1ZXN0MTY2NjY1MzE=,517,Update RxJava version to the latest.,a2ff99da0c95f9064a2169435057395b275bd202,1,
+MDExOlB1bGxSZXF1ZXN0MTY2NjY1Mzc=,518,Remove unnecessary catch block from RxSupport.,1d8b4287235a64274bbfb9a80aac5be73fe9c26c,1,
+MDExOlB1bGxSZXF1ZXN0MTY3Nzk5MzU=,523,Move Endpoints tests into the right place.,090b80601cb5f8cd12a97192d705270be6a6cfc3,2,
+MDExOlB1bGxSZXF1ZXN0MTY3ODE0NjU=,524,Expose success type on RetrofitError.,faa1cf411518752ba91eab6fa1e99ddd1324cf90,5,
+MDExOlB1bGxSZXF1ZXN0MTc5MDE2MTc=,551,Don't crash on null response body,ba3f84a0ff61b84edf2e41f6ce13fe4acde4d0d9,3,
+MDExOlB1bGxSZXF1ZXN0MTc5MDQ0MzU=,552,Add trailing CRLF to multipart.,5a4c5168f4672fd443d0bd64216d2dc5900d516a,2,
+MDExOlB1bGxSZXF1ZXN0MTc5MDU2MDA=,553,Always add special-cased 'Content-Type' header to request.,f11d17708ea5c487b732bd546e5f5c9e03eb14c7,2,
+MDExOlB1bGxSZXF1ZXN0MTgxMTYxNDU=,558,Correct NPE when only 'Content-Type' header is present on non-body requests.,e38cc3a63adb258b93627914618cba567e8ea78d,2,
+MDExOlB1bGxSZXF1ZXN0MTkwMjk2ODk=,577,Add a new log level: HEADERS_AND_ARGS,b2a405760a2dd61750cb11d074d67a674d9ccec5,6,
+MDExOlB1bGxSZXF1ZXN0MTkyNDQyMDU=,578,Simplify scheduling of mock observers.,f45ff6fa705f476fd1df422cd02d289425cc6ab9,2,
+MDExOlB1bGxSZXF1ZXN0MTk0NDAxNTM=,581,Patch Converter typo,c447b7315a39d80b1485ab81d00a351d6233f726,1,
+MDExOlB1bGxSZXF1ZXN0MjExMjc0NzE=,601,Unexpected mime type should be a ConversionException.,24565745354bd1fb792f2e0dbcdf56bbe13fc2ff,2,
+MDExOlB1bGxSZXF1ZXN0MjE4ODcyNDY=,610,Use charset to properly adhere to Javadoc contract.,16425edd8d4aa0b405ff84addbc10f2abda994cb,3,
+MDExOlB1bGxSZXF1ZXN0MjE5ODMzODU=,612,Add transfer encoding to multipart parts.,111321a70488a463bf8fcff40222a0fada55a5fe,8,
+MDExOlB1bGxSZXF1ZXN0MjIyMTQ1NzQ=,616,Include body mime type on AppEngine client requests.,37cdd2359b6cefb9883fa66f3c946361f5881589,5,
+MDExOlB1bGxSZXF1ZXN0MjIyNDAyNDU=,619,Migrate most behavior tests to be whitebox(ish).,802ae4509561d75a0556f1e4fa6e1d9253575305,2,
+MDExOlB1bGxSZXF1ZXN0MjIyNDEyNzM=,620,Use the annotations directly for parameter handling.,671d97fa91e853c1caa6ff202eab23e057341981,12,
+MDExOlB1bGxSZXF1ZXN0MjIyNDE0ODA=,622,Provide explicit error kind for disambiguation of underlying cause.,ddad8b1f310d05caab5e2012b95ab1f08b2f117e,4,
+MDExOlB1bGxSZXF1ZXN0MjI0NjE2NDI=,628,Remove deprecated explicit encoded annotations.,db41a8705b6a737776298d37bf08b78f30790deb,6,
+MDExOlB1bGxSZXF1ZXN0MjI1NDE0MTE=,629,Remove profiler.,537b10489d2bca0ca03fe1e0574ff88c18db46cb,3,
+MDExOlB1bGxSZXF1ZXN0MjI1NDI2NjE=,630,Remove deprecated error identifier.,9665a0d75adae54a9b155d26f7944e8737ca3fb5,2,
+MDExOlB1bGxSZXF1ZXN0MjI1NDI5MDM=,631,Remove endpoint names.,d9e607893c9cf2124733b8a47eacd6a2ca196c0a,3,
+MDExOlB1bGxSZXF1ZXN0MjI1NDMyNDQ=,632,Remove ResponseCallback.,83eceb090c5e722d6235096a92b95dff8706d815,1,
+MDExOlB1bGxSZXF1ZXN0MjI4MjM5MDg=,638,Switch to io.reactivex version of rxjava,8b5660da0789b13a08760f997f267cf4e6eb179f,4,
+MDExOlB1bGxSZXF1ZXN0MjI4NjM4OTU=,639,Avoid an NPE when logging a null request arg,e79c6ecb00ae3f975bbec073eba6ac2d4b4500ec,1,
+MDExOlB1bGxSZXF1ZXN0MjQxMjMyNDc=,653,Remove incorrect documentation for parseResponseType(),11e58546cbf42d395d9600860863a35cecd85a97,1,
+MDExOlB1bGxSZXF1ZXN0MjQyNjc3MDk=,654,Fix usage of deprecated MimeUtil functions,04cdc9ed1daaa67a8baa67e998024e5f6b3de4b0,2,
+MDExOlB1bGxSZXF1ZXN0MjQ3MjY1Njg=,660,Use new central artifact redirect link.,8e42b41b749cb696f79ccbb922596e71aaec126d,3,
+MDExOlB1bGxSZXF1ZXN0MjQ4OTkyOTE=,666,Add support for iterable headers.,ec14c4e939a0b943365dd030539efbad6b2e1a5c,3,
+MDExOlB1bGxSZXF1ZXN0MjY0MTMzOTM=,684,Auto-deploy snapshots from Travis CI to Sonatype.,0f52026373ba99ea8d527a5700b03bce09f946ea,4,
+MDExOlB1bGxSZXF1ZXN0MjY3MTY5ODE=,692,Update to OkHttp 2.2. Fix a tiny potential NPE.,94229d764829cb1247c413ba36bb6c0b59287db1,3,
+MDExOlB1bGxSZXF1ZXN0MjcwMDc1OTE=,701,Ensure we don't crash on null header values.,50f9c9ac4f2c72dd5bb8a705bbbffa9562da8288,2,
+MDExOlB1bGxSZXF1ZXN0MjgyNjQ0ODE=,721,Switch the Client to control the threading model for execution.,6481201babbd9b1c2ff2c37b52a5b75f81fb8886,22,
+MDExOlB1bGxSZXF1ZXN0MjgzMzE2NTE=,724,Remove the need for two Endpoint classes.,34df9a7f08b7de3388bfdf73b8da7888fa9fe723,6,
+MDExOlB1bGxSZXF1ZXN0MjgzMzgyNzA=,725,Remove logging. It stands in the way of progress.,d95ac005379e408e366b18d722d479a882bbe171,7,
+MDExOlB1bGxSZXF1ZXN0MjgzNDM5ODc=,727,Pass request body type to converter for serialization.,6c76e0292fd20bd1cdd317e26e76ae7d42af3be5,15,
+MDExOlB1bGxSZXF1ZXN0Mjg0MDMwNTg=,728,Use OkHttp as the sole client.,01ab075510dfd6a691d3c7bbbabfe14a1893e705,20,
+MDExOlB1bGxSZXF1ZXN0Mjg0MDYxMjE=,729,Get rid of our own Header class.,437632147626f63405460570f3fea4f5a6a9af24,12,
+MDExOlB1bGxSZXF1ZXN0Mjg0MjM3MTM=,731,Simplify custom HTTP method implementation.,c9602e9d9537c6fbf9b894effde4cd9b70a75392,10,
+MDExOlB1bGxSZXF1ZXN0Mjg0MjkwNjU=,732,"Remove Client, Request, Response, TypedInput, and TypedOutput abstractions.",ab2f13d43f9b3c3c49a9d7225dcf659c7f095e7d,55,
+MDExOlB1bGxSZXF1ZXN0MzM0ODAyMDk=,812,Restore Form URL encoding support.,523eca91031469231b86d1970fe342234a345617,7,
+MDExOlB1bGxSZXF1ZXN0MzM0OTcwMzg=,814,Remove 'set' prefix from builder methods.,a7068f2edc9b0f3e42ab9be311ce849dfece48fe,8,
+MDExOlB1bGxSZXF1ZXN0MzUzOTIwOTk=,845,"Introduce call, call adapters, and the response type.",ecf82812c83fe9099bce2364e6b3c09e5dad6f27,42,
+MDExOlB1bGxSZXF1ZXN0MzU1ODIwOTA=,848,Switch to OkHttp's built-in form body builder.,578fbc7d4e3aeb09b8cf4b4cf1cfb825f9dc5e36,7,
+MDExOlB1bGxSZXF1ZXN0MzU2ODM3NzY=,849,Normalize specifying encoded values via parameter annotations.,ba26054101a6d40e85dedc913eb7a1ba5c5ae5b3,7,
+MDExOlB1bGxSZXF1ZXN0MzU3OTg2NDk=,852,Consolidate samples into a single package.,56dd10d562e483a2eb6745387d1892ad3099fc8b,5,
+MDExOlB1bGxSZXF1ZXN0MzY2OTMyNzc=,876,"Move converter into the main package, remove Gson from core.",479ac748e0c3820d189f529e6abe0ca0bbeec9a7,33,
+MDExOlB1bGxSZXF1ZXN0MzY3OTcyMjU=,879,Do not bring the converter along into the response.,99a2a0c9f1f9ffc74aaca06a107a1986e97238a4,4,
+MDExOlB1bGxSZXF1ZXN0MzY3OTczNTM=,880,Remove the mock preference value change listener.,8785a65af3c0d473470ae8656ba9d8bc47c3ba83,3,
+MDExOlB1bGxSZXF1ZXN0MzY3OTgwMDQ=,882,Rewrite RxJava call adapter tests to be more understandable.,201f3fc6d849adc036dd6f304738e24b7c4db941,2,
+MDExOlB1bGxSZXF1ZXN0MzY4ODg3ODI=,884,Only allow a single CallAdapter.Factory per RestAdapter.,7019a896c619bf8710a6f2a4b5c47c32c9bacd16,8,
+MDExOlB1bGxSZXF1ZXN0MzcwODQ3ODU=,888,Use a better name for finding types we cannot resolve.,6c89c4f517c72fd199d7c879fbe4de2f52005005,3,
+MDExOlB1bGxSZXF1ZXN0MzcwODQ4MjU=,889,Restore previously commented out tests.,634b25eec8e73cc6d52538791f1b046d28830f49,1,
+MDExOlB1bGxSZXF1ZXN0MzcwODQ4NzI=,890,Add a test to verify unused and potentially invalid path params are allowed.,588d1f06173a5fe06643d76f98eb664078a9e953,1,
+MDExOlB1bGxSZXF1ZXN0Mzc0MjA2MzU=,898,Accept an HttpUrl in the endpoint builder method.,fa1b244508dee5949ff084fddd969ac543e4fec2,4,
+MDExOlB1bGxSZXF1ZXN0Mzc0Mjc2OTg=,899,Rewrite response parsing for more simple control flow.,68322eeb4e7c4d1e7191c44568ddd956e54baf09,7,
+MDExOlB1bGxSZXF1ZXN0Mzc3NjI1Mzg=,903,Include a request body for content type and length.,79fc79aac34fe43fe93b8ace36ac13b416365a16,4,
+MDExOlB1bGxSZXF1ZXN0Mzc5NzMyODE=,906,Migrate converter tests to be integration style.,82e8dd07fe5210d4a34388b2e13c65e10f7cc1c6,19,
+MDExOlB1bGxSZXF1ZXN0MzgwNzQ2NDc=,908,Introduce factory for converter concept.,c1dafbdd08d93315528493a67803e66d2d77a174,30,
+MDExOlB1bGxSZXF1ZXN0MzgxNjE4Mzg=,909,Move response Converter lookup to happen during method parsing.,a31a637ad8123c1fb91a4f8066c4b7dc2789789a,12,
+MDExOlB1bGxSZXF1ZXN0MzgxNzI2ODI=,911,Refactor the core of request builder into parameter actions.,e4d7ebf11a2db92c1f2ba442776cbe48ead96ba6,8,
+MDExOlB1bGxSZXF1ZXN0MzgxNzk3MTM=,912,Switch the architecture of method parsing and invocation.,91ffbb872fc879cfdb2e7016b25ba004cc7cc512,14,
+MDExOlB1bGxSZXF1ZXN0MzgxOTAwNDI=,913,Add some failing behavior tests which were not covered.,340f4da57104e03bfa9eba233c35eb9d81c1355d,4,
+MDExOlB1bGxSZXF1ZXN0Mzg3MDM2NDU=,925,Allow passing in an executor on which callback methods are invoked.,dd7eb1682e1d1396310fc2cdab9a9f510d82e9cf,6,
+MDExOlB1bGxSZXF1ZXN0Mzg3MjA2Njg=,926,Rename 'Endpoint' to 'BaseUrl'.,a20e80b97d861e2d0c6d69bdd659c1eda928a669,23,
+MDExOlB1bGxSZXF1ZXN0Mzg3MzQxODI=,927,Add Url annotation for dynamic resolution.,b37a6a850636d7d8eeaf45e02ed1e8aaf6351dec,13,
+MDExOlB1bGxSZXF1ZXN0Mzg3NzM4ODQ=,929,Also refer to the latest OkHttp version.,535e5bcc54a7e1700eb390e91c54ef240f27e82e,1,
+MDExOlB1bGxSZXF1ZXN0Mzg3Nzc5MTU=,930,Additional coverage for Url annotation,e4e7d8d829a3edba941c1723d8cd5e3228ac5bb9,1,
+MDExOlB1bGxSZXF1ZXN0MzkyMjU5ODk=,944,Restore mock module for creating delayed and erroring Calls.,4e72f080fceb509a4e994870faa6f42677fee68c,9,
+MDExOlB1bGxSZXF1ZXN0Mzk1MzczMTI=,948,Call.cancel at any time.,621335e940530ab61b0ab1d228babe4f7dd788f3,3,
+MDExOlB1bGxSZXF1ZXN0NDA3MTUzMzI=,976,Shift mock module to allow applying behavior to any invocation type.,aca0a736ccc0dd35ac19890700db1f1e3ace21be,19,
+MDExOlB1bGxSZXF1ZXN0NDA4MzEwNzk=,980,Make Result's factory methods public.,9840a2173bc8ddd7f28c9dab64783f5ce136d98d,3,
+MDExOlB1bGxSZXF1ZXN0NDA4MzIwNDY=,981,Add optional support for RxJava's experimental Single type.,d29963cd65e054bdcd31e51676f2e6436c799a9c,7,
+MDExOlB1bGxSZXF1ZXN0NDIyNjcwMTQ=,1006,Do not proxy default methods on service interfaces.,171de941e44bef2beb3dd1b9f643f3bebb2e7bbf,5,
+MDExOlB1bGxSZXF1ZXN0NDI5NTk3NjE=,1017,"Naming, API changes, and documentation around mock services.",4bd1969a64062a781d684051132448b04f26c109,11,
+MDExOlB1bGxSZXF1ZXN0NDI5OTYxNTg=,1018,fixed broken link on website,bd0163d332fa2075f3d1485152b45888dded7026,1,
+MDExOlB1bGxSZXF1ZXN0NDMxMDM2NDc=,1021,Retrofit.Builder.addConverter().,f9d25d64fe204ef29eab42cdcfea7f14eee9c514,5,
+MDExOlB1bGxSZXF1ZXN0NDMxMDc3MDI=,1024,Prefer the word contentType.,662457ada6877efb02b5cef9d65b69f4abe1cb0d,7,
+MDExOlB1bGxSZXF1ZXN0NDMzNTkwMTQ=,1031,OKHttp 2.5.0 release version.,14229f70f0cbf3ddbebe5d7a846f2799a4b2596d,3,
+MDExOlB1bGxSZXF1ZXN0NDMzNTkwNDU=,1032,RxJava 1.0.14 with an important Android fix.,893dc39de83e2090fb220082fdf6cd070e0c50b0,1,
+MDExOlB1bGxSZXF1ZXN0NDM3MDgxMDE=,1039,Give method or parameter annotations to CallAdapter and Converter factories.,1afd800c070dbad461785eaa3eafa6abc518eb55,23,
+MDExOlB1bGxSZXF1ZXN0NDQwNjY2MDA=,1051,Add built-in support for Void type which just closes body.,69e3a757aa165c639b8ee2239033b2c290f19f3d,7,
+MDExOlB1bGxSZXF1ZXN0NDQ4MzMxOTk=,1080,Provide option for eagerly validating an interface.,05e791c746e80b412d1f98367700476d3f766bbb,2,
+MDExOlB1bGxSZXF1ZXN0NDU3NDQ2ODQ=,1109,Add delegation support to CallAdapter.Factory.,3209291e21eee6facc96602aa496b2ee05497b02,11,
+MDExOlB1bGxSZXF1ZXN0NDU5NzY0MTc=,1122,Shutdown MockWebServer so process exits cleanly.,f48916ae79f19eb0aca8dc79549cd64be3205c39,1,
+MDExOlB1bGxSZXF1ZXN0NDU5NzgxNjM=,1123,Use a correct implementation of path encoding.,0b06c8436af5be076d2b3523cbd8a1ff0a5d9d50,2,
+MDExOlB1bGxSZXF1ZXN0NDYwNzY0ODQ=,1126,Consolidate built-in converters as inner classes.,1df34f989acefdf32a470ebb638dfb81f10ef578,8,
+MDExOlB1bGxSZXF1ZXN0NDYxNjI2MDc=,1132,Temporarily revert to using Gson instance directly.,a5a8ff5d30069fe885f5b938639d69f3ca5c066c,4,
+MDExOlB1bGxSZXF1ZXN0NDg4MDE3OTE=,1233,Update links to Javadoc.,6bac2894fb989352e97eacc4fe2bb05709b981fe,2,
+MDExOlB1bGxSZXF1ZXN0NTAwNzQ4MzQ=,1266,Make Retrofit ready for usage in OSGi,bdb8c3a9f6aaee7002ced92220f9d9bfac73de19,5,
+MDExOlB1bGxSZXF1ZXN0NTA0Njg4MTE=,1276,"Revert ""Provide Retrofit to response callback. Add error converter sample.""",e7d28426ebf187066c75788ba97ce816e01df0ca,13,
+MDExOlB1bGxSZXF1ZXN0NTA0NzM3NzI=,1277,Add CA.F sample showing an all-custom type and its callback.,14dd91bab6c3c1213ef6e29bf741c0dda3e62e57,2,
+MDExOlB1bGxSZXF1ZXN0NTA3NDA3MTg=,1282,"Response documentation, preconditions, and tests.",3ccbac1ac312ef16631469568b543304431a4f6c,2,
+MDExOlB1bGxSZXF1ZXN0NTA3NDA3MTk=,1283,Fill out some documentation on public types.,c5f041cc847b69b7ed2a7452ef48e464eb6a2b8c,4,
+MDExOlB1bGxSZXF1ZXN0NTA3NDk5MTM=,1284,Documentation for endpoint resolving on a base URL.,e35372c11cfb6fa2f2bc9384dd8360cdfcf5edfe,10,
+MDExOlB1bGxSZXF1ZXN0NTA4Nzg3NTg=,1287,Cache stateless built-in converter instances.,2caadd4e0da2f34635ebc15918081190b434fb27,1,
+MDExOlB1bGxSZXF1ZXN0NTEwNDY1MDQ=,1294,Add string converter support for all non-body annotation types.,6f49545616a6e59256f1f3ec09a491d8bfdb5be1,20,
+MDExOlB1bGxSZXF1ZXN0NTE3MzEwNDc=,1319,Allow converters to delegate to others.,6a29c0c6370bd6290d961b92efea6a43cbb5e4d3,18,
+MDExOlB1bGxSZXF1ZXN0NTE4MTA3ODc=,1325,Move tests to same package as tested classes.,ee8e15ad428be0ad98824967d22fd3aa18943554,2,
+MDExOlB1bGxSZXF1ZXN0NTE4MTIwMzM=,1326,Support iterable and array types for `@Part`.,8b54f4a49a495939235281ee7d90884f97b7babe,2,
+MDExOlB1bGxSZXF1ZXN0NTQyNjcwMzA=,1392,Throw normal IOException when canceled to match OkHttp.,7c7e9f466e30ae2c8aae4edcb860d15724e53f15,2,
+MDExOlB1bGxSZXF1ZXN0NTQyODUzMjI=,1394,Add Call.Factory for alternate HTTP client implementations.,5449dd9452901eb18829493d29bb0368eaacfcec,8,
+MDExOlB1bGxSZXF1ZXN0NTQzMjc4NDY=,1395,Remove needless unchecked suppression.,4df44095459aff9cb3161bd81a08a5e6889d1724,1,
+MDExOlB1bGxSZXF1ZXN0NTQ3MDUyMDQ=,1418,Forbid Retrofit and OkHttp Response types as response body type.,d2a17c8d3d81c188c7e2d9e96018507c3a7c0095,4,
+MDExOlB1bGxSZXF1ZXN0NTQ5MDIxOTA=,1426,Use new OkHttp's non-throwing close and a simpler body copy.,c6a49efdfdc1be0c93899fe272f0ba20139739e3,3,
+MDExOlB1bGxSZXF1ZXN0NTUwNTY1Mjc=,1436,Support java.net.URI and android.net.Uri for @Url.,2bd3e835294895520ca1d4900432fcde0207ce7d,6,
+MDExOlB1bGxSZXF1ZXN0NTYyNjUwNjg=,1484,Provide ability to retrieve original Request object from Call.,b5105c4c9005f46c78f29a8e47752253b9ed85d0,7,
+MDExOlB1bGxSZXF1ZXN0NTYzMDE0MzA=,1487,Do not trap IO from request body conversion.,48287ef1a566a173d68427c1ce35a6fc38e6da42,2,
+MDExOlB1bGxSZXF1ZXN0NTY0MTU2NTY=,1490,Update to the latest version of moshi,114fb7b17ce29181695aab5d8357547159c8366c,1,
+MDExOlB1bGxSZXF1ZXN0NTY5NzExMTk=,1513,Correct exception message for CA.F lookup.,07c09c1d1957323c06df031a6a317cfadbf6cd9e,14,
+MDExOlB1bGxSZXF1ZXN0NTcwMzEyNzE=,1520,Refactor and fill out RxJava adapter tests.,11af88a5389d9ef937a95c8a4de59195b6e2083f,4,
+MDExOlB1bGxSZXF1ZXN0NTcwMzE2MzA=,1521,Add an adapter for Guava's ListenableFuture.,f687b4ff1926ff5e619e9a0479be6c74347d5e99,8,
+MDExOlB1bGxSZXF1ZXN0NTcxNjE4NDQ=,1529,Add missing generic.,0c0305692e6dc6bb82378f1aa007e280e24e2caf,1,
+MDExOlB1bGxSZXF1ZXN0NTcxNjI1MDM=,1530,Expose the methods required to implement a CA.F on base class.,c1a3d1bd7012de461eac6665dbe1e909fc4767da,17,
+MDExOlB1bGxSZXF1ZXN0NTcxNjQ1MTM=,1531,Move converters into their own packages.,cc93911526915fc764e9ccfef8525a3847497507,36,
+MDExOlB1bGxSZXF1ZXN0NTc2MDE0NDc=,1540,Add example of using JSON converter as a String converter.,875cebc370ab4e7cb22900a33e6a07ff6655cb64,6,
+MDExOlB1bGxSZXF1ZXN0NTc2MDM5OTg=,1541,Add sample showing converter delegation via annotations.,9175203699c5d475ac95fc3308c9e3fe65816407,2,
+MDExOlB1bGxSZXF1ZXN0NTc2MDkyMTQ=,1542,"Correctly resolve generic types on the target type, not actual.",a84ecd9779fa4092ad3858d7f73f10a20f7fc4fa,7,
+MDExOlB1bGxSZXF1ZXN0NTg3NjQ0MjI=,1583,Throw nice message when resolved URL is malformed.,b29535cab1dbbb1e2286f6661b4a2f143a73b584,2,
+MDExOlB1bGxSZXF1ZXN0NjE4MjMwODE=,1648,Rename RequestFactoryParser to RequestFactory.Builder.,668f5ca6c845fd7e5a842066e067cd5452bdd8f9,26,
+MDExOlB1bGxSZXF1ZXN0NjE4NTMyMDY=,1650,Combine MethodHandler and RequestFactory into ServiceMethod.,827a88b1a639327293eff2a0e292244fc9f43f31,9,
+MDExOlB1bGxSZXF1ZXN0NjE4Njc4NDU=,1652,Drop the mutable base URL.,d40fddcbee5af9e43e00e954bd985840fe3f9b09,4,
+MDExOlB1bGxSZXF1ZXN0NjE4Njk4MjA=,1654,Sample for a dynamic base URL.,2063f4f3dd1f14de54311b148b957576ad1e73f8,1,
+MDExOlB1bGxSZXF1ZXN0NjIxMzMwMTQ=,1662,Null check Call.enqueue argument.,bf3c8b606664e5331f6e34cbc294bf96dcd209f5,3,
+MDExOlB1bGxSZXF1ZXN0NjI0MDYxNjQ=,1666,Add support for OkHttp's MultipartBody.Part.,7135aeb6da83a20174d127f26428e15f881cf261,5,
+MDExOlB1bGxSZXF1ZXN0NjI3MDI0MDI=,1672,Support HttpUrl with @Url.,dc47b33091eb6f4b052eb804775d357964d7d940,4,
+MDExOlB1bGxSZXF1ZXN0NjI3MDI0OTc=,1673,Retrofit web crawler example.,435d50befc807404f696e5862382900624be769c,3,
+MDExOlB1bGxSZXF1ZXN0NjQ1MTI3NjM=,1702,Honor backpressure in Observable creation.,1b05fc9777e5cff4a2396d7cc81e7680f17203a0,3,1.0
+MDExOlB1bGxSZXF1ZXN0NjQ1NjY5MTY=,1703,Support iterable and array-based OkHttp Part parts.,cb57627bbd2eff6126a66777f00c74e8ca9ec624,2,1.0
+MDExOlB1bGxSZXF1ZXN0NjUwNDUxMTU=,1711,Support supplying a protobuf extension registry for deserialization.,b50cf58ecb62438abfa19be0f406b8e59d0d0476,5,1.0
+MDExOlB1bGxSZXF1ZXN0NjUwNTk2NDc=,1713,Eliminate some allocation/state overhead by implementing subscription directly.,d03c87f6066c005c3336ebd8cbc85ec983dfc6d2,1,1.0
+MDExOlB1bGxSZXF1ZXN0NjUwNjAyMDE=,1714,Adapter Javadoc details.,eb8dd8880eccdde6c9e1ac496ec9dd49acfa88ab,3,3.0
+MDExOlB1bGxSZXF1ZXN0NjUzMjIzODY=,1718,Pass the wrapped call to callbacks.,471a12ee7ef0d16f370a6f3366507246ff0f7251,2,1.0
+MDExOlB1bGxSZXF1ZXN0NjU0MDM2Nzc=,1720,Correct rendering of '@' in Javadoc.,9de61e0672ab0468d42bceb536db55007821769d,17,5.0
+MDExOlB1bGxSZXF1ZXN0NjU3Mzk0NTA=,1728,Cleanup and test exposed utility behavior.,2839881866f01910f7631d9ed14714a9fc7d736c,2,1.0
+MDExOlB1bGxSZXF1ZXN0Njc0MDY5Mjc=,1752,Switch to consumer ProGuard rules which aren't insane.,da766e8be9f8f61d5ddcf2fd0640c9bb8ff6f127,1,0.0
+MDExOlB1bGxSZXF1ZXN0Njg0ODE0NTg=,1770,Fix wrong URL for Converter.java,c71ed0e1ac151abe54c209180af420db2f1087e1,1,0.0
+MDExOlB1bGxSZXF1ZXN0NjkxMDA5ODA=,1778,Honor the encoding of the response in XML deserialization.,56676ab1e2701d6b25d821691c7111b46524d4ce,2,1.0
+MDExOlB1bGxSZXF1ZXN0NzAyNTg0NDU=,1798,Remove the misleading stack trace of the fake network exception.,28d350d99430c87b4ada7d1aa9e08c96884cb388,2,1.0
+MDExOlB1bGxSZXF1ZXN0NzE0MDU1NzU=,1818,Update okhttp to 3.3.0,f85217112348b8c755b9a237cec3d1c7e7dd96af,1,0.0
+MDExOlB1bGxSZXF1ZXN0NzE2MTMxNTA=,1820,Eagerly catch malformed content type headers.,1da3a185a0ada1362c3f2ebf461fc44093e575d1,3,1.0
+MDExOlB1bGxSZXF1ZXN0NzIzMzI1NTE=,1835,Update .gitignore,2e4998e0ea144b6f8cb5d7cac27572a77e932dce,1,0.0
+MDExOlB1bGxSZXF1ZXN0NzI2NTkwMjk=,1840,Propagate @JsonQualifier annotations to Moshi.,e6c716950c9d3f954a5614772499ee7845f92c03,3,1.0
+MDExOlB1bGxSZXF1ZXN0NzQ3MDEzMTI=,1871,Fix test to not rely on the order,2b59c4b6fe289e1d293fea533c5a4de2fcce85f6,1,1.0
+MDExOlB1bGxSZXF1ZXN0NzQ4ODAzNDk=,1874,fixed test to not rely on serialization order,5febe68b3c812a25f60d16e8faa74e39e87528a7,1,1.0
+MDExOlB1bGxSZXF1ZXN0NzUyMjIyNjY=,1882,Use string converter for String type.,9f00bd309afb7898b68362466d56bf9783d02cfe,2,1.0
+MDExOlB1bGxSZXF1ZXN0NzY4MzQ5MDE=,1905,Skip a UTF-8 BOM if present for the Moshi converter.,b7c38962b5b3b665fcb0ee16e13ac5756d5f8526,3,1.0
+MDExOlB1bGxSZXF1ZXN0NzY4MzcyODk=,1906,Update to OkHttp 3.4.0.,1ac625db0e593dd9d742eae2b68ef91747c45e33,2,0.0
+MDExOlB1bGxSZXF1ZXN0Nzc5MDQyODY=,1924,Update to OkHttp 3.4.1,2704f63ab69d9cb5073aeb274a860317d2b23946,1,0.0
+MDExOlB1bGxSZXF1ZXN0NzkyNDAwNTc=,1949,Add tests for order of multipart request's parts. Issue #1846.,c0bef604924007b5bcebf221ea626e4b7807c18b,1,1.0
+MDExOlB1bGxSZXF1ZXN0Nzk4NDU2NjI=,1953,Update to support protobuf 3.0.,e52a4d74106c03891c286d388bcfdb06af656837,4,1.0
+MDExOlB1bGxSZXF1ZXN0ODA1NjEyMTg=,1964,Remove duplicated test.,ec0635c603f85fe8217691f94769419db4f3c1c0,1,1.0
+MDExOlB1bGxSZXF1ZXN0ODE0NzMwNzk=,1977,Refactor Rx tests to avoid the use of blocking operators.,8345983fbf3ffb79f34e57ce93b63b8cd585cff0,10,1.0
+MDExOlB1bGxSZXF1ZXN0ODE2NTM4Mzc=,1978,Simplify observable creation and reduce runtime allocations.,54ccadd0a5428475c3aa89b4478429abb6ea3c67,8,1.0
+MDExOlB1bGxSZXF1ZXN0ODE4MjE3OTY=,1980,"Switch to a better, custom validating subscriber.",a556e9d79fa8712b6ec0fa0b11250060ca7b1063,8,1.0
+MDExOlB1bGxSZXF1ZXN0ODE5MjQyODE=,1981,Implement proper error handling for Rx types.,5d87e5c18ede964adc3d1fdc3366111e9baba1cc,8,1.0
+MDExOlB1bGxSZXF1ZXN0ODIwOTQxNzM=,1984,Add toString implementations to Response and Result.,e02fb37616277cf19eed0d2fabc6e9aae61c0f01,2,2.0
+MDExOlB1bGxSZXF1ZXN0ODIwOTc4OTQ=,1986,Propagate fatal exceptions even if already dispatching an error.,34eb99f46c9f8312563bbcf07345b4ed5354f6ca,3,1.0
+MDExOlB1bGxSZXF1ZXN0ODM2NzEyNjQ=,2006,Replaced invocation of deprecated factory methods in JacksonConverterFactory,a2765946d54572f133606a932eddb53b015606e0,1,1.0
+MDExOlB1bGxSZXF1ZXN0ODU2ODI1MTg=,2016,Update RxJava adapter to 1.2.0.,0c1f84aaec65ea500f25e2c659687d80874864a2,12,1.0
+MDExOlB1bGxSZXF1ZXN0ODU2ODY4Nzc=,2017,Promote adapter response body type parameter to class level.,45ef0b369eb516f82be5eefa4f7cd03df51e5e9f,21,7.0
+MDExOlB1bGxSZXF1ZXN0ODU2ODg5Nzg=,2018,Add method for returning a Moshi conveter that serializes nulls.,31c82e8bd96d9ec7ef4782157c6dcc742351ff00,3,1.0
+MDExOlB1bGxSZXF1ZXN0ODU5NzI1MDc=,2023,Close ResponseBody on 204/205 to avoid connection leak,78b049143b5129b6d802b14c69f900b4089da33c,1,1.0
+MDExOlB1bGxSZXF1ZXN0ODkwNDc5OTU=,2046,Remove incorrect comment as client is immutable.,d0571339b826a9fcbb7b310718073ce24c83f1fc,1,1.0
+MDExOlB1bGxSZXF1ZXN0ODk1MDYxODc=,2051,Use latest moshi.,32ace0894882a98f56cd509fee1bcc7dff804347,1,0.0
+MDExOlB1bGxSZXF1ZXN0OTA0ODUzMzA=,2057,RetrofitError.httpError() has unknown cause,36eab5b67dbb4bf37c71a7d07ac571992b4916b2,1,1.0
+MDExOlB1bGxSZXF1ZXN0OTM0MjgxMzI=,2077,Reflect OkHttp Call canceled state from our Call.,288c49237192afb06d8b87b55849109322ecef2a,2,1.0
+MDExOlB1bGxSZXF1ZXN0OTM0Mjg5NzA=,2078,Add shallow-copy newBuilder() method to Retrofit.,7c666615fb8ea10b4a958c416ef23180f2d67fd1,2,1.0
+MDExOlB1bGxSZXF1ZXN0OTM0Mjk0ODc=,2079,Import RxJava 2 CallAdapter.Factory,b5507b8c7a30af731d43f80578473349ef0468bd,34,1.0
+MDExOlB1bGxSZXF1ZXN0OTQ0OTQzNDE=,2092,Add sample showing how to add an observeOn to Observable.,93e2d1e0460b9f19b03036baaa6f554dcb6441dc,2,1.0
+MDExOlB1bGxSZXF1ZXN0OTQ4NjU2MzM=,2095,Remove RoboVM support.,777b520523ceb85e8d2aba1b4964352d1ed1c35c,2,1.0
+MDExOlB1bGxSZXF1ZXN0OTYzMjI1MTA=,2106,OkHttp 3.5.0,58022a4fc5c1b22637c0a9d42a3925143170431f,1,0.0
+MDExOlB1bGxSZXF1ZXN0OTYzODgxNjM=,2107,Revert back to an OnSubscribe-based RxJava adapter.,766a9eabeebafe234ebb669c17da73141a89d55b,7,1.0
+MDExOlB1bGxSZXF1ZXN0OTY0NzExNjg=,2109,Update checkstyle to the latest version.,223d9e753ca4548c3fcd24954e1562104d9ee62e,7,2.0
+MDExOlB1bGxSZXF1ZXN0OTY2NTU0MDI=,2114,Single linkable,ed822803ead795c9b6e3e0df596588772bed9ad2,1,1.0
+MDExOlB1bGxSZXF1ZXN0OTY4NTYyNTg=,2115,Readme fixes,441103a80238106097ba8eb4cf46f7dbc51822ee,3,0.0
+MDExOlB1bGxSZXF1ZXN0OTcyNTg2NjU=,2119,Okio proguard rules link,62a4a8308015f5efb51e20089fb8280d4454ed74,1,0.0
+MDExOlB1bGxSZXF1ZXN0OTkzMDEzNjc=,2134,Add Completable to documentation in RxJava2CallAdapterFactory,99c0b85d6cf4e8b80952fa7fc281f546e2de284c,1,1.0
+MDExOlB1bGxSZXF1ZXN0MTAxOTE0MTE1,2159,Add AnnotatedConverterFactory sample,5d54332e77c9d868d8cda38c3812da7026af2b0c,2,1.0
+MDExOlB1bGxSZXF1ZXN0MTAyNDYxMzMx,2160,Fix Error Message for Maybe if it's not parameterized and add RxJava2CallAdapterFactoryTest tests.,dec2f1a675a77c12bd28f8f9a25a45a9cc31888d,2,1.0
+MDExOlB1bGxSZXF1ZXN0MTAzNjA0MDM4,2169,Add createAsync() to RxJava 2.x CallAdapter.Factory.,e134cfd0fad5643b832ad9a37a336a8f7e019a17,6,1.0
+MDExOlB1bGxSZXF1ZXN0MTAzNjc2NDI0,2172,Add createAsync() to RxJava 1.x CallAdapter.Factory.,77a65b7b1d852ef1fa2d19cab78ea831069b6fd0,7,1.0
+MDExOlB1bGxSZXF1ZXN0MTAzNjc2Nzg0,2173,OkHttp 3.6.0.,c0a2d6baeb9afb8d7bb4f9546a86ddb6a719f969,1,0.0
+MDExOlB1bGxSZXF1ZXN0MTAzNjc3MTU1,2174,Fail if the converter doesn't throw.,fe7280aac7d7e4553c84523e65f66fb9f33a0356,1,1.0
+MDExOlB1bGxSZXF1ZXN0MTAzNjc5ODI0,2176,Make Calls more stateful and add deferring factory.,29a44355fa1a83b0994558d4276d8e759a6975a5,2,1.0
+MDExOlB1bGxSZXF1ZXN0MTAzNjgwMTg1,2177,Remove unused interface.,9a610d529dc0421ee67169c1957638f01876b120,1,1.0
+MDExOlB1bGxSZXF1ZXN0MTAzNjgyMDg3,2178,Allow HTTP errors to be created as part of mock behavior.,51939cd01ad7173f6d87f10065e2604e5bb35532,3,1.0
+MDExOlB1bGxSZXF1ZXN0MTAzNjg0OTk0,2181,Add support for query parameters with no value.,b115292dba5f328fbc99e024c76d50866e94f3bf,6,2.0
+MDExOlB1bGxSZXF1ZXN0MTA0MDA3NjIw,2183,Remove specifying Okio 1.9.0 dependency,8dfc7b8ff00ab64126ac86f205bf74b686e8c6ed,1,0.0
+MDExOlB1bGxSZXF1ZXN0MTA0NjgxODA1,2188,Use Moshi 1.4's JsonAdapter.serializeNulls(),9f2ea471e572f6596c482d23edcfeee0d861b959,3,1.0
+MDExOlB1bGxSZXF1ZXN0MTA1NzIzNjY5,2193,Explain which types are supported for each adapter,78e0cd85451bef91d4803964e26bc406649e1e7e,4,0.0
+MDExOlB1bGxSZXF1ZXN0MTA1OTkxNjMw,2196,Unify HttpException into a single shared type.,3a9d4b77c60e3dfe3a98e0a74a59371014cad7ab,21,5.0
+MDExOlB1bGxSZXF1ZXN0MTA2MDI0Mzg2,2197,Use array instead of varargs in override signature.,c516a34e107818c394f75997fe4a8cf10f299852,1,1.0
+MDExOlB1bGxSZXF1ZXN0MTA2MjQwNzMw,2200,Add error-prone compiler.,9323a0c9d7485d30cf1e6d7b64a6bb5f71819038,3,2.0
+MDExOlB1bGxSZXF1ZXN0MTA2ODc1Nzk3,2205,Removal of Unnecessary Creation of String Builder,fef22de3f5226ea99627cce7bde8c532d057ce65,1,1.0
+MDExOlB1bGxSZXF1ZXN0MTA3MjkwMDM5,2210,Fix typo in CHANGELOG,2aac890095845fc5211a7c2a5be213303ea0473a,1,0.0
+MDExOlB1bGxSZXF1ZXN0MTA3ODE0MzU2,2216,code corrections,39fcdb46e07f2f14319a4031d86bf8f3dbd1d405,2,2.0
+MDExOlB1bGxSZXF1ZXN0MTA3OTQ4NTUz,2219,added checkNotNull,bd8e38d406fff637ed69b1b312a8e439aa28b012,6,1.0
+MDExOlB1bGxSZXF1ZXN0MTA4NDAyMjEz,2226,moved validation first before cloning,84c3bd70694aecf0a87a4c6e5935b40d2ac7426a,1,1.0
+MDExOlB1bGxSZXF1ZXN0MTA5Mzk0NDY3,2239,Make HttpException unchecked,16b2a7f7a5cd43333a97ad4765c184888ad7ad0a,1,1.0
+MDExOlB1bGxSZXF1ZXN0MTE3MDgzOTg5,2299,Fix annotation docs to advertise string converters.,672d403c28f6d6443605d56ca6c975955343afac,5,1.0
+MDExOlB1bGxSZXF1ZXN0MTE4Mjg1OTIw,2303,Allow Crawler to crawl urls that aren't present in the fetched urls set,2b0a4f13844bbb93482c52bd2c60a55e3fa24a88,1,1.0
+MDExOlB1bGxSZXF1ZXN0MTE5MzExMDI3,2313,Upgrade to Checkstyle 7.7.,77f37fa8ca7e76af48cafe7809a57200cd32b96f,2,0.0
+MDExOlB1bGxSZXF1ZXN0MTE5NDYxNzcy,2315,Add JSR 305 nullability annotations.,522592bb11fc8aa1ee491c3e7a1fe55675c372cd,53,13.0
+MDExOlB1bGxSZXF1ZXN0MTE5Njg2MTM1,2318,Update to RxJava 1.3 and a stable Completable.,9d621ff8c512d5e28cb760ad62edfa2d3fe40292,3,1.0
+MDExOlB1bGxSZXF1ZXN0MTIwMTQ5MzE5,2322,"Explicitly handle wrapped, re-thrown exceptions from onComplete, onError.",a2ca2aa4fc49518ed93403cdae1dbad7a5045be1,9,1.0
+MDExOlB1bGxSZXF1ZXN0MTIwMTYwMDU2,2323,Allowing skipping of params if the converters converted to a null,f35914b3010b909fb9c490f1a67819409fc8a303,3,2.0
+MDExOlB1bGxSZXF1ZXN0MTIwMTcxMDg3,2324,Add converters which facilitate the use of Optional.,85593d29acbb39688bc6cb8711148f1dc6b41513,16,3.0
+MDExOlB1bGxSZXF1ZXN0MTIwMjI3ODU3,2327,Use custom exception type when triggering mock failure.,cc0df11320ba770d799f615821cbd2b1bcd093d8,3,1.0
+MDExOlB1bGxSZXF1ZXN0MTIwNDU2NzQ5,2331,Upgrade to OkHttp 3.8.,3db1f38ee04ada55cd8ffbcc838738a35d993e50,3,1.0
+MDExOlB1bGxSZXF1ZXN0MTIwNDcyMDkw,2332,Fix typos in changelog,6a30d8e5a81577fc1befcf03c831d9561cdd55d7,1,0.0
+MDExOlB1bGxSZXF1ZXN0MTIwOTYzODYz,2336,Add ProGuard rules,9168d0d6873ccbb95bd69f13fd1f4fdcd0a68dfd,1,0.0
+MDExOlB1bGxSZXF1ZXN0MTIyNDgzOTgz,2345,Add some missing nullable annotations.,6cd0ea0e1bcefe2036439dcd06f9113e41405607,2,1.0
+MDExOlB1bGxSZXF1ZXN0MTIzNzkzOTk1,2356,Clarify that errors start at 0% probability.,95b0bb284f3086297b867b52ae75aafb2c244fce,1,1.0
+MDExOlB1bGxSZXF1ZXN0MTI1MTg1NTIy,2363,Remove code duplication,1ca821af67bfec8e8da0d0e99f2444080be5a041,1,1.0
+MDExOlB1bGxSZXF1ZXN0MTI5NDI1MzYx,2397,Add simple usage docs to each adapter.,b1ea7bad1fbddfe82412587a158d2aaa0b9f4241,4,0.0
+MDExOlB1bGxSZXF1ZXN0MTMxMTkyODY1,2416,Update to Moshi 1.5.0.,2a888b38edad368ec6805b386657c48d1b465018,1,0.0
+MDExOlB1bGxSZXF1ZXN0MTMxMTkzMjM3,2417,Update to Gson 2.8.0.,e27099390cac98877aed5360e22f0dff6c066bf7,1,0.0
+MDExOlB1bGxSZXF1ZXN0MTMxMTkzMjg2,2418,Update to OkHttp 3.8.1.,8306a67c9f044ed3bb5e014214262264de120b81,1,0.0
+MDExOlB1bGxSZXF1ZXN0MTMzNzMzNzAw,2439,Remove volatile modifier from synchronized field.,e6a7cd01657670807bed24f6f4ed56eb59c9c9ab,1,1.0
+MDExOlB1bGxSZXF1ZXN0MTQwMjI2MjI0,2476,Add Retrofit.Builder.converterFactories().,c95312add07064609f39805fc240e396acf04aa3,2,1.0
+MDExOlB1bGxSZXF1ZXN0MTQxNjUwOTc4,2486,Add Retrofit.Builder.adapterFactories().,a307aaac884dc7f1b1ef99f8f94125d8d141dc54,2,1.0
+MDExOlB1bGxSZXF1ZXN0MTQxOTg5ODM0,2490,Add initial capacity for converter factory list.,6a580e897649d162d628763d332a86910aba0794,1,1.0
+MDExOlB1bGxSZXF1ZXN0MTQzNDQyNTE4,2498,Update to Gson 2.8.2.,df30755573952419aaa9fafd10011672dc143ec1,1,0.0
+MDExOlB1bGxSZXF1ZXN0MTQzNDQzMTUw,2499,Update to OkHttp 3.9.0.,af406dd527830832c5825db80a3a6071821aac9f,1,0.0
+MDExOlB1bGxSZXF1ZXN0MTQ1NzE5NTY5,2521,Add Scala Future adapter.,130bcc7c419dbcea0faba84ff7dc34a74e7f11cb,10,1.0
+MDExOlB1bGxSZXF1ZXN0MTQ2NDg0Mjgz,2524,typo,bbcd0a5c954aca04b2a7092b2d155bb3c501a07c,1,1.0
+MDExOlB1bGxSZXF1ZXN0MTQ4ODQ4Njc5,2532,coca-cola is not have robots,aa1e87c93c1414a0827e80cd0ec1f18b5c171580,1,1.0
+MDExOlB1bGxSZXF1ZXN0MTUyNzAyODg3,2556,Handle Errors in OkHttpCall.,ea1e8fb59b704ebc6ddee0b56c0216c542f25015,2,1.0
+MDExOlB1bGxSZXF1ZXN0MTUzNTA4MDU1,2564,Bump okhttp.,b996657783f688c7bb6278e21afd2ead404d0b61,1,0.0
+MDExOlB1bGxSZXF1ZXN0MTUzNzkyMTc2,2566,Don't catch fatal errors.,fc1b11249faefc4ef21a576e34e457529ea9fa9d,3,1.0
+MDExOlB1bGxSZXF1ZXN0MTU2NDcyNDg1,2580,Fix typo in README of retrofit-mock.,945066ac58ae5e9f3004e4eae66473edc9a9ac82,1,0.0
+MDExOlB1bGxSZXF1ZXN0MTU4ODA2MzE2,2588,Update docs to mention @HeaderMap,3aa1b3cf00ebb115fb2bae9b5e52f5a130d24f25,1,0.0
+MDExOlB1bGxSZXF1ZXN0MTU4OTE0MTIz,2591,Fix inconsistent example in QueryMap's javadoc.,c2b44bd3b63cbbdc4c56014b13e463b72a23ec8d,1,1.0
+MDExOlB1bGxSZXF1ZXN0MTYyMjgwODAx,2609,Initial JAXB converter factory.,9d48466db40d5a89289cdc6d3b86e401f87d4445,12,1.0
+MDExOlB1bGxSZXF1ZXN0MTYyMjgxNzI5,2610,Deprecate our SimpleXmlConverterFactory,6357c27a69b8dd32d0d884147bd190485c328e1b,2,1.0
+MDExOlB1bGxSZXF1ZXN0MTYzNzE1OTMz,2613,Retain service method parameters when ProGuard optimization is enabled.,ce6030f2ca295be48c43705baa2d00c523e13745,1,0.0
+MDExOlB1bGxSZXF1ZXN0MTYzNzMyNzQ0,2614,Remove old ProGuard nonsense.,9dc071dee54a4b2d30ed1a02d2474da0c324694c,2,0.0

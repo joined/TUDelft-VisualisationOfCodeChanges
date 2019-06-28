@@ -1,0 +1,95 @@
+id,number,title,mergeCommit,changedFiles,changedPackages
+MDExOlB1bGxSZXF1ZXN0MzYzNTEyNQ==,3,admin项目订阅zk时当interface包含内部类$字符时出现问题,44b78e25878ec0a665c2bf2ddbd12d56d565bf5f,1,
+MDExOlB1bGxSZXF1ZXN0NDMyMzE1OQ==,4,修改Redis在宕机情况下CPU占用高的bug,b4bc43a175c86e8c28559b28581236f1f0a73aa0,2,
+MDExOlB1bGxSZXF1ZXN0ODMwNzM1NQ==,13,修复注册中心为zookeeper，管理控制台删除路由失败的问题,d13377e63f8b5e1505d7d1d02d3ca5f18e4c69fe,2,
+MDExOlB1bGxSZXF1ZXN0MTM2MTE3ODc=,34,Update AbstractClient.java,7207453d0b91dc5315c170a858d8165c25544d41,1,
+MDExOlB1bGxSZXF1ZXN0MjA5NTI2MDg=,84,Update CountUtils.java,c48015f9fc85ed774057655ff200c84409f15d6f,1,1.0
+MDExOlB1bGxSZXF1ZXN0MjkxNDg4OTA=,106,修复创建AdaptiveExtensionClass时方法异常签名问题,ad27946562354a011e3a3bf9f6d5cd38a425f69f,1,
+MDExOlB1bGxSZXF1ZXN0MzAyMjA3NjM=,107,"修复当设置了""dubbo.protocol.host""参数后启动脚本无限等待的问题",4e4dc4d5d1f75c18a6af11d7a8694b0dab020ab7,1,0.0
+MDExOlB1bGxSZXF1ZXN0MzA3NDA4OTE=,108,Fix building for 2.4.11,2d5768691bac620e77f1aac17702efa2ffbf6fae,12,
+MDExOlB1bGxSZXF1ZXN0NDczNDE2MjQ=,162,Fix typo in ServiceConfig.doExportUrlsFor1Protocol() -> local=只暴露本地服务,63cd838a387448a598380efc610f2b14e74cc3d9,1,1.0
+MDExOlB1bGxSZXF1ZXN0NTM2NzU0MTc=,182,修正URL.java中构造函数中用于移除path开头的“/”的代码,47e582e6edd292ee6586bab398f628ac8823e7ac,1,1.0
+MDExOlB1bGxSZXF1ZXN0NjM1ODE4Njk=,216,获取参数名错误,f71cd203241f0c6702e9e2c56e18b4f64fe0332f,1,
+MDExOlB1bGxSZXF1ZXN0Njg0NTQ4OTg=,239,Avoid ClassCastException,58b51cd69fdf6573010f01eda0a4f2f6ad057f32,1,1.0
+MDExOlB1bGxSZXF1ZXN0NzAwOTE5OTU=,242,修改抛出的异常信息，把memecached改为redis，代码135行和167行,e3c0b0d17816b8bd397959243353236b1a6ac507,1,1.0
+MDExOlB1bGxSZXF1ZXN0NzI1OTQ2Mjk=,248,fix typo of method,7115f2fe96f604586e4224fbcb77e62482090924,2,1.0
+MDExOlB1bGxSZXF1ZXN0NzY3MDYzNzc=,281,修改默认检查服务错误的问题,6baa3a8fa909aa7dda5ea355a132b147cec66eda,1,1.0
+MDExOlB1bGxSZXF1ZXN0ODM1NjAyMTk=,315,修改监控服务脚本支持不同终端重启服务 ,e31cf8c3e95811465550271943b18acb778b0e9b,2,0.0
+MDExOlB1bGxSZXF1ZXN0OTc0MTE5OTQ=,356,类名写错,5e5b9e670da1ef9954f7861adcd45360ad66e31e,1,0.0
+MDExOlB1bGxSZXF1ZXN0MTA2NTY2NjA3,377,Fix 当提供方线程池满时，请求拒绝却并没有立即返回,1a5b233fe5dc2a1f6547c92b26050e6a9d4d6648,5,5.0
+MDExOlB1bGxSZXF1ZXN0MTA5NTA4NzE2,391,@Reference在方法级别注入失败,dc3f1b24c5762289fc0b45eeb9c3da6a8f455f9a,1,1.0
+MDExOlB1bGxSZXF1ZXN0MTEwNTQzOTU5,403,"fix #402 `ps -f` is nothing, standard syntax: `ps -ef`",2c0c079907bce7ab995d13957866e1fd2cb01bbb,1,0.0
+MDExOlB1bGxSZXF1ZXN0MTEwNTQ1MDk1,405,fix #404 int i = consumer.indexOf(':'); when consumer==null,6cc5dc189a88c1f266002de763d8eabeae210572,1,1.0
+MDExOlB1bGxSZXF1ZXN0MTI1NTg2NzI5,457,修改：telent 支持泛型参数json调用,3472e0bcc8c2c5a36630359fd89170fdae74d253,1,1.0
+MDExOlB1bGxSZXF1ZXN0MTM4MTI1Mjkz,561,"issue#433: fix ConditionRouter, close #433",b7c4e6e8311db954af33d8f8b46468b32342cc92,2,1.0
+MDExOlB1bGxSZXF1ZXN0MTM4MzM4ODA1,566,优化consumer找不到provider时的提示内容，当前提示容易误导使用者服务被禁用forbid,92af21f48b59a72d2d807a88c1054cc8468f048f,1,1.0
+MDExOlB1bGxSZXF1ZXN0MTM4Mzc3ODI3,568,fix:修复优雅停机问题,8a9392d58e6833cb5fe1f3318636dca3d77048d8,9,6.0
+MDExOlB1bGxSZXF1ZXN0MTM4NDEwMjU4,570,fix:修复 client timeout 没设置的问题,745103ff35bf8fee2ebc7122a3befe2eceafafb4,1,1.0
+MDExOlB1bGxSZXF1ZXN0MTM4NTYxMTkx,572,upgrade dependencies,50a81561a24a47f1db3504e4e6ece7dbaeda51fa,20,8.0
+MDExOlB1bGxSZXF1ZXN0MTM4NTgzMzg3,574,issue#28: fix override configuration problem,da05072e8f5b47d15df14a5b6b82e600c1c47ecf,4,3.0
+MDExOlB1bGxSZXF1ZXN0MTM4NjIyNzk5,576,fix:修复优邪关机的时候，client 关闭的时候没有加超时时间,3ba50c171f7cafd22515083e16618d659dadc2ef,2,2.0
+MDExOlB1bGxSZXF1ZXN0MTM4OTk4Nzk3,580,"Refine graceful shutdown, reject connect request when shutting down",78f759b524a3afe898f9bfc938a0be34baa8ab38,19,9.0
+MDExOlB1bGxSZXF1ZXN0MTM5MDMzMDQx,582,修复executes属性（ExecuteLimitFilter）在高并发时无法真正限制某个接口或方法使用线程数的bug,d0e41e8733d0837653e5b2281f6d4b9f9508c2c1,2,2.0
+MDExOlB1bGxSZXF1ZXN0MTM5MTA3NjQy,583,Mod(UseProtocolKeyExt) : 修改注释,30babbf43cd4244bfa03bac58c06b872e47949c6,1,1.0
+MDExOlB1bGxSZXF1ZXN0MTM5Mjk2MzI1,589,fix:#558 修复 Builder#newObjectBuilder 存在死循环的风险,2e658dd3e4784aa8404511e0a631a2cffd58545a,1,1.0
+MDExOlB1bGxSZXF1ZXN0MTM5MzI4NDMw,590,bugfix: 一致性哈希负载均衡bug,45040ca87f7c5e18a5f6073ebe9056911c46d478,1,1.0
+MDExOlB1bGxSZXF1ZXN0MTM5MzMwODUy,591,bugfix: 服务器端回调没有必要再发heartbeat,409354f1ada5ab17f40aaff483acc55eaa778812,3,2.0
+MDExOlB1bGxSZXF1ZXN0MTM5MzM5OTE3,594,bugfix: 这里存在并发问题，如果并发调用ReferenceConfig.get有可能创建多个client出来,9cf27a36848c22fbfd00877449fbe0eaf53e040c,1,1.0
+MDExOlB1bGxSZXF1ZXN0MTM5MzUxMDc4,596,bugfix:将超过payload限制的异常区分出来,5befd6a5181756f0abec1c5fc4fd689436836664,3,2.0
+MDExOlB1bGxSZXF1ZXN0MTM5MzYzNjAz,598,简化OverrideListener的逻辑,a40e498e966e6f87078442e88a0033c20df47855,1,1.0
+MDExOlB1bGxSZXF1ZXN0MTM5MzY4MTkx,599,fix: 修复泛调用使用的PojoUtils的几个问题,ef4f27ae937202a18f0a35e767099f1b575d0feb,1,1.0
+MDExOlB1bGxSZXF1ZXN0MTM5NDYyODk1,600,fix:LruCache accessOrder 没设置为 true 的问题,d27b45ecacace4999c92701791b72ce141e7b764,1,1.0
+MDExOlB1bGxSZXF1ZXN0MTM5NDYzOTMz,601,fix:移除 LruCache 多余的同步块,0735bcb4ab38be0534b6f8fefd27c0cec9002d27,1,1.0
+MDExOlB1bGxSZXF1ZXN0MTM5NDgxNDc0,602,希望能调大AbstractConfig中对配置值长度的限制（MAX_LENGTH）,14c8d88232c52fca5768d7b056c688def78f4208,1,1.0
+MDExOlB1bGxSZXF1ZXN0MTM5NTEwNTg1,605,"add space , optimize log output",3642c1cb3357b5f5fc6c8a3ff8f08755a7f6794a,1,1.0
+MDExOlB1bGxSZXF1ZXN0MTM5NzA3MzU0,607,update for fastjson,b6e30afbf41844a5bee4078e0f4c351a2226f598,2,1.0
+MDExOlB1bGxSZXF1ZXN0MTM5ODEyMjQw,611,update dubbo version,44f23bc5b3597019a262ef973dc94bfea485dfe4,59,0.0
+MDExOlB1bGxSZXF1ZXN0MTQwMjc2NTAz,630,Feat/netty4,6d47a70664a0f9f65e3478d995622536f4b8d026,16,4.0
+MDExOlB1bGxSZXF1ZXN0MTQzMDYyMTg3,689,Feat/thread dump,906aa82e72036e28ef5fb23b389626a180b6792e,4,4.0
+MDExOlB1bGxSZXF1ZXN0MTQzMjk5NzM1,694,Fix unit test of leastactive loadbalancer,33b213ba7e5e42ce2d0b2073154b00b97a68ab8d,1,1.0
+MDExOlB1bGxSZXF1ZXN0MTQ1MzgxODgw,719,feat: 增加maven-wrapper，用户可以使用自己的maven，应用工程构建时将会使用工程的maven版本,7d3601ba5e2a5af391127a7fcfe602aec4dd1b1b,5,0.0
+MDExOlB1bGxSZXF1ZXN0MTQ1NjM2MjAy,725,Update OverrideServiceImpl.java,6a7717970fd3abde99651d405dc1fd75bedfac1c,1,1.0
+MDExOlB1bGxSZXF1ZXN0MTQ3MjI0MDMw,748,Fix typo implemention -> implementation,8c1cf58902836f151fec7c676870fa585d48cb37,5,3.0
+MDExOlB1bGxSZXF1ZXN0MTQ3MjMzMDk0,749,路由优化,62fae0470c042625134698d6dfff3e69ad43c8c0,1,1.0
+MDExOlB1bGxSZXF1ZXN0MTQ3MjcxNjQ1,755,修复参数有泛型时类型转化出错,4bc1097630a6a0b54071f517f924f8c0df18b16d,1,1.0
+MDExOlB1bGxSZXF1ZXN0MTQ3NzA3MTI0,762,Bugfix#685 registrycache,be965bfa0df549e46a3530e9b6bec5370b8bf12d,5,4.0
+MDExOlB1bGxSZXF1ZXN0MTQ3NzM2NTQ2,765,Update DubboAppender.java,4b5818f34e08baa0eec081ecdc6ffc8960df65e0,1,1.0
+MDExOlB1bGxSZXF1ZXN0MTQ4NjUwMzM4,775,NPE bug fixed.,aabcbc3bb97c52889175e9e7659158932429e928,1,1.0
+MDExOlB1bGxSZXF1ZXN0MTQ4NjgwMTAz,776,Deprecate internal JSON impl and change to fastjson,209aecfca23753598021670ce15401b4370c220b,31,8.0
+MDExOlB1bGxSZXF1ZXN0MTQ4NjgwNTgz,777,Fixed #672: Monitor blocks when registry is unreachable,9581e0f46685d973698700c0ae539c191b1e554b,7,3.0
+MDExOlB1bGxSZXF1ZXN0MTQ4NjgxODM1,778,Feature: support specify ip & port registered to registry from environment properties,1e76aeeb8fd81537af4bc4b1e329fb6a7ee9c9aa,59,11.0
+MDExOlB1bGxSZXF1ZXN0MTQ4NjgyMjEw,779, Adjust some config properties,50d4ddd2ce2582935615c9337c4c143ca4a0f64e,8,3.0
+MDExOlB1bGxSZXF1ZXN0MTQ4NzA0Mzk3,780,fix dubbo admin console dispaly error in  https://github.com/alibaba/…,a3c8c62717997935949bc3b62c289cee4ee6719b,4,1.0
+MDExOlB1bGxSZXF1ZXN0MTQ4ODkxOTQ2,784,增加MethodValidated注解的测试用例  及对MethodValidated使用场景和用法的说明注释,1420cb4b0992932d7a4666968d298dd7de1823cf,6,3.0
+MDExOlB1bGxSZXF1ZXN0MTQ5MTA4NTU2,788,Update AbstractProxyInvoker.java,48fdbb0ee955fc542f9abe1df772f600a79bc09d,1,1.0
+MDExOlB1bGxSZXF1ZXN0MTQ5Mzg0NTE0,790,Optimize zookeeper block logic on app startup,74ff1b65299aa7fa7c16d500cef1e3c0bf9a0e97,8,5.0
+MDExOlB1bGxSZXF1ZXN0MTUwMDYzNDY3,805,2.5.7,93704ad3cdf421118e244921b4f0a63d7bccfd62,79,6.0
+MDExOlB1bGxSZXF1ZXN0MTUxNTQwODY3,834,ignore system file,bdd2c604d6b462f3d62a7e86bd9bcb9c43b0cfc9,1,0.0
+MDExOlB1bGxSZXF1ZXN0MTU0NzM3MjQ2,932,"Hessian bugfix, revert the override sequence of hessian, field of subclass should override that of parent class, not the other way around.",6f7a146faf9c5fc2f3dbf26735a675789e0a76cd,8,3.0
+MDExOlB1bGxSZXF1ZXN0MTU0ODQxODc1,935,#922 修改merger拼写错误,552a0800e5f9282a15e1773fe9df8d25cecb131e,1,0.0
+MDExOlB1bGxSZXF1ZXN0MTU1MTEwNzI3,947,fix: 运行demo的时候，连接无线网，默认会获取IPv6 地址，导致报错,10b416c0e053e5c7d5e6311eba6a4580cd7c54b5,2,2.0
+MDExOlB1bGxSZXF1ZXN0MTU1MjQyOTI2,949,fix issue #941 bug,62258e550023323c5a3bb926e767a9d758b19e2d,1,0.0
+MDExOlB1bGxSZXF1ZXN0MTU1NTMyNTU4,979,2.5.8,6b2fa866a40d422058c72cea5c315806a27ff1f3,91,8.0
+MDExOlB1bGxSZXF1ZXN0MTU1Nzc4MDYx,982,Feat/refactor telnet command,49525b0a83e7809a603f420d807b433b268dd2b4,49,16.0
+MDExOlB1bGxSZXF1ZXN0MTU2MDQ3NzM4,987,fix class DubboMonitorFactory  name spelling for #190 ,c983b1e15127094de31a62a6a6cdb037caccfb28,3,1.0
+MDExOlB1bGxSZXF1ZXN0MTU2MzY0OTI2,993,add codecov component #992 ,72cecba20b7f4c9be6a725c39bcc1827dbe0e306,3,0.0
+MDExOlB1bGxSZXF1ZXN0MTU2NDY5MDIw,1001,merge dubbox core features from dangdang:,ab8af672e690b34ff1fa9c6657dfc1ceda5e20a9,63,16.0
+MDExOlB1bGxSZXF1ZXN0MTU2NjI2MzMw,1002,fix:fix qos port can only configure by System property problem,e51c52f1fdda187e033328f79ff0538ecf9c4972,2,2.0
+MDExOlB1bGxSZXF1ZXN0MTU2NjMzMTc0,1003,fix:make demo to work and remove something useless,5207e33a55176e0309bfbc23a4b9ef0338ffbdc4,10,2.0
+MDExOlB1bGxSZXF1ZXN0MTU3MjQ1NzI5,1016,2.5.8 @EnableDubboConfig & @EnableDubbo,d5284338d636bfec88e60292c750eecf521a2173,40,13.0
+MDExOlB1bGxSZXF1ZXN0MTU3NDc3ODgx,1026,Fix some bugs reported in dubbo-admin,1f2dcbe208691fe4aad59d01f9f5a89c26c10373,9,1.0
+MDExOlB1bGxSZXF1ZXN0MTU4NzI4MjA3,1051,The comments translation of dubbo-registry module,c774436e602af8510ea24078803a8a26de32f4e2,50,9.0
+MDExOlB1bGxSZXF1ZXN0MTU5MzIwNDM4,1065,Translate the comments of dubbo-remoting module,8e20d1ca06597e75903cb97c6a01c470686fcf08,231,39.0
+MDExOlB1bGxSZXF1ZXN0MTU5NTczMjE1,1076,Add apache licence,57c815eebe6d1191c13f48809a963dbf422679e0,23,2.0
+MDExOlB1bGxSZXF1ZXN0MTYwMTA0NjMy,1118,bugfix: throw a NPE in deserialization process when one property of java.sql.Time type happens to be null,d192720920a6d7096b6dc4c3b80b38c8177ff077,1,1.0
+MDExOlB1bGxSZXF1ZXN0MTYwMzMxMTA4,1131,Delete empty comments,1a5a77391c6170ab3ffc12cfc3013ae110c518a4,134,43.0
+MDExOlB1bGxSZXF1ZXN0MTYxMjY1MTA0,1170,[Dubbo-1159] Fix suffixes in abstract config,f371d78e1f3f58d463f89bb6a7da14906b43dfc7,1,1.0
+MDExOlB1bGxSZXF1ZXN0MTYxODE0OTMz,1189,Improve/improve qos code,9e8738b5adb99d3d197c4c2092136aa9306e5141,17,10.0
+MDExOlB1bGxSZXF1ZXN0MTYxODQ2Njkw,1190,bugfix:fix redis and multicast registry offline fail,96a6db7f5cc7873fe7a3e714b24984fe852f1b15,2,2.0
+MDExOlB1bGxSZXF1ZXN0MTYxODc1MzEx,1191,2.6,926a7194bf839931ef4463c7c537486b1cecfdf3,522,0.0
+MDExOlB1bGxSZXF1ZXN0MTYyMDYzODUy,1196,获取Serializer和Deserializer时，高并发情况下线程block,c2cc20cff49980fbe530fa9ce70049299a861266,3,1.0
+MDExOlB1bGxSZXF1ZXN0MTYyNTMzNTYw,1204,[Dubbo-1201] Fix condition router,5af18786003e832b0abb280b6f57322b4e7e9784,2,1.0
+MDExOlB1bGxSZXF1ZXN0MTYyNTM3NzU0,1205,2.5.9 Annotation Enhancement and Bugfix,5d8acea79f4e2a1b4e9bfe337c8f6a12415a3d93,18,5.0
+MDExOlB1bGxSZXF1ZXN0MTYyODUyNjQ0,1219,Error in getting local address for Dubbo Log,64e0fa51e0966ced631146484be7fca94213f04e,1,1.0
+MDExOlB1bGxSZXF1ZXN0MTYyODc0MTg0,1222,fix #1216,b309f792f8b5ebfea16b4cc13720e35306d94b38,1,1.0
+MDExOlB1bGxSZXF1ZXN0MTYzNjg4NDA5,1236,fix #1233,c7cd88993a56b9cef588df4d728698930f90c65a,1,1.0

@@ -1,0 +1,144 @@
+id,number,title,mergeCommit,changedFiles,changedPackages
+MDExOlB1bGxSZXF1ZXN0MTkzNDY5MA==,9,增加propertyPathTest3,a2b3a0c35b7c65527b7daa985f4d351830a2147e,1,
+MDExOlB1bGxSZXF1ZXN0NDkwNDI0OQ==,29,Support for Generic Type in Setter-Method Added!,4beea79c8c941532033ef658d0ef98e7adb387f4,2,
+MDExOlB1bGxSZXF1ZXN0NjE2MTE4Nw==,41,Fix Issue #40,17099234d9dbd33d0153ba9e302f3944dd1dce05,1,
+MDExOlB1bGxSZXF1ZXN0ODY5NDEwOQ==,90,Fix issue #89,b53181560b448beef0a568a108684a0106942dcc,2,
+MDExOlB1bGxSZXF1ZXN0MTAwOTIwODU=,114,"add ""extractValueFromSingleKeyModel"" property to FastJsonJsonView just l...",4ed058429e3b1c865261b73f829a88d32c14edbf,1,
+MDExOlB1bGxSZXF1ZXN0MTg5NTUwMzE=,202,support org.springframework.cglib.proxy.Factory,48979c0d9d827f3007c2a31dc7889ce08fac0791,1,
+MDExOlB1bGxSZXF1ZXN0MjA3MzIyMDg=,216,增加asm生成的代码dump功能,5df26f1932fa1898bad0a99b38af0e271dd3d8ba,2,
+MDExOlB1bGxSZXF1ZXN0MjA5OTU1MDU=,217,improve ListSerializer,6dc49231249a18d25808c29a34c77678d58e5ad3,2,
+MDExOlB1bGxSZXF1ZXN0MjE5NjU1NTI=,223,"Revert ""Optimize ThreadLocalCache while perusal the code.""",51a6126b5200d883656a371033ed3141ac1e85c9,2,
+MDExOlB1bGxSZXF1ZXN0MjE5NzY5ODQ=,224,Fix approach #222. Optimize ThreadLocalCache to calculate the allocate size.,1faba061a54f639a0a31f00e1cdc46b312724609,2,
+MDExOlB1bGxSZXF1ZXN0MzY2ODg2MjI=,343,增加ASMSerializerFactory dump字节码,269df1af7341faf27dae3b7bc7179de67f00447d,1,
+MDExOlB1bGxSZXF1ZXN0MzkyMjExMjY=,368,bugfix: 通过jsonpath修改jsonarray中的值时抛出异常UnsupportedOperationException,ca8b396e9e5e90d34e38026025c1acae81de09cd,1,
+MDExOlB1bGxSZXF1ZXN0NTgzOTQxNzc=,499,"browserCompatible feature add: double quote long fields exceed [-2^53+1, 2^53-1]",a65c402e2f32e39bd71a5768618a9076cfc1fa5f,4,
+MDExOlB1bGxSZXF1ZXN0NjMwMjE2OTQ=,520,bug fixed for JDK 5、6、7 compatible,e7539bab9d22b93316f2bc712d2207c6b7dbe220,5,
+MDExOlB1bGxSZXF1ZXN0NjYxMDg2MTY=,543,correct some spelling mistakes,4b79c7dd35338c784be508ef0345f9be37511830,7,2.0
+MDExOlB1bGxSZXF1ZXN0NjYxMTEzODI=,544,FastJsonHttpMessageConverter增加Content-Length这个header,a3d980b1bde10d1e1537ba298867be6af77af761,1,1.0
+MDExOlB1bGxSZXF1ZXN0NjYyNzY0NzM=,546,rm duplicated method,e75a0b395aca1e7ee1985aa0ec8b46d06c8f5054,2,1.0
+MDExOlB1bGxSZXF1ZXN0NjYyOTUxMjg=,547,reimplement scanNULL && correct parse exception message,686908345f38d24015d5f7ab01879806ec181fa6,4,3.0
+MDExOlB1bGxSZXF1ZXN0NjYzMDI3MDg=,549,correct parse exception message,a2f8c6afb956361ed7155a3c380ab5af6507e084,2,1.0
+MDExOlB1bGxSZXF1ZXN0NjY5NzY1OTE=,558,Update FastJsonProvider and FastJsonHttpMessageConverter,40cd238822d5a4c2ee01420a5d6284e0baf54925,2,2.0
+MDExOlB1bGxSZXF1ZXN0NjcxMzcyNjM=,560,Mock testcase and Use the new JSON.toJSONString(...) in provider,60dd3867171c1357bff58b1959be8b45ea8a5d75,8,5.0
+MDExOlB1bGxSZXF1ZXN0NjcxOTQyMTI=,561,code format & add mock testcase,39a966b2cbc2325b386ee5209e9f81c6d34fb548,5,2.0
+MDExOlB1bGxSZXF1ZXN0NjcyMTM5Mzg=,563,refactor,2841bfb3fa8b9f22807879e8e7d744522f7fab61,3,2.0
+MDExOlB1bGxSZXF1ZXN0NjcyOTk3NzU=,567,add Provider testcase,56c608e05f052d586fc3943c25d0b590f5b871fc,9,3.0
+MDExOlB1bGxSZXF1ZXN0NjczNTI5NTA=,571,Master,0b9e1a7cf65567405c159e3cd75df5aa1f8cd3b0,0,0.0
+MDExOlB1bGxSZXF1ZXN0Njc2MzMyMTI=,575,Fix issue #574 add compatible with spring framework 4.2+.,ba143c1fac5b2a35082f9b4eaf41cced1a79b190,1,1.0
+MDExOlB1bGxSZXF1ZXN0Njc2NTcwNDE=,579,Fix issue #578 #577 and #574,af9d4ec501344e6e4e1ac5d304c4335112d0dc3a,5,2.0
+MDExOlB1bGxSZXF1ZXN0Njc2NjY3MDg=,580,Fix link to license,a5fce89a97d3ae02a92355a663d944df8494df33,1,0.0
+MDExOlB1bGxSZXF1ZXN0Njc4MjA5NjM=,582,Optimize FastJsonProvider,b96f26a16758072b84233faf8b0ce538c2abd13c,1,1.0
+MDExOlB1bGxSZXF1ZXN0Njc4MzY0MTY=,583,Optimize and Comments,145af493b14c73c4fd8690b4fcc7cec3dcb711e7,8,5.0
+MDExOlB1bGxSZXF1ZXN0NjgwMDM1NTQ=,588,Compatible version 1.2.10 ,998da66e64a32ac61365b737f72a050069434005,5,3.0
+MDExOlB1bGxSZXF1ZXN0NjgzNDE2MzQ=,594,Update codecov URL,bfbb376e61fe8e69c840f74afc7b28447672e905,1,0.0
+MDExOlB1bGxSZXF1ZXN0NjgzNTMwODQ=,595,Update codecov URL,f32952e07db699ae355d4d71165464c31941f83a,1,0.0
+MDExOlB1bGxSZXF1ZXN0NjgzNTMyNzM=,596,Update codecov URL,7eb613f05ade7d6609b49c9df17e6b2f006eb2b1,1,0.0
+MDExOlB1bGxSZXF1ZXN0NjgzNTk0MzQ=,597,Optimize FastJsonJsonView,c4757135db5c696da51e7a091ff5479b583c5e85,1,1.0
+MDExOlB1bGxSZXF1ZXN0NjgzNjI5NTQ=,598,add testcase,585e7fc72ce55c5c2d50330f0662d6fb28165c4e,5,3.0
+MDExOlB1bGxSZXF1ZXN0NjgzODIxODY=,599,refactor testcase,60aed396727843d132fa802b9060e1616d7088b7,3,2.0
+MDExOlB1bGxSZXF1ZXN0Njg0MDY4MzA=,600,refactor testcase and fix issues,cc6c848526855877af0487eb51c218554d5f537d,15,8.0
+MDExOlB1bGxSZXF1ZXN0Njg4MzgxMTU=,606,解决1.2.11版writeInternal setContentLength无效,0b408f21fbd8ed46a5e92d23c923ba6ccb9515b8,2,1.0
+MDExOlB1bGxSZXF1ZXN0Njg4Nzg4MTE=,608,fix issue and optimize code,d9f01408fd3d2fbdac140ef3d70b25ac24588df0,6,3.0
+MDExOlB1bGxSZXF1ZXN0Njg4OTUxMjA=,609,optimize testcase,5dc9b063c850239d5eb26d3cf19f2b3a2feeb1a6,3,2.0
+MDExOlB1bGxSZXF1ZXN0NjkxMDQwNDQ=,613,optimize testcase,05875aa896346c8a8223fbf764ac35511877c99c,1,1.0
+MDExOlB1bGxSZXF1ZXN0NjkxNDA4MTY=,615,customize getFields() to return ordered Field Object,4829958e1371803d1c08f4e9d8fcdc232be2f5f6,2,
+MDExOlB1bGxSZXF1ZXN0Njk2MzMxNDA=,625,testcase for #606,765169b984d551a5fbc77534c30ccbb38d8c069d,3,2.0
+MDExOlB1bGxSZXF1ZXN0NzA0NjY0NDg=,635,修改 ArrayListTypeFieldDeserializer,3d81dab4dece969ce065ad11454d00b006ebee6f,2,2.0
+MDExOlB1bGxSZXF1ZXN0NzA0NzU2MTg=,636,fix:write boolean key without quoteFieldNames,f07a588bcfe7eb98b32945011498ac9d38c2c97d,3,2.0
+MDExOlB1bGxSZXF1ZXN0NzEzODc2MzQ=,648,#641修改方法名称,036253dc786f2e91623d80de89cac1f7627c4560,2,1.0
+MDExOlB1bGxSZXF1ZXN0NzE4MjA0NDQ=,652,"+通过生成map<fieldName,Field>,减少轮询，加快生List<FieldInfo>的速度...首字母大写支持",8d6e9059f3bd14cbcd3d18944b1b1638c572763f,6,4.0
+MDExOlB1bGxSZXF1ZXN0NzIxODI4NTA=,658,修复JavaBeanDeserializer不能反序列化深层内部类的问题,19d1bfe005c402a398d40d8625093c0053f063d0,2,2.0
+MDExOlB1bGxSZXF1ZXN0NzY3MTY5MjI=,716,扩展Swagger的Json处理：解决/v2/api-docs获取不到内容，导致显示不出不到API页面内容的问题,3d5f8e38bbe7d16c3f9187783ea74cd9b3ad27d0,2,1.0
+MDExOlB1bGxSZXF1ZXN0NzgwNTY1MjA=,731,Fixed com.alibaba.json.bvt.bug.Bug_for_smoothrat8 to not rely on unguaranteed order,80400e57f5aad9375ac83c01306a958e4519cf6e,1,1.0
+MDExOlB1bGxSZXF1ZXN0Nzg0MDE0ODQ=,736,Fixed 2 more tests that relied on non-deterministic APIs,b6b8a6ee77a30a45f7fd359d8a90206f7138d401,2,1.0
+MDExOlB1bGxSZXF1ZXN0Nzg0MDIxMDY=,737,Fixed com.alibaba.json.bvt.parser.DefaultExtJSONParserTest_4#test_1 to not rely on nondeterministic APIs,604962a2078bd67dfce4d6c30397f9a64161ab0f,1,1.0
+MDExOlB1bGxSZXF1ZXN0ODA0MDMwMzI=,758,add testcase for #751 and #752,7e18f11965ad697a4dcf28a86a39e55225402130,12,6.0
+MDExOlB1bGxSZXF1ZXN0ODI2ODczMzM=,789,add something about gradle,fd9b20aaeb471812b3d9fb429bcf5a61b55f3546,1,0.0
+MDExOlB1bGxSZXF1ZXN0ODM2MjM1OTg=,809,add testcase for #792,8bb9e959594edba6297ded90dec77cc29eb173cc,3,2.0
+MDExOlB1bGxSZXF1ZXN0ODQzMTkzNTk=,813,add links from wiki,d84c669c0c6920f86d68d39c654bf1cc835da7d1,1,0.0
+MDExOlB1bGxSZXF1ZXN0ODcwNTMzMDQ=,838,修复SerializeUsing bug,959bbcad266e072713e2f45429f935bf321db2f6,2,2.0
+MDExOlB1bGxSZXF1ZXN0ODc2MDI5MzY=,844,Spring MVC中将POJO输出为JSONP，支持跨域数据访问,e77360ec3e3cea1691f033bdb2bcf4ae46c25fc0,7,3.0
+MDExOlB1bGxSZXF1ZXN0ODg1NzYwMTE=,848,处理 多级泛型解析 alibaba/fastjson/issues#569,b8e96be647b2ff7e9dc47ec7a88e95a8f7c80e42,1,1.0
+MDExOlB1bGxSZXF1ZXN0ODg2MTA3MTE=,851,复现并解决bug alibaba/fastjson/issues#569,3552361e4afb73616a356024876de13fc76e2561,6,5.0
+MDExOlB1bGxSZXF1ZXN0ODg2MTgxODI=,852,复现并解决 alibaba/fastjson/issues#569,3d8a049f838b9bebe7d06eca526c3e262b89de8c,4,3.0
+MDExOlB1bGxSZXF1ZXN0OTE3OTgzMzg=,881,fix misspell 'instance' word,1192f5cc48e0069bb53adbfb542e63b77e7bec84,1,1.0
+MDExOlB1bGxSZXF1ZXN0OTIwMjA0NjA=,884,fix getter处理中对javaBean is方法的处理逻辑,84a43873d374335ef5e4418fe5802842a90d42bd,2,2.0
+MDExOlB1bGxSZXF1ZXN0OTM5NDM3MjI=,902,fix issue885,53d4c7f03b2f0df7890d0715098fb4f2c237b27f,6,2.0
+MDExOlB1bGxSZXF1ZXN0OTY5NTA1NDE=,940,add hashCode(),16293d770de8cf85943a361d45fefc51963dd9e7,1,1.0
+MDExOlB1bGxSZXF1ZXN0OTY5NTMyMTU=,941,Fixed#849#937,c3ea528564531fdf8103572add108a2e7d72eeab,4,3.0
+MDExOlB1bGxSZXF1ZXN0OTc0NTEyNzc=,947,bug fixed for compatible jdk8 default method when deserialize using asm,3bb77736e222d57b3b02fa927895b6dcb5e14551,1,1.0
+MDExOlB1bGxSZXF1ZXN0OTc1MDcyODA=,949,fix #943,4af53b0668b51c2f32b214cefa44f529d34c8fc7,2,2.0
+MDExOlB1bGxSZXF1ZXN0OTk0NTU1MTI=,968,bug fixed for JSONPath array paths,4cf8651af289505ac15f2a638665e2891b9802bc,2,2.0
+MDExOlB1bGxSZXF1ZXN0MTAyMjU1MTA5,1008,bug fixed for issue 1005.,f5903fa56497c00ed0703ac875b511f9bd5f1d8e,2,2.0
+MDExOlB1bGxSZXF1ZXN0MTAzNzUwMTUz,1009,make the instance more clear,490213c6d069f410dbf29ccb9b6bf81830789de5,9,6.0
+MDExOlB1bGxSZXF1ZXN0MTA2MDQzNTk2,1025,"fix null or """" error in jdk8Date",d5134c863e7f975826a21e92ad9e94deaada5565,1,1.0
+MDExOlB1bGxSZXF1ZXN0MTA2NTE2NzYz,1027,bug fixed for issue 1013 (Collection repeats to add elements.).,2fe5ad775173c0091564ff8650792e02f0895391,2,2.0
+MDExOlB1bGxSZXF1ZXN0MTA3ODE2MzIy,1037,bug fixed for issue 1036 (DefaultFieldDeserializer).,6b27030f1b98446273eb65a041a7909d099d03a7,2,2.0
+MDExOlB1bGxSZXF1ZXN0MTA4MzM5NTky,1045,add Default JSONP query param names: callback/jsonp,e51464b07d800b4496c869369d84ffbd537e9e33,2,2.0
+MDExOlB1bGxSZXF1ZXN0MTA4OTE3NjAx,1048,Support IgnoreType in parse,a12ff69413dd49961869360ac53122f036dc12bc,4,3.0
+MDExOlB1bGxSZXF1ZXN0MTA5MTg3NzMz,1051,Update license year range to 2017,cfdb19aea33ade1536cc2d426e6d90ffacd2cc49,1,0.0
+MDExOlB1bGxSZXF1ZXN0MTEyMTc4NDM1,1098,CXF使用FastJsonProvider的bug修复,fe15d0d7aefb37b977b8b590bf4ab35e8c01f76a,1,1.0
+MDExOlB1bGxSZXF1ZXN0MTE0ODY1MDY5,1133,Fix : Broken heading (License) in Readme,a780a2ad087dcbef20469226f16f9f93f0749e05,1,0.0
+MDExOlB1bGxSZXF1ZXN0MTE1MDI5Mjkz,1136,add support to parse Annotation Object to JSON string. 添加解析注解对象,172dc46e68c83c925d01e088f76adb3c07f0c77b,5,2.0
+MDExOlB1bGxSZXF1ZXN0MTIxNzU0Njc5,1215,fix > issue#1083,2b7dfda9ae8cae57d9607e63225a97c4d2f37a50,2,2.0
+MDExOlB1bGxSZXF1ZXN0MTIxNzcxNTg4,1216,fix issue1208 and add hibernate dependency for test scope,8c4fd5b6a0c035ab7d1136e339824d5ee2b5cb29,3,2.0
+MDExOlB1bGxSZXF1ZXN0MTIxOTI4Nzkw,1218,根据不同的场景，排除或者包括返回对象的字段。,00433b1368984dbf1f666a2c8c844501c4916caf,9,4.0
+MDExOlB1bGxSZXF1ZXN0MTIyOTI5Mjcx,1238,fix issue 1226,dc7aae4cf4b817287f6bff7e3ec7dd9d959600c3,2,2.0
+MDExOlB1bGxSZXF1ZXN0MTIzMTg4MTUx,1239,add testcase for issue 1227,99497d349b81dec70b62d5000ff1b2f2145f3773,1,1.0
+MDExOlB1bGxSZXF1ZXN0MTI0MTE5NTcx,1248,fix #1247,380f8ba7a8d8f9b4efdd816fc0ab45c6be50a851,2,2.0
+MDExOlB1bGxSZXF1ZXN0MTI1MDgyOTM1,1257,add testcase for issue #1256,c603f934bfb82724d5f932720962b632c36d874f,1,1.0
+MDExOlB1bGxSZXF1ZXN0MTI1MDg0ODU3,1260,fixed #1259,86ee965da272ab9f77033145d743cc140f8ebcc1,1,1.0
+MDExOlB1bGxSZXF1ZXN0MTI1NzgyMzIw,1269,fixed #1267 and add testcase,c0851d81767b7e17089cf9a2082228132daf39f1,11,3.0
+MDExOlB1bGxSZXF1ZXN0MTI2NTI2MTc1,1280,fixed #1278 and add testcase,ecc72cfcfca6618a05e19cf772d9e19f92e4cffc,2,2.0
+MDExOlB1bGxSZXF1ZXN0MTI2OTAyODQx,1284,remove redundant code for JavaBeanDeserializer,179c0c3858b88051d63df4ea172b8f3c1d8a4ebb,4,3.0
+MDExOlB1bGxSZXF1ZXN0MTI3MjI5MjUw,1290,bug fixed for issue 1281 (android oom).,5cfc0195a6488450b0502d677adf1f8efaba5cdd,1,1.0
+MDExOlB1bGxSZXF1ZXN0MTI3MzI4ODcw,1291,remove SerializeFeature FormatAnnotationFirst,d3d8d2393dc684c6c3c228a6aa6f60f8a032ca5e,3,2.0
+MDExOlB1bGxSZXF1ZXN0MTI3NjkxMjY3,1294,add testcase for issue #1293,46ca50a0752b52e462a8d3b764dc7c01d9f590cd,1,1.0
+MDExOlB1bGxSZXF1ZXN0MTI4NTIxMzc1,1304,add testcase for issue #1303,c186428407893cdb405a45c48987014edc7d8a80,1,1.0
+MDExOlB1bGxSZXF1ZXN0MTI4NjY4MDYx,1308,fixed #1306 and add 2 testcases for #1306 #1307,d291f2ded8fed388c059fb6bb3b54e65047dc305,3,2.0
+MDExOlB1bGxSZXF1ZXN0MTMwODg5MTI2,1328,fixed currency bug,77fa39f11f8c162d46249d7a96c6dcd8d43c698a,3,2.0
+MDExOlB1bGxSZXF1ZXN0MTMxMTIxMDg0,1331,fixed #1327,3302cc979916e9fc6e121fc4923e03044a391e76,2,2.0
+MDExOlB1bGxSZXF1ZXN0MTMxODk0MzM0,1337,Spring support optimize,a2c6cc259d4f8d54c2c2ca770e43d1df2f4ee061,11,4.0
+MDExOlB1bGxSZXF1ZXN0MTMyMzM0Njc5,1342,Add testcase for Issue 1341,cdbd255ab13e33f7e8fb78f2b1b455228f5259b0,4,1.0
+MDExOlB1bGxSZXF1ZXN0MTMyNDMzNzI5,1346,FastJsonProvider Optimize,d665e988e870b292a15faf382b76657b735fc9b3,3,3.0
+MDExOlB1bGxSZXF1ZXN0MTMyNzY2MTAy,1348,Jersey framwork auto discover FastJsonProvider ,be8e7599d81520044610b48667e0e1229602f5b1,5,3.0
+MDExOlB1bGxSZXF1ZXN0MTMzMDk0NDU4,1351,fixed #1341 and added test case for content-length with jsonp,bde1397fdfbb2630c860a0608052f78a35bb2e63,2,2.0
+MDExOlB1bGxSZXF1ZXN0MTMzMTE2NDA0,1352,Improved FastJsonJsonView to support jsonp for content negotiation ,1f162b0b919239d5b7ec5a18cf55a25885c4c36d,1,1.0
+MDExOlB1bGxSZXF1ZXN0MTMzMTE4OTg1,1353,Add JSONP callback param  validation,8b59a02978015c2e8b81530e9b749c71fa833708,5,4.0
+MDExOlB1bGxSZXF1ZXN0MTMzMTI1OTg2,1354,add > spring-data-redis serializer support,8ef93e94078431f818fcab516ed25486d6fc36da,2,1.0
+MDExOlB1bGxSZXF1ZXN0MTMzMTMxNTgw,1355, add > spring-data-redis serializer support,79e4afb8e31cdc32fc4072a7c24bfe8926fbf199,1,1.0
+MDExOlB1bGxSZXF1ZXN0MTMzMTMzMDQ3,1356,add > spring-data-redis serializer support test case,aa814deab9407994861cb7af500bcdeac774d097,2,1.0
+MDExOlB1bGxSZXF1ZXN0MTMzMzczNjQ2,1359,fixed for GBK encoding,7e3c8f93f9be5f26904df7df0142ebd9dd1e4808,2,2.0
+MDExOlB1bGxSZXF1ZXN0MTM0MjgwNTU1,1372,For issue 1367 Spring FastJsonHttpMessageConverter Support ParamterizedType and TypeVariable,aa8dda935c8d791f0833c8c49dc866c10446542d,8,4.0
+MDExOlB1bGxSZXF1ZXN0MTM0MzUzMDQw,1376,add test case,7a1d92808d572afabc9b19e2758e5080a6ae21fa,2,1.0
+MDExOlB1bGxSZXF1ZXN0MTM0ODk0OTMz,1394,add testcases for #1368 & #1369,de37fb27e0e7a4c6111f63b125fd66eb626ddd15,2,1.0
+MDExOlB1bGxSZXF1ZXN0MTM0OTMwMzIw,1396,fix issue #1392,2720379e0f72e23659e82f262463c79dd4b0fc78,8,2.0
+MDExOlB1bGxSZXF1ZXN0MTM1NDc5Mjc4,1404,add testcase for #1400 & fixed spring-security-web dependency missing,f367afd98e2de121746aae841a53768995271185,2,1.0
+MDExOlB1bGxSZXF1ZXN0MTM1NDg5NDc5,1406,add testcase for #1405,48dc50007b517dbb0d371edcdcfd8d3b2aa9a77b,1,1.0
+MDExOlB1bGxSZXF1ZXN0MTM1NzU2NDU0,1409,Update README.md,a1cd3ad11f450cf763bd74d969a9a4940958c6e2,1,0.0
+MDExOlB1bGxSZXF1ZXN0MTM2NzQyMTc0,1427,支持嵌套注解,29ed34b93628d0c300113e844bb171541faa5574,7,4.0
+MDExOlB1bGxSZXF1ZXN0MTM2OTc4MTU4,1432,A bug for TypeReference,1b3e30325f65a98f5ddb814ceb7e8a3880be5b36,3,3.0
+MDExOlB1bGxSZXF1ZXN0MTQwMjY2OTY1,1464,修复两次序列化后反序列化报NPE(issue 1463),1494af29faf7fcc7cf2fe622b2e6fc38d59d5175,3,3.0
+MDExOlB1bGxSZXF1ZXN0MTQyMzAwMzg3,1490,Update README.md,8cdb38082a67cc2629ae7965e71ec25dbffa7233,1,0.0
+MDExOlB1bGxSZXF1ZXN0MTQyMzMxMTIz,1491,解决JSONPObject function为null   null(...),0fa15df96215fb1c8f9bba85d65537dd1bf493d8,4,4.0
+MDExOlB1bGxSZXF1ZXN0MTQzNjA0NTA5,1501,修复在FastJsonHttpMessageConverter 中使用了spring4.x版本新增的TypeResolvable 导致sp…,6b9bc444c381606ea9ed8392fbb80e1b7f079714,1,1.0
+MDExOlB1bGxSZXF1ZXN0MTQ0MjU3MzIy,1506,fix #1500,a3860da0175c025f8d6bb879349a5a911061bdde,2,2.0
+MDExOlB1bGxSZXF1ZXN0MTQ0NjUzMDgz,1507,fix #1493,10766c9799dae3d01bb09ed09d9bea23d4680816,3,3.0
+MDExOlB1bGxSZXF1ZXN0MTQ0NzEzOTE3,1508,complete test case for #1480,ecc60cb256a0922c9f54ce7f4313a16a564dd4e4,2,1.0
+MDExOlB1bGxSZXF1ZXN0MTQ0ODgwODM3,1511,add test code for #1510,0229c634dae6c862b5eb3a64e167762837c84b83,3,3.0
+MDExOlB1bGxSZXF1ZXN0MTQ1Mjc3NjY3,1513,修复处理范型的问题。若第一次范型数组类型，第二次空值期望null却返回第一次缓存的数组类型。,b2310ee76d16f3539fc6edb0eb7225b75cddb222,3,2.0
+MDExOlB1bGxSZXF1ZXN0MTQ1Mjk1MTk0,1514, remove DEFFAULT_LOCAL_DATE_TIME_FORMAT and modify testcase,b77dd28061251b7c0d8b99f3251a479591329a35,5,5.0
+MDExOlB1bGxSZXF1ZXN0MTQ1Mjk2OTk4,1515,"Revert ""修复处理范型的问题。若第一次范型数组类型，第二次空值期望null却返回第一次缓存的数组类型。""",c2d4ff190c3b1e8bbca400e04b4e75bb8f3a364c,3,2.0
+MDExOlB1bGxSZXF1ZXN0MTQ1MzM5ODgx,1517,修复对象转json字符串时处理类的范型属性的bug，若第一次类的范型属性为数组类型，第二次空值期望null却返回第一次缓存的数组类型。,2bf562506c30b60983db47d14e878fb4724c8e70,3,2.0
+MDExOlB1bGxSZXF1ZXN0MTQ3MjAxNjEy,1530,Fix javadoc comment for PropertyFilter.apply(),b0feb041c18c558cde813fa0c676464f925410fb,1,1.0
+MDExOlB1bGxSZXF1ZXN0MTQ4MTAyMDIw,1538,优化Spring JSONP的支持,e86b8a8e695b5c4eed2d1518dcb8b675aa24aad0,11,6.0
+MDExOlB1bGxSZXF1ZXN0MTQ4MTQyNDYw,1540,fix issue for #1533,5c2766aa40992d62dea2e27f9677338ef1b6a365,2,1.0
+MDExOlB1bGxSZXF1ZXN0MTUxMDMxMjkz,1568,1.修复字段数超过256时（以及一些其他情况）， propertyNamingStrategy无效的问题  2.修复 @JSONType 中asm字段会影响全局的问题。,33a30bd96e6b0fe1b6690bd467ded4c94addc445,6,5.0
+MDExOlB1bGxSZXF1ZXN0MTUxMzQyNDQ5,1573,fix bug :JSON.toJSONString时候，当有JSONFiled定制注解的字段，json属性名以JSONField为准，不…,5c11b32465285274aaad0156eb60a6aa7739f1c0,2,2.0
+MDExOlB1bGxSZXF1ZXN0MTUzODU0NTA5,1594,增加时间戳转换对 LocalDate 和 LocalTime 的支持。,eeadb418436d02fedfa55426391f588189326198,3,2.0
+MDExOlB1bGxSZXF1ZXN0MTU0MDgyMzky,1600,LocalDateTime 转换为时间戳问题,e2a52cea84e7de935e37321415d6425d0010b97b,2,2.0
+MDExOlB1bGxSZXF1ZXN0MTU0MTExMjMw,1601,bugfix:issue-1555 当某个字段有JSONField注解，JSONField中name属性不存在，并且类上有属性转换策略，j…,3e28a994f8f6d08ca75f51d31664888776348f0c,3,2.0
+MDExOlB1bGxSZXF1ZXN0MTU0Nzg5ODk5,1615,testcase for #1612,94f80bf4e80adda637c7de245d0291c12795f09f,1,1.0
+MDExOlB1bGxSZXF1ZXN0MTU5MzcxODg3,1664,add test case #1662,2c6325fb1e8b2abbe0c2ca1833eb5b83a371165b,1,1.0
+MDExOlB1bGxSZXF1ZXN0MTYwODQyNjE1,1686,support Swagger UI 2.0 filter some types,4cb95e264180504564373d41178ac679078bddea,2,2.0
+MDExOlB1bGxSZXF1ZXN0MTYxMjc4NTA4,1690,Slightly optimize code and remove redundant variables,0cbb6a9dab7353dd7756f1206241f59ec09d5153,1,1.0
